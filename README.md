@@ -69,3 +69,4 @@ stored results and writes every quoted value to `figs/numbers.json`.
 The two decision models showed no detectable difference from the comparators on the two text tasks, gained in
 cell-type annotation only where the curated database is weak, and stayed behind a trained re-scorer on numeric
 mass-spectrometry data. Intervals, the pre-set cut-off for screening and all caveats are in the paper.
+Given to mokapot as one more feature, neither model changed its count (27,047 with Jev, 27,021 with d3-ultra).
