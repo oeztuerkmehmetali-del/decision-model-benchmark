@@ -36,7 +36,6 @@ pts.sort(key=lambda t: t[1])
 for i, (nm, v, c, col) in enumerate(pts):
     if c:
         a.errorbar(v, i, xerr=[[v - c[0]], [c[1] - v]], fmt="o", ms=4.5, color=col, capsize=2, lw=1.2)
-        a.axvspan(*c, color=col, alpha=.08, lw=0)
     else:
         a.plot(v, i, "o", ms=4, color=REF, mfc="white", label="published (Lan et al.)" if i == 0 else None)
 a.set_yticks(range(len(pts)), [p[0] for p in pts], fontsize=6.3); a.grid(axis="y", visible=False)
