@@ -1,0 +1,1732 @@
+pair_id	pmid_1	pmid_2	gold_label	pred	p_contra
+0	26964827	28153353	Contradiction exists	Contradiction exists	1.0
+1	26897490	28802777	Contradiction exists	Contradiction exists	0.93
+2	26882833	26852833	Claims can coexist	Claims can coexist	0.1
+3	26882833	27500351	Claims can coexist	Claims can coexist	0.05
+4	26882833	28604179	Contradiction exists	Contradiction exists	1.0
+5	26882833	29360560	Claims can coexist	Claims can coexist	0.09
+6	26882833	33080740	Contradiction exists	Contradiction exists	0.83
+7	26882833	34229861	Contradiction exists	Contradiction exists	0.78
+8	26882833	36270632	Claims can coexist	Claims can coexist	0.11
+9	26882833	39664966	Claims can coexist	Claims can coexist	0.16
+10	26854246	26267328	Contradiction exists	Contradiction exists	0.93
+11	26850803	29705457	Contradiction exists	Contradiction exists	0.97
+12	26850803	31383445	Contradiction exists	Contradiction exists	0.92
+13	26850803	39775962	Contradiction exists	Claims can coexist	0.1
+14	26830642	27003917	Contradiction exists	Contradiction exists	0.97
+15	26822749	32212009	Contradiction exists	Contradiction exists	0.99
+16	26809813	28329181	Contradiction exists	Contradiction exists	0.84
+17	26807672	30312839	Contradiction exists	Contradiction exists	0.83
+18	26795413	27344218	Contradiction exists	Claims can coexist	0.2
+19	26792348	30262436	Contradiction exists	Contradiction exists	0.99
+20	26786573	31344685	Contradiction exists	Contradiction exists	0.99
+21	26786573	30352748	Claims can coexist	Claims can coexist	0.02
+22	26786573	31559433	Claims can coexist	Claims can coexist	0.0
+23	26786573	32795167	Contradiction exists	Contradiction exists	0.99
+24	26786573	34473295	Claims can coexist	Claims can coexist	0.47
+25	26786573	36181990	Contradiction exists	Contradiction exists	0.93
+26	26786573	36541437	Claims can coexist	Contradiction exists	0.99
+27	26786573	41145460	Claims can coexist	Contradiction exists	0.66
+28	26775631	26962808	Claims can coexist	Contradiction exists	0.66
+29	26775631	27133971	Contradiction exists	Contradiction exists	1.0
+30	26775631	33302662	Contradiction exists	Contradiction exists	0.83
+31	26775631	37982566	Contradiction exists	Contradiction exists	1.0
+32	26661319	29119275	Contradiction exists	Contradiction exists	0.83
+33	26507526	26961597	Claims can coexist	Claims can coexist	0.0
+34	26507526	27633946	Claims can coexist	Contradiction exists	0.99
+35	26507526	28176599	Claims can coexist	Claims can coexist	0.03
+36	26507526	28068786	Claims can coexist	Claims can coexist	0.0
+37	26507526	27913736	Claims can coexist	Contradiction exists	0.96
+38	26507526	30278067	Claims can coexist	Claims can coexist	0.32
+39	26507526	29898707	Claims can coexist	Claims can coexist	0.3
+40	26507526	30222788	Contradiction exists	Contradiction exists	1.0
+41	26507526	30762760	Claims can coexist	Claims can coexist	0.0
+42	26507526	30954338	Claims can coexist	Contradiction exists	0.52
+43	26507526	31474134	Claims can coexist	Claims can coexist	0.01
+44	26507526	33408009	Claims can coexist	Claims can coexist	0.21
+45	26507526	32045773	Claims can coexist	Claims can coexist	0.01
+46	26507526	32434234	Claims can coexist	Claims can coexist	0.03
+47	26507526	36948034	Claims can coexist	Contradiction exists	0.63
+48	26507526	34730529	Claims can coexist	Claims can coexist	0.01
+49	26507526	38205755	Claims can coexist	Claims can coexist	0.03
+50	26507526	40845176	Claims can coexist	Claims can coexist	0.01
+51	26351971	41026481	Contradiction exists	Contradiction exists	0.99
+52	26205890	26554884	Contradiction exists	Claims can coexist	0.14
+53	26205890	30256811	Claims can coexist	Claims can coexist	0.05
+54	26205890	30255229	Claims can coexist	Claims can coexist	0.26
+55	26205890	32492153	Contradiction exists	Claims can coexist	0.29
+56	26205890	34118059	Claims can coexist	Contradiction exists	0.71
+57	26205890	34337905	Contradiction exists	Claims can coexist	0.44
+58	26205890	34516033	Claims can coexist	Claims can coexist	0.05
+59	26205890	33352920	Contradiction exists	Claims can coexist	0.06
+60	26175036	29707867	Claims can coexist	Claims can coexist	0.01
+61	26175036	28834191	Claims can coexist	Claims can coexist	0.02
+62	26175036	30829772	Contradiction exists	Contradiction exists	0.99
+63	26175036	39809953	Claims can coexist	Claims can coexist	0.0
+64	25648736	26303195	Contradiction exists	Contradiction exists	0.51
+65	25648736	27642057	Claims can coexist	Claims can coexist	0.06
+66	25648736	28251937	Claims can coexist	Claims can coexist	0.14
+67	25524404	27402475	Claims can coexist	Claims can coexist	0.03
+68	25524404	29216203	Claims can coexist	Claims can coexist	0.18
+69	25524404	28668998	Claims can coexist	Claims can coexist	0.15
+70	25524404	28425575	Claims can coexist	Contradiction exists	0.99
+71	25524404	29490621	Claims can coexist	Claims can coexist	0.02
+72	25524404	29637918	Claims can coexist	Claims can coexist	0.02
+73	25524404	29936918	Claims can coexist	Claims can coexist	0.0
+74	25524404	29123173	Claims can coexist	Claims can coexist	0.02
+75	25524404	30246883	Claims can coexist	Claims can coexist	0.28
+76	25524404	30583032	Claims can coexist	Contradiction exists	0.55
+77	25524404	30669280	Claims can coexist	Claims can coexist	0.01
+78	25524404	30922259	Claims can coexist	Claims can coexist	0.06
+79	25524404	30352748	Claims can coexist	Claims can coexist	0.01
+80	25524404	31950134	Claims can coexist	Contradiction exists	0.64
+81	25524404	32344842	Claims can coexist	Claims can coexist	0.19
+82	25524404	32795167	Claims can coexist	Claims can coexist	0.33
+83	25524404	33045433	Contradiction exists	Contradiction exists	0.99
+84	25524404	34328539	Claims can coexist	Claims can coexist	0.08
+85	25524404	34213544	Claims can coexist	Claims can coexist	0.01
+86	25524404	31837209	Claims can coexist	Claims can coexist	0.0
+87	25524404	36333495	Claims can coexist	Claims can coexist	0.04
+88	25524404	37239916	Claims can coexist	Claims can coexist	0.36
+89	25524404	36913250	Claims can coexist	Claims can coexist	0.03
+90	26962808	27133971	Claims can coexist	Contradiction exists	0.83
+91	26962808	33302662	Contradiction exists	Contradiction exists	0.89
+92	26962808	37982566	Claims can coexist	Contradiction exists	0.79
+93	26928392	33753956	Claims can coexist	Claims can coexist	0.0
+94	26928392	38438279	Contradiction exists	Contradiction exists	0.9
+95	26928392	40608082	Contradiction exists	Contradiction exists	0.81
+96	26852833	27500351	Claims can coexist	Claims can coexist	0.39
+97	26852833	29360560	Contradiction exists	Contradiction exists	0.93
+98	26852833	33080740	Claims can coexist	Claims can coexist	0.02
+99	26852833	34229861	Claims can coexist	Claims can coexist	0.02
+100	26852833	36270632	Claims can coexist	Claims can coexist	0.01
+101	26852833	39664966	Claims can coexist	Claims can coexist	0.04
+102	26852833	40118519	Claims can coexist	Claims can coexist	0.01
+103	26850746	39788951	Contradiction exists	Contradiction exists	0.85
+104	26591005	28541645	Contradiction exists	Contradiction exists	0.99
+105	26591005	31728631	Contradiction exists	Contradiction exists	1.0
+106	26577936	25362247	Claims can coexist	Claims can coexist	0.0
+107	26577936	29176264	Claims can coexist	Claims can coexist	0.0
+108	26577936	32776763	Contradiction exists	Contradiction exists	1.0
+109	26577936	36156542	Claims can coexist	Contradiction exists	0.7
+110	26554884	30256811	Claims can coexist	Claims can coexist	0.15
+111	26554884	30255229	Claims can coexist	Contradiction exists	0.84
+112	26554884	32492153	Contradiction exists	Contradiction exists	0.7
+113	26554884	34118059	Contradiction exists	Contradiction exists	0.96
+114	26554884	34337905	Contradiction exists	Contradiction exists	0.97
+115	26554884	34516033	Claims can coexist	Claims can coexist	0.0
+116	26554884	33352920	Claims can coexist	Claims can coexist	0.0
+117	26540396	30502903	Contradiction exists	Contradiction exists	0.83
+118	26267328	27050252	Claims can coexist	Claims can coexist	0.0
+119	26267328	28679140	Claims can coexist	Claims can coexist	0.0
+120	26267328	28742409	Claims can coexist	Claims can coexist	0.0
+121	26095960	27538868	Contradiction exists	Contradiction exists	0.79
+122	27030533	28574453	Contradiction exists	Contradiction exists	0.84
+123	27030533	30967436	Claims can coexist	Claims can coexist	0.01
+124	26980460	27816567	Contradiction exists	Contradiction exists	0.98
+125	26961597	26718305	Claims can coexist	Claims can coexist	0.0
+126	26961597	27633946	Claims can coexist	Claims can coexist	0.43
+127	26961597	28176599	Claims can coexist	Claims can coexist	0.0
+128	26961597	30278067	Claims can coexist	Claims can coexist	0.06
+129	26961597	29898707	Claims can coexist	Claims can coexist	0.0
+130	26961597	30222788	Claims can coexist	Claims can coexist	0.17
+131	26961597	30762760	Claims can coexist	Claims can coexist	0.0
+132	26961597	30954338	Claims can coexist	Claims can coexist	0.49
+133	26961597	31474134	Claims can coexist	Claims can coexist	0.03
+134	26961597	33408009	Claims can coexist	Claims can coexist	0.0
+135	26961597	32045773	Claims can coexist	Claims can coexist	0.02
+136	26961597	32434234	Contradiction exists	Contradiction exists	0.7
+137	26961597	32737893	Claims can coexist	Claims can coexist	0.32
+138	26961597	36948034	Claims can coexist	Claims can coexist	0.11
+139	26961597	34730529	Claims can coexist	Claims can coexist	0.0
+140	26961597	38205755	Claims can coexist	Claims can coexist	0.08
+141	26961597	40845176	Claims can coexist	Claims can coexist	0.0
+142	26841365	31570180	Claims can coexist	Claims can coexist	0.0
+143	26841365	32979724	Claims can coexist	Claims can coexist	0.0
+144	26841365	33522698	Contradiction exists	Contradiction exists	1.0
+145	26841365	31837209	Contradiction exists	Contradiction exists	0.64
+146	27366013	37678871	Contradiction exists	Contradiction exists	1.0
+147	27185699	27687397	Claims can coexist	Claims can coexist	0.02
+148	27185699	29901949	Claims can coexist	Claims can coexist	0.0
+149	27185699	28918556	Contradiction exists	Contradiction exists	0.98
+150	27185699	28986051	Claims can coexist	Claims can coexist	0.0
+151	27185699	31770296	Contradiction exists	Contradiction exists	0.89
+152	27133971	33302662	Claims can coexist	Claims can coexist	0.0
+153	27133971	37982566	Claims can coexist	Claims can coexist	0.0
+154	27050252	27429113	Claims can coexist	Contradiction exists	0.81
+155	27050252	28157691	Claims can coexist	Contradiction exists	0.72
+156	27050252	28407660	Claims can coexist	Claims can coexist	0.0
+157	27050252	28679140	Claims can coexist	Claims can coexist	0.0
+158	27050252	28668998	Contradiction exists	Claims can coexist	0.36
+159	27050252	28742409	Claims can coexist	Claims can coexist	0.01
+160	27050252	28679142	Claims can coexist	Claims can coexist	0.01
+161	27050252	29271278	Claims can coexist	Claims can coexist	0.0
+162	27050252	29186759	Claims can coexist	Claims can coexist	0.0
+163	27050252	30658483	Claims can coexist	Claims can coexist	0.0
+164	27050252	31960275	Claims can coexist	Claims can coexist	0.0
+165	27050252	33010974	Claims can coexist	Claims can coexist	0.0
+166	27050252	40219003	Claims can coexist	Claims can coexist	0.0
+167	27250120	28355511	Contradiction exists	Contradiction exists	0.9
+168	27178738	29238824	Claims can coexist	Claims can coexist	0.01
+169	27178738	32026435	Contradiction exists	Claims can coexist	0.21
+170	27178738	32534843	Claims can coexist	Claims can coexist	0.42
+171	27178738	36243129	Claims can coexist	Claims can coexist	0.06
+172	27178738	38382042	Claims can coexist	Claims can coexist	0.38
+173	27165014	37466211	Contradiction exists	Contradiction exists	0.93
+174	27154424	29637918	Claims can coexist	Claims can coexist	0.0
+175	27154424	34328539	Contradiction exists	Contradiction exists	0.99
+176	27154424	40431448	Claims can coexist	Claims can coexist	0.0
+177	27151177	27832040	Contradiction exists	Contradiction exists	1.0
+178	27053384	35253448	Contradiction exists	Contradiction exists	0.98
+179	26903532	27348762	Contradiction exists	Contradiction exists	0.97
+180	26614823	30293664	Contradiction exists	Contradiction exists	0.92
+181	26303195	27642057	Claims can coexist	Claims can coexist	0.42
+182	26303195	28251937	Claims can coexist	Contradiction exists	0.58
+183	27687397	28918556	Contradiction exists	Contradiction exists	0.99
+184	27687397	31770296	Claims can coexist	Claims can coexist	0.27
+185	27488327	30601999	Contradiction exists	Contradiction exists	1.0
+186	27402475	28668998	Claims can coexist	Claims can coexist	0.07
+187	27402475	28425575	Claims can coexist	Contradiction exists	0.72
+188	27402475	29936918	Claims can coexist	Claims can coexist	0.02
+189	27402475	29123173	Claims can coexist	Claims can coexist	0.05
+190	27402475	30246883	Claims can coexist	Claims can coexist	0.07
+191	27402475	30669280	Contradiction exists	Contradiction exists	0.98
+192	27402475	30922259	Claims can coexist	Claims can coexist	0.02
+193	27402475	31950134	Claims can coexist	Claims can coexist	0.01
+194	27402475	32344842	Claims can coexist	Claims can coexist	0.02
+195	27402475	33045433	Claims can coexist	Claims can coexist	0.0
+196	27402475	37239916	Claims can coexist	Claims can coexist	0.01
+197	27353245	29738277	Contradiction exists	Contradiction exists	0.99
+198	27353245	30169436	Contradiction exists	Contradiction exists	0.99
+199	27351320	31873859	Contradiction exists	Contradiction exists	0.95
+200	27351320	37776033	Claims can coexist	Claims can coexist	0.2
+201	27351320	38041752	Claims can coexist	Claims can coexist	0.0
+202	27351245	33861441	Contradiction exists	Contradiction exists	0.99
+203	27116464	28837504	Contradiction exists	Contradiction exists	0.56
+204	27075863	31178259	Contradiction exists	Contradiction exists	0.82
+205	27075863	38051553	Claims can coexist	Claims can coexist	0.03
+206	26718305	28283245	Claims can coexist	Claims can coexist	0.0
+207	26718305	32229194	Contradiction exists	Contradiction exists	0.99
+208	26718305	32434234	Claims can coexist	Claims can coexist	0.05
+209	26718305	32737893	Claims can coexist	Claims can coexist	0.12
+210	27633946	28176599	Contradiction exists	Contradiction exists	0.99
+211	27633946	28068786	Claims can coexist	Claims can coexist	0.28
+212	27633946	27913736	Claims can coexist	Claims can coexist	0.11
+213	27633946	28283245	Claims can coexist	Claims can coexist	0.04
+214	27633946	30278067	Claims can coexist	Claims can coexist	0.38
+215	27633946	29898707	Claims can coexist	Claims can coexist	0.23
+216	27633946	30222788	Claims can coexist	Claims can coexist	0.06
+217	27633946	30762760	Claims can coexist	Contradiction exists	1.0
+218	27633946	30954338	Contradiction exists	Claims can coexist	0.46
+219	27633946	31474134	Claims can coexist	Claims can coexist	0.03
+220	27633946	33408009	Claims can coexist	Contradiction exists	0.76
+221	27633946	32045773	Claims can coexist	Claims can coexist	0.03
+222	27633946	32229194	Claims can coexist	Claims can coexist	0.07
+223	27633946	32434234	Claims can coexist	Contradiction exists	0.73
+224	27633946	32737893	Claims can coexist	Claims can coexist	0.19
+225	27633946	36948034	Claims can coexist	Claims can coexist	0.05
+226	27633946	34730529	Claims can coexist	Contradiction exists	1.0
+227	27633946	38205755	Claims can coexist	Contradiction exists	0.61
+228	27633946	40845176	Claims can coexist	Contradiction exists	0.99
+229	27565938	28138828	Contradiction exists	Contradiction exists	1.0
+230	26610858	29261442	Contradiction exists	Contradiction exists	0.93
+231	26610858	30860948	Contradiction exists	Claims can coexist	0.1
+232	26610858	30703190	Claims can coexist	Claims can coexist	0.21
+233	26610858	31560068	Contradiction exists	Contradiction exists	0.77
+234	26610858	37179241	Claims can coexist	Claims can coexist	0.2
+235	26002770	36342703	Contradiction exists	Contradiction exists	0.89
+236	27617317	28803386	Claims can coexist	Claims can coexist	0.26
+237	27617317	31537025	Claims can coexist	Claims can coexist	0.25
+238	27617317	31777212	Contradiction exists	Contradiction exists	0.76
+239	27617317	33026570	Claims can coexist	Contradiction exists	0.52
+240	27617317	35100594	Claims can coexist	Claims can coexist	0.02
+241	27589059	33222767	Contradiction exists	Contradiction exists	1.0
+242	27570089	30002145	Contradiction exists	Contradiction exists	1.0
+243	27569651	36045119	Contradiction exists	Contradiction exists	0.99
+244	27534747	38570191	Contradiction exists	Contradiction exists	1.0
+245	27505115	29599033	Claims can coexist	Claims can coexist	0.01
+246	27505115	33045330	Claims can coexist	Claims can coexist	0.01
+247	27505115	33208641	Claims can coexist	Contradiction exists	0.74
+248	27505115	35688677	Claims can coexist	Claims can coexist	0.03
+249	27505115	36270632	Claims can coexist	Claims can coexist	0.02
+250	27505115	35849756	Claims can coexist	Claims can coexist	0.0
+251	27505115	37695818	Claims can coexist	Claims can coexist	0.17
+252	27505115	38558118	Claims can coexist	Claims can coexist	0.05
+253	27505115	40918951	Claims can coexist	Claims can coexist	0.15
+254	27505115	41042339	Contradiction exists	Contradiction exists	1.0
+255	27500351	29360560	Contradiction exists	Contradiction exists	0.99
+256	27500351	33080740	Claims can coexist	Claims can coexist	0.01
+257	27500351	34229861	Claims can coexist	Claims can coexist	0.02
+258	27500351	36270632	Claims can coexist	Claims can coexist	0.01
+259	27500351	39664966	Claims can coexist	Claims can coexist	0.02
+260	27500351	40118519	Claims can coexist	Claims can coexist	0.01
+261	27418597	28381198	Claims can coexist	Claims can coexist	0.02
+262	27418597	28072691	Contradiction exists	Contradiction exists	1.0
+263	27418597	28424269	Claims can coexist	Claims can coexist	0.5
+264	27418597	29582084	Claims can coexist	Contradiction exists	0.79
+265	27418597	30179153	Claims can coexist	Claims can coexist	0.05
+266	27418597	32052517	Claims can coexist	Claims can coexist	0.05
+267	27642057	28251937	Claims can coexist	Claims can coexist	0.28
+268	27642057	28515160	Contradiction exists	Contradiction exists	0.58
+269	27642057	29068453	Contradiction exists	Contradiction exists	0.9
+270	26698911	40920401	Contradiction exists	Claims can coexist	0.42
+271	29901949	27625146	Claims can coexist	Claims can coexist	0.11
+272	29901949	28727704	Claims can coexist	Claims can coexist	0.09
+273	29901949	29864432	Claims can coexist	Claims can coexist	0.41
+274	29901949	28986051	Contradiction exists	Claims can coexist	0.04
+275	29901949	30885839	Claims can coexist	Claims can coexist	0.0
+276	29901949	37105325	Claims can coexist	Claims can coexist	0.01
+277	29901949	37855764	Claims can coexist	Claims can coexist	0.0
+278	29901949	38456291	Claims can coexist	Claims can coexist	0.0
+279	29901949	39934398	Claims can coexist	Claims can coexist	0.0
+280	29901949	40364780	Claims can coexist	Claims can coexist	0.25
+281	27625146	27893550	Claims can coexist	Contradiction exists	0.53
+282	27625146	28727704	Claims can coexist	Claims can coexist	0.07
+283	27625146	29864432	Claims can coexist	Claims can coexist	0.43
+284	27625146	29752604	Contradiction exists	Contradiction exists	0.69
+285	27625146	28986051	Claims can coexist	Claims can coexist	0.01
+286	27625146	30885839	Claims can coexist	Contradiction exists	0.85
+287	27625146	31668666	Claims can coexist	Contradiction exists	0.85
+288	27625146	34091813	Claims can coexist	Claims can coexist	0.22
+289	27625146	37105325	Claims can coexist	Claims can coexist	0.03
+290	27625146	37855764	Claims can coexist	Contradiction exists	0.68
+291	27625146	36368914	Claims can coexist	Contradiction exists	0.74
+292	27625146	38456291	Claims can coexist	Claims can coexist	0.14
+293	27625146	40364780	Claims can coexist	Claims can coexist	0.01
+294	25362247	32776763	Contradiction exists	Contradiction exists	0.88
+295	27776081	27864638	Contradiction exists	Contradiction exists	0.79
+296	27737646	30601999	Claims can coexist	Claims can coexist	0.07
+297	27737646	34213544	Contradiction exists	Contradiction exists	0.89
+298	27736246	29746891	Contradiction exists	Contradiction exists	0.97
+299	27718280	31087325	Claims can coexist	Claims can coexist	0.13
+300	27718280	31432562	Contradiction exists	Contradiction exists	0.97
+301	27718280	34182873	Claims can coexist	Claims can coexist	0.04
+302	27701366	28182690	Claims can coexist	Claims can coexist	0.2
+303	27701366	40499279	Contradiction exists	Contradiction exists	0.78
+304	27613521	39607729	Contradiction exists	Claims can coexist	0.42
+305	27977392	33413355	Contradiction exists	Contradiction exists	0.96
+306	27977392	34558768	Claims can coexist	Claims can coexist	0.0
+307	27977392	36738751	Claims can coexist	Claims can coexist	0.1
+308	27977392	38541121	Claims can coexist	Claims can coexist	0.0
+309	27977392	38511517	Claims can coexist	Claims can coexist	0.0
+310	27977392	39198860	Claims can coexist	Claims can coexist	0.01
+311	27977392	39725521	Claims can coexist	Claims can coexist	0.0
+312	27903009	36363493	Contradiction exists	Contradiction exists	0.99
+313	27852684	30027438	Claims can coexist	Claims can coexist	0.02
+314	27852684	33594488	Claims can coexist	Claims can coexist	0.04
+315	27852684	35240291	Contradiction exists	Contradiction exists	1.0
+316	27007272	28489244	Claims can coexist	Claims can coexist	0.06
+317	27007272	30366723	Claims can coexist	Claims can coexist	0.11
+318	27007272	30987415	Claims can coexist	Claims can coexist	0.05
+319	27007272	34759045	Contradiction exists	Contradiction exists	0.99
+320	27007272	39923364	Claims can coexist	Claims can coexist	0.0
+321	27429113	28157691	Claims can coexist	Claims can coexist	0.04
+322	27429113	28407660	Claims can coexist	Claims can coexist	0.06
+323	27429113	28490514	Claims can coexist	Claims can coexist	0.03
+324	27429113	28679140	Claims can coexist	Claims can coexist	0.08
+325	27429113	28668998	Claims can coexist	Contradiction exists	0.9
+326	27429113	28742409	Claims can coexist	Claims can coexist	0.04
+327	27429113	28679142	Claims can coexist	Claims can coexist	0.08
+328	27429113	29271278	Claims can coexist	Claims can coexist	0.03
+329	27429113	30321667	Claims can coexist	Claims can coexist	0.04
+330	27429113	29186759	Contradiction exists	Contradiction exists	0.98
+331	27429113	30246883	Claims can coexist	Claims can coexist	0.02
+332	27429113	30658483	Claims can coexist	Claims can coexist	0.04
+333	27429113	31416155	Claims can coexist	Claims can coexist	0.02
+334	27429113	31960275	Claims can coexist	Claims can coexist	0.01
+335	27429113	31950134	Claims can coexist	Claims can coexist	0.01
+336	27429113	33010974	Claims can coexist	Contradiction exists	0.64
+337	27429113	33744225	Claims can coexist	Claims can coexist	0.01
+338	27429113	36181990	Claims can coexist	Claims can coexist	0.01
+339	27429113	36333495	Claims can coexist	Claims can coexist	0.02
+340	27429113	36913250	Claims can coexist	Claims can coexist	0.01
+341	27429113	40219003	Claims can coexist	Contradiction exists	0.61
+342	27967281	34941611	Contradiction exists	Contradiction exists	0.99
+343	27959701	39473076	Claims can coexist	Claims can coexist	0.0
+344	27959701	40088922	Contradiction exists	Contradiction exists	0.99
+345	29216203	28490514	Claims can coexist	Claims can coexist	0.17
+346	29216203	29490621	Claims can coexist	Claims can coexist	0.0
+347	29216203	29637918	Claims can coexist	Claims can coexist	0.0
+348	29216203	30321667	Claims can coexist	Claims can coexist	0.0
+349	29216203	30246883	Claims can coexist	Claims can coexist	0.0
+350	29216203	30583032	Claims can coexist	Claims can coexist	0.0
+351	29216203	31559589	Claims can coexist	Claims can coexist	0.0
+352	29216203	30352748	Claims can coexist	Claims can coexist	0.1
+353	29216203	31950134	Contradiction exists	Contradiction exists	0.55
+354	29216203	32823218	Claims can coexist	Claims can coexist	0.01
+355	29216203	32804345	Claims can coexist	Claims can coexist	0.0
+356	29216203	32795167	Claims can coexist	Claims can coexist	0.0
+357	29216203	33010974	Claims can coexist	Claims can coexist	0.0
+358	29216203	32951301	Claims can coexist	Claims can coexist	0.0
+359	29216203	33744225	Claims can coexist	Claims can coexist	0.0
+360	29216203	31837209	Claims can coexist	Claims can coexist	0.0
+361	29216203	36333495	Claims can coexist	Claims can coexist	0.06
+362	29216203	37239916	Claims can coexist	Claims can coexist	0.0
+363	29216203	36913250	Claims can coexist	Claims can coexist	0.27
+364	30580340	39389522	Contradiction exists	Contradiction exists	0.9
+365	28924368	29415668	Contradiction exists	Contradiction exists	1.0
+366	28924368	30074934	Contradiction exists	Contradiction exists	0.99
+367	28625255	31241441	Contradiction exists	Contradiction exists	0.98
+368	28463849	30177485	Claims can coexist	Claims can coexist	0.32
+369	28463849	31368057	Claims can coexist	Claims can coexist	0.0
+370	28463849	31748427	Claims can coexist	Claims can coexist	0.0
+371	28463849	34864084	Claims can coexist	Claims can coexist	0.01
+372	28463849	35260678	Claims can coexist	Claims can coexist	0.0
+373	28463849	36403976	Claims can coexist	Claims can coexist	0.01
+374	28463849	36534221	Claims can coexist	Claims can coexist	0.01
+375	28463849	37596359	Contradiction exists	Contradiction exists	0.86
+376	28381198	28072691	Claims can coexist	Claims can coexist	0.05
+377	28381198	28424269	Claims can coexist	Claims can coexist	0.03
+378	28381198	29582084	Claims can coexist	Claims can coexist	0.05
+379	28381198	30179153	Claims can coexist	Claims can coexist	0.22
+380	28381198	32052517	Contradiction exists	Claims can coexist	0.02
+381	28182690	31695323	Claims can coexist	Claims can coexist	0.01
+382	28182690	31668468	Contradiction exists	Contradiction exists	0.97
+383	28182690	31903588	Contradiction exists	Contradiction exists	0.78
+384	28182690	33960404	Contradiction exists	Contradiction exists	0.99
+385	28182690	34887180	Claims can coexist	Claims can coexist	0.16
+386	28182690	35241145	Claims can coexist	Claims can coexist	0.07
+387	28182690	36074385	Claims can coexist	Contradiction exists	0.65
+388	28182690	36794600	Claims can coexist	Claims can coexist	0.07
+389	28182690	40499279	Claims can coexist	Contradiction exists	0.57
+390	28176599	28068786	Claims can coexist	Claims can coexist	0.01
+391	28176599	27913736	Claims can coexist	Claims can coexist	0.38
+392	28176599	28283245	Claims can coexist	Claims can coexist	0.0
+393	28176599	30278067	Claims can coexist	Claims can coexist	0.16
+394	28176599	29898707	Claims can coexist	Claims can coexist	0.01
+395	28176599	30222788	Claims can coexist	Claims can coexist	0.13
+396	28176599	30762760	Claims can coexist	Claims can coexist	0.06
+397	28176599	30954338	Claims can coexist	Claims can coexist	0.23
+398	28176599	31474134	Claims can coexist	Claims can coexist	0.01
+399	28176599	33408009	Claims can coexist	Claims can coexist	0.06
+400	28176599	32045773	Claims can coexist	Claims can coexist	0.01
+401	28176599	32434234	Contradiction exists	Claims can coexist	0.3
+402	28176599	32737893	Claims can coexist	Claims can coexist	0.18
+403	28176599	36948034	Claims can coexist	Claims can coexist	0.2
+404	28176599	34730529	Claims can coexist	Claims can coexist	0.01
+405	28176599	38205755	Claims can coexist	Claims can coexist	0.07
+406	28176599	40845176	Claims can coexist	Claims can coexist	0.01
+407	28121184	39359413	Contradiction exists	Contradiction exists	0.85
+408	28117496	28009692	Contradiction exists	Contradiction exists	0.98
+409	28117496	31851017	Claims can coexist	Claims can coexist	0.0
+410	28103611	31558480	Contradiction exists	Contradiction exists	0.96
+411	28077507	34962979	Contradiction exists	Contradiction exists	0.99
+412	28072691	28424269	Claims can coexist	Claims can coexist	0.05
+413	28072691	29582084	Claims can coexist	Contradiction exists	0.86
+414	28072691	30135019	Claims can coexist	Claims can coexist	0.02
+415	28072691	30179153	Claims can coexist	Contradiction exists	0.96
+416	28072691	32052517	Claims can coexist	Claims can coexist	0.05
+417	28072691	35961692	Claims can coexist	Claims can coexist	0.01
+418	28068786	27913736	Contradiction exists	Contradiction exists	0.88
+419	28068786	28283245	Claims can coexist	Claims can coexist	0.0
+420	28068786	30278067	Claims can coexist	Claims can coexist	0.02
+421	28068786	29898707	Claims can coexist	Claims can coexist	0.01
+422	28068786	30762760	Claims can coexist	Claims can coexist	0.01
+423	28068786	30954338	Claims can coexist	Claims can coexist	0.3
+424	28068786	31474134	Claims can coexist	Claims can coexist	0.01
+425	28068786	33408009	Claims can coexist	Claims can coexist	0.02
+426	28068786	32229194	Claims can coexist	Claims can coexist	0.13
+427	28068786	32434234	Claims can coexist	Claims can coexist	0.22
+428	28068786	32737893	Claims can coexist	Claims can coexist	0.21
+429	28068786	36948034	Contradiction exists	Claims can coexist	0.4
+430	28068786	34730529	Claims can coexist	Claims can coexist	0.0
+431	28068786	37280158	Claims can coexist	Claims can coexist	0.22
+432	28068786	38205755	Claims can coexist	Claims can coexist	0.02
+433	28065445	34051877	Claims can coexist	Claims can coexist	0.02
+434	28065445	36181009	Claims can coexist	Claims can coexist	0.01
+435	28065445	36747296	Claims can coexist	Contradiction exists	0.89
+436	28065445	37697278	Contradiction exists	Contradiction exists	0.95
+437	28065445	39359014	Contradiction exists	Contradiction exists	0.87
+438	28009692	31851017	Contradiction exists	Claims can coexist	0.39
+439	27913736	28283245	Claims can coexist	Claims can coexist	0.15
+440	27913736	30278067	Claims can coexist	Contradiction exists	0.56
+441	27913736	29898707	Claims can coexist	Claims can coexist	0.48
+442	27913736	30762760	Claims can coexist	Contradiction exists	0.91
+443	27913736	30954338	Claims can coexist	Claims can coexist	0.42
+444	27913736	31474134	Claims can coexist	Claims can coexist	0.01
+445	27913736	32045773	Claims can coexist	Claims can coexist	0.01
+446	27913736	32229194	Contradiction exists	Claims can coexist	0.31
+447	27913736	32434234	Claims can coexist	Contradiction exists	0.95
+448	27913736	32737893	Contradiction exists	Claims can coexist	0.3
+449	27913736	36948034	Claims can coexist	Claims can coexist	0.01
+450	27913736	34730529	Claims can coexist	Contradiction exists	0.67
+451	27913736	38205755	Claims can coexist	Claims can coexist	0.17
+452	27893550	29752604	Claims can coexist	Claims can coexist	0.0
+453	27893550	30885839	Contradiction exists	Contradiction exists	0.98
+454	27893550	31668666	Contradiction exists	Contradiction exists	0.99
+455	27893550	34091813	Contradiction exists	Contradiction exists	0.94
+456	27893550	36368914	Contradiction exists	Contradiction exists	0.99
+457	27892890	28615214	Claims can coexist	Claims can coexist	0.02
+458	27892890	29898836	Claims can coexist	Contradiction exists	0.58
+459	27892890	31733180	Contradiction exists	Contradiction exists	0.98
+460	27775998	30151823	Contradiction exists	Claims can coexist	0.1
+461	26611718	28251937	Claims can coexist	Contradiction exists	0.6
+462	26611718	28410617	Contradiction exists	Contradiction exists	0.99
+463	26611718	32725293	Claims can coexist	Claims can coexist	0.36
+464	26611718	34071714	Claims can coexist	Claims can coexist	0.24
+465	28604179	33080740	Claims can coexist	Claims can coexist	0.0
+466	28604179	34229861	Claims can coexist	Claims can coexist	0.0
+467	28604179	36270632	Claims can coexist	Claims can coexist	0.01
+468	28604179	39664966	Claims can coexist	Contradiction exists	0.85
+469	28251937	29068453	Claims can coexist	Contradiction exists	0.7
+470	28251937	32380746	Contradiction exists	Contradiction exists	0.67
+471	28251937	32725293	Claims can coexist	Claims can coexist	0.04
+472	28251937	34071714	Claims can coexist	Claims can coexist	0.03
+473	28251321	32157434	Contradiction exists	Contradiction exists	0.98
+474	28246176	29505549	Contradiction exists	Contradiction exists	0.82
+475	28161016	29915869	Contradiction exists	Contradiction exists	0.98
+476	28158893	32507446	Contradiction exists	Contradiction exists	0.75
+477	28158893	32825982	Contradiction exists	Contradiction exists	0.98
+478	28158893	31818232	Claims can coexist	Claims can coexist	0.0
+479	28157691	28407660	Contradiction exists	Contradiction exists	0.98
+480	28157691	28679140	Claims can coexist	Contradiction exists	0.99
+481	28157691	28668998	Claims can coexist	Contradiction exists	0.91
+482	28157691	28742409	Contradiction exists	Contradiction exists	0.96
+483	28157691	28679142	Contradiction exists	Contradiction exists	0.99
+484	28157691	29271278	Contradiction exists	Contradiction exists	0.99
+485	28157691	29186759	Contradiction exists	Contradiction exists	0.99
+486	28157691	30658483	Contradiction exists	Contradiction exists	0.99
+487	28157691	33010974	Contradiction exists	Contradiction exists	0.68
+488	28157691	40219003	Contradiction exists	Contradiction exists	0.98
+489	27120292	32418546	Contradiction exists	Contradiction exists	0.99
+490	28489244	30366723	Claims can coexist	Claims can coexist	0.0
+491	28489244	34759045	Claims can coexist	Claims can coexist	0.0
+492	28489244	39923364	Contradiction exists	Contradiction exists	0.99
+493	28323797	38071168	Contradiction exists	Contradiction exists	0.79
+494	28283245	30762760	Claims can coexist	Claims can coexist	0.01
+495	28283245	31474134	Claims can coexist	Claims can coexist	0.01
+496	28283245	32229194	Claims can coexist	Claims can coexist	0.05
+497	28283245	32434234	Claims can coexist	Claims can coexist	0.06
+498	28283245	32737893	Contradiction exists	Contradiction exists	0.95
+499	28283245	36948034	Claims can coexist	Claims can coexist	0.03
+500	28283245	34730529	Claims can coexist	Claims can coexist	0.0
+501	28274889	28425575	Claims can coexist	Claims can coexist	0.0
+502	28274889	29936918	Claims can coexist	Contradiction exists	0.56
+503	28274889	29123173	Claims can coexist	Contradiction exists	0.97
+504	28274889	30764805	Contradiction exists	Contradiction exists	1.0
+505	28274889	37239916	Claims can coexist	Claims can coexist	0.01
+506	28424269	29582084	Claims can coexist	Claims can coexist	0.02
+507	28424269	30135019	Claims can coexist	Claims can coexist	0.02
+508	28424269	30636561	Claims can coexist	Claims can coexist	0.01
+509	28424269	30179153	Contradiction exists	Contradiction exists	0.98
+510	28424269	32052517	Claims can coexist	Claims can coexist	0.12
+511	28424269	33065080	Claims can coexist	Claims can coexist	0.06
+512	28424269	35961692	Claims can coexist	Claims can coexist	0.0
+513	28424269	40365675	Claims can coexist	Claims can coexist	0.04
+514	28410617	32725293	Claims can coexist	Claims can coexist	0.03
+515	28410617	33038833	Claims can coexist	Claims can coexist	0.01
+516	28410617	34071714	Claims can coexist	Claims can coexist	0.29
+517	28407660	28679140	Claims can coexist	Claims can coexist	0.0
+518	28407660	28668998	Claims can coexist	Claims can coexist	0.29
+519	28407660	28742409	Claims can coexist	Claims can coexist	0.01
+520	28407660	28679142	Claims can coexist	Claims can coexist	0.01
+521	28407660	29271278	Claims can coexist	Claims can coexist	0.0
+522	28407660	29186759	Claims can coexist	Claims can coexist	0.0
+523	28407660	30658483	Claims can coexist	Claims can coexist	0.0
+524	28407660	30977089	Claims can coexist	Claims can coexist	0.0
+525	28407660	29532416	Claims can coexist	Claims can coexist	0.0
+526	28407660	33010974	Claims can coexist	Claims can coexist	0.0
+527	28407660	40219003	Claims can coexist	Claims can coexist	0.0
+528	28375641	32204978	Contradiction exists	Claims can coexist	0.15
+529	28375641	34330457	Claims can coexist	Claims can coexist	0.12
+530	28375641	35347555	Contradiction exists	Claims can coexist	0.42
+531	28267236	30210115	Contradiction exists	Contradiction exists	0.98
+532	28540436	37953202	Contradiction exists	Contradiction exists	1.0
+533	28540436	40178431	Claims can coexist	Claims can coexist	0.02
+534	28540436	39698906	Claims can coexist	Claims can coexist	0.01
+535	28515160	30977089	Claims can coexist	Claims can coexist	0.0
+536	28490648	30205936	Contradiction exists	Contradiction exists	0.52
+537	28490514	30321667	Claims can coexist	Contradiction exists	0.99
+538	28490514	30246883	Claims can coexist	Claims can coexist	0.2
+539	28490514	30583032	Contradiction exists	Contradiction exists	1.0
+540	28490514	31416155	Claims can coexist	Claims can coexist	0.22
+541	28490514	31344685	Claims can coexist	Contradiction exists	0.99
+542	28490514	30352748	Claims can coexist	Claims can coexist	0.01
+543	28490514	31950134	Claims can coexist	Contradiction exists	0.74
+544	28490514	33010974	Claims can coexist	Claims can coexist	0.08
+545	28490514	33744225	Contradiction exists	Contradiction exists	0.96
+546	28490514	34473295	Contradiction exists	Contradiction exists	0.88
+547	28490514	36181990	Contradiction exists	Contradiction exists	0.97
+548	28490514	36333495	Claims can coexist	Claims can coexist	0.28
+549	28490514	37239916	Claims can coexist	Contradiction exists	0.53
+550	28490514	36913250	Claims can coexist	Claims can coexist	0.01
+551	28485544	34871051	Contradiction exists	Contradiction exists	0.87
+552	28485544	37277078	Contradiction exists	Contradiction exists	0.95
+553	28426856	30904540	Contradiction exists	Contradiction exists	0.97
+554	28727704	29864432	Claims can coexist	Claims can coexist	0.34
+555	28727704	28986051	Claims can coexist	Claims can coexist	0.03
+556	28727704	33208641	Claims can coexist	Claims can coexist	0.02
+557	28727704	37855764	Claims can coexist	Contradiction exists	0.59
+558	28727704	38456291	Claims can coexist	Claims can coexist	0.1
+559	28727704	39934398	Contradiction exists	Contradiction exists	1.0
+560	28727704	40364780	Claims can coexist	Claims can coexist	0.11
+561	28700489	32780926	Contradiction exists	Contradiction exists	0.95
+562	28700489	40935723	Contradiction exists	Contradiction exists	0.95
+563	28679140	28668998	Contradiction exists	Claims can coexist	0.44
+564	28679140	28742409	Claims can coexist	Claims can coexist	0.01
+565	28679140	28679142	Claims can coexist	Claims can coexist	0.0
+566	28679140	29271278	Claims can coexist	Claims can coexist	0.0
+567	28679140	29186759	Claims can coexist	Claims can coexist	0.0
+568	28679140	30658483	Claims can coexist	Claims can coexist	0.0
+569	28679140	33010974	Claims can coexist	Claims can coexist	0.0
+570	28679140	40219003	Claims can coexist	Claims can coexist	0.0
+571	28668998	28425575	Claims can coexist	Contradiction exists	0.51
+572	28668998	28742409	Claims can coexist	Claims can coexist	0.09
+573	28668998	28679142	Claims can coexist	Claims can coexist	0.19
+574	28668998	29271278	Claims can coexist	Claims can coexist	0.49
+575	28668998	29936918	Claims can coexist	Claims can coexist	0.09
+576	28668998	29186759	Claims can coexist	Claims can coexist	0.44
+577	28668998	29123173	Claims can coexist	Contradiction exists	0.79
+578	28668998	30246883	Claims can coexist	Claims can coexist	0.34
+579	28668998	30658483	Claims can coexist	Claims can coexist	0.4
+580	28668998	30922259	Contradiction exists	Claims can coexist	0.11
+581	28668998	31960275	Claims can coexist	Claims can coexist	0.45
+582	28668998	31950134	Claims can coexist	Claims can coexist	0.14
+583	28668998	32344842	Claims can coexist	Claims can coexist	0.2
+584	28668998	33010974	Claims can coexist	Contradiction exists	0.63
+585	28668998	33045433	Claims can coexist	Claims can coexist	0.32
+586	28668998	37239916	Claims can coexist	Claims can coexist	0.21
+587	28668998	37393389	Claims can coexist	Claims can coexist	0.46
+588	28668998	40219003	Claims can coexist	Claims can coexist	0.39
+589	28657492	32548624	Contradiction exists	Contradiction exists	1.0
+590	28626020	27868194	Contradiction exists	Contradiction exists	0.99
+591	28625369	30135019	Claims can coexist	Claims can coexist	0.01
+592	28625369	29805112	Contradiction exists	Claims can coexist	0.22
+593	28625369	30636561	Claims can coexist	Claims can coexist	0.02
+594	28625369	31035775	Claims can coexist	Claims can coexist	0.21
+595	28625369	35961692	Claims can coexist	Claims can coexist	0.05
+596	28625369	37348152	Claims can coexist	Claims can coexist	0.01
+597	28623938	28615145	Claims can coexist	Claims can coexist	0.11
+598	28623938	31950979	Claims can coexist	Claims can coexist	0.12
+599	28623938	32194058	Claims can coexist	Contradiction exists	0.79
+600	28623938	40274907	Contradiction exists	Contradiction exists	0.62
+601	28615214	29898836	Contradiction exists	Contradiction exists	0.78
+602	28615214	31733180	Claims can coexist	Claims can coexist	0.5
+603	28615145	31950979	Claims can coexist	Claims can coexist	0.01
+604	28615145	40274907	Contradiction exists	Claims can coexist	0.42
+605	28615145	40447978	Claims can coexist	Claims can coexist	0.01
+606	28606620	39316773	Contradiction exists	Claims can coexist	0.17
+607	28602646	30633660	Contradiction exists	Contradiction exists	1.0
+608	28598260	31512187	Contradiction exists	Claims can coexist	0.31
+609	28541645	31728631	Claims can coexist	Claims can coexist	0.01
+610	28425575	29936918	Contradiction exists	Contradiction exists	0.84
+611	28425575	29123173	Contradiction exists	Contradiction exists	1.0
+612	28425575	30246883	Claims can coexist	Claims can coexist	0.0
+613	28425575	30669280	Claims can coexist	Contradiction exists	0.94
+614	28425575	30922259	Claims can coexist	Claims can coexist	0.0
+615	28425575	31950134	Contradiction exists	Contradiction exists	0.82
+616	28425575	32344842	Claims can coexist	Claims can coexist	0.0
+617	28425575	33045433	Claims can coexist	Claims can coexist	0.0
+618	28425575	37239916	Claims can coexist	Claims can coexist	0.0
+619	28760799	31767144	Contradiction exists	Contradiction exists	0.82
+620	28742409	28679142	Claims can coexist	Claims can coexist	0.02
+621	28742409	29271278	Claims can coexist	Claims can coexist	0.0
+622	28742409	29186759	Claims can coexist	Claims can coexist	0.0
+623	28742409	30658483	Claims can coexist	Claims can coexist	0.0
+624	28742409	30977089	Claims can coexist	Claims can coexist	0.0
+625	28742409	29532416	Claims can coexist	Claims can coexist	0.0
+626	28742409	33010974	Claims can coexist	Claims can coexist	0.0
+627	28742409	40219003	Claims can coexist	Claims can coexist	0.01
+628	28739318	34106458	Claims can coexist	Claims can coexist	0.12
+629	28739318	35533225	Contradiction exists	Contradiction exists	0.99
+630	28681267	33373701	Contradiction exists	Claims can coexist	0.24
+631	28679142	29271278	Claims can coexist	Claims can coexist	0.0
+632	28679142	29186759	Claims can coexist	Claims can coexist	0.0
+633	28679142	30658483	Claims can coexist	Claims can coexist	0.0
+634	28679142	30977089	Claims can coexist	Claims can coexist	0.0
+635	28679142	31559433	Claims can coexist	Contradiction exists	0.52
+636	28679142	29532416	Claims can coexist	Claims can coexist	0.0
+637	28679142	31960275	Claims can coexist	Claims can coexist	0.01
+638	28679142	33010974	Claims can coexist	Claims can coexist	0.0
+639	28679142	33045433	Claims can coexist	Claims can coexist	0.0
+640	28679142	36913250	Claims can coexist	Contradiction exists	0.69
+641	28679142	37393389	Claims can coexist	Claims can coexist	0.0
+642	28679142	40219003	Claims can coexist	Claims can coexist	0.0
+643	28648803	29631810	Claims can coexist	Claims can coexist	0.01
+644	28648803	31801872	Contradiction exists	Contradiction exists	1.0
+645	28648803	35103539	Claims can coexist	Contradiction exists	0.56
+646	28849623	30963552	Contradiction exists	Contradiction exists	1.0
+647	28849623	32871616	Claims can coexist	Contradiction exists	0.54
+648	28803880	29490621	Claims can coexist	Claims can coexist	0.37
+649	28803880	30316534	Contradiction exists	Contradiction exists	0.69
+650	28803880	31340012	Claims can coexist	Claims can coexist	0.05
+651	28803880	32823218	Contradiction exists	Claims can coexist	0.32
+652	28803880	32945627	Claims can coexist	Claims can coexist	0.08
+653	28803880	35280228	Claims can coexist	Contradiction exists	0.7
+654	28803386	31537025	Claims can coexist	Claims can coexist	0.02
+655	28803386	31777212	Contradiction exists	Contradiction exists	1.0
+656	28803386	33026570	Claims can coexist	Claims can coexist	0.1
+657	28803386	35100594	Claims can coexist	Claims can coexist	0.2
+658	28954882	39280310	Contradiction exists	Contradiction exists	0.99
+659	28953735	37156466	Contradiction exists	Contradiction exists	0.97
+660	28780595	39664966	Claims can coexist	Claims can coexist	0.08
+661	28780595	40118519	Contradiction exists	Contradiction exists	0.66
+662	26279065	39450759	Contradiction exists	Contradiction exists	0.98
+663	29108664	30188220	Claims can coexist	Contradiction exists	0.96
+664	29108664	38123239	Contradiction exists	Contradiction exists	0.89
+665	29055155	35841363	Contradiction exists	Claims can coexist	0.08
+666	29055155	38174531	Contradiction exists	Claims can coexist	0.08
+667	28918556	28986051	Claims can coexist	Claims can coexist	0.0
+668	28918556	31770296	Claims can coexist	Claims can coexist	0.0
+669	29271278	29186759	Claims can coexist	Claims can coexist	0.0
+670	29271278	30658483	Claims can coexist	Claims can coexist	0.0
+671	29271278	33010974	Claims can coexist	Claims can coexist	0.0
+672	29271278	40219003	Claims can coexist	Claims can coexist	0.0
+673	29261442	30860948	Claims can coexist	Claims can coexist	0.0
+674	29261442	30703190	Contradiction exists	Claims can coexist	0.48
+675	29261442	31560068	Claims can coexist	Claims can coexist	0.0
+676	29261442	37179241	Claims can coexist	Claims can coexist	0.25
+677	30278067	29898707	Contradiction exists	Claims can coexist	0.41
+678	30278067	30222788	Claims can coexist	Claims can coexist	0.03
+679	30278067	30762760	Contradiction exists	Claims can coexist	0.13
+680	30278067	30954338	Claims can coexist	Claims can coexist	0.25
+681	30278067	31474134	Claims can coexist	Claims can coexist	0.03
+682	30278067	33408009	Claims can coexist	Claims can coexist	0.2
+683	30278067	32045773	Claims can coexist	Claims can coexist	0.02
+684	30278067	32434234	Claims can coexist	Claims can coexist	0.06
+685	30278067	32737893	Claims can coexist	Claims can coexist	0.1
+686	30278067	36948034	Claims can coexist	Claims can coexist	0.16
+687	30278067	34730529	Contradiction exists	Claims can coexist	0.3
+688	30278067	38205755	Claims can coexist	Claims can coexist	0.09
+689	30278067	40845176	Claims can coexist	Claims can coexist	0.01
+690	30256811	30255229	Contradiction exists	Claims can coexist	0.31
+691	30256811	32492153	Claims can coexist	Claims can coexist	0.06
+692	30256811	34118059	Claims can coexist	Claims can coexist	0.26
+693	30256811	34337905	Claims can coexist	Claims can coexist	0.13
+694	30256811	34516033	Contradiction exists	Contradiction exists	0.78
+695	30256811	33352920	Contradiction exists	Contradiction exists	0.52
+696	29738277	30169436	Claims can coexist	Claims can coexist	0.0
+697	29402767	36731435	Contradiction exists	Contradiction exists	0.97
+698	29370992	35030335	Contradiction exists	Claims can coexist	0.17
+699	29331328	32186587	Contradiction exists	Contradiction exists	0.99
+700	29325446	33612830	Contradiction exists	Contradiction exists	0.99
+701	29189044	36813043	Contradiction exists	Contradiction exists	0.52
+702	29176264	36156542	Contradiction exists	Contradiction exists	0.99
+703	29099421	38051553	Contradiction exists	Contradiction exists	1.0
+704	29072815	31345359	Contradiction exists	Contradiction exists	1.0
+705	28921338	31559433	Contradiction exists	Contradiction exists	0.97
+706	28921338	34473295	Claims can coexist	Claims can coexist	0.25
+707	28833331	37061109	Contradiction exists	Contradiction exists	0.99
+708	28671712	39443081	Contradiction exists	Contradiction exists	0.92
+709	29553033	38546454	Contradiction exists	Contradiction exists	0.94
+710	29490621	29637918	Claims can coexist	Claims can coexist	0.0
+711	29490621	30316534	Claims can coexist	Claims can coexist	0.01
+712	29490621	30246883	Claims can coexist	Claims can coexist	0.0
+713	29490621	31559589	Claims can coexist	Claims can coexist	0.01
+714	29490621	30352748	Claims can coexist	Claims can coexist	0.01
+715	29490621	31340012	Claims can coexist	Claims can coexist	0.21
+716	29490621	31950134	Claims can coexist	Claims can coexist	0.01
+717	29490621	32823218	Claims can coexist	Claims can coexist	0.04
+718	29490621	32951301	Claims can coexist	Claims can coexist	0.01
+719	29490621	32945627	Claims can coexist	Contradiction exists	0.62
+720	29490621	34328539	Claims can coexist	Claims can coexist	0.03
+721	29490621	34213544	Claims can coexist	Claims can coexist	0.01
+722	29490621	35280228	Contradiction exists	Claims can coexist	0.25
+723	29490621	31837209	Claims can coexist	Claims can coexist	0.0
+724	29490621	36333495	Claims can coexist	Claims can coexist	0.03
+725	29490621	36913250	Claims can coexist	Claims can coexist	0.01
+726	29451696	31361535	Contradiction exists	Contradiction exists	0.97
+727	29415668	30074934	Claims can coexist	Claims can coexist	0.01
+728	29360560	34229861	Claims can coexist	Claims can coexist	0.0
+729	29360560	36270632	Claims can coexist	Claims can coexist	0.0
+730	29702716	33581015	Contradiction exists	Contradiction exists	0.99
+731	29637918	30246883	Claims can coexist	Claims can coexist	0.0
+732	29637918	30583032	Claims can coexist	Claims can coexist	0.0
+733	29637918	31559589	Claims can coexist	Claims can coexist	0.0
+734	29637918	31950134	Claims can coexist	Claims can coexist	0.01
+735	29637918	32823218	Claims can coexist	Claims can coexist	0.01
+736	29637918	34328539	Contradiction exists	Contradiction exists	0.97
+737	29637918	34213544	Claims can coexist	Claims can coexist	0.01
+738	29637918	31837209	Claims can coexist	Claims can coexist	0.0
+739	29637918	36913250	Claims can coexist	Claims can coexist	0.02
+740	29637918	40431448	Claims can coexist	Claims can coexist	0.0
+741	29599033	33208641	Claims can coexist	Claims can coexist	0.47
+742	29599033	35849756	Claims can coexist	Claims can coexist	0.01
+743	29599033	37695818	Claims can coexist	Claims can coexist	0.27
+744	29599033	40918951	Contradiction exists	Contradiction exists	0.99
+745	29599033	41042339	Claims can coexist	Claims can coexist	0.29
+746	29238824	30365922	Claims can coexist	Claims can coexist	0.01
+747	29238824	32026435	Claims can coexist	Contradiction exists	0.92
+748	29238824	32534843	Claims can coexist	Contradiction exists	0.59
+749	29238824	32979978	Claims can coexist	Claims can coexist	0.24
+750	29238824	36243129	Claims can coexist	Claims can coexist	0.22
+751	29238824	38382042	Contradiction exists	Contradiction exists	0.95
+752	29707867	28834191	Claims can coexist	Claims can coexist	0.03
+753	29707867	30829772	Contradiction exists	Contradiction exists	0.98
+754	29707867	39809953	Claims can coexist	Claims can coexist	0.0
+755	29705457	31383445	Claims can coexist	Claims can coexist	0.0
+756	29705457	39775962	Claims can coexist	Claims can coexist	0.0
+757	29631810	31801872	Claims can coexist	Claims can coexist	0.33
+758	29631810	35103539	Contradiction exists	Contradiction exists	0.93
+759	29619605	34668986	Contradiction exists	Contradiction exists	0.97
+760	29619605	39437460	Claims can coexist	Claims can coexist	0.29
+761	29575637	35481712	Contradiction exists	Contradiction exists	0.97
+762	29554173	29738424	Contradiction exists	Contradiction exists	1.0
+763	29898836	31733180	Claims can coexist	Claims can coexist	0.03
+764	29898836	34962979	Claims can coexist	Claims can coexist	0.07
+765	29864432	28986051	Claims can coexist	Claims can coexist	0.06
+766	29864432	30885839	Claims can coexist	Claims can coexist	0.2
+767	29864432	34091813	Claims can coexist	Claims can coexist	0.22
+768	29864432	37105325	Claims can coexist	Claims can coexist	0.03
+769	29864432	37855764	Contradiction exists	Contradiction exists	0.96
+770	29864432	36368914	Contradiction exists	Contradiction exists	0.78
+771	29864432	38456291	Contradiction exists	Claims can coexist	0.36
+772	29864432	39934398	Claims can coexist	Contradiction exists	0.74
+773	29864432	40364780	Claims can coexist	Claims can coexist	0.03
+774	29752604	30885839	Claims can coexist	Contradiction exists	0.94
+775	29752604	31668666	Claims can coexist	Contradiction exists	0.99
+776	29752604	34091813	Claims can coexist	Claims can coexist	0.26
+777	29752604	37855764	Claims can coexist	Claims can coexist	0.43
+778	29752604	36368914	Claims can coexist	Claims can coexist	0.24
+779	29582084	30135019	Claims can coexist	Claims can coexist	0.03
+780	29582084	30636561	Claims can coexist	Claims can coexist	0.04
+781	29582084	30179153	Contradiction exists	Contradiction exists	0.71
+782	29582084	32052517	Claims can coexist	Claims can coexist	0.09
+783	29582084	33065080	Claims can coexist	Claims can coexist	0.14
+784	29582084	35961692	Claims can coexist	Claims can coexist	0.04
+785	29582084	37348152	Claims can coexist	Claims can coexist	0.02
+786	29582084	40365675	Claims can coexist	Claims can coexist	0.08
+787	29088030	31237871	Contradiction exists	Contradiction exists	0.72
+788	28834191	30829772	Contradiction exists	Contradiction exists	0.96
+789	28834191	39809953	Claims can coexist	Claims can coexist	0.01
+790	30019676	33620551	Contradiction exists	Contradiction exists	0.81
+791	29936918	29123173	Claims can coexist	Claims can coexist	0.01
+792	29936918	30246883	Claims can coexist	Contradiction exists	0.54
+793	29936918	30669280	Claims can coexist	Claims can coexist	0.01
+794	29936918	30764805	Claims can coexist	Claims can coexist	0.0
+795	29936918	30922259	Claims can coexist	Claims can coexist	0.04
+796	29936918	31950134	Claims can coexist	Claims can coexist	0.19
+797	29936918	32344842	Claims can coexist	Claims can coexist	0.04
+798	29936918	33045433	Claims can coexist	Contradiction exists	0.85
+799	29936918	37239916	Claims can coexist	Contradiction exists	0.5
+800	29935486	30321520	Contradiction exists	Contradiction exists	0.51
+801	29935486	30118582	Claims can coexist	Claims can coexist	0.03
+802	29935486	30119941	Claims can coexist	Claims can coexist	0.02
+803	29935486	30474791	Contradiction exists	Claims can coexist	0.27
+804	29935486	31012040	Contradiction exists	Claims can coexist	0.24
+805	29935486	33262012	Claims can coexist	Claims can coexist	0.03
+806	29935486	36517336	Contradiction exists	Claims can coexist	0.35
+807	29935486	37403525	Claims can coexist	Claims can coexist	0.08
+808	29935486	41247673	Contradiction exists	Claims can coexist	0.31
+809	29913280	31870950	Contradiction exists	Contradiction exists	0.82
+810	29898707	30222788	Claims can coexist	Claims can coexist	0.14
+811	29898707	30762760	Claims can coexist	Claims can coexist	0.05
+812	29898707	30954338	Claims can coexist	Claims can coexist	0.2
+813	29898707	31474134	Claims can coexist	Claims can coexist	0.01
+814	29898707	33408009	Claims can coexist	Claims can coexist	0.02
+815	29898707	32045773	Claims can coexist	Claims can coexist	0.02
+816	29898707	32434234	Claims can coexist	Claims can coexist	0.01
+817	29898707	32737893	Claims can coexist	Claims can coexist	0.13
+818	29898707	36948034	Claims can coexist	Claims can coexist	0.04
+819	29898707	34730529	Claims can coexist	Claims can coexist	0.03
+820	29898707	38205755	Claims can coexist	Claims can coexist	0.03
+821	29898707	40845176	Claims can coexist	Claims can coexist	0.0
+822	30135019	29805112	Claims can coexist	Claims can coexist	0.0
+823	30135019	30636561	Contradiction exists	Contradiction exists	0.87
+824	30135019	31035775	Claims can coexist	Claims can coexist	0.01
+825	30135019	30179153	Claims can coexist	Claims can coexist	0.05
+826	30135019	35961692	Contradiction exists	Contradiction exists	0.92
+827	30135019	37348152	Claims can coexist	Claims can coexist	0.03
+828	30044966	40457233	Contradiction exists	Claims can coexist	0.13
+829	30027438	33594488	Contradiction exists	Claims can coexist	0.45
+830	29913001	35286456	Contradiction exists	Contradiction exists	0.98
+831	29913001	40993587	Claims can coexist	Claims can coexist	0.04
+832	28986051	30885839	Claims can coexist	Claims can coexist	0.04
+833	28986051	37105325	Claims can coexist	Claims can coexist	0.01
+834	28986051	37855764	Claims can coexist	Claims can coexist	0.41
+835	28986051	38456291	Claims can coexist	Claims can coexist	0.14
+836	28986051	39347965	Claims can coexist	Claims can coexist	0.0
+837	28986051	39934398	Claims can coexist	Claims can coexist	0.05
+838	28986051	40364780	Claims can coexist	Claims can coexist	0.05
+839	28835228	40096917	Contradiction exists	Contradiction exists	0.61
+840	30007557	34076288	Contradiction exists	Contradiction exists	0.98
+841	29805112	30636561	Claims can coexist	Claims can coexist	0.01
+842	29805112	31035775	Claims can coexist	Claims can coexist	0.0
+843	29805112	35961692	Claims can coexist	Claims can coexist	0.04
+844	29805112	37348152	Contradiction exists	Contradiction exists	1.0
+845	30321520	30118582	Claims can coexist	Claims can coexist	0.04
+846	30321520	30119941	Claims can coexist	Claims can coexist	0.06
+847	30321520	30474791	Claims can coexist	Claims can coexist	0.0
+848	30321520	31012040	Claims can coexist	Claims can coexist	0.0
+849	30321520	33262012	Claims can coexist	Claims can coexist	0.07
+850	30321520	36517336	Claims can coexist	Claims can coexist	0.0
+851	30321520	37403525	Claims can coexist	Claims can coexist	0.18
+852	30321520	41247673	Claims can coexist	Claims can coexist	0.0
+853	30316534	31340012	Contradiction exists	Contradiction exists	0.99
+854	30316534	32823218	Claims can coexist	Claims can coexist	0.0
+855	30316534	32945627	Contradiction exists	Contradiction exists	0.99
+856	30316534	35280228	Claims can coexist	Claims can coexist	0.04
+857	29293905	35946123	Contradiction exists	Contradiction exists	0.98
+858	30322824	31416745	Contradiction exists	Contradiction exists	0.85
+859	30321667	30246883	Claims can coexist	Claims can coexist	0.0
+860	30321667	31069459	Claims can coexist	Claims can coexist	0.0
+861	30321667	31416155	Contradiction exists	Contradiction exists	0.96
+862	30321667	31950134	Claims can coexist	Claims can coexist	0.01
+863	30321667	33010974	Claims can coexist	Claims can coexist	0.0
+864	30321667	33744225	Claims can coexist	Claims can coexist	0.0
+865	30321667	36181990	Claims can coexist	Claims can coexist	0.0
+866	30321667	36333495	Contradiction exists	Contradiction exists	0.77
+867	30321667	37239916	Claims can coexist	Claims can coexist	0.0
+868	30321667	36913250	Claims can coexist	Contradiction exists	0.82
+869	30308388	38513188	Contradiction exists	Claims can coexist	0.37
+870	30308388	41413016	Claims can coexist	Claims can coexist	0.02
+871	30222788	30762760	Contradiction exists	Contradiction exists	1.0
+872	30222788	30954338	Claims can coexist	Claims can coexist	0.29
+873	30222788	31474134	Claims can coexist	Claims can coexist	0.01
+874	30222788	33408009	Contradiction exists	Contradiction exists	0.6
+875	30222788	32045773	Claims can coexist	Claims can coexist	0.01
+876	30222788	32434234	Contradiction exists	Contradiction exists	0.94
+877	30222788	32737893	Claims can coexist	Claims can coexist	0.01
+878	30222788	36948034	Claims can coexist	Claims can coexist	0.01
+879	30222788	34730529	Contradiction exists	Claims can coexist	0.23
+880	30222788	38205755	Claims can coexist	Claims can coexist	0.04
+881	30222788	40845176	Claims can coexist	Claims can coexist	0.43
+882	29186759	30658483	Claims can coexist	Claims can coexist	0.0
+883	29186759	31559433	Claims can coexist	Claims can coexist	0.18
+884	29186759	31960275	Claims can coexist	Claims can coexist	0.0
+885	29186759	33010974	Claims can coexist	Claims can coexist	0.0
+886	29186759	33045433	Claims can coexist	Claims can coexist	0.0
+887	29186759	36913250	Claims can coexist	Claims can coexist	0.19
+888	29186759	40219003	Claims can coexist	Claims can coexist	0.0
+889	29123173	30246883	Claims can coexist	Contradiction exists	0.86
+890	29123173	30669280	Claims can coexist	Claims can coexist	0.01
+891	29123173	31950134	Claims can coexist	Contradiction exists	0.54
+892	29123173	32344842	Claims can coexist	Contradiction exists	0.93
+893	29123173	33045433	Claims can coexist	Contradiction exists	0.72
+894	29123173	37239916	Contradiction exists	Contradiction exists	0.96
+895	30246883	30583032	Claims can coexist	Claims can coexist	0.0
+896	30246883	30669280	Claims can coexist	Contradiction exists	0.55
+897	30246883	30922259	Claims can coexist	Claims can coexist	0.0
+898	30246883	30184031	Claims can coexist	Claims can coexist	0.1
+899	30246883	31416155	Contradiction exists	Contradiction exists	0.8
+900	30246883	31559589	Claims can coexist	Claims can coexist	0.0
+901	30246883	30352748	Claims can coexist	Claims can coexist	0.07
+902	30246883	31950134	Claims can coexist	Claims can coexist	0.13
+903	30246883	32344842	Claims can coexist	Claims can coexist	0.0
+904	30246883	32823218	Claims can coexist	Claims can coexist	0.01
+905	30246883	32795167	Claims can coexist	Claims can coexist	0.0
+906	30246883	32951301	Claims can coexist	Claims can coexist	0.0
+907	30246883	33045433	Claims can coexist	Claims can coexist	0.0
+908	30246883	33744225	Claims can coexist	Claims can coexist	0.0
+909	30246883	34328539	Claims can coexist	Claims can coexist	0.02
+910	30246883	31837209	Claims can coexist	Claims can coexist	0.01
+911	30246883	36181990	Claims can coexist	Claims can coexist	0.0
+912	30246883	36333495	Contradiction exists	Contradiction exists	0.69
+913	30246883	37239916	Claims can coexist	Claims can coexist	0.01
+914	30246883	36913250	Contradiction exists	Contradiction exists	0.82
+915	30177485	31748427	Contradiction exists	Contradiction exists	0.89
+916	30177485	34864084	Contradiction exists	Contradiction exists	0.9
+917	30177485	35260678	Contradiction exists	Contradiction exists	0.99
+918	30177485	36403976	Contradiction exists	Contradiction exists	0.93
+919	30177485	36534221	Contradiction exists	Contradiction exists	1.0
+920	30177485	37596359	Claims can coexist	Claims can coexist	0.11
+921	30118582	30119941	Contradiction exists	Claims can coexist	0.31
+922	30118582	30474791	Claims can coexist	Claims can coexist	0.03
+923	30118582	31012040	Claims can coexist	Claims can coexist	0.04
+924	30118582	33262012	Claims can coexist	Claims can coexist	0.11
+925	30118582	37403525	Claims can coexist	Claims can coexist	0.01
+926	30118582	41247673	Claims can coexist	Claims can coexist	0.06
+927	30583032	31344685	Claims can coexist	Claims can coexist	0.0
+928	30583032	31559589	Claims can coexist	Claims can coexist	0.0
+929	30583032	30352748	Claims can coexist	Claims can coexist	0.01
+930	30583032	31950134	Claims can coexist	Claims can coexist	0.01
+931	30583032	32795167	Claims can coexist	Claims can coexist	0.0
+932	30583032	32951301	Claims can coexist	Claims can coexist	0.0
+933	30583032	34328539	Claims can coexist	Claims can coexist	0.01
+934	30583032	34473295	Claims can coexist	Claims can coexist	0.11
+935	30583032	36333495	Claims can coexist	Contradiction exists	0.77
+936	30583032	36913250	Claims can coexist	Contradiction exists	0.8
+937	27986972	33508990	Contradiction exists	Contradiction exists	0.99
+938	27986972	36973702	Contradiction exists	Contradiction exists	0.83
+939	29246130	33386338	Contradiction exists	Contradiction exists	0.96
+940	31596326	33413320	Contradiction exists	Contradiction exists	0.98
+941	31104056	38220382	Contradiction exists	Contradiction exists	1.0
+942	30943275	30688550	Contradiction exists	Contradiction exists	1.0
+943	30762760	30954338	Claims can coexist	Contradiction exists	0.51
+944	30762760	31474134	Claims can coexist	Claims can coexist	0.01
+945	30762760	33408009	Claims can coexist	Claims can coexist	0.37
+946	30762760	32045773	Claims can coexist	Claims can coexist	0.02
+947	30762760	32434234	Claims can coexist	Claims can coexist	0.02
+948	30762760	36948034	Claims can coexist	Claims can coexist	0.18
+949	30762760	34730529	Claims can coexist	Claims can coexist	0.01
+950	30762760	38205755	Claims can coexist	Claims can coexist	0.06
+951	30762760	40845176	Claims can coexist	Claims can coexist	0.01
+952	30669280	31950134	Claims can coexist	Claims can coexist	0.07
+953	30669280	32344842	Claims can coexist	Claims can coexist	0.08
+954	30669280	37239916	Claims can coexist	Claims can coexist	0.22
+955	30658483	33010974	Claims can coexist	Claims can coexist	0.0
+956	30658483	40219003	Claims can coexist	Claims can coexist	0.0
+957	30636561	31035775	Claims can coexist	Claims can coexist	0.03
+958	30636561	30179153	Claims can coexist	Claims can coexist	0.07
+959	30636561	35961692	Claims can coexist	Contradiction exists	0.69
+960	30636561	37348152	Claims can coexist	Claims can coexist	0.0
+961	30630671	32479750	Contradiction exists	Contradiction exists	1.0
+962	30586720	37348152	Claims can coexist	Claims can coexist	0.04
+963	30586720	37471285	Contradiction exists	Contradiction exists	0.93
+964	30447348	33186774	Contradiction exists	Contradiction exists	1.0
+965	30366723	30987415	Contradiction exists	Contradiction exists	1.0
+966	30366723	34759045	Claims can coexist	Claims can coexist	0.01
+967	30366723	39923364	Claims can coexist	Claims can coexist	0.01
+968	30365922	32026435	Claims can coexist	Claims can coexist	0.01
+969	30365922	32534843	Claims can coexist	Claims can coexist	0.07
+970	30365922	32979978	Contradiction exists	Contradiction exists	0.78
+971	30365922	36243129	Claims can coexist	Claims can coexist	0.0
+972	30365922	38382042	Claims can coexist	Claims can coexist	0.0
+973	30255229	32492153	Claims can coexist	Claims can coexist	0.11
+974	30255229	34118059	Claims can coexist	Claims can coexist	0.39
+975	30255229	34337905	Claims can coexist	Claims can coexist	0.08
+976	30255229	34516033	Claims can coexist	Contradiction exists	0.52
+977	30255229	33352920	Claims can coexist	Contradiction exists	0.92
+978	30119941	30474791	Claims can coexist	Claims can coexist	0.02
+979	30119941	31012040	Claims can coexist	Claims can coexist	0.02
+980	30119941	33262012	Claims can coexist	Claims can coexist	0.04
+981	30119941	41247673	Claims can coexist	Claims can coexist	0.02
+982	31142947	36688883	Contradiction exists	Contradiction exists	0.99
+983	30756142	32792131	Contradiction exists	Contradiction exists	1.0
+984	30738409	36402630	Contradiction exists	Claims can coexist	0.44
+985	30644628	31722024	Contradiction exists	Contradiction exists	0.98
+986	30474791	31012040	Claims can coexist	Claims can coexist	0.0
+987	30474791	33262012	Claims can coexist	Claims can coexist	0.02
+988	30474791	33373701	Claims can coexist	Claims can coexist	0.01
+989	30474791	36517336	Claims can coexist	Claims can coexist	0.0
+990	30474791	37403525	Claims can coexist	Claims can coexist	0.02
+991	30474791	41247673	Claims can coexist	Claims can coexist	0.0
+992	30370492	41098003	Contradiction exists	Contradiction exists	0.99
+993	30188220	38123239	Contradiction exists	Contradiction exists	0.93
+994	31014423	33084980	Contradiction exists	Contradiction exists	0.97
+995	30922259	31950134	Claims can coexist	Claims can coexist	0.01
+996	30922259	32344842	Claims can coexist	Claims can coexist	0.0
+997	30922259	33045433	Claims can coexist	Claims can coexist	0.01
+998	30922259	37239916	Claims can coexist	Claims can coexist	0.0
+999	30902738	39519521	Contradiction exists	Contradiction exists	0.89
+1000	30885839	31668666	Claims can coexist	Claims can coexist	0.0
+1001	30885839	34091813	Claims can coexist	Claims can coexist	0.01
+1002	30885839	37105325	Claims can coexist	Claims can coexist	0.0
+1003	30885839	37855764	Claims can coexist	Claims can coexist	0.0
+1004	30885839	36368914	Claims can coexist	Claims can coexist	0.0
+1005	30885839	38456291	Claims can coexist	Claims can coexist	0.0
+1006	30885839	40364780	Claims can coexist	Claims can coexist	0.07
+1007	30880505	31298405	Contradiction exists	Contradiction exists	0.93
+1008	30880505	40920401	Claims can coexist	Claims can coexist	0.07
+1009	30860948	30703190	Claims can coexist	Contradiction exists	0.58
+1010	30860948	31560068	Claims can coexist	Claims can coexist	0.02
+1011	30860948	37179241	Contradiction exists	Contradiction exists	1.0
+1012	31087085	36701905	Contradiction exists	Contradiction exists	0.98
+1013	31035775	35961692	Claims can coexist	Claims can coexist	0.06
+1014	31035775	37348152	Contradiction exists	Contradiction exists	1.0
+1015	31012040	33262012	Claims can coexist	Claims can coexist	0.03
+1016	31012040	33373701	Claims can coexist	Claims can coexist	0.01
+1017	31012040	36517336	Claims can coexist	Claims can coexist	0.0
+1018	31012040	37403525	Claims can coexist	Claims can coexist	0.06
+1019	31012040	41247673	Claims can coexist	Claims can coexist	0.0
+1020	30987415	34759045	Claims can coexist	Contradiction exists	0.97
+1021	30977089	29532416	Claims can coexist	Claims can coexist	0.0
+1022	30977089	31960275	Claims can coexist	Claims can coexist	0.01
+1023	30977089	34857248	Contradiction exists	Contradiction exists	0.86
+1024	30977089	37393389	Claims can coexist	Claims can coexist	0.0
+1025	30977089	39636391	Claims can coexist	Claims can coexist	0.0
+1026	30967436	31069459	Contradiction exists	Contradiction exists	0.99
+1027	30963552	32871616	Claims can coexist	Claims can coexist	0.01
+1028	30954338	31474134	Claims can coexist	Claims can coexist	0.03
+1029	30954338	33408009	Claims can coexist	Claims can coexist	0.22
+1030	30954338	32045773	Claims can coexist	Claims can coexist	0.04
+1031	30954338	32434234	Contradiction exists	Claims can coexist	0.38
+1032	30954338	32737893	Claims can coexist	Claims can coexist	0.12
+1033	30954338	36948034	Claims can coexist	Claims can coexist	0.26
+1034	30954338	34730529	Claims can coexist	Contradiction exists	0.69
+1035	30954338	38205755	Claims can coexist	Claims can coexist	0.08
+1036	30954338	40845176	Contradiction exists	Claims can coexist	0.14
+1037	30703190	31560068	Contradiction exists	Claims can coexist	0.27
+1038	30703190	37179241	Claims can coexist	Claims can coexist	0.01
+1039	30227772	33781793	Contradiction exists	Contradiction exists	1.0
+1040	31228427	32110882	Contradiction exists	Contradiction exists	0.95
+1041	31228427	32157434	Claims can coexist	Claims can coexist	0.17
+1042	31087325	34182873	Contradiction exists	Contradiction exists	0.97
+1043	30601999	34213544	Claims can coexist	Claims can coexist	0.47
+1044	30184031	31559589	Contradiction exists	Contradiction exists	0.93
+1045	30184031	30352748	Claims can coexist	Claims can coexist	0.01
+1046	30184031	31837209	Claims can coexist	Claims can coexist	0.01
+1047	30184031	36333495	Claims can coexist	Claims can coexist	0.04
+1048	30632413	36250147	Contradiction exists	Contradiction exists	0.57
+1049	30179153	32052517	Claims can coexist	Claims can coexist	0.12
+1050	30179153	33065080	Claims can coexist	Claims can coexist	0.24
+1051	30179153	35961692	Claims can coexist	Claims can coexist	0.03
+1052	30179153	40365675	Claims can coexist	Claims can coexist	0.34
+1053	31383445	39775962	Claims can coexist	Claims can coexist	0.01
+1054	31368057	37596359	Contradiction exists	Contradiction exists	0.91
+1055	31286828	31896491	Contradiction exists	Contradiction exists	1.0
+1056	31286828	32702335	Claims can coexist	Claims can coexist	0.1
+1057	31695323	31668468	Contradiction exists	Claims can coexist	0.48
+1058	31695323	31903588	Contradiction exists	Contradiction exists	0.94
+1059	31695323	33960404	Contradiction exists	Contradiction exists	0.99
+1060	31695323	34887180	Claims can coexist	Claims can coexist	0.06
+1061	31695323	35241145	Claims can coexist	Claims can coexist	0.1
+1062	31695323	36074385	Contradiction exists	Contradiction exists	0.98
+1063	31695323	36794600	Claims can coexist	Claims can coexist	0.04
+1064	31474134	33408009	Claims can coexist	Claims can coexist	0.16
+1065	31474134	32045773	Claims can coexist	Claims can coexist	0.02
+1066	31474134	32229194	Claims can coexist	Claims can coexist	0.03
+1067	31474134	32434234	Claims can coexist	Claims can coexist	0.15
+1068	31474134	32501914	Contradiction exists	Claims can coexist	0.36
+1069	31474134	32737893	Claims can coexist	Claims can coexist	0.06
+1070	31474134	36948034	Claims can coexist	Claims can coexist	0.02
+1071	31474134	34730529	Claims can coexist	Claims can coexist	0.15
+1072	31474134	38205755	Claims can coexist	Claims can coexist	0.11
+1073	31474134	40845176	Claims can coexist	Claims can coexist	0.1
+1074	31462582	38375995	Contradiction exists	Contradiction exists	0.8
+1075	31416155	31950134	Claims can coexist	Contradiction exists	0.71
+1076	31416155	33744225	Contradiction exists	Contradiction exists	0.99
+1077	31416155	36181990	Contradiction exists	Contradiction exists	0.79
+1078	31416155	36333495	Claims can coexist	Contradiction exists	0.83
+1079	31416155	37239916	Claims can coexist	Contradiction exists	0.67
+1080	31416155	36913250	Claims can coexist	Claims can coexist	0.34
+1081	31351660	31351659	Contradiction exists	Contradiction exists	1.0
+1082	31344685	30352748	Claims can coexist	Claims can coexist	0.05
+1083	31344685	32795167	Claims can coexist	Claims can coexist	0.0
+1084	31344685	34473295	Claims can coexist	Claims can coexist	0.37
+1085	31344685	36181990	Claims can coexist	Claims can coexist	0.0
+1086	31573637	38401077	Contradiction exists	Claims can coexist	0.42
+1087	31570180	32979724	Claims can coexist	Claims can coexist	0.0
+1088	31570180	33522698	Contradiction exists	Contradiction exists	0.99
+1089	31570180	31837209	Claims can coexist	Contradiction exists	0.76
+1090	31562059	38522443	Contradiction exists	Contradiction exists	0.93
+1091	31559589	30352748	Claims can coexist	Claims can coexist	0.01
+1092	31559589	31950134	Claims can coexist	Claims can coexist	0.01
+1093	31559589	32823218	Claims can coexist	Claims can coexist	0.01
+1094	31559589	32795167	Claims can coexist	Claims can coexist	0.0
+1095	31559589	32951301	Claims can coexist	Claims can coexist	0.01
+1096	31559589	34328539	Claims can coexist	Claims can coexist	0.01
+1097	31559589	31837209	Claims can coexist	Claims can coexist	0.01
+1098	31559589	36333495	Claims can coexist	Claims can coexist	0.02
+1099	31559589	36913250	Claims can coexist	Claims can coexist	0.01
+1100	31537025	31777212	Contradiction exists	Contradiction exists	1.0
+1101	31537025	33026570	Claims can coexist	Claims can coexist	0.0
+1102	31537025	35100594	Claims can coexist	Claims can coexist	0.22
+1103	30352748	31950134	Claims can coexist	Claims can coexist	0.17
+1104	30352748	32823218	Claims can coexist	Claims can coexist	0.01
+1105	30352748	32804345	Contradiction exists	Claims can coexist	0.29
+1106	30352748	32795167	Claims can coexist	Claims can coexist	0.13
+1107	30352748	32951301	Claims can coexist	Claims can coexist	0.13
+1108	30352748	34328539	Claims can coexist	Claims can coexist	0.02
+1109	30352748	34213544	Claims can coexist	Claims can coexist	0.01
+1110	30352748	34473295	Claims can coexist	Claims can coexist	0.01
+1111	30352748	31837209	Claims can coexist	Claims can coexist	0.0
+1112	30352748	36181990	Contradiction exists	Contradiction exists	0.99
+1113	30352748	36333495	Claims can coexist	Claims can coexist	0.13
+1114	30352748	36913250	Claims can coexist	Claims can coexist	0.03
+1115	31668666	34091813	Claims can coexist	Claims can coexist	0.27
+1116	31668666	36368914	Claims can coexist	Claims can coexist	0.0
+1117	31668468	31903588	Claims can coexist	Claims can coexist	0.0
+1118	31668468	33960404	Claims can coexist	Claims can coexist	0.13
+1119	31668468	34887180	Contradiction exists	Contradiction exists	0.86
+1120	31668468	36074385	Claims can coexist	Claims can coexist	0.0
+1121	31668468	36794600	Contradiction exists	Claims can coexist	0.43
+1122	31559433	33045433	Claims can coexist	Contradiction exists	1.0
+1123	31559433	34473295	Claims can coexist	Contradiction exists	0.9
+1124	31559433	36541437	Contradiction exists	Contradiction exists	0.87
+1125	31559433	36913250	Claims can coexist	Claims can coexist	0.01
+1126	31559433	41145460	Contradiction exists	Claims can coexist	0.42
+1127	31340012	32823218	Claims can coexist	Contradiction exists	0.94
+1128	31340012	32945627	Claims can coexist	Claims can coexist	0.04
+1129	31340012	35280228	Claims can coexist	Contradiction exists	0.54
+1130	31748427	34864084	Claims can coexist	Claims can coexist	0.0
+1131	31748427	35260678	Claims can coexist	Claims can coexist	0.0
+1132	31748427	36403976	Claims can coexist	Claims can coexist	0.01
+1133	31748427	36534221	Claims can coexist	Claims can coexist	0.0
+1134	31748427	37596359	Claims can coexist	Claims can coexist	0.07
+1135	30442501	33504555	Contradiction exists	Contradiction exists	0.8
+1136	31623894	37280158	Contradiction exists	Contradiction exists	0.97
+1137	31621933	35006266	Contradiction exists	Contradiction exists	1.0
+1138	31560068	37179241	Contradiction exists	Claims can coexist	0.18
+1139	31344339	32862256	Contradiction exists	Claims can coexist	0.16
+1140	30829772	39809953	Contradiction exists	Contradiction exists	1.0
+1141	29532416	31960275	Claims can coexist	Claims can coexist	0.01
+1142	29532416	37393389	Claims can coexist	Claims can coexist	0.02
+1143	29532416	39636391	Contradiction exists	Claims can coexist	0.13
+1144	31777212	33026570	Contradiction exists	Contradiction exists	1.0
+1145	31777212	35100594	Claims can coexist	Claims can coexist	0.45
+1146	31873859	35100594	Contradiction exists	Contradiction exists	0.95
+1147	31873859	37776033	Contradiction exists	Contradiction exists	0.93
+1148	31873859	38041752	Contradiction exists	Contradiction exists	1.0
+1149	31851799	40858558	Contradiction exists	Contradiction exists	1.0
+1150	31801872	35103539	Claims can coexist	Claims can coexist	0.0
+1151	31796519	34862248	Contradiction exists	Contradiction exists	0.95
+1152	33408009	32045773	Claims can coexist	Claims can coexist	0.03
+1153	33408009	32434234	Claims can coexist	Claims can coexist	0.02
+1154	33408009	36948034	Claims can coexist	Claims can coexist	0.14
+1155	33408009	34730529	Claims can coexist	Claims can coexist	0.02
+1156	33408009	38205755	Claims can coexist	Claims can coexist	0.08
+1157	33408009	41109167	Claims can coexist	Claims can coexist	0.02
+1158	33408009	40845176	Claims can coexist	Claims can coexist	0.02
+1159	33164936	37471089	Contradiction exists	Contradiction exists	1.0
+1160	31960275	37393389	Contradiction exists	Contradiction exists	1.0
+1161	31960275	39636391	Claims can coexist	Claims can coexist	0.04
+1162	31903588	33960404	Claims can coexist	Claims can coexist	0.03
+1163	31903588	34887180	Contradiction exists	Contradiction exists	0.69
+1164	31903588	36074385	Claims can coexist	Claims can coexist	0.0
+1165	31903588	36794600	Claims can coexist	Contradiction exists	0.66
+1166	32045773	32434234	Claims can coexist	Claims can coexist	0.02
+1167	32045773	36948034	Claims can coexist	Claims can coexist	0.01
+1168	32045773	34730529	Claims can coexist	Claims can coexist	0.01
+1169	32045773	38205755	Contradiction exists	Contradiction exists	0.64
+1170	32045773	40845176	Claims can coexist	Claims can coexist	0.15
+1171	32026435	32534843	Claims can coexist	Claims can coexist	0.02
+1172	32026435	32979978	Claims can coexist	Claims can coexist	0.04
+1173	32026435	36243129	Claims can coexist	Claims can coexist	0.0
+1174	32026435	38382042	Claims can coexist	Claims can coexist	0.01
+1175	31950979	32194058	Contradiction exists	Contradiction exists	1.0
+1176	31950979	40274907	Claims can coexist	Claims can coexist	0.08
+1177	31950979	40447978	Claims can coexist	Claims can coexist	0.05
+1178	31950979	40708328	Claims can coexist	Claims can coexist	0.0
+1179	31950979	41482786	Claims can coexist	Contradiction exists	1.0
+1180	31896491	32702335	Contradiction exists	Contradiction exists	0.99
+1181	31841599	33315105	Contradiction exists	Contradiction exists	1.0
+1182	31715077	33522342	Contradiction exists	Claims can coexist	0.47
+1183	31715077	34033812	Claims can coexist	Claims can coexist	0.15
+1184	31715077	34666379	Contradiction exists	Contradiction exists	0.99
+1185	31715077	35292944	Claims can coexist	Contradiction exists	0.68
+1186	32295417	34003667	Contradiction exists	Contradiction exists	1.0
+1187	32295417	36747296	Contradiction exists	Contradiction exists	0.95
+1188	32229194	32434234	Claims can coexist	Claims can coexist	0.17
+1189	32229194	32737893	Claims can coexist	Claims can coexist	0.01
+1190	32229194	36948034	Claims can coexist	Claims can coexist	0.03
+1191	32204978	34330457	Contradiction exists	Contradiction exists	1.0
+1192	32204978	35347555	Claims can coexist	Claims can coexist	0.0
+1193	32194058	40274907	Claims can coexist	Claims can coexist	0.02
+1194	32194058	40708328	Claims can coexist	Contradiction exists	0.68
+1195	31950134	32344842	Contradiction exists	Claims can coexist	0.23
+1196	31950134	32823218	Claims can coexist	Claims can coexist	0.01
+1197	31950134	32804345	Claims can coexist	Claims can coexist	0.01
+1198	31950134	32795167	Claims can coexist	Claims can coexist	0.01
+1199	31950134	33010974	Claims can coexist	Claims can coexist	0.01
+1200	31950134	32951301	Claims can coexist	Claims can coexist	0.02
+1201	31950134	33045433	Claims can coexist	Claims can coexist	0.01
+1202	31950134	33744225	Claims can coexist	Claims can coexist	0.0
+1203	31950134	34328539	Claims can coexist	Claims can coexist	0.02
+1204	31950134	34213544	Claims can coexist	Claims can coexist	0.04
+1205	31950134	31837209	Claims can coexist	Claims can coexist	0.01
+1206	31950134	36181990	Claims can coexist	Claims can coexist	0.02
+1207	31950134	36333495	Claims can coexist	Contradiction exists	0.51
+1208	31950134	37239916	Claims can coexist	Claims can coexist	0.04
+1209	31950134	36913250	Contradiction exists	Contradiction exists	0.98
+1210	32423584	32445440	Contradiction exists	Contradiction exists	0.99
+1211	32423584	33350698	Contradiction exists	Contradiction exists	1.0
+1212	32423584	36603741	Claims can coexist	Claims can coexist	0.01
+1213	32344842	33045433	Claims can coexist	Claims can coexist	0.0
+1214	32344842	37239916	Claims can coexist	Claims can coexist	0.0
+1215	32219386	32245746	Claims can coexist	Claims can coexist	0.01
+1216	32219386	32921680	Claims can coexist	Claims can coexist	0.0
+1217	32219386	33595593	Claims can coexist	Claims can coexist	0.0
+1218	32219386	36190011	Claims can coexist	Claims can coexist	0.0
+1219	32219386	40207405	Claims can coexist	Claims can coexist	0.0
+1220	32219386	40884036	Claims can coexist	Claims can coexist	0.18
+1221	32219386	40958495	Contradiction exists	Contradiction exists	0.99
+1222	32164494	36738751	Contradiction exists	Contradiction exists	0.98
+1223	32079861	39509369	Contradiction exists	Contradiction exists	0.99
+1224	31977817	38573517	Contradiction exists	Contradiction exists	1.0
+1225	29023327	38032386	Contradiction exists	Contradiction exists	0.99
+1226	32507446	32825982	Claims can coexist	Claims can coexist	0.21
+1227	32507446	31818232	Contradiction exists	Claims can coexist	0.23
+1228	32434291	41256829	Contradiction exists	Contradiction exists	0.89
+1229	32434234	32737893	Claims can coexist	Claims can coexist	0.46
+1230	32434234	36948034	Claims can coexist	Claims can coexist	0.07
+1231	32434234	34730529	Claims can coexist	Claims can coexist	0.34
+1232	32434234	38205755	Claims can coexist	Claims can coexist	0.02
+1233	32434234	40845176	Claims can coexist	Claims can coexist	0.01
+1234	32380746	32725293	Claims can coexist	Claims can coexist	0.04
+1235	32380746	34071714	Claims can coexist	Claims can coexist	0.0
+1236	32311204	32946821	Contradiction exists	Contradiction exists	0.93
+1237	32245746	32340841	Claims can coexist	Claims can coexist	0.02
+1238	32245746	32921680	Claims can coexist	Claims can coexist	0.06
+1239	32245746	33595593	Claims can coexist	Claims can coexist	0.04
+1240	32245746	36190011	Claims can coexist	Claims can coexist	0.01
+1241	32245746	40207405	Contradiction exists	Claims can coexist	0.23
+1242	32245746	40624547	Contradiction exists	Contradiction exists	0.63
+1243	32245746	40884036	Claims can coexist	Claims can coexist	0.25
+1244	32245746	40958495	Claims can coexist	Claims can coexist	0.36
+1245	32534843	32979978	Claims can coexist	Claims can coexist	0.34
+1246	32534843	36243129	Contradiction exists	Contradiction exists	1.0
+1247	32534843	38382042	Claims can coexist	Claims can coexist	0.02
+1248	32525048	37143398	Contradiction exists	Claims can coexist	0.21
+1249	32525048	37904082	Claims can coexist	Claims can coexist	0.3
+1250	32525048	37268328	Claims can coexist	Claims can coexist	0.13
+1251	32340841	32946821	Claims can coexist	Claims can coexist	0.04
+1252	32340841	32921680	Contradiction exists	Claims can coexist	0.06
+1253	32340841	40624547	Claims can coexist	Claims can coexist	0.08
+1254	32825982	31818232	Claims can coexist	Contradiction exists	0.66
+1255	32725293	34071714	Contradiction exists	Claims can coexist	0.11
+1256	32705319	36793155	Contradiction exists	Contradiction exists	0.99
+1257	32705319	37403525	Claims can coexist	Claims can coexist	0.02
+1258	32345787	37192705	Contradiction exists	Contradiction exists	1.0
+1259	32871238	36904232	Contradiction exists	Contradiction exists	0.98
+1260	32862667	34876021	Contradiction exists	Contradiction exists	1.0
+1261	32848185	36609173	Contradiction exists	Contradiction exists	0.66
+1262	32823218	32951301	Claims can coexist	Claims can coexist	0.0
+1263	32823218	32945627	Contradiction exists	Contradiction exists	0.98
+1264	32823218	34328539	Claims can coexist	Claims can coexist	0.02
+1265	32823218	35280228	Claims can coexist	Claims can coexist	0.38
+1266	32823218	36333495	Claims can coexist	Claims can coexist	0.02
+1267	32823218	36913250	Claims can coexist	Claims can coexist	0.01
+1268	32806954	36763326	Contradiction exists	Contradiction exists	0.98
+1269	32795167	32951301	Claims can coexist	Claims can coexist	0.0
+1270	32795167	31837209	Claims can coexist	Claims can coexist	0.0
+1271	32795167	36181990	Claims can coexist	Claims can coexist	0.0
+1272	32795167	36333495	Claims can coexist	Contradiction exists	0.66
+1273	32795167	36913250	Claims can coexist	Claims can coexist	0.34
+1274	32492153	34118059	Claims can coexist	Claims can coexist	0.32
+1275	32492153	34337905	Claims can coexist	Claims can coexist	0.04
+1276	32492153	34516033	Claims can coexist	Contradiction exists	0.61
+1277	32492153	33352920	Claims can coexist	Contradiction exists	0.77
+1278	33038833	38613004	Contradiction exists	Contradiction exists	1.0
+1279	33010974	33744225	Claims can coexist	Claims can coexist	0.0
+1280	33010974	40219003	Claims can coexist	Claims can coexist	0.0
+1281	32951301	31837209	Claims can coexist	Claims can coexist	0.01
+1282	32951301	35405973	Contradiction exists	Contradiction exists	1.0
+1283	32951301	36333495	Claims can coexist	Claims can coexist	0.05
+1284	32951301	36913250	Claims can coexist	Contradiction exists	0.99
+1285	32945627	35280228	Contradiction exists	Claims can coexist	0.48
+1286	32921680	33595593	Claims can coexist	Claims can coexist	0.0
+1287	32921680	36190011	Claims can coexist	Claims can coexist	0.0
+1288	32921680	40207405	Claims can coexist	Claims can coexist	0.0
+1289	32921680	40624547	Claims can coexist	Claims can coexist	0.0
+1290	32921680	40884036	Claims can coexist	Claims can coexist	0.16
+1291	32921680	40958495	Claims can coexist	Claims can coexist	0.31
+1292	32871616	33632377	Contradiction exists	Contradiction exists	0.99
+1293	33080740	34229861	Claims can coexist	Claims can coexist	0.0
+1294	33080740	36270632	Claims can coexist	Claims can coexist	0.0
+1295	33080740	39664966	Contradiction exists	Contradiction exists	1.0
+1296	33065080	40365675	Contradiction exists	Contradiction exists	0.99
+1297	33045433	37239916	Claims can coexist	Claims can coexist	0.04
+1298	33045433	36913250	Claims can coexist	Contradiction exists	0.97
+1299	33045330	33208641	Contradiction exists	Contradiction exists	0.92
+1300	33045330	35688677	Claims can coexist	Contradiction exists	0.7
+1301	33045330	35901476	Claims can coexist	Claims can coexist	0.09
+1302	33045330	40918951	Claims can coexist	Claims can coexist	0.12
+1303	33026570	35100594	Claims can coexist	Claims can coexist	0.23
+1304	32979724	33522698	Claims can coexist	Contradiction exists	0.88
+1305	32979724	31837209	Contradiction exists	Contradiction exists	0.94
+1306	32780926	40935723	Claims can coexist	Claims can coexist	0.0
+1307	32737893	36948034	Claims can coexist	Claims can coexist	0.02
+1308	32737893	34730529	Claims can coexist	Claims can coexist	0.11
+1309	32737893	40845176	Claims can coexist	Claims can coexist	0.19
+1310	32445440	33350698	Claims can coexist	Claims can coexist	0.0
+1311	32445440	36603741	Contradiction exists	Contradiction exists	1.0
+1312	32396017	36206152	Claims can coexist	Claims can coexist	0.01
+1313	32396017	41515229	Contradiction exists	Contradiction exists	0.99
+1314	33262012	37403525	Contradiction exists	Contradiction exists	0.92
+1315	33262012	41247673	Claims can coexist	Claims can coexist	0.2
+1316	33208641	38456291	Claims can coexist	Claims can coexist	0.01
+1317	33208641	38558118	Claims can coexist	Contradiction exists	0.7
+1318	33208641	40918951	Claims can coexist	Claims can coexist	0.0
+1319	33208641	39934398	Claims can coexist	Claims can coexist	0.01
+1320	33207259	38131538	Contradiction exists	Contradiction exists	1.0
+1321	33332779	33472855	Claims can coexist	Contradiction exists	0.98
+1322	33332779	33676589	Claims can coexist	Contradiction exists	0.55
+1323	33332779	33085857	Contradiction exists	Contradiction exists	0.98
+1324	33332779	38485912	Claims can coexist	Contradiction exists	0.99
+1325	33332779	39226747	Claims can coexist	Claims can coexist	0.03
+1326	33332779	40232661	Claims can coexist	Claims can coexist	0.01
+1327	33332779	40360262	Claims can coexist	Claims can coexist	0.06
+1328	34975830	34187382	Contradiction exists	Contradiction exists	0.95
+1329	34975830	35896462	Claims can coexist	Contradiction exists	0.98
+1330	34941937	40420803	Contradiction exists	Contradiction exists	0.99
+1331	36654288	37794745	Contradiction exists	Contradiction exists	1.0
+1332	34265236	33278625	Contradiction exists	Contradiction exists	0.98
+1333	34265236	33662102	Claims can coexist	Claims can coexist	0.04
+1334	34265236	34052007	Contradiction exists	Contradiction exists	0.87
+1335	34265236	33947344	Contradiction exists	Contradiction exists	0.88
+1336	34265236	35353979	Claims can coexist	Claims can coexist	0.15
+1337	34265236	35179551	Claims can coexist	Claims can coexist	0.07
+1338	34265236	35788169	Claims can coexist	Claims can coexist	0.15
+1339	34265236	38154616	Claims can coexist	Claims can coexist	0.46
+1340	34265236	38431155	Claims can coexist	Claims can coexist	0.03
+1341	34265236	41405131	Contradiction exists	Contradiction exists	0.7
+1342	34113095	34113093	Contradiction exists	Contradiction exists	1.0
+1343	33542047	34051877	Claims can coexist	Claims can coexist	0.28
+1344	33542047	34755269	Claims can coexist	Claims can coexist	0.07
+1345	33542047	35107188	Claims can coexist	Claims can coexist	0.23
+1346	33542047	35654818	Claims can coexist	Claims can coexist	0.1
+1347	33542047	36181009	Claims can coexist	Claims can coexist	0.07
+1348	33542047	36647298	Contradiction exists	Contradiction exists	0.56
+1349	33542047	37711106	Claims can coexist	Claims can coexist	0.12
+1350	33522698	31837209	Claims can coexist	Claims can coexist	0.01
+1351	33522342	34033812	Claims can coexist	Claims can coexist	0.01
+1352	33522342	34666379	Claims can coexist	Claims can coexist	0.0
+1353	33522342	35292944	Claims can coexist	Claims can coexist	0.0
+1354	33472855	33676589	Contradiction exists	Contradiction exists	0.76
+1355	33472855	33085857	Claims can coexist	Claims can coexist	0.02
+1356	33472855	38485912	Claims can coexist	Claims can coexist	0.0
+1357	33472855	39226747	Claims can coexist	Contradiction exists	1.0
+1358	33472855	40232661	Claims can coexist	Contradiction exists	1.0
+1359	33472855	40360262	Claims can coexist	Contradiction exists	0.91
+1360	33433720	36346210	Contradiction exists	Claims can coexist	0.38
+1361	33413355	34558768	Claims can coexist	Claims can coexist	0.01
+1362	33413355	36738751	Claims can coexist	Claims can coexist	0.08
+1363	33413355	38541121	Claims can coexist	Claims can coexist	0.01
+1364	33413355	38511517	Claims can coexist	Claims can coexist	0.01
+1365	33413355	39198860	Claims can coexist	Contradiction exists	0.87
+1366	33413355	39725521	Claims can coexist	Claims can coexist	0.02
+1367	33350698	36603741	Contradiction exists	Contradiction exists	1.0
+1368	33278625	33662102	Contradiction exists	Contradiction exists	1.0
+1369	33278625	34052007	Claims can coexist	Claims can coexist	0.0
+1370	33278625	33947344	Claims can coexist	Claims can coexist	0.0
+1371	33278625	35353979	Claims can coexist	Contradiction exists	1.0
+1372	33278625	35179551	Contradiction exists	Contradiction exists	0.99
+1373	33278625	35788169	Contradiction exists	Contradiction exists	0.56
+1374	33278625	38154616	Contradiction exists	Contradiction exists	1.0
+1375	33278625	38431155	Contradiction exists	Contradiction exists	1.0
+1376	33278625	41405131	Claims can coexist	Claims can coexist	0.01
+1377	34229861	36270632	Claims can coexist	Claims can coexist	0.0
+1378	34229861	39664966	Contradiction exists	Contradiction exists	1.0
+1379	33753956	38438279	Contradiction exists	Contradiction exists	0.96
+1380	33753956	40608082	Claims can coexist	Contradiction exists	0.83
+1381	33631337	34748169	Contradiction exists	Contradiction exists	0.95
+1382	33373701	41247673	Claims can coexist	Claims can coexist	0.06
+1383	33813328	41139117	Contradiction exists	Claims can coexist	0.16
+1384	33744225	36181990	Claims can coexist	Claims can coexist	0.01
+1385	33744225	36333495	Claims can coexist	Contradiction exists	0.55
+1386	33744225	37239916	Claims can coexist	Claims can coexist	0.0
+1387	33744225	36913250	Claims can coexist	Contradiction exists	0.83
+1388	33676589	33085857	Claims can coexist	Claims can coexist	0.24
+1389	33676589	38485912	Contradiction exists	Contradiction exists	0.96
+1390	33676589	39226747	Contradiction exists	Contradiction exists	0.81
+1391	33676589	40232661	Claims can coexist	Claims can coexist	0.23
+1392	33676589	40360262	Claims can coexist	Claims can coexist	0.39
+1393	33218878	35312650	Contradiction exists	Contradiction exists	0.99
+1394	33044440	40550151	Contradiction exists	Contradiction exists	0.98
+1395	34003667	36747296	Claims can coexist	Claims can coexist	0.0
+1396	33894146	40220053	Contradiction exists	Contradiction exists	0.97
+1397	33838349	38314885	Contradiction exists	Contradiction exists	1.0
+1398	33749975	40736006	Contradiction exists	Contradiction exists	0.87
+1399	33662102	34052007	Contradiction exists	Contradiction exists	1.0
+1400	33662102	33947344	Contradiction exists	Contradiction exists	0.98
+1401	33662102	35353979	Claims can coexist	Claims can coexist	0.0
+1402	33662102	35179551	Claims can coexist	Claims can coexist	0.01
+1403	33662102	35788169	Claims can coexist	Claims can coexist	0.04
+1404	33662102	38154616	Claims can coexist	Claims can coexist	0.01
+1405	33662102	38431155	Claims can coexist	Claims can coexist	0.02
+1406	33662102	41405131	Contradiction exists	Contradiction exists	0.96
+1407	33595593	36190011	Claims can coexist	Claims can coexist	0.0
+1408	33595593	40207405	Claims can coexist	Claims can coexist	0.0
+1409	33595593	40884036	Contradiction exists	Contradiction exists	0.62
+1410	33595593	40958495	Contradiction exists	Contradiction exists	1.0
+1411	32969758	40126464	Contradiction exists	Contradiction exists	0.76
+1412	32962936	40625141	Contradiction exists	Contradiction exists	0.9
+1413	32838353	33317461	Contradiction exists	Contradiction exists	0.99
+1414	34052007	33947344	Claims can coexist	Claims can coexist	0.0
+1415	34052007	35353979	Contradiction exists	Contradiction exists	0.96
+1416	34052007	35179551	Claims can coexist	Contradiction exists	1.0
+1417	34052007	35788169	Claims can coexist	Contradiction exists	0.96
+1418	34052007	38154616	Contradiction exists	Contradiction exists	1.0
+1419	34052007	38431155	Contradiction exists	Contradiction exists	1.0
+1420	34052007	41405131	Claims can coexist	Claims can coexist	0.0
+1421	34051877	34755269	Claims can coexist	Contradiction exists	0.66
+1422	34051877	35107188	Claims can coexist	Claims can coexist	0.02
+1423	34051877	35654818	Claims can coexist	Contradiction exists	0.92
+1424	34051877	36181009	Claims can coexist	Claims can coexist	0.02
+1425	34051877	36647298	Claims can coexist	Contradiction exists	1.0
+1426	34051877	37711106	Contradiction exists	Contradiction exists	1.0
+1427	34051293	38206631	Contradiction exists	Contradiction exists	0.94
+1428	34033812	34666379	Claims can coexist	Claims can coexist	0.1
+1429	34033812	35292944	Contradiction exists	Claims can coexist	0.11
+1430	33947344	35353979	Contradiction exists	Contradiction exists	0.92
+1431	33947344	35179551	Contradiction exists	Contradiction exists	1.0
+1432	33947344	35788169	Contradiction exists	Contradiction exists	1.0
+1433	33947344	38154616	Contradiction exists	Contradiction exists	0.63
+1434	33947344	38431155	Contradiction exists	Contradiction exists	1.0
+1435	33947344	41405131	Claims can coexist	Claims can coexist	0.0
+1436	33939897	36314323	Contradiction exists	Contradiction exists	0.82
+1437	33939193	34713471	Contradiction exists	Contradiction exists	1.0
+1438	33612282	35752521	Contradiction exists	Contradiction exists	1.0
+1439	33612282	39721243	Claims can coexist	Claims can coexist	0.03
+1440	33612282	41109167	Claims can coexist	Claims can coexist	0.03
+1441	32918079	40996142	Contradiction exists	Contradiction exists	0.97
+1442	34330457	35347555	Contradiction exists	Contradiction exists	1.0
+1443	34229896	35896462	Contradiction exists	Contradiction exists	0.58
+1444	34229896	37419768	Claims can coexist	Claims can coexist	0.0
+1445	34187382	38401077	Claims can coexist	Claims can coexist	0.33
+1446	34187382	41482786	Claims can coexist	Claims can coexist	0.11
+1447	34118059	34337905	Claims can coexist	Claims can coexist	0.09
+1448	34118059	34516033	Claims can coexist	Contradiction exists	0.92
+1449	34118059	33352920	Contradiction exists	Contradiction exists	0.97
+1450	34106458	35533225	Contradiction exists	Contradiction exists	0.99
+1451	34091813	37105325	Claims can coexist	Claims can coexist	0.0
+1452	34091813	37855764	Claims can coexist	Claims can coexist	0.01
+1453	34091813	36368914	Claims can coexist	Claims can coexist	0.0
+1454	34091813	38456291	Claims can coexist	Claims can coexist	0.0
+1455	34091813	40364780	Claims can coexist	Claims can coexist	0.03
+1456	34337905	34516033	Claims can coexist	Contradiction exists	0.8
+1457	34337905	33352920	Contradiction exists	Contradiction exists	0.97
+1458	34328539	34213544	Claims can coexist	Claims can coexist	0.02
+1459	34328539	31837209	Claims can coexist	Claims can coexist	0.01
+1460	34328539	36333495	Claims can coexist	Claims can coexist	0.2
+1461	34328539	36913250	Claims can coexist	Claims can coexist	0.03
+1462	34328539	40431448	Contradiction exists	Contradiction exists	0.97
+1463	34293233	38523183	Contradiction exists	Contradiction exists	0.92
+1464	34412109	40702165	Contradiction exists	Contradiction exists	1.0
+1465	32979978	36243129	Claims can coexist	Claims can coexist	0.36
+1466	32979978	38382042	Claims can coexist	Claims can coexist	0.22
+1467	34516033	33352920	Claims can coexist	Claims can coexist	0.0
+1468	34227198	40005038	Contradiction exists	Contradiction exists	0.57
+1469	33960404	34887180	Contradiction exists	Contradiction exists	0.98
+1470	33960404	35241145	Claims can coexist	Claims can coexist	0.29
+1471	33960404	36074385	Claims can coexist	Claims can coexist	0.19
+1472	33960404	36794600	Contradiction exists	Contradiction exists	0.99
+1473	33302662	37982566	Claims can coexist	Claims can coexist	0.01
+1474	34759045	39923364	Claims can coexist	Claims can coexist	0.02
+1475	34684557	35057416	Contradiction exists	Contradiction exists	0.98
+1476	34678593	39349629	Contradiction exists	Contradiction exists	0.98
+1477	34666379	35292944	Claims can coexist	Claims can coexist	0.0
+1478	34213544	31837209	Claims can coexist	Claims can coexist	0.0
+1479	34213544	36333495	Claims can coexist	Claims can coexist	0.02
+1480	34213544	36913250	Claims can coexist	Claims can coexist	0.01
+1481	34074812	35469091	Contradiction exists	Contradiction exists	1.0
+1482	34755269	35107188	Contradiction exists	Contradiction exists	1.0
+1483	34755269	35654818	Claims can coexist	Claims can coexist	0.01
+1484	34755269	36181009	Contradiction exists	Contradiction exists	0.89
+1485	34755269	36647298	Claims can coexist	Claims can coexist	0.47
+1486	34755269	37711106	Claims can coexist	Claims can coexist	0.01
+1487	34544205	35228754	Claims can coexist	Claims can coexist	0.0
+1488	34544205	35611683	Contradiction exists	Contradiction exists	0.79
+1489	34544205	38511517	Claims can coexist	Claims can coexist	0.0
+1490	34544205	38587237	Claims can coexist	Contradiction exists	0.78
+1491	34544205	39725521	Claims can coexist	Claims can coexist	0.0
+1492	34544205	40514435	Claims can coexist	Claims can coexist	0.0
+1493	34544205	40631522	Claims can coexist	Claims can coexist	0.0
+1494	32609361	36622792	Contradiction exists	Claims can coexist	0.45
+1495	34933950	35788169	Claims can coexist	Claims can coexist	0.08
+1496	34933950	36611040	Claims can coexist	Claims can coexist	0.02
+1497	34933950	37906618	Contradiction exists	Contradiction exists	0.98
+1498	34933950	39264960	Claims can coexist	Contradiction exists	0.88
+1499	34894724	34843183	Contradiction exists	Claims can coexist	0.27
+1500	33085857	38485912	Claims can coexist	Claims can coexist	0.03
+1501	33085857	39226747	Claims can coexist	Claims can coexist	0.4
+1502	33085857	40232661	Contradiction exists	Claims can coexist	0.29
+1503	33085857	40360262	Claims can coexist	Claims can coexist	0.26
+1504	35213547	34902262	Contradiction exists	Contradiction exists	0.82
+1505	35213547	35219277	Claims can coexist	Claims can coexist	0.24
+1506	35213547	40360262	Claims can coexist	Contradiction exists	0.73
+1507	35107188	35654818	Contradiction exists	Contradiction exists	0.99
+1508	35107188	36181009	Claims can coexist	Claims can coexist	0.0
+1509	35107188	36647298	Contradiction exists	Contradiction exists	1.0
+1510	35107188	37711106	Contradiction exists	Contradiction exists	0.99
+1511	38319179	36566761	Contradiction exists	Contradiction exists	0.95
+1512	38319179	39265595	Claims can coexist	Claims can coexist	0.03
+1513	35100594	38041752	Claims can coexist	Claims can coexist	0.03
+1514	34871051	37277078	Claims can coexist	Claims can coexist	0.01
+1515	34800427	35323950	Contradiction exists	Contradiction exists	0.99
+1516	34558768	36738751	Claims can coexist	Claims can coexist	0.04
+1517	34558768	38511517	Claims can coexist	Claims can coexist	0.0
+1518	34558768	39198860	Claims can coexist	Claims can coexist	0.0
+1519	34558768	39725521	Claims can coexist	Claims can coexist	0.0
+1520	34558768	39277784	Contradiction exists	Contradiction exists	0.98
+1521	34558768	40631522	Claims can coexist	Claims can coexist	0.0
+1522	34473295	36541437	Claims can coexist	Claims can coexist	0.01
+1523	34473295	41145460	Claims can coexist	Claims can coexist	0.3
+1524	35228754	35611683	Claims can coexist	Claims can coexist	0.02
+1525	35228754	38511517	Claims can coexist	Claims can coexist	0.0
+1526	35228754	38587237	Contradiction exists	Contradiction exists	0.73
+1527	35228754	39725521	Claims can coexist	Claims can coexist	0.0
+1528	35228754	40514435	Claims can coexist	Claims can coexist	0.0
+1529	35228754	40631522	Claims can coexist	Claims can coexist	0.0
+1530	35152416	36938869	Contradiction exists	Claims can coexist	0.38
+1531	35120408	37073938	Contradiction exists	Contradiction exists	0.81
+1532	35120408	38449039	Contradiction exists	Contradiction exists	0.87
+1533	34902262	35219277	Claims can coexist	Claims can coexist	0.24
+1534	34902262	40360262	Claims can coexist	Claims can coexist	0.05
+1535	34887180	36074385	Contradiction exists	Contradiction exists	0.53
+1536	34887180	36794600	Claims can coexist	Claims can coexist	0.16
+1537	34864084	35260678	Claims can coexist	Claims can coexist	0.0
+1538	34864084	36403976	Claims can coexist	Claims can coexist	0.01
+1539	34864084	36534221	Claims can coexist	Claims can coexist	0.0
+1540	33175088	37370197	Contradiction exists	Contradiction exists	0.75
+1541	31837209	36333495	Claims can coexist	Claims can coexist	0.03
+1542	31837209	36913250	Claims can coexist	Claims can coexist	0.01
+1543	35353979	35179551	Claims can coexist	Claims can coexist	0.01
+1544	35353979	35788169	Claims can coexist	Claims can coexist	0.07
+1545	35353979	38154616	Claims can coexist	Claims can coexist	0.02
+1546	35353979	38431155	Claims can coexist	Claims can coexist	0.0
+1547	35353979	41405131	Claims can coexist	Contradiction exists	0.76
+1548	35319274	40702165	Contradiction exists	Contradiction exists	0.98
+1549	35286456	40993587	Contradiction exists	Contradiction exists	0.97
+1550	35260678	36403976	Claims can coexist	Claims can coexist	0.0
+1551	35260678	36534221	Claims can coexist	Claims can coexist	0.0
+1552	35260678	37596359	Claims can coexist	Claims can coexist	0.05
+1553	35241145	36151758	Contradiction exists	Contradiction exists	0.83
+1554	35241145	36074385	Claims can coexist	Claims can coexist	0.02
+1555	35179551	35788169	Claims can coexist	Claims can coexist	0.01
+1556	35179551	38154616	Claims can coexist	Claims can coexist	0.01
+1557	35179551	38431155	Claims can coexist	Claims can coexist	0.0
+1558	35179551	41405131	Contradiction exists	Contradiction exists	0.96
+1559	35006328	35576534	Claims can coexist	Contradiction exists	0.91
+1560	35006328	39293701	Contradiction exists	Contradiction exists	1.0
+1561	37119345	34708460	Contradiction exists	Contradiction exists	0.99
+1562	35611683	38511517	Claims can coexist	Claims can coexist	0.01
+1563	35611683	38587237	Claims can coexist	Claims can coexist	0.3
+1564	35611683	39725521	Claims can coexist	Claims can coexist	0.0
+1565	35611683	40514435	Claims can coexist	Claims can coexist	0.01
+1566	35611683	40631522	Claims can coexist	Claims can coexist	0.0
+1567	35576534	39293701	Contradiction exists	Claims can coexist	0.25
+1568	35688677	35901476	Contradiction exists	Contradiction exists	0.73
+1569	35688677	36270632	Claims can coexist	Claims can coexist	0.01
+1570	35688677	37695818	Claims can coexist	Claims can coexist	0.04
+1571	35662406	38584038	Contradiction exists	Claims can coexist	0.04
+1572	35654818	36181009	Contradiction exists	Contradiction exists	0.68
+1573	35654818	36647298	Claims can coexist	Claims can coexist	0.0
+1574	35654818	37711106	Claims can coexist	Claims can coexist	0.0
+1575	35961692	37348152	Claims can coexist	Claims can coexist	0.18
+1576	35904769	36443363	Contradiction exists	Contradiction exists	1.0
+1577	35896462	37419768	Contradiction exists	Contradiction exists	0.81
+1578	35868341	37230101	Contradiction exists	Contradiction exists	0.72
+1579	35788169	36611040	Claims can coexist	Claims can coexist	0.12
+1580	35788169	37906618	Claims can coexist	Contradiction exists	1.0
+1581	35788169	38154616	Claims can coexist	Claims can coexist	0.12
+1582	35788169	38431155	Claims can coexist	Claims can coexist	0.06
+1583	35788169	39264960	Claims can coexist	Claims can coexist	0.33
+1584	35788169	41405131	Claims can coexist	Contradiction exists	0.93
+1585	36098968	36629088	Contradiction exists	Contradiction exists	0.83
+1586	36074385	36794600	Claims can coexist	Claims can coexist	0.24
+1587	35943471	40244586	Contradiction exists	Contradiction exists	1.0
+1588	35219277	40360262	Contradiction exists	Contradiction exists	0.64
+1589	34467402	39625722	Contradiction exists	Contradiction exists	0.98
+1590	36205206	36205099	Contradiction exists	Contradiction exists	1.0
+1591	36181990	36333495	Claims can coexist	Contradiction exists	0.97
+1592	36181990	37239916	Claims can coexist	Claims can coexist	0.01
+1593	36181990	36913250	Claims can coexist	Contradiction exists	0.6
+1594	36181009	36647298	Contradiction exists	Contradiction exists	0.99
+1595	36181009	37711106	Contradiction exists	Contradiction exists	0.82
+1596	34697129	36750049	Contradiction exists	Claims can coexist	0.43
+1597	36270632	35849756	Claims can coexist	Claims can coexist	0.05
+1598	36270632	37695818	Contradiction exists	Contradiction exists	0.96
+1599	36270632	39664966	Claims can coexist	Claims can coexist	0.04
+1600	36270632	41042339	Claims can coexist	Claims can coexist	0.0
+1601	36243129	38382042	Claims can coexist	Claims can coexist	0.01
+1602	36403976	36534221	Claims can coexist	Claims can coexist	0.08
+1603	36403976	37596359	Claims can coexist	Claims can coexist	0.05
+1604	34732491	39347965	Contradiction exists	Contradiction exists	0.75
+1605	36190011	40207405	Claims can coexist	Claims can coexist	0.0
+1606	36190011	40884036	Contradiction exists	Contradiction exists	0.51
+1607	36190011	40958495	Claims can coexist	Contradiction exists	0.94
+1608	35713950	39841164	Contradiction exists	Contradiction exists	0.98
+1609	36566761	39265595	Contradiction exists	Contradiction exists	0.73
+1610	36738751	38511517	Claims can coexist	Claims can coexist	0.01
+1611	36738751	39198860	Claims can coexist	Claims can coexist	0.01
+1612	36738751	39725521	Claims can coexist	Claims can coexist	0.12
+1613	36647298	37711106	Claims can coexist	Claims can coexist	0.0
+1614	36611040	37906618	Claims can coexist	Contradiction exists	0.57
+1615	36611040	39264960	Contradiction exists	Contradiction exists	1.0
+1616	36541437	41145460	Contradiction exists	Claims can coexist	0.11
+1617	35849756	37695818	Claims can coexist	Claims can coexist	0.13
+1618	35849756	38558118	Claims can coexist	Claims can coexist	0.1
+1619	35849756	40918951	Claims can coexist	Claims can coexist	0.06
+1620	35849756	41042339	Contradiction exists	Contradiction exists	1.0
+1621	35841363	38174531	Claims can coexist	Claims can coexist	0.28
+1622	36793155	37403525	Claims can coexist	Claims can coexist	0.06
+1623	36793155	39347965	Claims can coexist	Claims can coexist	0.01
+1624	36517336	41247673	Claims can coexist	Claims can coexist	0.0
+1625	36333495	37239916	Claims can coexist	Contradiction exists	0.77
+1626	36333495	36913250	Claims can coexist	Claims can coexist	0.03
+1627	36206152	41515229	Contradiction exists	Contradiction exists	0.99
+1628	36963852	37258943	Contradiction exists	Contradiction exists	1.0
+1629	36963852	40005038	Claims can coexist	Claims can coexist	0.0
+1630	36948034	34730529	Claims can coexist	Claims can coexist	0.09
+1631	36948034	38205755	Claims can coexist	Claims can coexist	0.06
+1632	36948034	40845176	Claims can coexist	Claims can coexist	0.03
+1633	36862862	37482224	Contradiction exists	Contradiction exists	1.0
+1634	36862862	38166663	Claims can coexist	Claims can coexist	0.0
+1635	36862862	38321436	Claims can coexist	Claims can coexist	0.0
+1636	36862862	39946130	Claims can coexist	Claims can coexist	0.0
+1637	36862862	40791037	Contradiction exists	Contradiction exists	0.99
+1638	37105325	37855764	Claims can coexist	Claims can coexist	0.01
+1639	37105325	36368914	Claims can coexist	Claims can coexist	0.0
+1640	37105325	38456291	Claims can coexist	Claims can coexist	0.01
+1641	37105325	39934398	Claims can coexist	Claims can coexist	0.0
+1642	37105325	40364780	Contradiction exists	Contradiction exists	0.98
+1643	37095234	38507149	Contradiction exists	Claims can coexist	0.41
+1644	36534221	37596359	Claims can coexist	Claims can coexist	0.06
+1645	37239916	36913250	Claims can coexist	Claims can coexist	0.15
+1646	37143398	37904082	Claims can coexist	Claims can coexist	0.1
+1647	37143398	37268328	Claims can coexist	Claims can coexist	0.05
+1648	37470525	40481286	Contradiction exists	Contradiction exists	1.0
+1649	37337027	40296308	Contradiction exists	Claims can coexist	0.05
+1650	37505153	38541158	Contradiction exists	Contradiction exists	0.88
+1651	37482224	38166663	Contradiction exists	Contradiction exists	0.98
+1652	37482224	38321436	Contradiction exists	Contradiction exists	1.0
+1653	37482224	39946130	Contradiction exists	Contradiction exists	1.0
+1654	37482224	40791037	Claims can coexist	Claims can coexist	0.12
+1655	37403525	37935231	Contradiction exists	Contradiction exists	0.99
+1656	37403525	41247673	Claims can coexist	Claims can coexist	0.04
+1657	37393389	39636391	Claims can coexist	Claims can coexist	0.0
+1658	34730529	38205755	Claims can coexist	Claims can coexist	0.06
+1659	34730529	40845176	Claims can coexist	Claims can coexist	0.01
+1660	37596359	39277784	Claims can coexist	Claims can coexist	0.01
+1661	37793771	40680752	Contradiction exists	Contradiction exists	0.98
+1662	37776033	38041752	Claims can coexist	Claims can coexist	0.04
+1663	37697278	39359014	Claims can coexist	Claims can coexist	0.07
+1664	37695818	38558118	Claims can coexist	Claims can coexist	0.33
+1665	37695818	41042339	Claims can coexist	Claims can coexist	0.06
+1666	33722999	38215974	Contradiction exists	Contradiction exists	1.0
+1667	37906618	39264960	Claims can coexist	Claims can coexist	0.02
+1668	37904082	37268328	Contradiction exists	Contradiction exists	0.65
+1669	37855764	36368914	Claims can coexist	Claims can coexist	0.0
+1670	37855764	38456291	Claims can coexist	Claims can coexist	0.01
+1671	37855764	39934398	Claims can coexist	Claims can coexist	0.0
+1672	37855764	40364780	Claims can coexist	Contradiction exists	0.91
+1673	37839707	38453026	Contradiction exists	Contradiction exists	0.98
+1674	37953202	40178431	Claims can coexist	Claims can coexist	0.01
+1675	37953202	39698906	Claims can coexist	Claims can coexist	0.07
+1676	36368914	38456291	Claims can coexist	Claims can coexist	0.0
+1677	38154616	38431155	Claims can coexist	Claims can coexist	0.0
+1678	38154616	41405131	Contradiction exists	Contradiction exists	0.86
+1679	39439451	41170298	Contradiction exists	Contradiction exists	0.98
+1680	38302882	40783518	Claims can coexist	Claims can coexist	0.0
+1681	38302882	39432604	Contradiction exists	Contradiction exists	0.99
+1682	38166663	38321436	Claims can coexist	Claims can coexist	0.0
+1683	38166663	39946130	Claims can coexist	Claims can coexist	0.0
+1684	38166663	40791037	Claims can coexist	Contradiction exists	0.86
+1685	38541121	38511517	Claims can coexist	Claims can coexist	0.0
+1686	38541121	39198860	Contradiction exists	Contradiction exists	0.96
+1687	38485912	39226747	Contradiction exists	Contradiction exists	1.0
+1688	38485912	40232661	Contradiction exists	Contradiction exists	1.0
+1689	38485912	40360262	Claims can coexist	Contradiction exists	0.98
+1690	38431155	41405131	Contradiction exists	Contradiction exists	0.98
+1691	38363272	40897188	Contradiction exists	Contradiction exists	0.99
+1692	38321436	39946130	Claims can coexist	Claims can coexist	0.0
+1693	38321436	40791037	Contradiction exists	Contradiction exists	0.99
+1694	38513188	41413016	Contradiction exists	Contradiction exists	0.73
+1695	38511517	38587237	Contradiction exists	Contradiction exists	0.8
+1696	38511517	39198860	Claims can coexist	Claims can coexist	0.19
+1697	38511517	39725521	Claims can coexist	Claims can coexist	0.0
+1698	38511517	40514435	Claims can coexist	Claims can coexist	0.0
+1699	38511517	40631522	Claims can coexist	Claims can coexist	0.0
+1700	38456291	39934398	Claims can coexist	Claims can coexist	0.0
+1701	38456291	40364780	Claims can coexist	Claims can coexist	0.46
+1702	38438279	40608082	Claims can coexist	Claims can coexist	0.17
+1703	38587237	39725521	Contradiction exists	Contradiction exists	0.99
+1704	38587237	40514435	Contradiction exists	Contradiction exists	1.0
+1705	38587237	40631522	Claims can coexist	Claims can coexist	0.14
+1706	38558118	41042339	Contradiction exists	Contradiction exists	1.0
+1707	39226747	40232661	Claims can coexist	Claims can coexist	0.0
+1708	39226747	40360262	Claims can coexist	Claims can coexist	0.01
+1709	39198860	39725521	Claims can coexist	Claims can coexist	0.06
+1710	38401077	41482786	Claims can coexist	Claims can coexist	0.0
+1711	39473076	40088922	Contradiction exists	Contradiction exists	0.99
+1712	38477675	41033333	Contradiction exists	Contradiction exists	0.83
+1713	39721243	41109167	Contradiction exists	Claims can coexist	0.32
+1714	39437460	41004640	Contradiction exists	Contradiction exists	1.0
+1715	38205755	40845176	Claims can coexist	Claims can coexist	0.01
+1716	40918951	41042339	Claims can coexist	Claims can coexist	0.0
+1717	39946130	40791037	Contradiction exists	Contradiction exists	1.0
+1718	39934398	40364780	Claims can coexist	Contradiction exists	0.78
+1719	39725521	40514435	Claims can coexist	Claims can coexist	0.0
+1720	39725521	40631522	Claims can coexist	Claims can coexist	0.01
+1721	39277784	40631522	Contradiction exists	Contradiction exists	0.67
+1722	40274907	40447978	Contradiction exists	Contradiction exists	0.99
+1723	40232661	40360262	Claims can coexist	Claims can coexist	0.01
+1724	40207405	40884036	Claims can coexist	Claims can coexist	0.18
+1725	40207405	40958495	Claims can coexist	Claims can coexist	0.37
+1726	40178431	39698906	Contradiction exists	Contradiction exists	0.56
+1727	40514435	40631522	Claims can coexist	Claims can coexist	0.01
+1728	40708328	41482786	Contradiction exists	Contradiction exists	1.0
+1729	40884036	40958495	Claims can coexist	Contradiction exists	0.56
+1730	40783518	39432604	Contradiction exists	Contradiction exists	0.99

@@ -1,0 +1,454 @@
+{
+ "tissue": "heart",
+ "n_test": 7075,
+ "n_genes": 641,
+ "types": [
+  "B cell",
+  "CD4-positive, alpha-beta T cell",
+  "CD8-positive, alpha-beta T cell",
+  "T cell",
+  "basophil",
+  "capillary endothelial cell",
+  "cardiac endothelial cell",
+  "classical monocyte",
+  "endothelial cell",
+  "endothelial cell of artery",
+  "endothelial cell of lymphatic vessel",
+  "erythrocyte",
+  "fibroblast",
+  "fibroblast of cardiac tissue",
+  "intermediate monocyte",
+  "macrophage",
+  "mast cell",
+  "mature NK T cell",
+  "mesothelial cell",
+  "monocyte",
+  "natural killer cell",
+  "neuron",
+  "neutrophil",
+  "non-classical monocyte",
+  "pericyte",
+  "plasma cell",
+  "plasmacytoid dendritic cell",
+  "regular atrial cardiac myocyte",
+  "smooth muscle cell",
+  "vein endothelial cell",
+  "ventricular cardiac muscle cell"
+ ],
+ "comparator": "M2_zscore_cellmarker",
+ "catdir": "runs/jev_genes",
+ "scorer_fidelity_vs_runs_v31": {
+  "M2": {
+   "acc_recomputed": 0.1978798586572438,
+   "acc_published": 0.1978798586572438,
+   "abs_diff": 0.0,
+   "within_tol": true
+  },
+  "jev_v36_jevonly_r1": {
+   "acc_recomputed": 0.4371731448763251,
+   "acc_published": 0.4371731448763251,
+   "abs_diff": 0.0,
+   "within_tol": true
+  },
+  "jev_v36_jevonly_r2": {
+   "acc_recomputed": 0.43575971731448765,
+   "acc_published": 0.43575971731448765,
+   "abs_diff": 0.0,
+   "within_tol": true
+  },
+  "jev_v36_jevonly_r3": {
+   "acc_recomputed": 0.44720848056537105,
+   "acc_published": 0.44720848056537105,
+   "abs_diff": 0.0,
+   "within_tol": true
+  },
+  "jev_v36_cooc_r1": {
+   "acc_recomputed": 0.3789399293286219,
+   "acc_published": 0.3789399293286219,
+   "abs_diff": 0.0,
+   "within_tol": true
+  },
+  "jev_v36_cooc_r2": {
+   "acc_recomputed": 0.3795053003533569,
+   "acc_published": 0.3795053003533569,
+   "abs_diff": 0.0,
+   "within_tol": true
+  },
+  "jev_v36_cooc_r3": {
+   "acc_recomputed": 0.37851590106007066,
+   "acc_published": 0.37851590106007066,
+   "abs_diff": 0.0,
+   "within_tol": true
+  }
+ },
+ "bootstrap": {
+  "unit": "donor",
+  "B": 10000,
+  "seed": 0,
+  "ci": "percentile_95"
+ },
+ "donors": {
+  "source": "data/processed/heart.h5ad",
+  "n_donors": 6,
+  "donors": [
+   "TSP12",
+   "TSP14",
+   "TSP2",
+   "TSP21",
+   "TSP25",
+   "TSP27"
+  ],
+  "train_cells_per_donor": {
+   "TSP12": 8962,
+   "TSP14": 4858,
+   "TSP2": 199,
+   "TSP21": 5666,
+   "TSP25": 5228,
+   "TSP27": 3396
+  },
+  "test_cells_per_donor": {
+   "TSP12": 2225,
+   "TSP14": 1203,
+   "TSP2": 47,
+   "TSP21": 1443,
+   "TSP25": 1335,
+   "TSP27": 822
+  },
+  "donors_in_both_train_and_test": [
+   "TSP12",
+   "TSP14",
+   "TSP2",
+   "TSP21",
+   "TSP25",
+   "TSP27"
+  ],
+  "donor_disjoint": false,
+  "all_donors_in_both": true
+ },
+ "per_donor": [
+  {
+   "donor": "TSP12",
+   "n_test": 2225,
+   "n_train": 8962,
+   "M2_micro": 0.20134831460674157,
+   "M2_macro_sub": 0.2701916953387487,
+   "_v36_jevonly_r1_micro": 0.4310112359550562,
+   "_v36_jevonly_r1_macro_sub": 0.3421807542657021,
+   "_v36_jevonly_r1_d_micro": 0.22966292134831462,
+   "_v36_jevonly_r2_micro": 0.43191011235955057,
+   "_v36_jevonly_r2_macro_sub": 0.3656530734169549,
+   "_v36_jevonly_r2_d_micro": 0.230561797752809,
+   "_v36_jevonly_r3_micro": 0.4346067415730337,
+   "_v36_jevonly_r3_macro_sub": 0.35096285909422553,
+   "_v36_jevonly_r3_d_micro": 0.23325842696629212,
+   "_v36_cooc_r1_micro": 0.4130337078651685,
+   "_v36_cooc_r1_macro_sub": 0.3688543247989091,
+   "_v36_cooc_r1_d_micro": 0.21168539325842695,
+   "_v36_cooc_r2_micro": 0.41438202247191014,
+   "_v36_cooc_r2_macro_sub": 0.36926618641340664,
+   "_v36_cooc_r2_d_micro": 0.21303370786516856,
+   "_v36_cooc_r3_micro": 0.4107865168539326,
+   "_v36_cooc_r3_macro_sub": 0.3681678887747466,
+   "_v36_cooc_r3_d_micro": 0.209438202247191
+  },
+  {
+   "donor": "TSP14",
+   "n_test": 1203,
+   "n_train": 4858,
+   "M2_micro": 0.19950124688279303,
+   "M2_macro_sub": 0.20783191279912022,
+   "_v36_jevonly_r1_micro": 0.1571072319201995,
+   "_v36_jevonly_r1_macro_sub": 0.18716500036065783,
+   "_v36_jevonly_r1_d_micro": -0.04239401496259351,
+   "_v36_jevonly_r2_micro": 0.15876974231088944,
+   "_v36_jevonly_r2_macro_sub": 0.19214906531052636,
+   "_v36_jevonly_r2_d_micro": -0.04073150457190358,
+   "_v36_jevonly_r3_micro": 0.1629260182876143,
+   "_v36_jevonly_r3_macro_sub": 0.18240649297855316,
+   "_v36_jevonly_r3_d_micro": -0.03657522859517873,
+   "_v36_cooc_r1_micro": 0.13050706566916043,
+   "_v36_cooc_r1_macro_sub": 0.1866125077466117,
+   "_v36_cooc_r1_d_micro": -0.0689941812136326,
+   "_v36_cooc_r2_micro": 0.1313383208645054,
+   "_v36_cooc_r2_macro_sub": 0.18692530099027763,
+   "_v36_cooc_r2_d_micro": -0.06816292601828763,
+   "_v36_cooc_r3_micro": 0.13050706566916043,
+   "_v36_cooc_r3_macro_sub": 0.1867624610619272,
+   "_v36_cooc_r3_d_micro": -0.0689941812136326
+  },
+  {
+   "donor": "TSP2",
+   "n_test": 47,
+   "n_train": 199,
+   "M2_micro": 0.0425531914893617,
+   "M2_macro_sub": 0.11904761904761904,
+   "_v36_jevonly_r1_micro": 0.8723404255319149,
+   "_v36_jevonly_r1_macro_sub": 0.4761904761904762,
+   "_v36_jevonly_r1_d_micro": 0.8297872340425533,
+   "_v36_jevonly_r2_micro": 0.8723404255319149,
+   "_v36_jevonly_r2_macro_sub": 0.4761904761904762,
+   "_v36_jevonly_r2_d_micro": 0.8297872340425533,
+   "_v36_jevonly_r3_micro": 0.8723404255319149,
+   "_v36_jevonly_r3_macro_sub": 0.4761904761904762,
+   "_v36_jevonly_r3_d_micro": 0.8297872340425533,
+   "_v36_cooc_r1_micro": 0.8297872340425532,
+   "_v36_cooc_r1_macro_sub": 0.4247104247104247,
+   "_v36_cooc_r1_d_micro": 0.7872340425531915,
+   "_v36_cooc_r2_micro": 0.8297872340425532,
+   "_v36_cooc_r2_macro_sub": 0.4247104247104247,
+   "_v36_cooc_r2_d_micro": 0.7872340425531915,
+   "_v36_cooc_r3_micro": 0.8297872340425532,
+   "_v36_cooc_r3_macro_sub": 0.4247104247104247,
+   "_v36_cooc_r3_d_micro": 0.7872340425531915
+  },
+  {
+   "donor": "TSP21",
+   "n_test": 1443,
+   "n_train": 5666,
+   "M2_micro": 0.2176022176022176,
+   "M2_macro_sub": 0.2741710188545632,
+   "_v36_jevonly_r1_micro": 0.5169785169785169,
+   "_v36_jevonly_r1_macro_sub": 0.3179406705606031,
+   "_v36_jevonly_r1_d_micro": 0.29937629937629934,
+   "_v36_jevonly_r2_micro": 0.5197505197505198,
+   "_v36_jevonly_r2_macro_sub": 0.31835163136917827,
+   "_v36_jevonly_r2_d_micro": 0.3021483021483022,
+   "_v36_jevonly_r3_micro": 0.5377685377685377,
+   "_v36_jevonly_r3_macro_sub": 0.3226877974073064,
+   "_v36_jevonly_r3_d_micro": 0.32016632016632013,
+   "_v36_cooc_r1_micro": 0.404019404019404,
+   "_v36_cooc_r1_macro_sub": 0.29782300017670404,
+   "_v36_cooc_r1_d_micro": 0.1864171864171864,
+   "_v36_cooc_r2_micro": 0.40540540540540543,
+   "_v36_cooc_r2_macro_sub": 0.29800373395584734,
+   "_v36_cooc_r2_d_micro": 0.18780318780318783,
+   "_v36_cooc_r3_micro": 0.4067914067914068,
+   "_v36_cooc_r3_macro_sub": 0.2981844677349907,
+   "_v36_cooc_r3_d_micro": 0.1891891891891892
+  },
+  {
+   "donor": "TSP25",
+   "n_test": 1335,
+   "n_train": 5228,
+   "M2_micro": 0.20973782771535582,
+   "M2_macro_sub": 0.2907348035987923,
+   "_v36_jevonly_r1_micro": 0.49063670411985016,
+   "_v36_jevonly_r1_macro_sub": 0.34515275527100947,
+   "_v36_jevonly_r1_d_micro": 0.28089887640449435,
+   "_v36_jevonly_r2_micro": 0.4749063670411985,
+   "_v36_jevonly_r2_macro_sub": 0.3396729306743164,
+   "_v36_jevonly_r2_d_micro": 0.26516853932584267,
+   "_v36_jevonly_r3_micro": 0.4951310861423221,
+   "_v36_jevonly_r3_macro_sub": 0.349570424338073,
+   "_v36_jevonly_r3_d_micro": 0.2853932584269663,
+   "_v36_cooc_r1_micro": 0.3782771535580524,
+   "_v36_cooc_r1_macro_sub": 0.2638502370670718,
+   "_v36_cooc_r1_d_micro": 0.1685393258426966,
+   "_v36_cooc_r2_micro": 0.3782771535580524,
+   "_v36_cooc_r2_macro_sub": 0.2638502370670718,
+   "_v36_cooc_r2_d_micro": 0.1685393258426966,
+   "_v36_cooc_r3_micro": 0.3790262172284644,
+   "_v36_cooc_r3_macro_sub": 0.3038502370670718,
+   "_v36_cooc_r3_d_micro": 0.1692883895131086
+  },
+  {
+   "donor": "TSP27",
+   "n_test": 822,
+   "n_train": 3396,
+   "M2_micro": 0.1411192214111922,
+   "M2_macro_sub": 0.4030003111716493,
+   "_v36_jevonly_r1_micro": 0.6119221411192214,
+   "_v36_jevonly_r1_macro_sub": 0.3600061443915707,
+   "_v36_jevonly_r1_d_micro": 0.4708029197080292,
+   "_v36_jevonly_r2_micro": 0.6155717761557178,
+   "_v36_jevonly_r2_macro_sub": 0.3577921490373315,
+   "_v36_jevonly_r2_d_micro": 0.4744525547445256,
+   "_v36_jevonly_r3_micro": 0.6362530413625304,
+   "_v36_jevonly_r3_macro_sub": 0.37018260480043386,
+   "_v36_jevonly_r3_d_micro": 0.49513381995133815,
+   "_v36_cooc_r1_micro": 0.5815085158150851,
+   "_v36_cooc_r1_macro_sub": 0.3094262800556151,
+   "_v36_cooc_r1_d_micro": 0.4403892944038929,
+   "_v36_cooc_r2_micro": 0.5790754257907542,
+   "_v36_cooc_r2_macro_sub": 0.3083484435674024,
+   "_v36_cooc_r2_d_micro": 0.437956204379562,
+   "_v36_cooc_r3_micro": 0.5778588807785888,
+   "_v36_cooc_r3_macro_sub": 0.3081578947869146,
+   "_v36_cooc_r3_d_micro": 0.4367396593673966
+  }
+ ],
+ "M2": {
+  "micro": 0.1978798586572438,
+  "macro": 0.23426097120468364
+ },
+ "results": {
+  "_v36_jevonly_r1": {
+   "micro": 0.4371731448763251,
+   "macro": 0.28833331554818287,
+   "micro_diff_vs_M2": 0.23929328621908127,
+   "macro_diff_vs_M2": 0.054072344343499223,
+   "micro_diff_ci95": [
+    0.11147428178221228,
+    0.36343012704174227
+   ],
+   "macro_diff_ci95": [
+    -0.0024766518134038407,
+    0.08300464896899398
+   ],
+   "micro_ci_excludes_0": true,
+   "macro_ci_excludes_0": false,
+   "leave_one_donor_out_micro_diff": {
+    "TSP12": 0.24371134020618557,
+    "TSP14": 0.29700272479564027,
+    "TSP2": 0.23534433693796245,
+    "TSP21": 0.22389914772727273,
+    "TSP25": 0.22961672473867595,
+    "TSP27": 0.2088597473212858
+   },
+   "lodo_micro_diff_range": [
+    0.2088597473212858,
+    0.29700272479564027
+   ]
+  },
+  "_v36_jevonly_r2": {
+   "micro": 0.43575971731448765,
+   "macro": 0.28354783344007173,
+   "micro_diff_vs_M2": 0.23787985865724384,
+   "macro_diff_vs_M2": 0.049286862235388085,
+   "micro_diff_ci95": [
+    0.11148365465213747,
+    0.36069580218516384
+   ],
+   "macro_diff_ci95": [
+    -0.0013434170384151733,
+    0.08120136652457952
+   ],
+   "micro_ci_excludes_0": true,
+   "macro_ci_excludes_0": false,
+   "leave_one_donor_out_micro_diff": {
+    "TSP12": 0.24123711340206183,
+    "TSP14": 0.29495912806539504,
+    "TSP2": 0.23392145702902675,
+    "TSP21": 0.22141335227272727,
+    "TSP25": 0.23153310104529617,
+    "TSP27": 0.2067807452422837
+   },
+   "lodo_micro_diff_range": [
+    0.2067807452422837,
+    0.29495912806539504
+   ]
+  },
+  "_v36_jevonly_r3": {
+   "micro": 0.44720848056537105,
+   "macro": 0.290458899538249,
+   "micro_diff_vs_M2": 0.24932862190812724,
+   "macro_diff_vs_M2": 0.05619792833356535,
+   "micro_diff_ci95": [
+    0.11658031088082904,
+    0.3777478689995514
+   ],
+   "macro_diff_ci95": [
+    0.002331196371351263,
+    0.08431156550777733
+   ],
+   "micro_ci_excludes_0": true,
+   "macro_ci_excludes_0": true,
+   "leave_one_donor_out_micro_diff": {
+    "TSP12": 0.256701030927835,
+    "TSP14": 0.3079019073569482,
+    "TSP2": 0.2454467842914058,
+    "TSP21": 0.23117897727272727,
+    "TSP25": 0.24094076655052266,
+    "TSP27": 0.21701583240044778
+   },
+   "lodo_micro_diff_range": [
+    0.21701583240044778,
+    0.3079019073569482
+   ]
+  },
+  "_v36_cooc_r1": {
+   "micro": 0.3789399293286219,
+   "macro": 0.2537489624031833,
+   "micro_diff_vs_M2": 0.1810600706713781,
+   "macro_diff_vs_M2": 0.019487991198499643,
+   "micro_diff_ci95": [
+    0.06451057973507654,
+    0.2995224765354849
+   ],
+   "macro_diff_ci95": [
+    -0.04720649965323542,
+    0.053994577456807
+   ],
+   "micro_ci_excludes_0": true,
+   "macro_ci_excludes_0": false,
+   "leave_one_donor_out_micro_diff": {
+    "TSP12": 0.16701030927835053,
+    "TSP14": 0.23228882833787465,
+    "TSP2": 0.17700626067159933,
+    "TSP21": 0.17968749999999997,
+    "TSP25": 0.1839721254355401,
+    "TSP27": 0.14696945466176234
+   },
+   "lodo_micro_diff_range": [
+    0.14696945466176234,
+    0.23228882833787465
+   ]
+  },
+  "_v36_cooc_r2": {
+   "micro": 0.3795053003533569,
+   "macro": 0.25376787591108924,
+   "micro_diff_vs_M2": 0.18162544169611308,
+   "macro_diff_vs_M2": 0.019506904706405592,
+   "micro_diff_ci95": [
+    0.06468260794770345,
+    0.29902848674460725
+   ],
+   "macro_diff_ci95": [
+    -0.04751911006083634,
+    0.054236079813810206
+   ],
+   "micro_ci_excludes_0": true,
+   "macro_ci_excludes_0": false,
+   "leave_one_donor_out_micro_diff": {
+    "TSP12": 0.16721649484536083,
+    "TSP14": 0.23279972752043596,
+    "TSP2": 0.1775754126351736,
+    "TSP21": 0.18004261363636362,
+    "TSP25": 0.1846689895470383,
+    "TSP27": 0.14792899408284024
+   },
+   "lodo_micro_diff_range": [
+    0.14792899408284024,
+    0.23279972752043596
+   ]
+  },
+  "_v36_cooc_r3": {
+   "micro": 0.37851590106007066,
+   "macro": 0.25896663834010747,
+   "micro_diff_vs_M2": 0.18063604240282685,
+   "macro_diff_vs_M2": 0.024705667135423826,
+   "micro_diff_ci95": [
+    0.06416652330982284,
+    0.2973818541083484
+   ],
+   "macro_diff_ci95": [
+    -0.027617134230141484,
+    0.059653915717175154
+   ],
+   "micro_ci_excludes_0": true,
+   "macro_ci_excludes_0": false,
+   "leave_one_donor_out_micro_diff": {
+    "TSP12": 0.16742268041237113,
+    "TSP14": 0.23177792915531334,
+    "TSP2": 0.17657939669891862,
+    "TSP21": 0.17844460227272727,
+    "TSP25": 0.18327526132404182,
+    "TSP27": 0.14696945466176234
+   },
+   "lodo_micro_diff_range": [
+    0.14696945466176234,
+    0.23177792915531334
+   ]
+  }
+ }
+}

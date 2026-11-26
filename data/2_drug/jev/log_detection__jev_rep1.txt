@@ -1,0 +1,2 @@
+jev-1.13.0 detection n=200 P 0.747 R 0.812 F1 0.778 [0.685,0.841] acc 0.840  tp/fp/fn/tn 56/19/13/112
+USAGE {'requests': 200, 'cache_hits': 0, 'input_tokens': 130536, 'retries': 0} tokens->cost at Jev price $0.0055

@@ -1,0 +1,15 @@
+jev-1.13.0 explanation n=542
+                                        factor  precision  recall     f1  support  low_support
+0                                      species      0.000   0.000  0.000      2.0         True
+1                                   population      0.657   0.856  0.744    278.0        False
+2                  dosage or exposure duration      0.609   0.736  0.667    193.0        False
+3              route or mode of administration      0.346   0.367  0.356     49.0        False
+4                        combined drug effects      0.398   0.611  0.482     54.0        False
+5                 evolving scientific evidence      0.213   0.323  0.256     31.0         True
+6   known controversy or self-qualified claims      0.196   0.289  0.234     38.0         True
+7                                 study design      0.288   0.755  0.417    110.0        False
+8                             outcome measures      0.744   0.787  0.765    347.0        False
+9                           ambiguous referent      0.143   0.037  0.058     82.0        False
+10                                       MICRO      0.537   0.685  0.602   1184.0        False
+11                                       MACRO        NaN     NaN  0.398      NaN        False
+USAGE {'requests': 532, 'cache_hits': 10, 'input_tokens': 923794, 'retries': 0} tokens->cost at Jev price $0.0388

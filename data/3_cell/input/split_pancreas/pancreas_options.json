@@ -1,0 +1,28 @@
+{
+ "tissue": "pancreas",
+ "options": [
+  "B cell",
+  "CD4-positive, alpha-beta T cell",
+  "CD8-positive, alpha-beta T cell",
+  "T cell",
+  "classical monocyte",
+  "endothelial cell",
+  "fibroblast",
+  "intermediate monocyte",
+  "macrophage",
+  "mast cell",
+  "mature NK T cell",
+  "monocyte",
+  "natural killer cell",
+  "neutrophil",
+  "non-classical monocyte",
+  "pancreatic A cell",
+  "pancreatic D cell",
+  "pancreatic PP cell",
+  "pancreatic acinar cell",
+  "pancreatic ductal cell",
+  "pancreatic stellate cell",
+  "plasma cell",
+  "type B pancreatic cell"
+ ]
+}

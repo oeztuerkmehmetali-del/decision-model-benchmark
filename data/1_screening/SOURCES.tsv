@@ -1,0 +1,241 @@
+paper_path	study_source	role	modified	note
+README.md	new	doc	new	
+RERUN.md	new	doc	new	
+jev/dev_tau.union.json	studies/x3/runs/jev/dev_tau.union.json	jev	no	
+jev/jev_cache.jsonl	studies/x3/runs/jev/jev_cache.jsonl	jev	no	
+jev/jev_dev.json	studies/x3/runs/jev/jev_dev.json	jev	no	
+jev/jev_test.json	studies/x3/runs/jev/jev_test.json	jev	no	
+jev/results_ablation39.json	studies/x3/results/jev/results_ablation39.json	jev	no	
+jev/results_calibsim39.json	studies/x3/results/jev/results_calibsim39.json	jev	no	
+jev/results_gaps39.json	studies/x3/results/jev/results_gaps39.json	jev	no	
+compare/results_chan_compare.json	studies/x3/results/results_chan_compare.json	compare	no	
+compare/results_net_effort.json	studies/x3/results/results_net_effort.json	compare	no	
+compare/results_test.union39.json	studies/x3/results/jev/results_test.union39.json	compare	no	
+compare/results_v3_fixes.json	studies/x3/results/results_v3_fixes.json	compare	no	
+compare/v3_numbers.md	studies/x3/results/v3_numbers.md	compare	no	
+d3u/d3u_cache.jsonl	studies/x3/runs/d3u/d3u_cache.jsonl	d3u	no	
+d3u/d3u_dev.json	studies/x3/runs/d3u/d3u_dev.json	d3u	no	
+d3u/d3u_numbers.md	studies/x3/results/d3u_numbers.md	d3u	no	
+d3u/d3u_test.json	studies/x3/runs/d3u/d3u_test.json	d3u	no	
+d3u/dev_tau.d3u.json	studies/x3/runs/d3u/dev_tau.d3u.json	d3u	no	
+d3u/results_d3u.json	studies/x3/results/results_d3u.json	d3u	no	
+code/ablation.py	studies/x3/scripts/ablation.py	code	paths-only	
+code/calib_sim.py	studies/x3/scripts/calib_sim.py	code	paths-only	
+code/d3u_arm.py	studies/x3/scripts/d3u_arm.py	code	paths-only	
+code/d3u_run.sh	studies/x3/scripts/d3u_run.sh	code	paths-only	adapted from studies/x3/scripts/d3u_run.sh
+code/export_csv.py	studies/x3/scripts/export_csv.py	code	paths-only	
+code/fanout.py	studies/x3/scripts/fanout.py	code	paths-only	
+code/freeze_split.py	studies/x3/scripts/freeze_split.py	code	paths-only	
+code/gap_tests.py	studies/x3/scripts/gap_tests.py	code	paths-only	
+code/layout.py	new	code	new	maps study paths to this layout
+code/net_effort.py	studies/x3/scripts/net_effort.py	code	paths-only	
+code/questions.py	studies/x3/scripts/questions.py	code	paths-only	
+code/run_baseline.py	studies/x3/scripts/run_baseline.py	code	paths-only	
+code/score_final.py	studies/x3/scripts/score_final.py	code	paths-only	
+code/sweep.py	studies/x3/scripts/sweep.py	code	paths-only	
+code/v3_fixes.py	studies/x3/scripts/v3_fixes.py	code	paths-only	
+code/worked_example.py	new	code	new	builds input/worked_example.json
+input/EXTERNAL.tsv	new	doc	new	
+input/fetch.sh	new	doc	new	
+input/key_audit_key.json	studies/x3/data/processed/key_audit_key.json	input	no	
+input/key_audit_verdicts.json	studies/x3/data/processed/key_audit_verdicts.json	input	no	
+input/key_audit_verdicts_second.json	studies/x3/data/processed/key_audit_verdicts_second.json	input	no	
+input/reviews_union.json	new	input	new	39 review tags in split order, derived from input/split.union.json (original absent in study)
+input/split.json	studies/x3/data/processed/split.json	input	no	
+input/split.union.json	studies/x3/data/processed/split.union.json	input	no	
+input/worked_example.json	new	input	new	request + stored answers for one record
+input/synergy/Ali_2024.csv	studies/x3/data/raw/synergy/Ali_2024.csv	input	no	
+input/synergy/Ali_2024.test.csv	studies/x3/data/raw/synergy/Ali_2024.test.csv	input	no	
+input/synergy/Aouad_2024.csv	studies/x3/data/raw/synergy/Aouad_2024.csv	input	no	
+input/synergy/Aouad_2024.test.csv	studies/x3/data/raw/synergy/Aouad_2024.test.csv	input	no	
+input/synergy/Attai_2022.csv	studies/x3/data/raw/synergy/Attai_2022.csv	input	no	
+input/synergy/Attai_2022.test.csv	studies/x3/data/raw/synergy/Attai_2022.test.csv	input	no	
+input/synergy/Bindoli_2024a.csv	studies/x3/data/raw/synergy/Bindoli_2024a.csv	input	no	
+input/synergy/Bindoli_2024a.test.csv	studies/x3/data/raw/synergy/Bindoli_2024a.test.csv	input	no	
+input/synergy/Burska_2023.csv	studies/x3/data/raw/synergy/Burska_2023.csv	input	no	
+input/synergy/Burska_2023.test.csv	studies/x3/data/raw/synergy/Burska_2023.test.csv	input	no	
+input/synergy/Butink_2023.csv	studies/x3/data/raw/synergy/Butink_2023.csv	input	no	
+input/synergy/Butink_2023.test.csv	studies/x3/data/raw/synergy/Butink_2023.test.csv	input	no	
+input/synergy/Cozim-Melges_2024.csv	studies/x3/data/raw/synergy/Cozim-Melges_2024.csv	input	no	
+input/synergy/Cozim-Melges_2024.test.csv	studies/x3/data/raw/synergy/Cozim-Melges_2024.test.csv	input	no	
+input/synergy/Endedijk_2021.csv	studies/x3/data/raw/synergy/Endedijk_2021.csv	input	no	
+input/synergy/Endedijk_2021.test.csv	studies/x3/data/raw/synergy/Endedijk_2021.test.csv	input	no	
+input/synergy/Farisogullari_2023.csv	studies/x3/data/raw/synergy/Farisogullari_2023.csv	input	no	
+input/synergy/Farisogullari_2023.test.csv	studies/x3/data/raw/synergy/Farisogullari_2023.test.csv	input	no	
+input/synergy/Fejza_2023.csv	studies/x3/data/raw/synergy/Fejza_2023.csv	input	no	
+input/synergy/Fejza_2023.test.csv	studies/x3/data/raw/synergy/Fejza_2023.test.csv	input	no	
+input/synergy/Fong_2021.csv	studies/x3/data/raw/synergy/Fong_2021.csv	input	no	
+input/synergy/Fong_2021.test.csv	studies/x3/data/raw/synergy/Fong_2021.test.csv	input	no	
+input/synergy/Harms_2024.csv	studies/x3/data/raw/synergy/Harms_2024.csv	input	no	
+input/synergy/Harms_2024.test.csv	studies/x3/data/raw/synergy/Harms_2024.test.csv	input	no	
+input/synergy/Hilfiker_2017.csv	studies/x3/data/raw/synergy/Hilfiker_2017.csv	input	no	
+input/synergy/Hilfiker_2017.test.csv	studies/x3/data/raw/synergy/Hilfiker_2017.test.csv	input	no	
+input/synergy/Lauper_2021.csv	studies/x3/data/raw/synergy/Lauper_2021.csv	input	no	
+input/synergy/Lauper_2021.test.csv	studies/x3/data/raw/synergy/Lauper_2021.test.csv	input	no	
+input/synergy/Leenaars_2020.csv	studies/x3/data/raw/synergy/Leenaars_2020.csv	input	no	
+input/synergy/Leenaars_2020.test.csv	studies/x3/data/raw/synergy/Leenaars_2020.test.csv	input	no	
+input/synergy/Low_2023.csv	studies/x3/data/raw/synergy/Low_2023.csv	input	no	
+input/synergy/Low_2023.test.csv	studies/x3/data/raw/synergy/Low_2023.test.csv	input	no	
+input/synergy/Maciel_2024.csv	studies/x3/data/raw/synergy/Maciel_2024.csv	input	no	
+input/synergy/Maciel_2024.test.csv	studies/x3/data/raw/synergy/Maciel_2024.test.csv	input	no	
+input/synergy/Mejean_2024.csv	studies/x3/data/raw/synergy/Mejean_2024.csv	input	no	
+input/synergy/Mejean_2024.test.csv	studies/x3/data/raw/synergy/Mejean_2024.test.csv	input	no	
+input/synergy/Menon_2022.csv	studies/x3/data/raw/synergy/Menon_2022.csv	input	no	
+input/synergy/Menon_2022.test.csv	studies/x3/data/raw/synergy/Menon_2022.test.csv	input	no	
+input/synergy/Mohamed_2023.csv	studies/x3/data/raw/synergy/Mohamed_2023.csv	input	no	
+input/synergy/Mohamed_2023.test.csv	studies/x3/data/raw/synergy/Mohamed_2023.test.csv	input	no	
+input/synergy/Monschau_2025.csv	studies/x3/data/raw/synergy/Monschau_2025.csv	input	no	
+input/synergy/Monschau_2025.test.csv	studies/x3/data/raw/synergy/Monschau_2025.test.csv	input	no	
+input/synergy/Moran_2020.csv	studies/x3/data/raw/synergy/Moran_2020.csv	input	no	
+input/synergy/Moran_2020.test.csv	studies/x3/data/raw/synergy/Moran_2020.test.csv	input	no	
+input/synergy/Moseng_2024.csv	studies/x3/data/raw/synergy/Moseng_2024.csv	input	no	
+input/synergy/Moseng_2024.test.csv	studies/x3/data/raw/synergy/Moseng_2024.test.csv	input	no	
+input/synergy/Parodis_2023a.csv	studies/x3/data/raw/synergy/Parodis_2023a.csv	input	no	
+input/synergy/Parodis_2023a.test.csv	studies/x3/data/raw/synergy/Parodis_2023a.test.csv	input	no	
+input/synergy/Parodis_2023b.csv	studies/x3/data/raw/synergy/Parodis_2023b.csv	input	no	
+input/synergy/Parodis_2023b.test.csv	studies/x3/data/raw/synergy/Parodis_2023b.test.csv	input	no	
+input/synergy/Rinne_2021.csv	studies/x3/data/raw/synergy/Rinne_2021.csv	input	no	
+input/synergy/Rinne_2021.test.csv	studies/x3/data/raw/synergy/Rinne_2021.test.csv	input	no	
+input/synergy/Sanchez-Alvarez_2023.csv	studies/x3/data/raw/synergy/Sanchez-Alvarez_2023.csv	input	no	
+input/synergy/Sanchez-Alvarez_2023.test.csv	studies/x3/data/raw/synergy/Sanchez-Alvarez_2023.test.csv	input	no	
+input/synergy/Sepriano_2022.csv	studies/x3/data/raw/synergy/Sepriano_2022.csv	input	no	
+input/synergy/Sepriano_2022.test.csv	studies/x3/data/raw/synergy/Sepriano_2022.test.csv	input	no	
+input/synergy/Taschner_2024.csv	studies/x3/data/raw/synergy/Taschner_2024.csv	input	no	
+input/synergy/Taschner_2024.test.csv	studies/x3/data/raw/synergy/Taschner_2024.test.csv	input	no	
+input/synergy/Tektonidou_2019.csv	studies/x3/data/raw/synergy/Tektonidou_2019.csv	input	no	
+input/synergy/Tektonidou_2019.test.csv	studies/x3/data/raw/synergy/Tektonidou_2019.test.csv	input	no	
+input/synergy/Tumkaya_2018.csv	studies/x3/data/raw/synergy/Tumkaya_2018.csv	input	no	
+input/synergy/Tumkaya_2018.test.csv	studies/x3/data/raw/synergy/Tumkaya_2018.test.csv	input	no	
+input/synergy/Viguie_2020.csv	studies/x3/data/raw/synergy/Viguie_2020.csv	input	no	
+input/synergy/Viguie_2020.test.csv	studies/x3/data/raw/synergy/Viguie_2020.test.csv	input	no	
+input/synergy/Walker_2018.csv	studies/x3/data/raw/synergy/Walker_2018.csv	input	no	
+input/synergy/Walker_2018.test.csv	studies/x3/data/raw/synergy/Walker_2018.test.csv	input	no	
+input/synergy/Webers_2022.csv	studies/x3/data/raw/synergy/Webers_2022.csv	input	no	
+input/synergy/Webers_2022.test.csv	studies/x3/data/raw/synergy/Webers_2022.test.csv	input	no	
+input/synergy/Zakeri-Nasrabadi_2023b.csv	studies/x3/data/raw/synergy/Zakeri-Nasrabadi_2023b.csv	input	no	
+input/synergy/Zakeri-Nasrabadi_2023b.test.csv	studies/x3/data/raw/synergy/Zakeri-Nasrabadi_2023b.test.csv	input	no	
+input/synergy/Zanframundo_2022.csv	studies/x3/data/raw/synergy/Zanframundo_2022.csv	input	no	
+input/synergy/Zanframundo_2022.test.csv	studies/x3/data/raw/synergy/Zanframundo_2022.test.csv	input	no	
+input/synergy/van_Ballegooijen_2024.csv	studies/x3/data/raw/synergy/van_Ballegooijen_2024.csv	input	no	
+input/synergy/van_Ballegooijen_2024.test.csv	studies/x3/data/raw/synergy/van_Ballegooijen_2024.test.csv	input	no	
+input/synergy/van_de_Schoot_2025.csv	studies/x3/data/raw/synergy/van_de_Schoot_2025.csv	input	no	
+input/synergy/van_de_Schoot_2025.test.csv	studies/x3/data/raw/synergy/van_de_Schoot_2025.test.csv	input	no	
+input/synergy/van_der_Valk_2021.csv	studies/x3/data/raw/synergy/van_der_Valk_2021.csv	input	no	
+input/synergy/van_der_Valk_2021.test.csv	studies/x3/data/raw/synergy/van_der_Valk_2021.test.csv	input	no	
+input/questions/Ali_2024.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/Aouad_2024.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/Attai_2022.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/Bindoli_2024a.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/Burska_2023.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/Butink_2023.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/Cozim-Melges_2024.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/Endedijk_2021.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/Farisogullari_2023.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/Fejza_2023.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/Fong_2021.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/Harms_2024.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/Hilfiker_2017.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/Lauper_2021.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/Leenaars_2020.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/Low_2023.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/Maciel_2024.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/Mejean_2024.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/Menon_2022.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/Mohamed_2023.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/Monschau_2025.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/Moran_2020.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/Moseng_2024.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/Parodis_2023a.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/Parodis_2023b.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/Rinne_2021.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/Sanchez-Alvarez_2023.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/Sepriano_2022.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/Taschner_2024.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/Tektonidou_2019.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/Tumkaya_2018.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/Viguie_2020.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/Walker_2018.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/Webers_2022.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/Zakeri-Nasrabadi_2023b.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/Zanframundo_2022.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/van_Ballegooijen_2024.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/van_de_Schoot_2025.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+input/questions/van_der_Valk_2021.json.gz	studies/x3/data/processed/questions.json	input	yes	per-review gzipped slice of the 281 MB file (sha256 435d8b3a..cb45e); layout.load_questions() reassembles
+baseline/ali_2024_elas_u3.json	studies/x3/runs/asreview/ali_2024_elas_u3.json	baseline	no	
+baseline/ali_2024_elas_u4.json	studies/x3/runs/asreview/ali_2024_elas_u4.json	baseline	no	
+baseline/aouad_2024_elas_u3.json	studies/x3/runs/asreview/aouad_2024_elas_u3.json	baseline	no	
+baseline/aouad_2024_elas_u4.json	studies/x3/runs/asreview/aouad_2024_elas_u4.json	baseline	no	
+baseline/attai_2022_elas_u3.json	studies/x3/runs/asreview/attai_2022_elas_u3.json	baseline	no	
+baseline/attai_2022_elas_u4.json	studies/x3/runs/asreview/attai_2022_elas_u4.json	baseline	no	
+baseline/bindoli_2024a_elas_u3.json	studies/x3/runs/asreview/bindoli_2024a_elas_u3.json	baseline	no	
+baseline/bindoli_2024a_elas_u4.json	studies/x3/runs/asreview/bindoli_2024a_elas_u4.json	baseline	no	
+baseline/burska_2023_elas_u3.json	studies/x3/runs/asreview/burska_2023_elas_u3.json	baseline	no	
+baseline/burska_2023_elas_u4.json	studies/x3/runs/asreview/burska_2023_elas_u4.json	baseline	no	
+baseline/butink_2023_elas_u3.json	studies/x3/runs/asreview/butink_2023_elas_u3.json	baseline	no	
+baseline/butink_2023_elas_u4.json	studies/x3/runs/asreview/butink_2023_elas_u4.json	baseline	no	
+baseline/cozim-melges_2024_elas_u3.json	studies/x3/runs/asreview/cozim-melges_2024_elas_u3.json	baseline	no	
+baseline/cozim-melges_2024_elas_u4.json	studies/x3/runs/asreview/cozim-melges_2024_elas_u4.json	baseline	no	
+baseline/endedijk_2021_elas_u3.json	studies/x3/runs/asreview/endedijk_2021_elas_u3.json	baseline	no	
+baseline/endedijk_2021_elas_u4.json	studies/x3/runs/asreview/endedijk_2021_elas_u4.json	baseline	no	
+baseline/farisogullari_2023_elas_u3.json	studies/x3/runs/asreview/farisogullari_2023_elas_u3.json	baseline	no	
+baseline/farisogullari_2023_elas_u4.json	studies/x3/runs/asreview/farisogullari_2023_elas_u4.json	baseline	no	
+baseline/fejza_2023_elas_u3.json	studies/x3/runs/asreview/fejza_2023_elas_u3.json	baseline	no	
+baseline/fejza_2023_elas_u4.json	studies/x3/runs/asreview/fejza_2023_elas_u4.json	baseline	no	
+baseline/fong_2021_elas_u3.json	studies/x3/runs/asreview/fong_2021_elas_u3.json	baseline	no	
+baseline/fong_2021_elas_u4.json	studies/x3/runs/asreview/fong_2021_elas_u4.json	baseline	no	
+baseline/harms_2024_elas_u3.json	studies/x3/runs/asreview/harms_2024_elas_u3.json	baseline	no	
+baseline/harms_2024_elas_u4.json	studies/x3/runs/asreview/harms_2024_elas_u4.json	baseline	no	
+baseline/hilfiker_2017_elas_u3.json	studies/x3/runs/asreview/hilfiker_2017_elas_u3.json	baseline	no	
+baseline/hilfiker_2017_elas_u4.json	studies/x3/runs/asreview/hilfiker_2017_elas_u4.json	baseline	no	
+baseline/lauper_2021_elas_u3.json	studies/x3/runs/asreview/lauper_2021_elas_u3.json	baseline	no	
+baseline/lauper_2021_elas_u4.json	studies/x3/runs/asreview/lauper_2021_elas_u4.json	baseline	no	
+baseline/leenaars_2020_elas_u3.json	studies/x3/runs/asreview/leenaars_2020_elas_u3.json	baseline	no	
+baseline/leenaars_2020_elas_u4.json	studies/x3/runs/asreview/leenaars_2020_elas_u4.json	baseline	no	
+baseline/low_2023_elas_u3.json	studies/x3/runs/asreview/low_2023_elas_u3.json	baseline	no	
+baseline/low_2023_elas_u4.json	studies/x3/runs/asreview/low_2023_elas_u4.json	baseline	no	
+baseline/maciel_2024_elas_u3.json	studies/x3/runs/asreview/maciel_2024_elas_u3.json	baseline	no	
+baseline/maciel_2024_elas_u4.json	studies/x3/runs/asreview/maciel_2024_elas_u4.json	baseline	no	
+baseline/mejean_2024_elas_u3.json	studies/x3/runs/asreview/mejean_2024_elas_u3.json	baseline	no	
+baseline/mejean_2024_elas_u4.json	studies/x3/runs/asreview/mejean_2024_elas_u4.json	baseline	no	
+baseline/menon_2022_elas_u3.json	studies/x3/runs/asreview/menon_2022_elas_u3.json	baseline	no	
+baseline/menon_2022_elas_u4.json	studies/x3/runs/asreview/menon_2022_elas_u4.json	baseline	no	
+baseline/mohamed_2023_elas_u3.json	studies/x3/runs/asreview/mohamed_2023_elas_u3.json	baseline	no	
+baseline/mohamed_2023_elas_u4.json	studies/x3/runs/asreview/mohamed_2023_elas_u4.json	baseline	no	
+baseline/monschau_2025_elas_u3.json	studies/x3/runs/asreview/monschau_2025_elas_u3.json	baseline	no	
+baseline/monschau_2025_elas_u4.json	studies/x3/runs/asreview/monschau_2025_elas_u4.json	baseline	no	
+baseline/moran_2020_elas_u3.json	studies/x3/runs/asreview/moran_2020_elas_u3.json	baseline	no	
+baseline/moran_2020_elas_u4.json	studies/x3/runs/asreview/moran_2020_elas_u4.json	baseline	no	
+baseline/moseng_2024_elas_u3.json	studies/x3/runs/asreview/moseng_2024_elas_u3.json	baseline	no	
+baseline/moseng_2024_elas_u4.json	studies/x3/runs/asreview/moseng_2024_elas_u4.json	baseline	no	
+baseline/parodis_2023a_elas_u3.json	studies/x3/runs/asreview/parodis_2023a_elas_u3.json	baseline	no	
+baseline/parodis_2023a_elas_u4.json	studies/x3/runs/asreview/parodis_2023a_elas_u4.json	baseline	no	
+baseline/parodis_2023b_elas_u3.json	studies/x3/runs/asreview/parodis_2023b_elas_u3.json	baseline	no	
+baseline/parodis_2023b_elas_u4.json	studies/x3/runs/asreview/parodis_2023b_elas_u4.json	baseline	no	
+baseline/rinne_2021_elas_u3.json	studies/x3/runs/asreview/rinne_2021_elas_u3.json	baseline	no	
+baseline/rinne_2021_elas_u4.json	studies/x3/runs/asreview/rinne_2021_elas_u4.json	baseline	no	
+baseline/sanchez-alvarez_2023_elas_u3.json	studies/x3/runs/asreview/sanchez-alvarez_2023_elas_u3.json	baseline	no	
+baseline/sanchez-alvarez_2023_elas_u4.json	studies/x3/runs/asreview/sanchez-alvarez_2023_elas_u4.json	baseline	no	
+baseline/sepriano_2022_elas_u3.json	studies/x3/runs/asreview/sepriano_2022_elas_u3.json	baseline	no	
+baseline/sepriano_2022_elas_u4.json	studies/x3/runs/asreview/sepriano_2022_elas_u4.json	baseline	no	
+baseline/taschner_2024_elas_u3.json	studies/x3/runs/asreview/taschner_2024_elas_u3.json	baseline	no	
+baseline/taschner_2024_elas_u4.json	studies/x3/runs/asreview/taschner_2024_elas_u4.json	baseline	no	
+baseline/tektonidou_2019_elas_u3.json	studies/x3/runs/asreview/tektonidou_2019_elas_u3.json	baseline	no	
+baseline/tektonidou_2019_elas_u4.json	studies/x3/runs/asreview/tektonidou_2019_elas_u4.json	baseline	no	
+baseline/tumkaya_2018_elas_u3.json	studies/x3/runs/asreview/tumkaya_2018_elas_u3.json	baseline	no	
+baseline/tumkaya_2018_elas_u4.json	studies/x3/runs/asreview/tumkaya_2018_elas_u4.json	baseline	no	
+baseline/van_ballegooijen_2024_elas_u3.json	studies/x3/runs/asreview/van_ballegooijen_2024_elas_u3.json	baseline	no	
+baseline/van_ballegooijen_2024_elas_u4.json	studies/x3/runs/asreview/van_ballegooijen_2024_elas_u4.json	baseline	no	
+baseline/van_de_schoot_2025_elas_u3.json	studies/x3/runs/asreview/van_de_schoot_2025_elas_u3.json	baseline	no	
+baseline/van_de_schoot_2025_elas_u4.json	studies/x3/runs/asreview/van_de_schoot_2025_elas_u4.json	baseline	no	
+baseline/van_der_valk_2021_elas_u3.json	studies/x3/runs/asreview/van_der_valk_2021_elas_u3.json	baseline	no	
+baseline/van_der_valk_2021_elas_u4.json	studies/x3/runs/asreview/van_der_valk_2021_elas_u4.json	baseline	no	
+baseline/viguie_2020_elas_u3.json	studies/x3/runs/asreview/viguie_2020_elas_u3.json	baseline	no	
+baseline/viguie_2020_elas_u4.json	studies/x3/runs/asreview/viguie_2020_elas_u4.json	baseline	no	
+baseline/walker_2018_elas_u3.json	studies/x3/runs/asreview/walker_2018_elas_u3.json	baseline	no	
+baseline/walker_2018_elas_u4.json	studies/x3/runs/asreview/walker_2018_elas_u4.json	baseline	no	
+baseline/webers_2022_elas_u3.json	studies/x3/runs/asreview/webers_2022_elas_u3.json	baseline	no	
+baseline/webers_2022_elas_u4.json	studies/x3/runs/asreview/webers_2022_elas_u4.json	baseline	no	
+baseline/zakeri-nasrabadi_2023b_elas_u3.json	studies/x3/runs/asreview/zakeri-nasrabadi_2023b_elas_u3.json	baseline	no	
+baseline/zakeri-nasrabadi_2023b_elas_u4.json	studies/x3/runs/asreview/zakeri-nasrabadi_2023b_elas_u4.json	baseline	no	
+baseline/zanframundo_2022_elas_u3.json	studies/x3/runs/asreview/zanframundo_2022_elas_u3.json	baseline	no	
+baseline/zanframundo_2022_elas_u4.json	studies/x3/runs/asreview/zanframundo_2022_elas_u4.json	baseline	no	

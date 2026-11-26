@@ -1,0 +1,60 @@
+{
+ "state": {
+  "tissue": "pancreas",
+  "gene": "INS",
+  "relations": [
+   {
+    "gene": "PDX1",
+    "cooc_band": "low"
+   },
+   {
+    "gene": "MAFA",
+    "cooc_band": "low"
+   },
+   {
+    "gene": "NKX6-1",
+    "cooc_band": "low"
+   },
+   {
+    "gene": "GCG",
+    "cooc_band": "low"
+   },
+   {
+    "gene": "IAPP",
+    "cooc_band": "low"
+   }
+  ]
+ },
+ "questions": {
+  "celltype": {
+   "type": "choice",
+   "instructions": "Which cell type does this cluster's marker-gene profile match? Choose one of the candidate Cell Ontology labels, or 'none of these' if none of them fit.",
+   "criteria": {
+    "B cell": null,
+    "CD4-positive, alpha-beta T cell": null,
+    "CD8-positive, alpha-beta T cell": null,
+    "T cell": null,
+    "classical monocyte": null,
+    "endothelial cell": null,
+    "fibroblast": null,
+    "intermediate monocyte": null,
+    "macrophage": null,
+    "mast cell": null,
+    "mature NK T cell": null,
+    "monocyte": null,
+    "natural killer cell": null,
+    "neutrophil": null,
+    "non-classical monocyte": null,
+    "pancreatic A cell": null,
+    "pancreatic D cell": null,
+    "pancreatic PP cell": null,
+    "pancreatic acinar cell": null,
+    "pancreatic ductal cell": null,
+    "pancreatic stellate cell": null,
+    "plasma cell": null,
+    "type B pancreatic cell": null,
+    "none of these": null
+   }
+  }
+ }
+}

@@ -1,0 +1,2 @@
+vllm-sr/d3-ultra detection n=200 P 0.727 R 0.928 F1 0.815 [0.745,0.874] acc 0.855  tp/fp/fn/tn 64/24/5/107
+USAGE {'requests': 200, 'cache_hits': 0, 'input_tokens': 125284, 'retries': 0} tokens->cost at Jev price $0.0053

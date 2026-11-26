@@ -1,0 +1,486 @@
+{
+ "model": "vllm-sr/d3-ultra",
+ "tau_model": "vllm-sr/d3-ultra",
+ "pre_tau_test_queries_disclosed": 1792,
+ "n_reviews": 39,
+ "n_test": 18183,
+ "jev": {
+  "median_oracle_wss": 0.742626728110599,
+  "median_frozen_wss_achieved": 0.6401747756258858,
+  "median_frozen_wss_nominal": 0.6846278317152104,
+  "reviews_reaching_095": 25,
+  "reviews_below_095": 14,
+  "relevant_caught": 550,
+  "relevant_total": 577,
+  "reads_frozen_total": 5267
+ },
+ "d3u": {
+  "median_oracle_wss": 0.7406976744186046,
+  "median_frozen_wss_achieved": 0.6744213509683514,
+  "median_frozen_wss_nominal": 0.795360824742268,
+  "reviews_reaching_095": 16,
+  "reviews_below_095": 23,
+  "relevant_caught": 452,
+  "relevant_total": 577,
+  "reads_frozen_total": 2714
+ },
+ "median_asr_test_only": 0.5317490494296577,
+ "median_asr_full_pool": 0.6980620155038759,
+ "paired": {
+  "d3u_oracle_minus_asr_test_only": {
+   "median": 0.156957928803,
+   "ci95_B10000_seed0": [
+    0.098468271335,
+    0.31067961165
+   ],
+   "wins": 32,
+   "losses": 7,
+   "ties": 0
+  },
+  "d3u_oracle_minus_asr_full_pool": {
+   "median": 0.040133779264,
+   "ci95_B10000_seed0": [
+    -0.014842300557,
+    0.12462006079
+   ],
+   "wins": 24,
+   "losses": 15,
+   "ties": 0
+  },
+  "d3u_frozen_achieved_minus_asr_full_pool": {
+   "median": 0.005624646693,
+   "ci95_B10000_seed0": [
+    -0.056447124304,
+    0.056472491909
+   ],
+   "wins": 20,
+   "losses": 19,
+   "ties": 0
+  },
+  "d3u_frozen_nominal_minus_asr_full_pool": {
+   "median": 0.071641791045,
+   "ci95_B10000_seed0": [
+    0.018552875696,
+    0.125364431487
+   ],
+   "wins": 27,
+   "losses": 12,
+   "ties": 0
+  },
+  "d3u_frozen_achieved_minus_asr_test_only": {
+   "median": 0.137162954279,
+   "ci95_B10000_seed0": [
+    0.056564551422,
+    0.241771946874
+   ],
+   "wins": 30,
+   "losses": 9,
+   "ties": 0
+  },
+  "d3u_oracle_minus_jev_oracle": {
+   "median": 0.024390243902,
+   "ci95_B10000_seed0": [
+    0.00575815739,
+    0.051369863014
+   ],
+   "wins": 26,
+   "losses": 12,
+   "ties": 1
+  },
+  "d3u_frozen_achieved_minus_jev_frozen_achieved": {
+   "median": 0.02787456446,
+   "ci95_B10000_seed0": [
+    0.004798464491,
+    0.090738423029
+   ],
+   "wins": 27,
+   "losses": 12,
+   "ties": 0
+  }
+ },
+ "per_review": {
+  "Ali_2024": {
+   "tau": 0.5,
+   "oracle": 0.7169902912621359,
+   "frozen_achieved": 0.5792880258899676,
+   "recall": 0.6666666666666666
+  },
+  "Aouad_2024": {
+   "tau": 0.4,
+   "oracle": 0.6823943661971831,
+   "frozen_achieved": 0.676056338028169,
+   "recall": 1.0
+  },
+  "Attai_2022": {
+   "tau": 0.11,
+   "oracle": 0.7406976744186046,
+   "frozen_achieved": 0.6709302325581394,
+   "recall": 0.95
+  },
+  "Bindoli_2024a": {
+   "tau": 0.67,
+   "oracle": 0.7181660899653979,
+   "frozen_achieved": 0.7058823529411765,
+   "recall": 1.0
+  },
+  "Burska_2023": {
+   "tau": 0.27,
+   "oracle": 0.7689300411522634,
+   "frozen_achieved": 0.7381463589193057,
+   "recall": 0.9130434782608695
+  },
+  "Butink_2023": {
+   "tau": 0.32,
+   "oracle": 0.8836569579288025,
+   "frozen_achieved": 0.93042071197411,
+   "recall": 1.0
+  },
+  "Cozim-Melges_2024": {
+   "tau": 0.35,
+   "oracle": 0.22777777777777775,
+   "frozen_achieved": 0.2410192147034252,
+   "recall": 0.9473684210526315
+  },
+  "Endedijk_2021": {
+   "tau": 0.4,
+   "oracle": 0.7380184331797235,
+   "frozen_achieved": 0.7706695581458389,
+   "recall": 0.9411764705882353
+  },
+  "Farisogullari_2023": {
+   "tau": 0.46,
+   "oracle": 0.866376306620209,
+   "frozen_achieved": 0.9163763066202091,
+   "recall": 1.0
+  },
+  "Fejza_2023": {
+   "tau": 0.79,
+   "oracle": 0.8362876254180601,
+   "frozen_achieved": 0.49535488665923455,
+   "recall": 0.5555555555555556
+  },
+  "Fong_2021": {
+   "tau": 0.5,
+   "oracle": 0.7644329896907216,
+   "frozen_achieved": 0.5631443298969072,
+   "recall": 0.625
+  },
+  "Harms_2024": {
+   "tau": 0.63,
+   "oracle": 0.6805389221556886,
+   "frozen_achieved": 0.631403858948769,
+   "recall": 0.8888888888888888
+  },
+  "Hilfiker_2017": {
+   "tau": 0.5,
+   "oracle": 0.5632158590308369,
+   "frozen_achieved": 0.28630427942101944,
+   "recall": 0.33035714285714285
+  },
+  "Lauper_2021": {
+   "tau": 0.21,
+   "oracle": 0.8925556858147714,
+   "frozen_achieved": 0.8327667057444313,
+   "recall": 0.95
+  },
+  "Leenaars_2020": {
+   "tau": 0.5,
+   "oracle": 0.6760273972602739,
+   "frozen_achieved": 0.6744213509683514,
+   "recall": 0.9655172413793104
+  },
+  "Low_2023": {
+   "tau": 0.01,
+   "oracle": 0.8238738738738738,
+   "frozen_achieved": 0.6126126126126126,
+   "recall": 1.0
+  },
+  "Maciel_2024": {
+   "tau": 0.03,
+   "oracle": 0.8388888888888888,
+   "frozen_achieved": 0.6851851851851852,
+   "recall": 1.0
+  },
+  "Mejean_2024": {
+   "tau": 0.1,
+   "oracle": 0.3932989690721649,
+   "frozen_achieved": 0.44409199048374304,
+   "recall": 0.8461538461538461
+  },
+  "Menon_2022": {
+   "tau": 0.39,
+   "oracle": 0.8365979381443298,
+   "frozen_achieved": 0.845360824742268,
+   "recall": 1.0
+  },
+  "Mohamed_2023": {
+   "tau": 0.43,
+   "oracle": 0.6976808905380334,
+   "frozen_achieved": 0.6560760667903525,
+   "recall": 0.875
+  },
+  "Monschau_2025": {
+   "tau": 0.07,
+   "oracle": 0.5604336043360433,
+   "frozen_achieved": 0.552439024390244,
+   "recall": 0.9
+  },
+  "Moran_2020": {
+   "tau": 0.03,
+   "oracle": 0.892065491183879,
+   "frozen_achieved": 0.906801007556675,
+   "recall": 1.0
+  },
+  "Moseng_2024": {
+   "tau": 0.5,
+   "oracle": 0.3866197183098591,
+   "frozen_achieved": 0.23501006036217298,
+   "recall": 0.2857142857142857
+  },
+  "Parodis_2023a": {
+   "tau": 0.24,
+   "oracle": 0.8444174757281553,
+   "frozen_achieved": 0.8223300970873787,
+   "recall": 0.9
+  },
+  "Parodis_2023b": {
+   "tau": 0.6,
+   "oracle": 0.8485074626865671,
+   "frozen_achieved": 0.6039800995024875,
+   "recall": 0.6666666666666666
+  },
+  "Rinne_2021": {
+   "tau": 0.11,
+   "oracle": 0.4336065573770491,
+   "frozen_achieved": 0.4884115319389485,
+   "recall": 0.9310344827586207
+  },
+  "Sanchez-Alvarez_2023": {
+   "tau": 0.07,
+   "oracle": 0.8537199124726477,
+   "frozen_achieved": 0.811816192560175,
+   "recall": 1.0
+  },
+  "Sepriano_2022": {
+   "tau": 0.21,
+   "oracle": 0.6594017094017094,
+   "frozen_achieved": 0.7324527324527325,
+   "recall": 0.9090909090909091
+  },
+  "Taschner_2024": {
+   "tau": 0.51,
+   "oracle": 0.7332699619771863,
+   "frozen_achieved": 0.5487959442332065,
+   "recall": 0.6666666666666666
+  },
+  "Tektonidou_2019": {
+   "tau": 0.66,
+   "oracle": 0.8335341365461847,
+   "frozen_achieved": 0.646951442132165,
+   "recall": 0.7272727272727273
+  },
+  "Tumkaya_2018": {
+   "tau": 0.03,
+   "oracle": 0.7921052631578946,
+   "frozen_achieved": 0.6947368421052632,
+   "recall": 1.0
+  },
+  "Viguie_2020": {
+   "tau": 0.12,
+   "oracle": 0.8756756756756756,
+   "frozen_achieved": 0.8851351351351351,
+   "recall": 1.0
+  },
+  "Walker_2018": {
+   "tau": 0.32,
+   "oracle": 0.8890451832907076,
+   "frozen_achieved": 0.8638107416879796,
+   "recall": 0.9166666666666666
+  },
+  "Webers_2022": {
+   "tau": 0.14,
+   "oracle": 0.7851920693928128,
+   "frozen_achieved": 0.7973977695167286,
+   "recall": 1.0
+  },
+  "Zakeri-Nasrabadi_2023b": {
+   "tau": 0.24,
+   "oracle": 0.7255102040816326,
+   "frozen_achieved": 0.6640751538710723,
+   "recall": 0.7777777777777778
+  },
+  "Zanframundo_2022": {
+   "tau": 0.13,
+   "oracle": 0.6229323308270677,
+   "frozen_achieved": 0.5704887218045113,
+   "recall": 0.875
+  },
+  "van_Ballegooijen_2024": {
+   "tau": 0.47,
+   "oracle": 0.7357142857142857,
+   "frozen_achieved": 0.7983193277310924,
+   "recall": 0.9411764705882353
+  },
+  "van_de_Schoot_2025": {
+   "tau": 0.47,
+   "oracle": 0.9250479846449136,
+   "frozen_achieved": 0.9654510556621881,
+   "recall": 1.0
+  },
+  "van_der_Valk_2021": {
+   "tau": 0.5,
+   "oracle": 0.43611111111111106,
+   "frozen_achieved": 0.19444444444444442,
+   "recall": 0.2222222222222222
+  }
+ },
+ "checks": [
+  {
+   "check": "arms: max |ASReview test-only WSS - stored test.wss95|",
+   "computed": 5.551115123125783e-17,
+   "published": 0.0,
+   "tol": 1e-09,
+   "pass": true
+  },
+  {
+   "check": "arms: max |ASReview from-full test WSS - stored test_from_full.wss95|",
+   "computed": 5.551115123125783e-17,
+   "published": 0.0,
+   "tol": 1e-09,
+   "pass": true
+  },
+  {
+   "check": "arms: max |ASReview full-pool WSS - stored full.wss95|",
+   "computed": 5.551115123125783e-17,
+   "published": 0.0,
+   "tol": 1e-09,
+   "pass": true
+  },
+  {
+   "check": "arms: max |judge WSS - stored results_test wss95| (3-dp rounding)",
+   "computed": 0.0004759671746776828,
+   "published": 0.0,
+   "tol": 0.0005,
+   "pass": true
+  },
+  {
+   "check": "arms: max |ASReview test-only WSS - stored asr_u4| (3-dp rounding)",
+   "computed": 0.000498269896193837,
+   "published": 0.0,
+   "tol": 0.0005,
+   "pass": true
+  },
+  {
+   "check": "frozen: median WSS at achieved recall (AUDIT cites 0.64)",
+   "computed": 0.6401747756258858,
+   "published": 0.64,
+   "tol": 0.0005,
+   "pass": true
+  },
+  {
+   "check": "frozen: reviews reaching 0.95 (published 25)",
+   "computed": 25.0,
+   "published": 25.0,
+   "tol": 0,
+   "pass": true
+  },
+  {
+   "check": "frozen - ASReview from-full median paired delta (published -0.057)",
+   "computed": -0.05679611650485428,
+   "published": -0.057,
+   "tol": 0.0005,
+   "pass": true
+  },
+  {
+   "check": "frozen - ASReview from-full wins (published 13)",
+   "computed": 13.0,
+   "published": 13.0,
+   "tol": 0,
+   "pass": true
+  },
+  {
+   "check": "frozen achieved - ASReview test-only median (published +0.103)",
+   "computed": 0.103165298945,
+   "published": 0.103,
+   "tol": 0.0005,
+   "pass": true
+  },
+  {
+   "check": "frozen achieved - ASReview test-only wins (published 28)",
+   "computed": 28.0,
+   "published": 28.0,
+   "tol": 0,
+   "pass": true
+  },
+  {
+   "check": "frozen nominal - ASReview test-only median (audit recompute +0.088)",
+   "computed": 0.088353413655,
+   "published": 0.088,
+   "tol": 0.0005,
+   "pass": true
+  },
+  {
+   "check": "frozen nominal - ASReview full-pool median (audit recompute -0.023)",
+   "computed": -0.022633744856,
+   "published": -0.023,
+   "tol": 0.0005,
+   "pass": true
+  },
+  {
+   "check": "frozen_nominal_minus_asr_test_only wins (integer k-count verified)",
+   "computed": 26.0,
+   "published": 26.0,
+   "tol": 0,
+   "pass": true
+  },
+  {
+   "check": "frozen_nominal_minus_asr_test_only losses (integer k-count verified)",
+   "computed": 11.0,
+   "published": 11.0,
+   "tol": 0,
+   "pass": true
+  },
+  {
+   "check": "frozen_nominal_minus_asr_test_only ties (integer k-count verified)",
+   "computed": 2.0,
+   "published": 2.0,
+   "tol": 0,
+   "pass": true
+  },
+  {
+   "check": "frozen_nominal_minus_asr_full_pool wins (integer k-count verified)",
+   "computed": 18.0,
+   "published": 18.0,
+   "tol": 0,
+   "pass": true
+  },
+  {
+   "check": "frozen_nominal_minus_asr_full_pool losses (integer k-count verified)",
+   "computed": 20.0,
+   "published": 20.0,
+   "tol": 0,
+   "pass": true
+  },
+  {
+   "check": "frozen_nominal_minus_asr_full_pool ties (integer k-count verified)",
+   "computed": 1.0,
+   "published": 1.0,
+   "tol": 0,
+   "pass": true
+  },
+  {
+   "check": "generic arm: Jev frozen achieved - ASReview full-pool (published -0.057)",
+   "computed": -0.056796116505,
+   "published": -0.057,
+   "tol": 0.0005,
+   "pass": true
+  },
+  {
+   "check": "generic arm: Jev oracle - ASReview test-only (published +0.156)",
+   "computed": 0.15592028136,
+   "published": 0.156,
+   "tol": 0.0005,
+   "pass": true
+  }
+ ]
+}

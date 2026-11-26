@@ -1,0 +1,241 @@
+{
+ "screening": {
+  "reviews": "39",
+  "test_records": "18,183",
+  "test_eligible": "577",
+  "jev_median": "0.74",
+  "asreview_median": "0.70",
+  "jev_minus_asreview": "+0.004",
+  "ci_lo": "-0.066",
+  "ci_hi": "+0.059",
+  "d3u_median": "0.74"
+ },
+ "drug": {
+  "pairs": "1,731",
+  "contradictory": "542",
+  "clusters": "217",
+  "published_models": "eleven",
+  "best_published_f1": "0.793",
+  "jev_f1": "0.796",
+  "d3u_f1": "0.792",
+  "jev_detectably_better_than": [
+   "Gemma-3-12B",
+   "Gemma-3-27B",
+   "Gemma-3-4B",
+   "Llama-3.1-8B",
+   "Llama-3.3-70B",
+   "Ministral-3B"
+  ],
+  "d3u_detectably_better_than": [
+   "Gemma-3-12B",
+   "Gemma-3-27B",
+   "Gemma-3-4B",
+   "Llama-3.1-8B",
+   "Llama-3.3-70B",
+   "Ministral-3B",
+   "Qwen3-32B"
+  ]
+ },
+ "cell": {
+  "tool_versions": {
+   "Jev": "1.13 (jev-1.13.0)",
+   "database": "CellMarker 2.0",
+   "second_model": "d3-ultra"
+  },
+  "acc_pct": {
+   "pancreas": {
+    "CellMarker 2.0 list (M1)": 83.32,
+    "CellMarker 2.0 z-score (M2)": 76.89,
+    "CellMarker 2.0 size-normalised, post hoc (M1n)": 64.55,
+    "Jev 1.13 alone (M3)": 75.96,
+    "Jev 1.13 + literature co-mention (M4)": 84.6,
+    "d3-ultra alone": 80.04,
+    "d3-ultra + literature": 76.68
+   },
+   "heart": {
+    "CellMarker 2.0 list (M1)": 0.27,
+    "CellMarker 2.0 z-score (M2)": 19.79,
+    "CellMarker 2.0 size-normalised, post hoc (M1n)": 23.45,
+    "Jev 1.13 alone (M3)": 44.0,
+    "Jev 1.13 + literature co-mention (M4)": 37.9,
+    "d3-ultra alone": 39.31,
+    "d3-ultra + literature": 28.4
+   }
+  },
+  "macro_pct": {
+   "pancreas": {
+    "CellMarker 2.0 list (M1)": 42.55,
+    "CellMarker 2.0 z-score (M2)": 53.58,
+    "CellMarker 2.0 size-normalised, post hoc (M1n)": 28.87,
+    "Jev 1.13 alone (M3)": 32.03,
+    "Jev 1.13 + literature co-mention (M4)": 36.93,
+    "d3-ultra alone": 30.11,
+    "d3-ultra + literature": 33.41
+   },
+   "heart": {
+    "CellMarker 2.0 list (M1)": 5.38,
+    "CellMarker 2.0 z-score (M2)": 23.43,
+    "CellMarker 2.0 size-normalised, post hoc (M1n)": 32.48,
+    "Jev 1.13 alone (M3)": 28.74,
+    "Jev 1.13 + literature co-mention (M4)": 25.55,
+    "d3-ultra alone": 17.73,
+    "d3-ultra + literature": 20.95
+   }
+  },
+  "majority_pct": {
+   "pancreas": 39.63,
+   "heart": 23.15
+  },
+  "pancreas_wald_vs_M1_r1_pp": {
+   "pancreas, Jev 1.13 alone": [
+    -7.5,
+    -9.01,
+    -5.99
+   ],
+   "pancreas, Jev 1.13 + literature": [
+    1.31,
+    0.16,
+    2.46
+   ],
+   "pancreas, d3-ultra alone": [
+    -3.28,
+    -4.51,
+    -2.05
+   ],
+   "pancreas, d3-ultra + literature": [
+    -6.64,
+    -7.97,
+    -5.31
+   ]
+  },
+  "heart_donor_ci_vs_M2_r1_pp": {
+   "heart, Jev 1.13 alone": [
+    23.93,
+    11.15,
+    36.34,
+    5.41
+   ],
+   "heart, Jev 1.13 + literature": [
+    18.11,
+    6.45,
+    29.95,
+    1.95
+   ],
+   "heart, d3-ultra alone": [
+    19.52,
+    5.87,
+    32.98,
+    -5.69
+   ],
+   "heart, d3-ultra + literature": [
+    8.61,
+    -0.01,
+    18.79,
+    -2.47
+   ]
+  },
+  "heart_macro_ci_vs_M2_pp": {
+   "jevonly r1": [
+    -0.2,
+    8.3
+   ],
+   "jevonly r2": [
+    -0.1,
+    8.1
+   ],
+   "jevonly r3": [
+    0.2,
+    8.4
+   ],
+   "cooc r1": [
+    -4.7,
+    5.4
+   ],
+   "cooc r2": [
+    -4.8,
+    5.4
+   ],
+   "cooc r3": [
+    -2.8,
+    6.0
+   ]
+  },
+  "heart_donor_ci_vs_M1n_posthoc_r1_pp": {
+   "jevonly": [
+    20.27,
+    -1.6,
+    34.7
+   ],
+   "cooc": [
+    14.45,
+    -7.13,
+    31.14
+   ]
+  }
+ },
+ "massspec": {
+  "targets": 37061,
+  "known_wrong": 3579,
+  "eng": {
+   "accepted": 21939,
+   "pct_vs_mokapot": -18.9,
+   "ci95": [
+    -21.6,
+    -16.9
+   ],
+   "auroc": 0.871
+  },
+  "jev": {
+   "accepted": 18906,
+   "pct_vs_mokapot": -30.1,
+   "ci95": [
+    -33.8,
+    -21.7
+   ],
+   "auroc": 0.883
+  },
+  "d3": {
+   "accepted": 22197,
+   "pct_vs_mokapot": -17.9,
+   "ci95": [
+    -21.2,
+    -14.2
+   ],
+   "auroc": 0.89
+  },
+  "mok": {
+   "accepted": 27047,
+   "pct_vs_mokapot": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "auroc": 0.91
+  },
+  "trn": {
+   "accepted": 27071,
+   "pct_vs_mokapot": 0.1,
+   "ci95": [
+    -0.5,
+    0.5
+   ],
+   "auroc": 0.911
+  },
+  "borderline": {
+   "n": 2799,
+   "known_wrong": 543,
+   "auroc": {
+    "mok": 0.653,
+    "jev": 0.564,
+    "d3": 0.551
+   }
+  },
+  "share_pct_median_at_20000": {
+   "mok": 72.79392645535191,
+   "d3": 59.13732960050967,
+   "jev": 50.678980006323734,
+   "eng": 59.180243953467546
+  },
+  "subset_mokapot_untrainable_at_500": true
+ }
+}

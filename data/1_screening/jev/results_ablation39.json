@@ -1,0 +1,938 @@
+[
+ {
+  "review": "Ali_2024",
+  "overall": {
+   "tau": 0.18,
+   "rec": 1.0,
+   "wss": 0.843,
+   "aurc": 0.147,
+   "auto": 1.0
+  },
+  "and_min": {
+   "tau": 0.03,
+   "rec": 0.833,
+   "wss": 0.212,
+   "aurc": 0.375,
+   "auto": 0.029
+  },
+  "or_max": {
+   "tau": 0.48,
+   "rec": 1.0,
+   "wss": 0.746,
+   "aurc": 0.631,
+   "auto": 1.0
+  }
+ },
+ {
+  "review": "Aouad_2024",
+  "overall": {
+   "tau": 0.06,
+   "rec": 1.0,
+   "wss": 0.816,
+   "aurc": 0.271,
+   "auto": 1.0
+  },
+  "and_min": {
+   "tau": 0.2,
+   "rec": 1.0,
+   "wss": 0.647,
+   "aurc": 0.164,
+   "auto": 1.0
+  },
+  "or_max": {
+   "tau": 0.71,
+   "rec": 0.667,
+   "wss": 0.225,
+   "aurc": 0.801,
+   "auto": 0.669
+  }
+ },
+ {
+  "review": "Attai_2022",
+  "overall": {
+   "tau": 0.11,
+   "rec": 1.0,
+   "wss": 0.487,
+   "aurc": 0.196,
+   "auto": 1.0
+  },
+  "and_min": {
+   "tau": 0.09,
+   "rec": 1.0,
+   "wss": 0.373,
+   "aurc": 0.243,
+   "auto": 1.0
+  },
+  "or_max": {
+   "tau": 0.7,
+   "rec": 0.974,
+   "wss": 0.385,
+   "aurc": 0.715,
+   "auto": 1.0
+  }
+ },
+ {
+  "review": "Bindoli_2024a",
+  "overall": {
+   "tau": 0.49,
+   "rec": 1.0,
+   "wss": 0.611,
+   "aurc": 0.249,
+   "auto": 1.0
+  },
+  "and_min": {
+   "tau": 0.04,
+   "rec": 1.0,
+   "wss": 0.043,
+   "aurc": 0.647,
+   "auto": 1.0
+  },
+  "or_max": {
+   "tau": 0.84,
+   "rec": 0.917,
+   "wss": 0.054,
+   "aurc": 0.804,
+   "auto": 0.92
+  }
+ },
+ {
+  "review": "Burska_2023",
+  "overall": {
+   "tau": 0.48,
+   "rec": 0.87,
+   "wss": 0.693,
+   "aurc": 0.05,
+   "auto": 0.94
+  },
+  "and_min": {
+   "tau": 0.04,
+   "rec": 0.913,
+   "wss": 0.125,
+   "aurc": 0.514,
+   "auto": 0.134
+  },
+  "or_max": {
+   "tau": 0.98,
+   "rec": 0.957,
+   "wss": 0.44,
+   "aurc": 0.883,
+   "auto": 1.0
+  }
+ },
+ {
+  "review": "Butink_2023",
+  "overall": {
+   "tau": 0.19,
+   "rec": 1.0,
+   "wss": 0.824,
+   "aurc": 0.046,
+   "auto": 1.0
+  },
+  "and_min": {
+   "tau": 0.14,
+   "rec": 1.0,
+   "wss": 0.893,
+   "aurc": 0.023,
+   "auto": 1.0
+  },
+  "or_max": {
+   "tau": 0.84,
+   "rec": 1.0,
+   "wss": 0.856,
+   "aurc": 0.585,
+   "auto": 1.0
+  }
+ },
+ {
+  "review": "Cozim-Melges_2024",
+  "overall": {
+   "tau": 0.56,
+   "rec": 1.0,
+   "wss": 0.22,
+   "aurc": 0.557,
+   "auto": 1.0
+  },
+  "and_min": {
+   "tau": 0.17,
+   "rec": 1.0,
+   "wss": 0.045,
+   "aurc": 0.581,
+   "auto": 1.0
+  },
+  "or_max": {
+   "tau": 0.96,
+   "rec": 0.947,
+   "wss": -0.042,
+   "aurc": 0.846,
+   "auto": 0.984
+  }
+ },
+ {
+  "review": "Endedijk_2021",
+  "overall": {
+   "tau": 0.19,
+   "rec": 1.0,
+   "wss": 0.743,
+   "aurc": 0.027,
+   "auto": 1.0
+  },
+  "and_min": {
+   "tau": 0.25,
+   "rec": 0.941,
+   "wss": 0.692,
+   "aurc": 0.022,
+   "auto": 0.76
+  },
+  "or_max": {
+   "tau": 0.96,
+   "rec": 0.941,
+   "wss": 0.309,
+   "aurc": 0.713,
+   "auto": 0.636
+  }
+ },
+ {
+  "review": "Farisogullari_2023",
+  "overall": {
+   "tau": 0.52,
+   "rec": 1.0,
+   "wss": 0.842,
+   "aurc": 0.013,
+   "auto": 1.0
+  },
+  "and_min": {
+   "tau": 0.03,
+   "rec": 1.0,
+   "wss": 0.326,
+   "aurc": 0.289,
+   "auto": 1.0
+  },
+  "or_max": {
+   "tau": 0.94,
+   "rec": 1.0,
+   "wss": 0.804,
+   "aurc": 0.415,
+   "auto": 1.0
+  }
+ },
+ {
+  "review": "Fejza_2023",
+  "overall": {
+   "tau": 0.83,
+   "rec": 0.889,
+   "wss": 0.826,
+   "aurc": 0.076,
+   "auto": 0.629
+  },
+  "and_min": {
+   "tau": 0.61,
+   "rec": 0.889,
+   "wss": 0.82,
+   "aurc": 0.02,
+   "auto": 0.983
+  },
+  "or_max": {
+   "tau": 0.92,
+   "rec": 1.0,
+   "wss": 0.786,
+   "aurc": 0.415,
+   "auto": 1.0
+  }
+ },
+ {
+  "review": "Fong_2021",
+  "overall": {
+   "tau": 0.15,
+   "rec": 0.875,
+   "wss": 0.806,
+   "aurc": 0.005,
+   "auto": 0.866
+  },
+  "and_min": {
+   "tau": 0.1,
+   "rec": 0.875,
+   "wss": 0.795,
+   "aurc": 0.003,
+   "auto": 0.856
+  },
+  "or_max": {
+   "tau": 0.88,
+   "rec": 1.0,
+   "wss": 0.558,
+   "aurc": 0.524,
+   "auto": 1.0
+  }
+ },
+ {
+  "review": "Harms_2024",
+  "overall": {
+   "tau": 0.77,
+   "rec": 1.0,
+   "wss": 0.722,
+   "aurc": 0.156,
+   "auto": 1.0
+  },
+  "and_min": {
+   "tau": 0.59,
+   "rec": 1.0,
+   "wss": 0.633,
+   "aurc": 0.368,
+   "auto": 1.0
+  },
+  "or_max": {
+   "tau": 0.87,
+   "rec": 1.0,
+   "wss": 0.663,
+   "aurc": 0.68,
+   "auto": 1.0
+  }
+ },
+ {
+  "review": "Hilfiker_2017",
+  "overall": {
+   "tau": 0.03,
+   "rec": 0.991,
+   "wss": 0.405,
+   "aurc": 0.217,
+   "auto": 1.0
+  },
+  "and_min": {
+   "tau": 0.04,
+   "rec": 0.946,
+   "wss": 0.525,
+   "aurc": 0.081,
+   "auto": 0.571
+  },
+  "or_max": {
+   "tau": 0.49,
+   "rec": 0.955,
+   "wss": 0.502,
+   "aurc": 0.467,
+   "auto": 1.0
+  }
+ },
+ {
+  "review": "Lauper_2021",
+  "overall": {
+   "tau": 0.44,
+   "rec": 0.95,
+   "wss": 0.852,
+   "aurc": 0.029,
+   "auto": 1.0
+  },
+  "and_min": {
+   "tau": 0.29,
+   "rec": 0.95,
+   "wss": 0.857,
+   "aurc": 0.016,
+   "auto": 1.0
+  },
+  "or_max": {
+   "tau": 0.86,
+   "rec": 0.95,
+   "wss": 0.778,
+   "aurc": 0.565,
+   "auto": 1.0
+  }
+ },
+ {
+  "review": "Leenaars_2020",
+  "overall": {
+   "tau": 0.52,
+   "rec": 0.961,
+   "wss": 0.631,
+   "aurc": 0.111,
+   "auto": 1.0
+  },
+  "and_min": {
+   "tau": 0.35,
+   "rec": 0.941,
+   "wss": 0.574,
+   "aurc": 0.082,
+   "auto": 0.737
+  },
+  "or_max": {
+   "tau": 0.65,
+   "rec": 0.961,
+   "wss": 0.628,
+   "aurc": 0.255,
+   "auto": 1.0
+  }
+ },
+ {
+  "review": "Low_2023",
+  "overall": {
+   "tau": 0.29,
+   "rec": 1.0,
+   "wss": 0.824,
+   "aurc": 0.045,
+   "auto": 1.0
+  },
+  "and_min": {
+   "tau": 0.11,
+   "rec": 1.0,
+   "wss": 0.815,
+   "aurc": 0.046,
+   "auto": 1.0
+  },
+  "or_max": {
+   "tau": 0.88,
+   "rec": 1.0,
+   "wss": 0.31,
+   "aurc": 0.856,
+   "auto": 1.0
+  }
+ },
+ {
+  "review": "Maciel_2024",
+  "overall": {
+   "tau": 0.07,
+   "rec": 1.0,
+   "wss": 0.82,
+   "aurc": 0.062,
+   "auto": 1.0
+  },
+  "and_min": {
+   "tau": 0.06,
+   "rec": 1.0,
+   "wss": 0.839,
+   "aurc": 0.04,
+   "auto": 1.0
+  },
+  "or_max": {
+   "tau": 0.46,
+   "rec": 1.0,
+   "wss": 0.691,
+   "aurc": 0.667,
+   "auto": 1.0
+  }
+ },
+ {
+  "review": "Mejean_2024",
+  "overall": {
+   "tau": 0.45,
+   "rec": 0.923,
+   "wss": 0.352,
+   "aurc": 0.348,
+   "auto": 0.66
+  },
+  "and_min": {
+   "tau": 0.36,
+   "rec": 1.0,
+   "wss": 0.496,
+   "aurc": 0.259,
+   "auto": 1.0
+  },
+  "or_max": {
+   "tau": 0.36,
+   "rec": 1.0,
+   "wss": 0.496,
+   "aurc": 0.259,
+   "auto": 1.0
+  }
+ },
+ {
+  "review": "Menon_2022",
+  "overall": {
+   "tau": 0.09,
+   "rec": 1.0,
+   "wss": 0.703,
+   "aurc": 0.217,
+   "auto": 1.0
+  },
+  "and_min": {
+   "tau": 0.15,
+   "rec": 1.0,
+   "wss": 0.682,
+   "aurc": 0.165,
+   "auto": 1.0
+  },
+  "or_max": {
+   "tau": 0.9,
+   "rec": 1.0,
+   "wss": 0.465,
+   "aurc": 0.822,
+   "auto": 1.0
+  }
+ },
+ {
+  "review": "Mohamed_2023",
+  "overall": {
+   "tau": 0.41,
+   "rec": 0.75,
+   "wss": 0.631,
+   "aurc": 0.027,
+   "auto": 0.681
+  },
+  "and_min": {
+   "tau": 0.07,
+   "rec": 1.0,
+   "wss": 0.546,
+   "aurc": 0.095,
+   "auto": 1.0
+  },
+  "or_max": {
+   "tau": 0.96,
+   "rec": 0.938,
+   "wss": 0.134,
+   "aurc": 0.841,
+   "auto": 0.844
+  }
+ },
+ {
+  "review": "Monschau_2025",
+  "overall": {
+   "tau": 0.21,
+   "rec": 1.0,
+   "wss": 0.571,
+   "aurc": 0.118,
+   "auto": 1.0
+  },
+  "and_min": {
+   "tau": 0.15,
+   "rec": 1.0,
+   "wss": 0.568,
+   "aurc": 0.107,
+   "auto": 1.0
+  },
+  "or_max": {
+   "tau": 0.9,
+   "rec": 1.0,
+   "wss": 0.458,
+   "aurc": 0.957,
+   "auto": 1.0
+  }
+ },
+ {
+  "review": "Moran_2020",
+  "overall": {
+   "tau": 0.14,
+   "rec": 0.857,
+   "wss": 0.653,
+   "aurc": 0.005,
+   "auto": 0.673
+  },
+  "and_min": {
+   "tau": 0.06,
+   "rec": 1.0,
+   "wss": 0.675,
+   "aurc": 0.083,
+   "auto": 1.0
+  },
+  "or_max": {
+   "tau": 0.59,
+   "rec": 1.0,
+   "wss": 0.716,
+   "aurc": 0.452,
+   "auto": 1.0
+  }
+ },
+ {
+  "review": "Moseng_2024",
+  "overall": {
+   "tau": 0.05,
+   "rec": 0.714,
+   "wss": 0.232,
+   "aurc": 0.234,
+   "auto": 0.168
+  },
+  "and_min": {
+   "tau": 0.02,
+   "rec": 1.0,
+   "wss": 0.03,
+   "aurc": 0.714,
+   "auto": 1.0
+  },
+  "or_max": {
+   "tau": 0.88,
+   "rec": 0.714,
+   "wss": 0.391,
+   "aurc": 0.655,
+   "auto": 0.585
+  }
+ },
+ {
+  "review": "Parodis_2023a",
+  "overall": {
+   "tau": 0.35,
+   "rec": 1.0,
+   "wss": 0.871,
+   "aurc": 0.013,
+   "auto": 1.0
+  },
+  "and_min": {
+   "tau": 0.16,
+   "rec": 0.8,
+   "wss": 0.725,
+   "aurc": 0.021,
+   "auto": 0.752
+  },
+  "or_max": {
+   "tau": 0.67,
+   "rec": 1.0,
+   "wss": 0.87,
+   "aurc": 0.536,
+   "auto": 1.0
+  }
+ },
+ {
+  "review": "Parodis_2023b",
+  "overall": {
+   "tau": 0.79,
+   "rec": 0.833,
+   "wss": 0.756,
+   "aurc": 0.033,
+   "auto": 0.946
+  },
+  "and_min": {
+   "tau": 0.41,
+   "rec": 0.833,
+   "wss": 0.693,
+   "aurc": 0.012,
+   "auto": 0.743
+  },
+  "or_max": {
+   "tau": 0.96,
+   "rec": 0.833,
+   "wss": 0.377,
+   "aurc": 0.568,
+   "auto": 0.63
+  }
+ },
+ {
+  "review": "Rinne_2021",
+  "overall": {
+   "tau": 0.15,
+   "rec": 0.963,
+   "wss": 0.528,
+   "aurc": 0.063,
+   "auto": 1.0
+  },
+  "and_min": {
+   "tau": 0.12,
+   "rec": 0.944,
+   "wss": 0.386,
+   "aurc": 0.154,
+   "auto": 0.444
+  },
+  "or_max": {
+   "tau": 0.56,
+   "rec": 0.963,
+   "wss": 0.421,
+   "aurc": 0.317,
+   "auto": 1.0
+  }
+ },
+ {
+  "review": "Sanchez-Alvarez_2023",
+  "overall": {
+   "tau": 0.46,
+   "rec": 1.0,
+   "wss": 0.827,
+   "aurc": 0.038,
+   "auto": 1.0
+  },
+  "and_min": {
+   "tau": 0.23,
+   "rec": 0.812,
+   "wss": 0.589,
+   "aurc": 0.051,
+   "auto": 0.635
+  },
+  "or_max": {
+   "tau": 0.83,
+   "rec": 1.0,
+   "wss": 0.727,
+   "aurc": 0.453,
+   "auto": 1.0
+  }
+ },
+ {
+  "review": "Sepriano_2022",
+  "overall": {
+   "tau": 0.41,
+   "rec": 0.818,
+   "wss": 0.625,
+   "aurc": 0.033,
+   "auto": 0.724
+  },
+  "and_min": {
+   "tau": 0.06,
+   "rec": 0.909,
+   "wss": 0.127,
+   "aurc": 0.506,
+   "auto": 0.131
+  },
+  "or_max": {
+   "tau": 0.92,
+   "rec": 1.0,
+   "wss": 0.642,
+   "aurc": 0.736,
+   "auto": 1.0
+  }
+ },
+ {
+  "review": "Taschner_2024",
+  "overall": {
+   "tau": 0.32,
+   "rec": 0.833,
+   "wss": 0.775,
+   "aurc": 0.013,
+   "auto": 0.825
+  },
+  "and_min": {
+   "tau": 0.21,
+   "rec": 1.0,
+   "wss": 0.798,
+   "aurc": 0.014,
+   "auto": 1.0
+  },
+  "or_max": {
+   "tau": 0.94,
+   "rec": 1.0,
+   "wss": 0.539,
+   "aurc": 0.876,
+   "auto": 1.0
+  }
+ },
+ {
+  "review": "Tektonidou_2019",
+  "overall": {
+   "tau": 0.43,
+   "rec": 1.0,
+   "wss": 0.657,
+   "aurc": 0.176,
+   "auto": 1.0
+  },
+  "and_min": {
+   "tau": 0.1,
+   "rec": 1.0,
+   "wss": 0.087,
+   "aurc": 0.564,
+   "auto": 1.0
+  },
+  "or_max": {
+   "tau": 0.01,
+   "rec": 1.0,
+   "wss": -0.046,
+   "aurc": 0.938,
+   "auto": 1.0
+  }
+ },
+ {
+  "review": "Tumkaya_2018",
+  "overall": {
+   "tau": 0.16,
+   "rec": 0.857,
+   "wss": 0.634,
+   "aurc": 0.05,
+   "auto": 0.663
+  },
+  "and_min": {
+   "tau": 0.12,
+   "rec": 1.0,
+   "wss": 0.497,
+   "aurc": 0.161,
+   "auto": 1.0
+  },
+  "or_max": {
+   "tau": 0.5,
+   "rec": 1.0,
+   "wss": 0.392,
+   "aurc": 0.742,
+   "auto": 1.0
+  }
+ },
+ {
+  "review": "Viguie_2020",
+  "overall": {
+   "tau": 0.35,
+   "rec": 1.0,
+   "wss": 0.859,
+   "aurc": 0.005,
+   "auto": 1.0
+  },
+  "and_min": {
+   "tau": 0.31,
+   "rec": 1.0,
+   "wss": 0.875,
+   "aurc": 0.004,
+   "auto": 1.0
+  },
+  "or_max": {
+   "tau": 0.85,
+   "rec": 0.962,
+   "wss": 0.712,
+   "aurc": 0.428,
+   "auto": 1.0
+  }
+ },
+ {
+  "review": "Walker_2018",
+  "overall": {
+   "tau": 0.33,
+   "rec": 1.0,
+   "wss": 0.891,
+   "aurc": 0.014,
+   "auto": 1.0
+  },
+  "and_min": {
+   "tau": 0.1,
+   "rec": 0.917,
+   "wss": 0.652,
+   "aurc": 0.019,
+   "auto": 0.718
+  },
+  "or_max": {
+   "tau": 0.96,
+   "rec": 1.0,
+   "wss": 0.896,
+   "aurc": 0.379,
+   "auto": 1.0
+  }
+ },
+ {
+  "review": "Webers_2022",
+  "overall": {
+   "tau": 0.45,
+   "rec": 1.0,
+   "wss": 0.814,
+   "aurc": 0.515,
+   "auto": 1.0
+  },
+  "and_min": {
+   "tau": 0.18,
+   "rec": 1.0,
+   "wss": 0.718,
+   "aurc": 0.59,
+   "auto": 1.0
+  },
+  "or_max": {
+   "tau": 0.61,
+   "rec": 1.0,
+   "wss": 0.807,
+   "aurc": 0.784,
+   "auto": 1.0
+  }
+ },
+ {
+  "review": "Zakeri-Nasrabadi_2023b",
+  "overall": {
+   "tau": 0.17,
+   "rec": 0.778,
+   "wss": 0.772,
+   "aurc": 0.009,
+   "auto": 0.831
+  },
+  "and_min": {
+   "tau": 0.2,
+   "rec": 1.0,
+   "wss": 0.714,
+   "aurc": 0.03,
+   "auto": 1.0
+  },
+  "or_max": {
+   "tau": 0.63,
+   "rec": 1.0,
+   "wss": 0.857,
+   "aurc": 0.775,
+   "auto": 1.0
+  }
+ },
+ {
+  "review": "Zanframundo_2022",
+  "overall": {
+   "tau": 0.27,
+   "rec": 1.0,
+   "wss": 0.747,
+   "aurc": 0.119,
+   "auto": 1.0
+  },
+  "and_min": {
+   "tau": 0.18,
+   "rec": 1.0,
+   "wss": 0.6,
+   "aurc": 0.103,
+   "auto": 1.0
+  },
+  "or_max": {
+   "tau": 0.55,
+   "rec": 0.875,
+   "wss": 0.473,
+   "aurc": 0.303,
+   "auto": 0.902
+  }
+ },
+ {
+  "review": "van_Ballegooijen_2024",
+  "overall": {
+   "tau": 0.39,
+   "rec": 0.882,
+   "wss": 0.67,
+   "aurc": 0.026,
+   "auto": 0.764
+  },
+  "and_min": {
+   "tau": 0.2,
+   "rec": 0.882,
+   "wss": 0.488,
+   "aurc": 0.03,
+   "auto": 0.543
+  },
+  "or_max": {
+   "tau": 0.96,
+   "rec": 0.941,
+   "wss": 0.616,
+   "aurc": 0.49,
+   "auto": 0.333
+  }
+ },
+ {
+  "review": "van_de_Schoot_2025",
+  "overall": {
+   "tau": 0.56,
+   "rec": 0.967,
+   "wss": 0.919,
+   "aurc": 0.004,
+   "auto": 1.0
+  },
+  "and_min": {
+   "tau": 0.28,
+   "rec": 0.933,
+   "wss": 0.789,
+   "aurc": 0.005,
+   "auto": 0.838
+  },
+  "or_max": {
+   "tau": 0.92,
+   "rec": 0.933,
+   "wss": 0.668,
+   "aurc": 0.523,
+   "auto": 0.305
+  }
+ },
+ {
+  "review": "van_der_Valk_2021",
+  "overall": {
+   "tau": 0.05,
+   "rec": 1.0,
+   "wss": 0.325,
+   "aurc": 0.205,
+   "auto": 1.0
+  },
+  "and_min": {
+   "tau": 0.05,
+   "rec": 1.0,
+   "wss": 0.311,
+   "aurc": 0.264,
+   "auto": 1.0
+  },
+  "or_max": {
+   "tau": 0.52,
+   "rec": 1.0,
+   "wss": 0.533,
+   "aurc": 0.427,
+   "auto": 1.0
+  }
+ }
+]

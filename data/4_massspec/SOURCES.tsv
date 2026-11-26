@@ -1,0 +1,52 @@
+paper_path	study_source	role	modified	note
+README.md	new	doc	new	
+baseline/tB.log	studies/x2/logs/baselines/tB.log	baseline	no	
+baseline/tB.mokapot.decoy.psms.txt	studies/x2/results/baselines/mokapot/tB.mokapot.decoy.psms.txt	baseline	no	
+baseline/tB.mokapot.psms.txt	studies/x2/results/baselines/mokapot/tB.mokapot.psms.txt	baseline	no	
+baseline/tB_fm_ev.log	studies/x2/logs/baselines/tB_fm_ev.log	baseline	no	
+baseline/tB_fm_ev.mokapot.decoy.psms.txt	studies/x2/results/baselines/mokapot/tB_fm_ev.mokapot.decoy.psms.txt	baseline	no	
+baseline/tB_fm_ev.mokapot.psms.txt	studies/x2/results/baselines/mokapot/tB_fm_ev.mokapot.psms.txt	baseline	no	
+code/eval_tierB_all.py	studies/x2/scripts/eval_tierB_all.py	code	paths-only	path constants/usage adapted to this layout
+code/make_fm_pins.py	studies/x2/scripts/make_fm_pins.py	code	paths-only	path constants/usage adapted to this layout
+code/master_eval.py	studies/x2/scripts/master_eval.py	code	paths-only	path constants IN/JEV/D3U/BASE/CMP under the case folder
+code/mzxml2mzml.py	studies/x2/scripts/mzxml2mzml.py	code	no	
+code/psm_serializer.py	studies/x2/scripts/psm_serializer.py	code	no	
+code/run_boundary.py	studies/x2/scripts/run_boundary.py	code	paths-only	sys.path to ../../shared jevlib, cache default jev/, usage lines
+code/run_d3_all.py	studies/x2/scripts/run_d3_all.py	code	paths-only	writes compare/d3_all.tsv, d3u/sage_d3.pin; cache d3u/cache_all.jsonl; shared jevlib
+code/serializer_test.py	studies/x2/scripts/serializer_test.py	code	paths-only	docstring run line only
+code/show_requests.py	new	code	new	new: regenerates example requests offline
+code/small_data.py	studies/x2/scripts/small_data.py	code	paths-only	reads compare/d3_all.tsv, input/*.pin; writes compare/small_data.tsv
+code/tierB_evidence.py	studies/x2/scripts/tierB_evidence.py	code	paths-only	path constants/usage adapted to this layout
+compare/d3_all.tsv	studies/x2/results/d3_all.tsv	compare	no	
+compare/master_result.txt	studies/x2/results/master_result.txt	compare	no	
+compare/small_data.tsv	studies/x2/results/small_data.tsv	compare	no	
+compare/small_data_result.txt	studies/x2/results/small_data_result.txt	compare	no	
+d3u/cache_all.jsonl	studies/x2/runs/d3u/cache_all.jsonl	d3u	no	
+d3u/run_d3_all.log	studies/x2/logs/d3u/run_d3_all.log	d3u	no	
+d3u/sage_d3.pin	studies/x2/data/processed/d3u/sage_d3.pin	d3u	no	
+d3u/tBd3.log	studies/x2/logs/d3u/tBd3.log	d3u	no	
+d3u/tBd3.mokapot.decoy.psms.txt	studies/x2/results/d3u/mokapot/tBd3.mokapot.decoy.psms.txt	d3u	no	
+d3u/tBd3.mokapot.psms.txt	studies/x2/results/d3u/mokapot/tBd3.mokapot.psms.txt	d3u	no	
+input/EXTERNAL.tsv	new	doc	new	
+input/evidence.tsv	studies/x2/data/processed/tierB/evidence.tsv	input	no	
+input/example_request_d3u.json	new	input	new	generated
+input/example_request_jev.json	new	input	new	generated
+input/fetch.sh	new	doc	new	
+input/human_arath.fasta	studies/x2/data/processed/tierB/human_arath.fasta	input	no	
+input/sage_ev.pin	studies/x2/data/processed/tierB/sage_ev.pin	input	no	
+input/sage_nopep.pin	studies/x2/data/processed/tierB/sage_nopep.pin	input	no	
+input/tierB_sage.json	studies/x2/scripts/tierB_sage.json	input	no	
+input/sage_out/matched_fragments.sage.tsv	studies/x2/data/processed/tierB/sage_out/matched_fragments.sage.tsv	input	no	
+input/sage_out/results.json	studies/x2/data/processed/tierB/sage_out/results.json	input	no	
+input/sage_out/results.sage.pin	studies/x2/data/processed/tierB/sage_out/results.sage.pin	input	no	
+input/sage_out/results.sage.tsv	studies/x2/data/processed/tierB/sage_out/results.sage.tsv	input	no	
+input/sage_out/sage.log	studies/x2/logs/baselines/sage.log	input	no	renamed from logs/baselines/sage.log
+jev/boundary_jev_cache_tB_all_choice.jsonl	studies/x2/runs/jev/boundary_jev_cache_tB_all_choice.jsonl	jev	no	
+jev/boundary_jev_cache_tB_sage_rel_ev.jsonl	studies/x2/runs/jev/boundary_jev_cache_tB_sage_rel_ev.jsonl	jev	no	
+jev/sage_jev.pin	studies/x2/data/processed/jev/sage_jev.pin	jev	no	
+jev/tB_all_choice.tsv	studies/x2/runs/jev/tB_all_choice.tsv	jev	no	
+jev/tB_boundary_sage_rel_ev.tsv	studies/x2/runs/jev/tB_boundary_sage_rel_ev.tsv	jev	no	
+jev/tBjev.log	studies/x2/logs/jev/tBjev.log	jev	no	
+jev/tBjev.mokapot.decoy.psms.txt	studies/x2/results/jev/mokapot/tBjev.mokapot.decoy.psms.txt	jev	no	
+jev/tBjev.mokapot.psms.txt	studies/x2/results/jev/mokapot/tBjev.mokapot.psms.txt	jev	no	
+SOURCES.tsv	new	doc	new	this file

@@ -1,0 +1,3 @@
+path_expected	source_url_or_accession	sha256	bytes	how_to_get
+input/b1931.mzXML	https://www.ebi.ac.uk/pride/archive/projects/PXD001468 (run b1931_293T_proteinID_11A, raw converted to mzXML)	6ebb802b653625404445dd8e25f46308c454111f622f25976bc9b8044244d89f	1457810475	Download the PXD001468 run b1931_293T_proteinID_11A from PRIDE; mzXML conversion command not recorded (gap). Used only by code/mzxml2mzml.py.
+input/b1931.ms2.mzML	derived from input/b1931.mzXML with code/mzxml2mzml.py (MS2-only mzML)	5024717720bb26b1f9d8de383ce3457b96d3e579ee29438d467ff118d2866659	266100572	python3 code/mzxml2mzml.py (see script usage); needed only by code/tierB_evidence.py and the Sage search

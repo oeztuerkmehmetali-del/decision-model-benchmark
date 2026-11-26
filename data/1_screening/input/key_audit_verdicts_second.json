@@ -1,0 +1,521 @@
+{
+"R084": {
+"verdict": "EXCLUDE",
+"clause": "Focus is not ML for tropical disease",
+"reason": "This is a cross-sectional health facility survey of malaria case management quality in Haiti, with no machine learning component, so it clearly fails the requirement that the focus be ML for tropical disease diagnosis."
+},
+"R090": {
+"verdict": "INCLUDE",
+"clause": "Population is AOSD (patients met Yamaguchi's criteria) and abstract reports treatment with included interventions (NSAIDs, corticosteroids, and biological agents) and efficacy outcomes.",
+"reason": "The abstract describes AOSD patients who met classification criteria and were treated with included interventions (NSAIDs, corticosteroids, and biological agents) and reports treatment responses, so it plausibly meets the inclusion criteria without any exclusion criterion clearly applying."
+},
+"R028": {
+"verdict": "INCLUDE",
+"clause": "Population and intervention: patients with AOSD treated with tocilizumab (a listed bDMARD), with efficacy outcomes reported.",
+"reason": "The abstract reports a study of TCZ (an included bDMARD) in refractory AOSD patients (an included population) with efficacy and safety outcomes, and no exclusion criterion is clearly failed."
+},
+"R055": {
+"verdict": "INCLUDE",
+"clause": "Population and intervention: sJIA patients treated with tocilizumab (TCZ), an included bDMARD",
+"reason": "The abstract reports a long-term extension study of tocilizumab (8 mg/kg q2w) in 67 patients with active systemic JIA, an explicitly included population and intervention, with efficacy outcomes (ACR Pedi responses, corticosteroid reduction, growth) reported and no exclusion criterion apparent."
+},
+"R062": {
+"verdict": "INCLUDE",
+"clause": "Population: sJIA patients; Intervention: canakinumab (bDMARD)",
+"reason": "The abstract reports a pooled clinical trial analysis of canakinumab efficacy and safety across sJIA patients spanning children to young adults, directly matching the Still's disease population and an explicitly listed bDMARD intervention."
+},
+"R132": {
+"verdict": "INCLUDE",
+"clause": "Intervention criterion: canakinumab (CAM) is an explicitly listed included bDMARD for treatment of sJIA.",
+"reason": "The abstract reports a Phase III trial of canakinumab (an included bDMARD) in SJIA patients (an included population) with relevant efficacy outcomes (aACR30/50/70 responses and corticosteroid tapering), so no inclusion criterion is failed and no exclusion criterion clearly applies."
+},
+"R074": {
+"verdict": "INCLUDE",
+"clause": "Inclusion criteria (1)\u2013(4) met: human patients with RMDs (SLE, RA) plus healthy controls, case\u2013control-style ex vivo comparison, biological material from peripheral blood (PBMCs), English language; IFN type specified (IFN-\u03b1) and measured by a flow-cytometry assay correlating with disease activity, with no exclusion criterion clearly applying.",
+"reason": "The abstract reports an original ex vivo study of peripheral blood PBMCs from SLE and RA patients and healthy controls in which IFN-\u03b1 production by pDCs was quantified by flow cytometry and correlated with disease activity, so it plausibly satisfies all inclusion criteria (human RMD data, case\u2013control-like design, peripheral blood material, English, specified IFN type, assay/biomarker-style result) and no exclusion criterion is clearly triggered."
+},
+"R126": {
+"verdict": "INCLUDE",
+"clause": "Inclusion criterion (3): biological material derived from peripheral blood (serum, whole blood, cell subsets)",
+"reason": "The abstract reports serum type I IFN-\u03b1/\u03b2 activity measured by a validated bioassay and IFN-\u03b2-induced responses in peripheral blood mononuclear cells from human SLE/NMO/MS patients and healthy controls, with the IFN type specified and results framed as an assay/signature, so all inclusion criteria are plausibly met and no exclusion criterion clearly applies."
+},
+"R022": {
+"verdict": "EXCLUDE",
+"clause": "Exclusion criterion (2) \u2014 conference abstract / non-original article (EULAR abstract \"SAT0661\")",
+"reason": "The title prefix \"SAT0661\" together with the congress-style structured abstract (Background/Objective/Methods/Results/Conclusions) identifies this as an EULAR annual-meeting conference abstract, which is explicitly excluded even though it otherwise meets the human-RMD, diagnostic-accuracy, whole-blood and English-language inclusion criteria and clearly specifies type I IFN."
+},
+"R051": {
+"verdict": "INCLUDE",
+"clause": "Design as case\u2013control studies (with peripheral blood biological material in human RMD patients)",
+"reason": "This is a case\u2013control study comparing SLE patients (an RMD) with healthy controls, using peripheral blood (PBMCs, plasma) with flow cytometry and ELISA biomarker measurements, and it explicitly specifies type I interferon (IFN-I), so no exclusion criterion clearly applies."
+},
+"R152": {
+"verdict": "UNSURE",
+"clause": "Work outcome domains (sick leave, work status, presenteeism)",
+"reason": "The abstract mentions productivity costs (parents' time away from paid work) but it is unclear whether work outcomes for the children with JIA are evaluated, and the abstract is truncated."
+},
+"R015": {
+"verdict": "INCLUDE",
+"clause": "Work outcome: primary outcome is work productivity measured as hours lost from work due to presenteeism, with sick leave as a secondary outcome",
+"reason": "This is an RCT of a non-pharmacological workplace intervention plus integrated care versus usual care in workers with rheumatoid arthritis (an RMD, not predominantly low back pain), assessing presenteeism and sick leave over 6\u201312 months, so it plausibly meets all inclusion criteria with no clear exclusion criterion applying."
+},
+"R010": {
+"verdict": "INCLUDE",
+"clause": "Outcome \u2014 sick leave (a specified work outcome domain) is measured as a secondary outcome.",
+"reason": "The protocol describes an RCT of non-pharmacological massage and/or exercise therapy versus advice to stay active in people with subacute/long-lasting nonspecific neck pain (an RMD, not predominantly low back pain or work-related injury) that includes sick leave among its outcomes, so it plausibly meets all inclusion criteria with no exclusion clearly applying."
+},
+"R067": {
+"verdict": "EXCLUDE",
+"clause": "Study design: only randomised controlled trials (RCTs) and longitudinal observational studies (LOS) are eligible; this record is a systematic review, which is not an eligible primary study design.",
+"reason": "Although the abstract plausibly matches the other criteria (inflammatory arthritis populations, non-pharmacological interventions, work-related outcomes such as job loss and sickness absenteeism), the record itself is a Cochrane systematic review of three RCTs rather than an RCT or longitudinal observational study, so it clearly fails the study-design eligibility criterion."
+},
+"R005": {
+"verdict": "INCLUDE",
+"clause": "I3 (discriminated agricultural practices)",
+"reason": "The study explicitly discriminates between pastoral practices by comparing bird community structure and diversity across abandoned versus actively grazed pastures (with grazing intensity as an explanatory variable) in a real-life alpine landscape, targeting specific bird species with regression-based analysis and no apparent exclusion criterion triggered."
+},
+"R138": {
+"verdict": "INCLUDE",
+"clause": "I6 (focused on the biodiversity of agroecosystems)",
+"reason": "The two real-field factorial trials (tillage \u00d7 winter cover crop with a bare-fall control) use the fungal-to-bacterial activity ratio and fungal dominance as soil-microbial community-structure indicators of agroecosystem (soil) biodiversity, with significance testing and explicit practice discrimination, so all inclusion criteria are plausibly met and no exclusion (E1\u2013E5) clearly applies."
+},
+"R139": {
+"verdict": "INCLUDE",
+"clause": "Criterion 3: measures of affective aspects of both the teacher\u2013student relationship/interactions and peer relationships",
+"reason": "The abstract reports individual-level questionnaire measures of students' perceptions of both teacher-related factors (value beliefs, achievement pressure, competence support, flow experience) and classmates-related factors (value beliefs, competence support, task-difficulty, flow experience) in a Grade 10 (secondary, ~ages 15\u201316) sample, which plausibly capture affective aspects of both relationship types, with no criterion clearly failed."
+},
+"R143": {
+"verdict": "INCLUDE",
+"clause": "Eligible study design and population: RCT in adults with PsA (an included I-RMD), pharmacological intervention vs placebo, with fatigue assessed as an outcome (FACIT-Fatigue)",
+"reason": "This is a phase III randomized, double-blinded, placebo-controlled trial of IV golimumab in adults with active psoriatic arthritis (an eligible I-RMD) that reports fatigue as a measured outcome via the FACIT-Fatigue scale, so all inclusion criteria are plausibly met and no exclusion criterion applies."
+},
+"R161": {
+"verdict": "INCLUDE",
+"clause": "Study design \u2014 secondary analysis of randomized controlled trial data (BLISS-52 and BLISS-76)",
+"reason": "The study analyzes data from two RCTs in SLE patients (an eligible I-RMD) comparing the pharmacological intervention belimumab against placebo (an eligible comparator) with fatigue measured via FACIT-F as an outcome, so the RCT design requirement and all other inclusion criteria are plausibly met and no exclusion criterion clearly applies."
+},
+"R151": {
+"verdict": "INCLUDE",
+"clause": "relation between ECM molecules and the immune traits of the tumors, as well as the response to immune checkpoint inhibition",
+"reason": "The abstract reports TGF\u03b22 associations with extracellular matrix formation, immune cell infiltration, and enhanced immune checkpoint blockade responsiveness, while no exclusion criteria (case report, letter, poster, non-English) are clearly indicated."
+},
+"R003": {
+"verdict": "INCLUDE",
+"clause": "Original research reporting relation between ECM molecules (CAF subtypes, ECM pathways, ECM-related markers) and immune traits (immune cells, immune scores, immunotherapy response) in cancer patients",
+"reason": "The abstract reports an original English-language bioinformatics study of TNBC patients linking CAF subtypes and extracellular matrix pathways/markers to immune cell infiltration, immune scores, and immunotherapy response rates, with no clear exclusion criterion applying."
+},
+"R113": {
+"verdict": "INCLUDE",
+"clause": "Inclusion criterion: original English research reporting a relation between an ECM(-related) molecule and tumor immune traits (or response to immune checkpoint inhibition), in cancer patients without restriction on cancer type, stage, PD-L1 status, or age.",
+"reason": "The abstract describes an original bioinformatics/experimental study of RCN3 \u2014 explicitly linked to the extracellular matrix and immune regulation \u2014 reporting its associations with immune cell infiltration (TAMs, CAFs, CD8+ T cells), immunosuppressive genes, and chemokines across TCGA cancer types and in CRC patient tissues, so it plausibly satisfies all inclusion criteria and none of the listed exclusions (non-English, unavailable full text, letter, case report, or poster) clearly applies."
+},
+"R095": {
+"verdict": "INCLUDE",
+"clause": "Eligible population: original research on patients diagnosed with cancer, studying the relation between ECM molecules and tumor immune traits.",
+"reason": "The study is an original English-language analysis of ccRCC patients in TCGA that directly reports associations between extracellular matrix remodeling and immune infiltration traits (hot vs. cold tumors), with no clearly applicable exclusion criterion from the title and abstract."
+},
+"R142": {
+"verdict": "INCLUDE",
+"clause": "Content: spatial context of cities, planning as a field of action, and nature all addressed (coastal Mediterranean tourist city of Benidorm, holistic building-intervention strategy, resort gardens and environmental issues)",
+"reason": "The abstract plausibly meets all criteria: it is an English-language empirical case study of a building renovation strategy in Benidorm, Spain (Europe), explicitly engaging the spatial context of coastal touristic cities, planning/regulation as a field of action, and nature via the resort gardens and environmental issues, with no exclusion criterion clearly applying."
+},
+"R063": {
+"verdict": "INCLUDE",
+"clause": "Content: spatial context of cities addressed; planning addressed as a field of action; nature addressed",
+"reason": "The study empirically examines urban land use effects on dragonfly (nature) communities in Germany (Europe) and explicitly closes by calling for conservation planning, so the content criteria are plausibly met and no exclusion criterion is clearly failed from the title/abstract."
+},
+"R023": {
+"verdict": "INCLUDE",
+"clause": "Content: spatial context of cities addressed, planning addressed as a field of action, and nature addressed",
+"reason": "The study of the Municipality of Obrenovac in Serbia (Europe) explicitly examines the link between urban land-use/planning policy and flood resilience/ecosystems in English, appears to be an original empirical case study, and the 2014 flood event it analyzes makes a 2016\u20132022 publication plausible."
+},
+"R000": {
+"verdict": "INCLUDE",
+"clause": "Inclusion \u2014 randomised/quasi-randomised trial evidence of an exercise (physical activity) intervention versus control in patients with breast cancer after active (adjuvant chemo/radiation) treatment, with intervention duration \u22653 weeks and no exclusion criterion (not drugs/nutritional supplements/acupuncture-type/expressive writing, not sleep-focused) applying.",
+"reason": "The abstract reports RCT/quasi-RCT evidence of physical activity versus control after adjuvant therapy (4\u201324 months, far above the 3-week floor) in breast cancer survivors, an included intervention and population with no exclusion clearly applying, and although the visible text emphasises HRQoL/emotional function, the truncated abstract plausibly encompasses CRF/vitality outcomes, so it merits full-text reading."
+},
+"R125": {
+"verdict": "EXCLUDE",
+"clause": "Inclusion criterion requiring a published randomised or quasi-randomised trial that *evaluates the effect* of exercise (or other non-pharmaceutical interventions) on CRF or vitality \u2014 a study protocol describing a planned, not-yet-conducted trial does not evaluate any effect.",
+"reason": "The title and abstract describe only the design, endpoints, and trial registration of a planned phase II RCT (EXERT) of exercise during neoadjuvant chemoradiotherapy for rectal cancer, reporting no outcome data, so the record fails the requirement that the trial have evaluated the effect of the intervention on CRF or vitality."
+},
+"R060": {
+"verdict": "EXCLUDE",
+"clause": "Inclusion: trials must evaluate exercise or other conventional non-pharmaceutical interventions (e.g., CBT, relaxation, massage) on CRF or vitality during/after cancer treatment.",
+"reason": "This randomized trial compares two surgical techniques (minimally invasive vs open esophagectomy) and reports quality of life and late complications, with no exercise, cognitive\u2013behavioural, relaxation, or physiotherapy-related intervention targeting cancer-related fatigue or vitality, so the core inclusion criterion is clearly not met."
+},
+"R128": {
+"verdict": "EXCLUDE",
+"clause": "Exclusion criterion: trials comparing drugs or nutritional supplementations are excluded (review focuses on exercise and conventional physiotherapy-related interventions).",
+"reason": "The intervention is fucoidan, a sulfated polysaccharide from brown seaweed, i.e., a nutritional supplementation, which is explicitly excluded regardless of the fatigue outcome measured."
+},
+"R160": {
+"verdict": "EXCLUDE",
+"clause": "Exclusion criterion: trials comparing drugs or nutritional supplementations were excluded.",
+"reason": "This record is a randomized trial of calcium plus vitamin D supplementation, a nutritional supplement intervention, which is explicitly excluded, and it does not evaluate exercise or a non-pharmaceutical intervention for cancer-related fatigue."
+},
+"R120": {
+"verdict": "EXCLUDE",
+"clause": "studies evaluating extra-articular organ damage were not included as it was felt that this would be a different outcome and thus may need different type of analyses or reporting, as reversibility is rarely achievable",
+"reason": "The study\u2019s primary outcome is incident dementia, a neurological extra-articular outcome representing organ damage for which reversibility is rarely achievable, so the exclusion criterion clearly applies."
+},
+"R007": {
+"verdict": "INCLUDE",
+"clause": "Original longitudinal observational CER study with \u2265100 participants comparing drug effectiveness (allopurinol vs non-initiators) on all-cause mortality, not extra-articular organ damage",
+"reason": "This is an incident-user propensity-matched longitudinal cohort study of 11,854 individuals comparing allopurinol initiation against non-initiation, evaluating a drug-effectiveness outcome (all-cause mortality), with no exclusion criterion (small size or extra-articular organ damage) applying."
+},
+"R086": {
+"verdict": "INCLUDE",
+"clause": "Original longitudinal observational CER study with \u2265100 participants exploring effectiveness of different drugs",
+"reason": "The abstract describes a large longitudinal observational comparative effectiveness study (1,350 and 674 propensity-score-matched pairs, far exceeding 100 participants) directly comparing three immunosuppressive drugs in SLE patients, and serious infections are not extra-articular organ damage, so no exclusion criterion clearly applies."
+},
+"R050": {
+"verdict": "INCLUDE",
+"clause": "Original longitudinal observational CER study with \u2265100 participants (n=127) exploring effectiveness of different drugs (infliximab vs etanercept); no exclusion criterion (extra-articular organ damage) applies.",
+"reason": "This national-register cohort (n=127) prospectively follows PsA patients for up to 24 months and directly compares the effectiveness of two biological drugs (infliximab vs etanercept) in routine care, satisfying the \u2265100-participant longitudinal observational CER threshold while evaluating only articular/functional outcomes rather than extra-articular organ damage."
+},
+"R109": {
+"verdict": "INCLUDE",
+"clause": "MTX administered to RA patients in an in vivo efficacy study",
+"reason": "This in vivo case-control study directly administers MTX to RA patients (including an MTX-only group) and analyses its efficacy on cardiovascular disease risk reduction, meeting all inclusion criteria without violating any exclusion criteria."
+},
+"R123": {
+"verdict": "INCLUDE",
+"clause": "MTX was administered to RA patients and efficacy outcomes were analysed.",
+"reason": "The abstract describes a randomised, double-blind trial in early RA patients where MTX was administered at escalating doses and clinical efficacy endpoints were assessed."
+},
+"R025": {
+"verdict": "INCLUDE",
+"clause": "MTX administration criterion (studies must administer MTX; excluded only if MTX was solely co-administered with other experimental drugs)",
+"reason": "The AGREE trial includes a genuine MTX monotherapy arm (n=209) alongside abatacept+MTX (n=210) in early RA patients, with efficacy outcomes (remission rates, HAQ-DI function, radiographic progression) analyzed in a post hoc analysis of new trial data, so MTX was administered as monotherapy and all inclusion criteria are plausibly met."
+},
+"R155": {
+"verdict": "INCLUDE",
+"clause": "Human subjects more than 10 to calculate the statistics",
+"reason": "This human case-control study includes 59 NSCLC patients and matched non-cancer controls with plasma biomarker measurements and ROC analysis, clearly meeting the sample size requirement and other inclusion criteria without triggering any exclusions."
+},
+"R047": {
+"verdict": "INCLUDE",
+"clause": "Measurement of biomarkers in body fluids including blood (serum or plasma)",
+"reason": "The abstract reports exosomal lncRNA RP5-977B1 measured in serum of NSCLC patients and healthy controls, with ROC/AUC diagnostic and prognostic analyses in testing and multicenter validation cohorts (plausibly >10 human subjects), and no exclusion criterion (animal, cell-line, review, SCLC, vaccine/immunotherapy, or omics without AUC) is clearly triggered."
+},
+"R077": {
+"verdict": "INCLUDE",
+"clause": "Mentioned the cut-off value of the antigen and healthy volunteers' inclusion",
+"reason": "The abstract describes a risk score model with ROC analysis (AUC 0.974, sensitivity 91.5%, specificity 97.8%) distinguishing early-stage lung adenocarcinoma from 178 healthy controls, indicating a cut-off was established and healthy volunteers were included."
+},
+"R029": {
+"verdict": "INCLUDE",
+"clause": "Measurement of biomarkers in body fluids (blood) in NSCLC with high-risk individuals \u2014 serum autoantibody profiling/ELISA in lung adenocarcinoma, benign-nodule (high-risk), and healthy smoker groups, with reported sensitivity/specificity",
+"reason": "This human study reports serum autoantibody biomarkers (protein array screening plus ELISA validation, n up to 264) distinguishing lung adenocarcinoma from healthy smoker controls and CT-positive high-risk benign-nodule subjects with stated sensitivity and specificity, so it plausibly satisfies all inclusion criteria and no exclusion criterion (no animal/cell-line/review/vaccine-therapy/omics-only/SCLC content) clearly applies; only the antigen cut-off value is not explicitly stated in the abstract, but that can be verified at full-text reading."
+},
+"R157": {
+"verdict": "EXCLUDE",
+"clause": "Mentioned the cut-off value of the antigen and healthy volunteers' inclusion",
+"reason": "Although the study is human (242 NSCLC sera vs 270 normal controls) and reports an AUC and combined sensitivity for serum anti-ENO1, the abstract never states a cut-off value for the antigen, so this required inclusion criterion is not met."
+},
+"R129": {
+"verdict": "INCLUDE",
+"clause": "Content (Criterion 2: PGHD/PROMs)",
+"reason": "The abstract explicitly analyzes patient-reported outcomes (PROs) using BREAST-Q domains, which are patient-reported outcome measures (PROMs) and therefore qualify as patient-generated health data under the inclusion criteria."
+},
+"R002": {
+"verdict": "INCLUDE",
+"clause": "Criterion 1 (Study Type): The abstract explicitly identifies the work as a systematic literature review synthesizing pre-existing primary research (phase 3 clinical trials).",
+"reason": "The record is explicitly a systematic literature review of PROM use in phase 3 trials of HR+ advanced breast cancer, and PROMs are a listed category of PGHD; the adult population, chronic condition, and treatment-context criteria are also plausibly met with no exclusion criterion clearly applying."
+},
+"R101": {
+"verdict": "INCLUDE",
+"clause": "Criterion 2: Content \u2013 patient preference information (PPI) as PGHD",
+"reason": "The mixed-methods systematic review explicitly synthesizes patient values and preferences (PPI) regarding LMWH treatment in pregnancy, which falls under the PGHD content criterion as PPI is explicitly listed as a patient-generated data category."
+},
+"R008": {
+"verdict": "INCLUDE",
+"clause": "Criterion 2: Content (PGHD/PROMs)",
+"reason": "The abstract explicitly reviews patient-reported outcome measures (PROMs), which the criteria explicitly categorize as patient-generated health data (PGHD)."
+},
+"R080": {
+"verdict": "UNSURE",
+"clause": "Criterion 3: Population",
+"reason": "The abstract does not report the age distribution of the included patients, making it impossible to determine if the review meets the requirement that 80% of participants are adults aged 16 or older."
+},
+"R099": {
+"verdict": "INCLUDE",
+"clause": "5. Treatment \u2013 Study analyzes PGHD in the context of a treatment or medical recommendation (exercise interventions using digital activity trackers as medical devices).",
+"reason": "This is a systematic review of adult cancer patients (mean age 50\u201370) examining exercise interventions that use digital activity trackers (pedometers, smartphone apps, heart rate monitors, wireless sensors) to capture patient-generated health data, analyzing it in the context of exercise as a treatment/health behavior and the trackers as medical devices, with no exclusion criterion clearly failing."
+},
+"R017": {
+"verdict": "INCLUDE",
+"clause": "SR with meta-analysis of \u22652 RCTs on knee OA investigating a non-pharmacological core management strategy (land-based therapeutic exercise) versus non-exercise control, with relevant outcomes (pain, physical function, QoL)",
+"reason": "The abstract describes a systematic review with meta-analysis of 54 RCTs on land-based therapeutic exercise for knee OA, comparing against non-exercise/non-treatment controls, reporting pain, physical function, and quality of life outcomes\u2014plausibly meeting all inclusion criteria with no exclusion criterion apparent."
+},
+"R119": {
+"verdict": "INCLUDE",
+"clause": "SR including a meta-analysis of 17 RCTs on people with knee OA investigating a non-pharmacological core management strategy (land-based therapeutic exercise) with pain as an outcome",
+"reason": "The abstract clearly describes a systematic review with meta-analysis (data integration of 17 RCTs, 23 exercise groups) of randomized trials in knee OA patients comparing land-based therapeutic exercise of varying frequency/duration against other exercise programs, with pain relief as the primary outcome \u2014 meeting all inclusion criteria with no apparent exclusion."
+},
+"R111": {
+"verdict": "INCLUDE",
+"clause": "Population, intervention, study design, and outcomes all plausibly match the inclusion criteria; no exclusion criterion applies.",
+"reason": "The abstract describes a systematic review and meta-analysis of 14 RCTs (10 pooled) in patients with knee OA investigating whole-body vibration, a non-pharmacological core management strategy, with relevant outcomes of pain, physical function, quality of life, and adverse events, and no exclusion criterion is evident."
+},
+"R031": {
+"verdict": "INCLUDE",
+"clause": "RQ3: efficacy of non-pharmacological interventions in adult patients with SLE",
+"reason": "The abstract describes a study in adult women with SLE that evaluates the effect of a 12-week aerobic exercise intervention (a non-pharmacological management approach) on HRV and related health outcomes, directly addressing the efficacy of non-pharmacological interventions in the target population."
+},
+"R102": {
+"verdict": "INCLUDE",
+"clause": "Population (RQ1\u2013RQ9): adult patients with SLE \u2014 non-pharmacological management content (intervention types, RQ2; outcome measures, RQ5)",
+"reason": "The abstract reviews fatigue in the SLE population, including modifiable factors (physical activity, sleep, depression, obesity) and potential therapeutic options, as well as the reliability/validity of fatigue measures used in clinical studies, so it plausibly addresses the aims, types of non-pharmacological interventions, and outcome measures for adult SLE patients without clearly failing any criterion (full-text reading can confirm the adult sample and study design)."
+},
+"R049": {
+"verdict": "INCLUDE",
+"clause": "Population: adult patients with SLE",
+"reason": "The abstract describes a qualitative study of adult African-American women with SLE participating in a non-pharmacological peer mentoring intervention for disease self-management, which directly aligns with the review's target population and research questions on patient perspectives and non-pharmacological management."
+},
+"R106": {
+"verdict": "INCLUDE",
+"clause": "non-pharmacological self-management intervention in adult SLE patients",
+"reason": "The abstract describes an RCT protocol testing a patient-centered self-management program for African-American lupus patients, which directly addresses non-pharmacological management in the target population."
+},
+"R012": {
+"verdict": "INCLUDE",
+"clause": "Population: adult patients with SLE; RQ3 (efficacy of non-pharmacological interventions)",
+"reason": "The abstract describes a randomized semi-experimental study in SLE patients comparing two non-pharmacological interventions (MBSR and CBT) against usual care, reporting efficacy on quality of life, self-efficacy, and disease activity at post-test and 3-month follow-up, with no indication of a pediatric or otherwise excluded population."
+},
+"R112": {
+"verdict": "INCLUDE",
+"clause": "Population: adult patients with SSc; Intervention (RQ2/RQ3): non-pharmacological exercise programme with feasibility and efficacy outcomes including microvascular function and HRQoL",
+"reason": "The abstract describes an RCT protocol testing a supervised exercise intervention (HIIT plus resistance training) in adult SSc patients, with feasibility, microvascular, fitness, and quality-of-life outcomes plus patient interviews, so it plausibly meets all inclusion criteria and no exclusion applies."
+},
+"R073": {
+"verdict": "EXCLUDE",
+"clause": "Exclusion: \"Papers were excluded if they ... did not measure the physical environment, did not have human physical activity as an outcome variable, or did not follow the principles of the ecological framework in terms of aiming at a multiple level approach.\"",
+"reason": "This is a cross-sectional NCD risk-factor prevalence survey in which physical activity is reported only as one of several biomedical risk factors (3% low activity), and the determinants examined are purely demographic (sex, education, urban/rural, region) with no measure of the physical environment and no social ecological multi-level framework linking environment to activity."
+},
+"R024": {
+"verdict": "UNSURE",
+"clause": "Outcomes must address disease activity state (active disease/remission) or change thereof (response/improvement/worsening/relapse)",
+"reason": "The abstract reports a narrowly defined ischaemic relapse outcome rather than a clear disease activity state assessment, making it uncertain whether the full outcome criteria are met."
+},
+"R014": {
+"verdict": "EXCLUDE",
+"clause": "Study-design eligibility: only RCTs and longitudinal observational studies (LOS) with more than 20 subjects, and qualitative studies without a participant limit, were included.",
+"reason": "The record is a systematic literature review/meta-analysis synthesizing 36 previously published studies of TCZ in GCA, not a primary RCT, LOS, or qualitative study, so it fails the required study-type inclusion criterion."
+},
+"R066": {
+"verdict": "INCLUDE",
+"clause": "Observational cohort study (>50 cases) in adults with RA evaluating a listed safety outcome (malignancy) with a DMARD (hydroxychloroquine) and a comparator group (general population / non-users)",
+"reason": "This is a large prospective nationwide cohort of 5,023 RA patients evaluating malignancy (a listed safety outcome) with hydroxychloroquine (a DMARD) as an exposure and both the general population and non-users as comparators, satisfying all inclusion criteria with no exclusion criterion applying."
+},
+"R089": {
+"verdict": "INCLUDE",
+"clause": "Observational cohort study (n=213 >50) of adults with RA, abatacept intervention vs. other bDMARDs comparator, reporting the safety outcome infection.",
+"reason": "The study is a retrospective multi-centre observational cohort of 213 adult RA patients treated with abatacept, uses another bDMARD as a comparator, and reports an infection-related safety outcome, thereby plausibly meeting all inclusion criteria with no exclusion criterion clearly applying."
+},
+"R115": {
+"verdict": "INCLUDE",
+"clause": "Candidate papers must deal with the impact of climate change on energy demand (climate change -> energy direction), and must explicitly consider climate change effects.",
+"reason": "The abstract explicitly states that climate change affects energy consumption demand, quantifies a 63.22 \u00b0C/decade decline in heating degree days implying decreasing heating energy demand, and projects effects under a warmer climate, satisfying all four criteria (human energy demand, climate change effects, climate->energy direction, and demand rather than supply/infrastructure)."
+},
+"R058": {
+"verdict": "INCLUDE",
+"clause": "Exposure: any exposure/stressor at any life stage as long as the study design (outcome measurement stage) is transgenerational in nature",
+"reason": "The study compares wild cladoceran (whole-organism animal) populations historically exposed to acid mine drainage with lower-exposed reference-site populations, and measures resistance after at least five generations of common-garden acclimation, so outcomes are assessed in descendant generations that were not themselves directly exposed\u2014satisfying the transgenerational design requirement, and none of the listed exclusion criteria (review/non-original data, non-animal organism, in vitro, non-English) clearly applies."
+},
+"R075": {
+"verdict": "INCLUDE",
+"clause": "Exposure: transgenerational study design \u2014 F0 dams exposed during gestation/lactation with outcomes measured through the F2 generation (F2 fetal development assessed)",
+"reason": "This is an original in vivo rat study with a vehicle/saline comparator group in which F0 dams were dosed during gestation and lactation and outcomes were measured in F1 offspring and F2 fetuses, satisfying the transgenerational-design requirement for the exposure criterion, with no exclusion criterion applying."
+},
+"R044": {
+"verdict": "INCLUDE",
+"clause": "Exposure \u2014 the study design (outcome measurement stage) is transgenerational in nature (Fig. 1)",
+"reason": "The abstract reports an original whole-organism animal study (C. elegans, not a non-animal organism) in which a defined exposure (foreign RNA/piRNA trigger) induces silencing that persists for at least 20 generations, with an implied no-trigger/vehicle-type comparison group, and no exclusion criterion (non-animal organism, in vitro, review/commentary, non-English) applies."
+},
+"R061": {
+"verdict": "INCLUDE",
+"clause": "Eligible study design: randomised controlled trial reporting relevant efficacy and safety outcomes",
+"reason": "This is a phase 3 RCT (FUTURE 2) of secukinumab in psoriatic arthritis reporting long-term efficacy (ACR20/50/70, PASI, DAS28-CRP, dactylitis, enthesitis) and safety/tolerability outcomes through 104 weeks, which satisfies the design and outcome inclusion criteria with no exclusion criterion apparent."
+},
+"R081": {
+"verdict": "INCLUDE",
+"clause": "Study design: randomized controlled trial with relevant efficacy and safety outcomes",
+"reason": "This is a Phase III randomized, double-blind, placebo-controlled trial reporting 2-year efficacy (ACR20, PASI75, radiographic progression) and safety outcomes in psoriatic arthritis, which directly satisfies the inclusion criteria with no exclusion criterion applying."
+},
+"R141": {
+"verdict": "INCLUDE",
+"clause": "Eligible study designs included randomised controlled trials (RCTs)",
+"reason": "This is a post-hoc pooled analysis of four phase 3 randomized controlled trials (MEASURE 1-4) reporting an efficacy outcome (enthesitis response on MASES) in ankylosing spondylitis patients, so it plausibly meets the RCT design criterion and no exclusion criterion is evident from the abstract."
+},
+"R110": {
+"verdict": "INCLUDE",
+"clause": "Randomized controlled trial (RCT) design",
+"reason": "This integrated analysis of two placebo-controlled RCTs (COAST-V and COAST-W) evaluates ixekizumab versus placebo over 16 weeks in active r-axSpA and reports work productivity and activity impairment (WPAI:SpA) as efficacy outcomes, satisfying the eligible study design criterion."
+},
+"R072": {
+"verdict": "INCLUDE",
+"clause": "Eligible study design: randomised controlled trial evaluating relevant efficacy outcomes (functioning and health)",
+"reason": "The abstract clearly describes two multicenter, randomized, double-blind, placebo-controlled (and active-controlled) trials assessing efficacy outcomes (SF-36, ASAS HI, EQ-5D-5L) in r-axSpA, satisfying the eligible RCT design criterion with no exclusion criterion apparent."
+},
+"R135": {
+"clause": "Eligible study designs included randomised controlled trials (RCTs), strategy trials and observational studies (the latter only for safety and extra-musculoskeletal manifestations).",
+"reason": "This is a phase 3 randomised controlled trial (MEASURE 2) reporting both 5-year efficacy (ASAS20/40, BASDAI50, BASMI, BASFI, SF-36 PCS, ASAS partial remission) and safety outcomes for secukinumab 150 mg in ankylosing spondylitis, satisfying the study-design criterion and the efficacy/safety outcomes criterion with no exclusion criterion clearly applying."
+},
+"R163": {
+"verdict": "INCLUDE",
+"clause": "Eligible study design: randomised controlled trial (phase III RCT) assessing efficacy and safety outcomes",
+"reason": "The record is a randomised, double-blind, placebo-controlled and active-controlled phase III trial (SPIRIT-P1) reporting both efficacy (ACR20, structural damage, psoriasis clearance) and safety outcomes in patients with active psoriatic arthritis, so it meets the eligible-design criterion and no exclusion applies."
+},
+"R054": {
+"verdict": "INCLUDE",
+"clause": "Eligible study design: randomised controlled trial (phase 3 RCT) reporting efficacy and safety outcomes",
+"reason": "This is a phase 3 randomised controlled trial (FUTURE 5) evaluating secukinumab in psoriatic arthritis with radiographic progression, clinical efficacy, and safety outcomes through 52 weeks, which satisfies the eligible study design and outcome criteria with no exclusion criterion apparent."
+},
+"R088": {
+"verdict": "INCLUDE",
+"clause": "Eligible study design: randomized controlled trial (RCT) reporting efficacy outcomes (patient-reported outcomes)",
+"reason": "The abstract describes GO-ALIVE, a Phase 3, multicenter, randomized, double-blind, placebo-controlled trial evaluating patient-reported efficacy outcomes (physical/mental functioning, health state, HRQoL) in active ankylosing spondylitis, which squarely meets the inclusion criteria for study design and outcomes with no exclusion criterion applying."
+},
+"R039": {
+"verdict": "INCLUDE",
+"clause": "Study design: randomised controlled trial (phase III DISCOVER-2) reporting efficacy and safety outcomes",
+"reason": "The abstract describes a phase III RCT randomizing biologic-naive PsA patients to guselkumab or placebo, reporting efficacy and safety outcomes through week 52, which squarely meets the eligible design criterion with no exclusion criteria apparent."
+},
+"R040": {
+"verdict": "INCLUDE",
+"clause": "Study design: post hoc subgroup analysis of a randomised controlled trial (SELECT-AXIS 1)",
+"reason": "This record reports a secondary analysis of the SELECT-AXIS 1 RCT in which patients were randomized to upadacitinib or placebo, and RCTs are eligible for all efficacy/safety outcomes under the inclusion criteria."
+},
+"R079": {
+"verdict": "INCLUDE",
+"clause": "Study design eligibility: randomised controlled trials are eligible, and all relevant efficacy/safety outcomes are included.",
+"reason": "The abstract reports a pooled analysis of two phase 3 RCTs (PSUMMIT 1 and 2) in which PsA patients were randomized to ustekinumab or placebo and followed for relevant efficacy outcomes (physical function/HAQ-DI, HRQoL/DLQI and SF-36, pain, productivity), so it meets the design and outcome criteria for efficacy with no exclusion apparent at abstract level."
+},
+"R137": {
+"verdict": "INCLUDE",
+"clause": "Eligible study design \u2014 phase 3 extension trial of the randomised MEASURE 1 core trial, reporting both efficacy and long-term safety outcomes",
+"reason": "This is a phase 3 extension trial built directly on an RCT (with results still reported by original randomisation group) that reports sustained efficacy endpoints plus exposure-adjusted safety outcomes (serious infections, Crohn's disease, malignancies) over 3 years, so it plausibly falls within the eligible interventional designs and no exclusion criterion is clearly triggered."
+},
+"R148": {
+"verdict": "INCLUDE",
+"clause": "Study design (eligible: RCT/strategy trial)",
+"reason": "The abstract describes a phase 3b multicenter clinical trial (C-OPTIMISE) of certolizumab pegol in early axial spondyloarthritis that includes a randomized maintenance strategy component (dose continuation, reduction or withdrawal) and reports both efficacy and safety outcomes, so it plausibly meets the eligible study design criteria."
+},
+"R006": {
+"verdict": "EXCLUDE",
+"clause": "Eligible study designs: RCTs, strategy trials, and observational studies (observational only for safety/extra-musculoskeletal)",
+"reason": "The record is itself a systematic review and network meta-analysis of phase 2/3 trials focused on efficacy (ASAS20, BASFI, CRP), so it is not an RCT, strategy trial, or observational study and therefore fails the study-design criterion."
+},
+"R018": {
+"verdict": "INCLUDE",
+"clause": "Eligible study design: randomised controlled trial (double-blind, placebo-controlled) reporting both efficacy and safety outcomes in ankylosing spondylitis.",
+"reason": "The abstract clearly describes a double-blind, placebo-controlled RCT (SELECT-AXIS 1) in adults with active ankylosing spondylitis, reporting efficacy endpoints (ASAS40, ASDAS, pain/function/inflammation) and safety outcomes (adverse events over 237.6 patient-years), with no exclusion criterion apparent."
+},
+"R011": {
+"verdict": "INCLUDE",
+"clause": "Study design eligibility: randomised controlled trial (RCT), which is an explicitly eligible design, with efficacy and safety outcomes reported.",
+"reason": "The abstract describes a 1:1:1:1 randomised controlled trial of ixekizumab versus placebo and an active adalimumab comparator in bDMARD-na\u00efve adults with active radiographic axial spondyloarthritis, reporting efficacy (signs/symptoms, ASAS40, MRI inflammation, function) and safety outcomes through 52 weeks, so it plausibly meets all inclusion criteria and no exclusion criterion is apparent."
+},
+"R092": {
+"verdict": "INCLUDE",
+"clause": "Eligible study design: randomised controlled trial (long-term extension of the RAPID-axSpA RCT) reporting efficacy/imaging outcomes",
+"reason": "This is a four-year follow-up of a randomised, placebo-controlled trial (with open-label extension) in axial spondyloarthritis reporting imaging efficacy outcomes (mSASSS, sacroiliitis grading, MRI inflammation), which fits the eligible RCT/strategy-trial design and the inclusion of all relevant efficacy outcomes, with no exclusion criterion apparent from the abstract."
+},
+"R052": {
+"verdict": "EXCLUDE",
+"clause": "Eligible study design (RCT, strategy trial, or observational study)",
+"reason": "The abstract explicitly describes a narrative review/spotlight article (\"we summarized the pharmacology and we reviewed the efficacy and tolerability\"), which is not an original RCT, strategy trial, or observational study, so it fails the study-design inclusion criterion even though it references the RAPID-axSpA trial."
+},
+"R021": {
+"verdict": "INCLUDE",
+"clause": "Eligible study design: randomised controlled trial / strategy trial (double-blind randomised withdrawal design)",
+"reason": "ABILITY-3 is a randomised, double-blind, placebo-controlled withdrawal (strategy) trial of adalimumab in nr-axSpA reporting efficacy outcomes (sustained remission, absence of flare), so the design is unconditionally eligible and the observational-study restriction does not apply."
+},
+"R156": {
+"verdict": "INCLUDE",
+"clause": "Eligible study design: randomized controlled trial (RCT) assessing efficacy outcomes in axial spondyloarthritis",
+"reason": "The PrevAS study is a randomized, double-blind, placebo-controlled trial evaluating the efficacy of etanercept versus placebo in patients suspected of non-radiographic axial spondyloarthritis, and RCTs are an explicitly eligible design for efficacy/safety outcomes under the review criteria."
+},
+"R133": {
+"verdict": "INCLUDE",
+"clause": "Strategy trial design",
+"reason": "C-OPTIMISE is explicitly a strategy trial evaluating certolizumab pegol dose reduction/discontinuation in axial spondyloarthritis, and this abstract reports relevant efficacy (ASDAS remission) and safety (TEAEs) outcomes from its run-in phase, satisfying the eligible study design and outcome criteria."
+},
+"R146": {
+"verdict": "INCLUDE",
+"clause": "Eligible study design: randomised controlled trial (RCT)",
+"reason": "The abstract clearly reports two Phase 3, randomized, double-blind, placebo-controlled trials (COAST-V and COAST-W) evaluating ixekizumab efficacy (ASAS40 response) in radiographic axial spondylarthritis, which is an eligible RCT design with relevant efficacy outcomes and no apparent exclusion criterion."
+},
+"R130": {
+"verdict": "INCLUDE",
+"clause": "Eligible study designs included randomised controlled trials (RCTs), strategy trials and observational studies",
+"reason": "This is a post hoc analysis of the randomized, double-blind ABILITY-1 RCT in patients with non-radiographic axSpA, and it reports changes in objective inflammation (MRI/CRP) \u2014 a relevant efficacy outcome \u2014 so it meets the study-design inclusion criterion with no exclusion criterion clearly applying."
+},
+"R032": {
+"verdict": "INCLUDE",
+"clause": "Study design: randomised controlled trial (RCT) evaluating an efficacy outcome",
+"reason": "The abstract reports post hoc analyses of two Phase 3, randomized, placebo-controlled trials (DISCOVER-1&2) assessing the efficacy of guselkumab on BASDAI components in axial PsA, which squarely meets the inclusion criterion of an RCT with relevant efficacy outcomes and no exclusion criterion applies."
+},
+"R053": {
+"verdict": "INCLUDE",
+"clause": "Eligible study design: post hoc pooled analysis of four phase 3 RCTs (MEASURE 1-4) with original randomisation to secukinumab vs placebo, evaluating a relevant efficacy outcome (enthesitis/MASES).",
+"reason": "The abstract reports a pooled analysis of randomised phase 3 trial data comparing secukinumab to placebo on enthesitis (an efficacy outcome), so it plausibly meets the eligible RCT design and relevant-outcome criteria with no exclusion clearly applying."
+},
+"R091": {
+"verdict": "INCLUDE",
+"clause": "Eligible study designs included randomised controlled trials (RCTs), strategy trials and observational studies; all relevant efficacy/safety outcomes were included.",
+"reason": "The title and abstract describe a randomised, double-blind, placebo-controlled trial of iguratimod versus placebo in active spondyloarthritis reporting efficacy outcomes (ASAS20, ASAS40, ASDAS, function, quality of life) and safety outcomes, so it meets the eligible design and outcome criteria with no exclusion criterion apparent from the abstract."
+},
+"R121": {
+"verdict": "INCLUDE",
+"clause": "Eligible study design: randomised controlled trial assessing relevant efficacy outcomes",
+"reason": "The abstract describes a post hoc analysis of a 12-week phase 2 RCT randomizing ankylosing spondylitis patients to tofacitinib or placebo with pre-specified efficacy endpoints (SPARCC MRI MIC achievement and ASAS20), so it plausibly meets all inclusion criteria and no exclusion criterion is evident."
+},
+"R038": {
+"verdict": "INCLUDE",
+"clause": "EC5",
+"reason": "The abstract clearly presents ICDT, an automated token-based clone detector for large-scale source code evaluated on BigCloneBench, so it plausibly proposes an automated source code similarity measurement approach (EC4/EC5/IC2) and no exclusion criterion (language, length, document type, binary-only, or duplication) is clearly failed from the title and abstract."
+},
+"R059": {
+"verdict": "INCLUDE",
+"clause": "IC2",
+"reason": "The abstract directly proposes an automated Type-2 code clone detection technique for Dockerfiles (source code), which is a source code similarity measurement approach, and no exclusion criterion (language, length, non-source-code focus, non-automated, or document type) clearly applies."
+},
+"R094": {
+"verdict": "INCLUDE",
+"clause": "Eligible study design: cohort study of patients with confirmed ASSD (adults)",
+"reason": "The abstract describes a retrospective cohort study with 8.3-year follow-up of 42 adults with confirmed anti-synthetase autoantibody disease (ASSD), defined by serology plus clinical features (polymyositis, dermatomyositis, ILD), matching the eligible population and one of the listed designs, with no exclusion criterion apparent."
+},
+"R134": {
+"verdict": "INCLUDE",
+"clause": "Criterion 2: psychotherapy (psychological methods) targeting a mental health problem",
+"reason": "This RCT compares Treatment As Usual with TAU plus Brief Intervention and Contact, which delivers a psycho-education session and nine structured follow-up phone contacts (a psychological method addressing suicidal behavior, not unguided self-help or a community intervention), with hospital presentations for repeated nonfatal suicidal behavior (i.e., suicide attempts) as the outcome, so all inclusion criteria are plausibly met and no exclusion criterion clearly applies."
+},
+"R037": {
+"verdict": "INCLUDE",
+"clause": "Criterion 4: Reported self-harm outcomes (self-reported self-harm and emergency department presentation for self-harm) in a population of adolescents who have recently self-harmed, plausibly including suicide attempts in the authors' definition.",
+"reason": "The study is a randomized controlled trial comparing mentalization-based group therapy (MBT-Ai) plus treatment-as-usual against TAU alone, with self-harm (including emergency department presentation) as a primary outcome in adolescents who have recently self-harmed, and no exclusion criteria clearly apply."
+},
+"R048": {
+"verdict": "INCLUDE",
+"clause": "LGMM is applied to PTSS data",
+"reason": "The abstract confirms all criteria: PTSD symptoms were measured at three waves with the validated PCL-5 in a veteran cohort following trauma exposure, and a latent growth mixture model was explicitly conducted on the PTSD symptom trajectories, with no exclusion criterion apparent."
+},
+"R027": {
+"verdict": "EXCLUDE",
+"clause": "PTSS is evaluated using a validated scale (outcome construct must be PTSS)",
+"reason": "The study applies GMM to depression symptoms measured with the Hospital Anxiety and Depression Scale after TBI \u2014 a validated multi-time-point design following trauma, but the outcome is depression, not post-traumatic stress symptoms (PTSS), so the required PTSS construct is not met."
+},
+"R082": {
+"verdict": "EXCLUDE",
+"clause": "PTSS is measured at a minimum of three time points",
+"reason": "The study measures depression trajectories using the PHQ-9 rather than post-traumatic stress symptoms (PTSS), so it fails the fundamental requirement that PTSS be the outcome assessed."
+},
+"R046": {
+"verdict": "INCLUDE",
+"clause": "LGMM is applied to PTSS data",
+"reason": "The abstract clearly describes a prospective cohort study assessing PTSD symptoms at three time points (baseline <4 weeks, 3 months, 6 months) following whiplash trauma and applying Latent Growth Mixture Modeling to identify trajectories, with no exclusion criterion clearly applying."
+}
+}

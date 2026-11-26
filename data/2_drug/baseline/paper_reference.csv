@@ -1,0 +1,15 @@
+# Lan et al. 2026, medRxiv doi:10.64898/2026.11.11.26367856, Table 3 (T=0; GPT-4.1-nano detection = mean over T 0/0.5/1 from Table 2).
+# Transcribed 2026-11-20 from https://www.medrxiv.org/content/medrxiv/early/2026/11/12/2026.11.11.26367856/T3.large.jpg
+# Prompts: CF = counterfactual (Appendix B.1), DC = direct comparison (B.2), explanation = B.3.
+model,tier,cf_p,cf_r,cf_f1,dc_p,dc_r,dc_f1,expl_micro_f1
+Ministral-3B,<=7B,0.546,0.804,0.650,0.452,0.967,0.616,0.189
+Gemma-3-4B,<=7B,0.443,0.896,0.593,0.356,0.982,0.523,0.348
+Llama-3.1-8B,7-20B,0.435,0.887,0.583,0.393,0.940,0.554,0.299
+Gemma-3-12B,7-20B,0.610,0.835,0.705,0.378,0.996,0.548,0.524
+Gemma-3-27B,>20B,0.718,0.642,0.678,0.470,0.980,0.635,0.520
+Qwen3-32B,>20B,0.856,0.501,0.632,0.633,0.883,0.737,0.567
+Llama-3.3-70B,>20B,0.870,0.464,0.605,0.595,0.921,0.723,0.533
+Claude-Haiku-4.5,Proprietary,0.774,0.665,0.716,0.664,0.916,0.770,0.562
+Claude-Sonnet-4.5,Proprietary,0.800,0.667,0.728,0.717,0.887,0.793,0.590
+GPT-5.5,Proprietary,0.872,0.261,0.402,0.701,0.868,0.776,0.603
+GPT-4.1-nano,Proprietary,0.636,0.896,0.744,0.494,0.945,0.649,0.482

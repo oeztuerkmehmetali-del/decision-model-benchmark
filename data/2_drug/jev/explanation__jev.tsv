@@ -1,0 +1,543 @@
+id	pmid_1	pmid_2	human_labeled_contextual_factors	pred	p_species	p_population	p_dosage or exposure duration	p_route or mode of administration	p_combined drug effects	p_evolving scientific evidence	p_known controversy or self-qualified claims	p_study design	p_outcome measures	p_ambiguous referent
+0	33813328	41139117	['ambiguous referent', 'population']	['population', 'evolving scientific evidence', 'study design', 'outcome measures']	0.02	0.68	0.21	0.08	0.31	0.5	0.19	0.58	0.51	0.36
+1	33676589	38485912	['dosage or exposure duration', 'population', 'outcome measures']	['population', 'dosage or exposure duration', 'known controversy or self-qualified claims', 'outcome measures']	0.03	0.56	0.5	0.08	0.11	0.35	0.55	0.45	0.62	0.21
+2	33676589	39226747	['combined drug effects', 'population', 'ambiguous referent', 'outcome measures']	['population', 'known controversy or self-qualified claims', 'outcome measures']	0.02	0.58	0.18	0.06	0.14	0.48	0.66	0.44	0.78	0.32
+3	33218878	35312650	['population', 'route or mode of administration', 'outcome measures']	['population', 'outcome measures']	0.03	0.8	0.19	0.3	0.08	0.24	0.21	0.38	0.66	0.24
+4	33044440	40550151	['population']	['route or mode of administration', 'study design']	0.03	0.29	0.49	0.69	0.08	0.22	0.19	0.56	0.48	0.22
+5	33894146	40220053	['ambiguous referent', 'population']	['population', 'dosage or exposure duration', 'route or mode of administration', 'study design']	0.02	0.67	0.85	0.54	0.09	0.2	0.19	0.78	0.24	0.17
+6	33838349	38314885	['outcome measures', 'ambiguous referent']	['study design', 'outcome measures']	0.02	0.31	0.24	0.06	0.1	0.31	0.26	0.82	0.69	0.21
+7	33749975	40736006	['outcome measures']	['dosage or exposure duration', 'study design', 'outcome measures']	0.03	0.14	0.73	0.12	0.05	0.28	0.39	0.68	0.75	0.16
+8	33662102	34052007	['dosage or exposure duration', 'population', 'outcome measures']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.03	0.57	0.83	0.14	0.47	0.35	0.35	0.56	0.81	0.21
+9	33662102	33947344	['population', 'ambiguous referent', 'combined drug effects', 'outcome measures']	['population', 'combined drug effects', 'study design', 'outcome measures']	0.03	0.86	0.42	0.11	0.6	0.27	0.39	0.5	0.77	0.26
+10	33595593	40958495	['population', 'outcome measures']	['population', 'study design', 'outcome measures']	0.02	0.92	0.16	0.03	0.12	0.17	0.12	0.59	0.78	0.43
+11	32969758	40126464	['dosage or exposure duration', 'study design']	['evolving scientific evidence', 'study design']	0.02	0.27	0.42	0.03	0.11	0.74	0.42	0.77	0.46	0.23
+12	32962936	40625141	['ambiguous referent', 'dosage or exposure duration', 'outcome measures']	['dosage or exposure duration', 'outcome measures']	0.09	0.39	0.55	0.05	0.18	0.43	0.2	0.27	0.72	0.23
+13	32838353	33317461	['outcome measures', 'combined drug effects']	['combined drug effects', 'study design', 'outcome measures']	0.03	0.43	0.19	0.09	0.75	0.29	0.37	0.72	0.73	0.31
+14	34052007	38431155	['dosage or exposure duration', 'population', 'outcome measures']	['population', 'dosage or exposure duration', 'evolving scientific evidence', 'study design', 'outcome measures']	0.03	0.83	0.75	0.19	0.2	0.54	0.42	0.75	0.85	0.18
+15	34051877	37711106	['outcome measures', 'ambiguous referent']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.02	0.67	0.74	0.08	0.07	0.27	0.26	0.68	0.83	0.33
+16	34051293	38206631	['population', 'dosage or exposure duration']	['population', 'dosage or exposure duration', 'outcome measures']	0.02	0.64	0.53	0.06	0.14	0.21	0.21	0.42	0.85	0.34
+17	34033812	35292944	['evolving scientific evidence', 'outcome measures']	['study design']	0.02	0.29	0.49	0.06	0.29	0.4	0.37	0.56	0.46	0.19
+18	33947344	35353979	['population', 'dosage or exposure duration', 'combined drug effects', 'outcome measures']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.03	0.89	0.59	0.16	0.47	0.25	0.23	0.56	0.82	0.13
+19	33947344	35179551	['route or mode of administration', 'dosage or exposure duration', 'combined drug effects', 'outcome measures']	['population', 'combined drug effects', 'study design', 'outcome measures']	0.03	0.83	0.42	0.09	0.53	0.3	0.27	0.5	0.79	0.16
+20	33947344	35788169	['combined drug effects', 'ambiguous referent', 'outcome measures']	['population', 'combined drug effects', 'study design', 'outcome measures']	0.03	0.51	0.28	0.15	0.51	0.49	0.27	0.62	0.71	0.15
+21	33947344	38431155	['dosage or exposure duration', 'outcome measures', 'route or mode of administration']	['population', 'evolving scientific evidence', 'study design', 'outcome measures']	0.03	0.84	0.48	0.19	0.47	0.5	0.41	0.67	0.76	0.15
+22	33939897	36314323	['evolving scientific evidence', 'population', 'dosage or exposure duration']	['population', 'dosage or exposure duration', 'combined drug effects', 'study design']	0.04	0.58	0.65	0.19	0.81	0.26	0.4	0.64	0.46	0.25
+23	33939193	34713471	['outcome measures']	['dosage or exposure duration', 'combined drug effects', 'outcome measures']	0.04	0.32	0.63	0.1	0.57	0.38	0.22	0.48	0.65	0.25
+24	33612282	35752521	['population']	['combined drug effects']	0.02	0.37	0.41	0.23	0.64	0.27	0.16	0.31	0.34	0.16
+25	32918079	40996142	['evolving scientific evidence', 'outcome measures']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.02	0.74	0.57	0.05	0.1	0.31	0.2	0.72	0.77	0.25
+26	34330457	35347555	['population', 'dosage or exposure duration', 'outcome measures']	['dosage or exposure duration', 'route or mode of administration', 'study design', 'outcome measures']	0.03	0.2	0.69	0.57	0.08	0.22	0.23	0.51	0.88	0.23
+27	34229896	35896462	['evolving scientific evidence', 'population', 'outcome measures']	['population', 'dosage or exposure duration', 'known controversy or self-qualified claims', 'outcome measures']	0.02	0.53	0.65	0.2	0.1	0.28	0.58	0.47	0.71	0.22
+28	34106458	35533225	['outcome measures', 'population']	['population', 'outcome measures']	0.05	0.81	0.48	0.1	0.17	0.21	0.48	0.41	0.53	0.26
+29	34328539	40431448	['population', 'ambiguous referent', 'outcome measures', 'combined drug effects']	['combined drug effects', 'outcome measures']	0.04	0.47	0.35	0.15	0.81	0.33	0.27	0.41	0.7	0.36
+30	34293233	38523183	['dosage or exposure duration', 'outcome measures', 'route or mode of administration']	['dosage or exposure duration', 'route or mode of administration', 'combined drug effects', 'study design']	0.02	0.27	0.78	0.81	0.54	0.27	0.25	0.75	0.43	0.47
+31	34412109	40702165	['population', 'outcome measures']	['population', 'outcome measures']	0.05	0.88	0.44	0.46	0.47	0.38	0.43	0.49	0.57	0.2
+32	34227198	40005038	['population', 'dosage or exposure duration', 'outcome measures']	['population', 'dosage or exposure duration', 'outcome measures']	0.04	0.81	0.58	0.11	0.09	0.2	0.17	0.34	0.7	0.21
+33	33960404	34887180	['population', 'route or mode of administration', 'outcome measures']	['population', 'route or mode of administration', 'outcome measures']	0.02	0.63	0.46	0.54	0.24	0.33	0.47	0.48	0.63	0.29
+34	33960404	36794600	['ambiguous referent', 'outcome measures']	['population', 'dosage or exposure duration']	0.03	0.64	0.56	0.41	0.08	0.36	0.23	0.36	0.32	0.22
+35	34684557	35057416	['outcome measures']	['known controversy or self-qualified claims', 'outcome measures', 'ambiguous referent']	0.03	0.3	0.08	0.05	0.06	0.25	0.56	0.2	0.84	0.52
+36	34678593	39349629	['species', 'population', 'outcome measures']	['population', 'study design', 'outcome measures']	0.26	0.81	0.32	0.06	0.08	0.35	0.47	0.63	0.87	0.27
+37	34074812	35469091	['ambiguous referent', 'outcome measures']	['dosage or exposure duration', 'combined drug effects', 'study design']	0.03	0.34	0.68	0.17	0.56	0.34	0.42	0.55	0.28	0.12
+38	34755269	35107188	['dosage or exposure duration', 'outcome measures']	['population', 'dosage or exposure duration', 'combined drug effects', 'known controversy or self-qualified claims', 'study design', 'outcome measures']	0.02	0.67	0.75	0.14	0.51	0.48	0.52	0.55	0.8	0.44
+39	34755269	36181009	['combined drug effects', 'ambiguous referent', 'outcome measures']	['combined drug effects', 'study design']	0.02	0.34	0.2	0.1	0.74	0.35	0.47	0.56	0.49	0.23
+40	34544205	35611683	['population', 'outcome measures']	['population', 'study design', 'outcome measures']	0.03	0.83	0.4	0.05	0.07	0.19	0.19	0.54	0.8	0.21
+41	32609361	36622792	['evolving scientific evidence']	['outcome measures']	0.03	0.3	0.12	0.04	0.05	0.21	0.35	0.35	0.58	0.4
+42	34933950	37906618	['ambiguous referent', 'outcome measures']	['population', 'outcome measures']	0.02	0.52	0.26	0.06	0.11	0.22	0.26	0.34	0.9	0.4
+43	34894724	34843183	['population', 'ambiguous referent', 'outcome measures']	['population']	0.07	0.7	0.32	0.05	0.2	0.14	0.17	0.26	0.48	0.15
+44	35213547	34902262	['study design', 'population']	['population', 'dosage or exposure duration', 'combined drug effects', 'evolving scientific evidence', 'study design', 'outcome measures']	0.02	0.57	0.54	0.1	0.6	0.72	0.42	0.67	0.63	0.21
+45	35107188	36647298	['dosage or exposure duration', 'outcome measures']	['population', 'dosage or exposure duration', 'combined drug effects', 'known controversy or self-qualified claims', 'study design', 'outcome measures']	0.02	0.58	0.73	0.11	0.57	0.45	0.55	0.56	0.75	0.16
+46	38319179	36566761	['outcome measures', 'ambiguous referent']	['population', 'evolving scientific evidence']	0.03	0.8	0.12	0.05	0.16	0.51	0.25	0.48	0.22	0.17
+47	34800427	35323950	['population', 'outcome measures']	['population', 'study design', 'outcome measures']	0.02	0.57	0.31	0.06	0.14	0.33	0.28	0.83	0.63	0.36
+48	34558768	39277784	['population', 'outcome measures']	['population', 'outcome measures']	0.02	0.84	0.24	0.03	0.11	0.29	0.15	0.28	0.51	0.13
+49	35228754	38587237	['outcome measures']	['population', 'outcome measures']	0.02	0.91	0.3	0.03	0.08	0.17	0.1	0.29	0.62	0.2
+50	35152416	36938869	['outcome measures']	['study design', 'outcome measures']	0.02	0.43	0.41	0.11	0.3	0.18	0.22	0.57	0.54	0.44
+51	35120408	37073938	['outcome measures']	['route or mode of administration', 'combined drug effects', 'study design', 'outcome measures']	0.04	0.46	0.34	0.62	0.68	0.19	0.2	0.7	0.68	0.28
+52	35120408	38449039	['population', 'outcome measures', 'study design']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.05	0.64	0.54	0.11	0.08	0.31	0.22	0.8	0.87	0.26
+53	34887180	36074385	['population', 'outcome measures']	['population', 'outcome measures']	0.02	0.78	0.37	0.27	0.16	0.19	0.27	0.47	0.57	0.14
+54	33175088	37370197	['outcome measures', 'evolving scientific evidence']	['population', 'study design', 'outcome measures']	0.02	0.83	0.4	0.04	0.09	0.31	0.42	0.68	0.7	0.44
+55	35319274	40702165	['population', 'dosage or exposure duration', 'outcome measures']	['population', 'dosage or exposure duration', 'combined drug effects', 'outcome measures']	0.06	0.91	0.66	0.41	0.54	0.34	0.35	0.45	0.5	0.18
+56	35286456	40993587	['population', 'outcome measures']	['population', 'dosage or exposure duration', 'combined drug effects', 'study design', 'outcome measures']	0.1	0.82	0.59	0.15	0.62	0.31	0.24	0.63	0.84	0.33
+57	35241145	36151758	['population', 'outcome measures']	['dosage or exposure duration', 'outcome measures']	0.03	0.29	0.51	0.41	0.35	0.29	0.32	0.46	0.72	0.18
+58	35006328	39293701	['population', 'outcome measures']	['study design', 'outcome measures']	0.02	0.25	0.45	0.1	0.07	0.36	0.27	0.54	0.77	0.32
+59	37119345	34708460	['outcome measures']	['outcome measures']	0.03	0.14	0.1	0.05	0.07	0.18	0.21	0.22	0.91	0.35
+60	35576534	39293701	['ambiguous referent', 'population']	['population']	0.03	0.81	0.31	0.07	0.06	0.15	0.12	0.38	0.46	0.15
+61	35688677	35901476	['population', 'outcome measures', 'dosage or exposure duration']	['population', 'route or mode of administration']	0.04	0.83	0.41	0.73	0.33	0.14	0.42	0.24	0.45	0.19
+62	35662406	38584038	['outcome measures', 'ambiguous referent']	['outcome measures']	0.02	0.15	0.11	0.05	0.15	0.27	0.24	0.31	0.86	0.35
+63	35654818	36181009	['evolving scientific evidence']	['population', 'combined drug effects', 'study design', 'outcome measures']	0.02	0.59	0.22	0.09	0.67	0.22	0.39	0.57	0.61	0.21
+64	35904769	36443363	['outcome measures']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.04	0.77	0.7	0.13	0.14	0.33	0.35	0.75	0.8	0.23
+65	35896462	37419768	['outcome measures']	['population', 'combined drug effects', 'study design', 'outcome measures', 'ambiguous referent']	0.03	0.55	0.44	0.08	0.76	0.28	0.41	0.66	0.67	0.57
+66	35868341	37230101	['population', 'outcome measures']	['population', 'study design', 'outcome measures']	0.33	0.82	0.47	0.05	0.25	0.45	0.3	0.67	0.83	0.26
+67	36098968	36629088	['outcome measures']	['population', 'combined drug effects', 'outcome measures']	0.02	0.61	0.21	0.07	0.52	0.19	0.22	0.41	0.77	0.44
+68	35943471	40244586	['population', 'outcome measures', 'ambiguous referent']	['population', 'study design', 'outcome measures']	0.02	0.6	0.27	0.05	0.23	0.45	0.27	0.66	0.89	0.24
+69	35219277	40360262	['outcome measures']	['population', 'combined drug effects', 'study design', 'outcome measures']	0.02	0.55	0.13	0.08	0.52	0.37	0.48	0.64	0.55	0.28
+70	34467402	39625722	['outcome measures']	['population', 'evolving scientific evidence', 'outcome measures']	0.02	0.57	0.22	0.05	0.1	0.74	0.26	0.37	0.73	0.16
+71	36205206	36205099	['outcome measures', 'route or mode of administration', 'dosage or exposure duration']	['population', 'dosage or exposure duration', 'route or mode of administration', 'study design', 'outcome measures']	0.03	0.88	0.71	0.55	0.31	0.23	0.26	0.5	0.81	0.2
+72	36181009	36647298	['evolving scientific evidence', 'study design']	['combined drug effects', 'study design', 'outcome measures']	0.02	0.44	0.37	0.09	0.66	0.35	0.49	0.59	0.58	0.32
+73	34697129	36750049	['population', 'study design', 'outcome measures']	[]	0.04	0.29	0.14	0.05	0.07	0.27	0.44	0.28	0.26	0.19
+74	36270632	37695818	['population', 'outcome measures']	['population']	0.03	0.69	0.29	0.11	0.33	0.17	0.34	0.32	0.43	0.14
+75	34732491	39347965	['dosage or exposure duration', 'outcome measures']	['population', 'dosage or exposure duration', 'outcome measures']	0.02	0.7	0.65	0.08	0.29	0.25	0.25	0.45	0.76	0.31
+76	35713950	39841164	['outcome measures', 'ambiguous referent']	['population', 'study design', 'outcome measures', 'ambiguous referent']	0.02	0.62	0.38	0.15	0.3	0.22	0.23	0.78	0.71	0.52
+77	36566761	39265595	['outcome measures']	['outcome measures']	0.02	0.15	0.06	0.03	0.06	0.23	0.2	0.23	0.92	0.22
+78	36611040	39264960	['ambiguous referent', 'outcome measures']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.02	0.67	0.7	0.17	0.35	0.43	0.46	0.55	0.75	0.39
+79	36541437	41145460	['population', 'outcome measures']	['population', 'known controversy or self-qualified claims', 'outcome measures']	0.03	0.54	0.49	0.13	0.4	0.28	0.52	0.35	0.61	0.17
+80	35849756	41042339	['outcome measures']	['population', 'outcome measures']	0.02	0.52	0.27	0.06	0.1	0.34	0.29	0.47	0.72	0.2
+81	36190011	40884036	['population', 'outcome measures']	['population', 'study design']	0.02	0.82	0.34	0.1	0.32	0.27	0.31	0.61	0.26	0.29
+82	36206152	41515229	['population', 'outcome measures', 'dosage or exposure duration']	['population', 'route or mode of administration', 'study design']	0.12	0.78	0.46	0.67	0.23	0.19	0.16	0.54	0.46	0.2
+83	36963852	37258943	['dosage or exposure duration', 'outcome measures']	['population', 'dosage or exposure duration', 'route or mode of administration', 'study design', 'outcome measures']	0.03	0.61	0.79	0.53	0.06	0.31	0.29	0.77	0.59	0.16
+84	36862862	40791037	['dosage or exposure duration', 'outcome measures']	['population', 'study design', 'outcome measures']	0.02	0.52	0.4	0.15	0.09	0.19	0.22	0.5	0.8	0.16
+85	37105325	40364780	['dosage or exposure duration', 'evolving scientific evidence']	['population', 'dosage or exposure duration', 'combined drug effects', 'outcome measures']	0.02	0.8	0.69	0.21	0.65	0.3	0.27	0.42	0.53	0.15
+86	37095234	38507149	['population', 'outcome measures']	['outcome measures']	0.03	0.26	0.21	0.07	0.23	0.27	0.22	0.45	0.71	0.47
+87	37470525	40481286	['outcome measures', 'population']	['study design']	0.03	0.37	0.18	0.23	0.47	0.29	0.35	0.51	0.48	0.24
+88	37337027	40296308	['outcome measures', 'combined drug effects', 'dosage or exposure duration']	['population', 'dosage or exposure duration', 'combined drug effects', 'outcome measures']	0.03	0.65	0.62	0.21	0.71	0.36	0.44	0.35	0.83	0.41
+89	37505153	38541158	['population']	['population', 'study design', 'outcome measures']	0.02	0.71	0.41	0.34	0.42	0.21	0.24	0.62	0.6	0.17
+90	37482224	38166663	['population', 'outcome measures', 'combined drug effects']	['population', 'route or mode of administration', 'combined drug effects', 'study design', 'outcome measures']	0.03	0.63	0.42	0.74	0.7	0.23	0.28	0.57	0.75	0.31
+91	37482224	38321436	['combined drug effects', 'outcome measures']	['route or mode of administration', 'study design', 'outcome measures']	0.02	0.3	0.44	0.63	0.35	0.26	0.37	0.57	0.59	0.34
+92	37482224	39946130	['population', 'outcome measures']	['outcome measures']	0.02	0.32	0.29	0.16	0.08	0.46	0.4	0.45	0.64	0.33
+93	37403525	37935231	['route or mode of administration']	['dosage or exposure duration', 'route or mode of administration', 'combined drug effects', 'study design', 'outcome measures']	0.02	0.18	0.77	0.79	0.62	0.27	0.27	0.64	0.53	0.23
+94	37793771	40680752	['combined drug effects', 'outcome measures']	['population', 'combined drug effects', 'study design']	0.02	0.51	0.13	0.1	0.78	0.47	0.41	0.62	0.41	0.35
+95	33722999	38215974	['outcome measures']	['population', 'known controversy or self-qualified claims', 'study design', 'outcome measures']	0.03	0.86	0.29	0.14	0.26	0.33	0.53	0.64	0.78	0.35
+96	37904082	37268328	['outcome measures']	['dosage or exposure duration', 'evolving scientific evidence', 'study design']	0.03	0.28	0.7	0.04	0.06	0.54	0.48	0.61	0.47	0.22
+97	37839707	38453026	['outcome measures']	['ambiguous referent']	0.02	0.38	0.07	0.06	0.07	0.26	0.2	0.31	0.09	0.62
+98	39439451	41170298	['population']	['population']	0.03	0.82	0.18	0.11	0.41	0.27	0.2	0.25	0.42	0.1
+99	38302882	39432604	['population', 'combined drug effects', 'outcome measures']	['population', 'dosage or exposure duration']	0.03	0.5	0.66	0.31	0.44	0.4	0.21	0.48	0.49	0.19
+100	38541121	39198860	['population', 'outcome measures']	['population', 'study design', 'outcome measures']	0.03	0.79	0.14	0.06	0.32	0.22	0.19	0.53	0.69	0.23
+101	38485912	39226747	['population', 'outcome measures']	['outcome measures']	0.02	0.47	0.27	0.07	0.19	0.34	0.26	0.37	0.89	0.22
+102	38485912	40232661	['population', 'outcome measures']	['population', 'study design', 'outcome measures']	0.02	0.62	0.42	0.08	0.09	0.34	0.33	0.7	0.81	0.18
+103	38431155	41405131	['dosage or exposure duration', 'route or mode of administration']	['dosage or exposure duration', 'route or mode of administration', 'known controversy or self-qualified claims', 'study design', 'outcome measures']	0.03	0.47	0.58	0.81	0.1	0.29	0.53	0.76	0.71	0.27
+104	38363272	40897188	['outcome measures', 'study design']	['evolving scientific evidence', 'study design', 'outcome measures']	0.02	0.39	0.09	0.03	0.1	0.51	0.28	0.66	0.79	0.45
+105	38321436	40791037	['route or mode of administration', 'outcome measures', 'known controversy or self-qualified claims']	['dosage or exposure duration', 'route or mode of administration', 'study design', 'outcome measures']	0.02	0.42	0.81	0.54	0.34	0.22	0.28	0.7	0.77	0.14
+106	38513188	41413016	['combined drug effects']	['population', 'study design']	0.02	0.71	0.11	0.05	0.35	0.34	0.15	0.61	0.16	0.47
+107	38511517	38587237	['outcome measures']	['population', 'outcome measures']	0.02	0.9	0.3	0.04	0.13	0.26	0.15	0.39	0.57	0.15
+108	38587237	39725521	['outcome measures']	['outcome measures']	0.02	0.46	0.07	0.02	0.23	0.19	0.26	0.24	0.77	0.44
+109	38587237	40514435	['outcome measures']	['outcome measures', 'ambiguous referent']	0.02	0.22	0.09	0.03	0.15	0.28	0.37	0.26	0.74	0.59
+110	38558118	41042339	['outcome measures', 'population']	['population', 'route or mode of administration', 'combined drug effects', 'study design', 'outcome measures']	0.03	0.65	0.33	0.68	0.53	0.21	0.28	0.73	0.76	0.25
+111	39473076	40088922	['population', 'study design', 'outcome measures']	['population', 'study design', 'outcome measures']	0.02	0.58	0.3	0.06	0.11	0.44	0.37	0.84	0.7	0.17
+112	38477675	41033333	['population', 'dosage or exposure duration', 'outcome measures']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.03	0.61	0.58	0.32	0.13	0.46	0.33	0.52	0.77	0.25
+113	39721243	41109167	['population']	['route or mode of administration', 'outcome measures']	0.02	0.35	0.46	0.72	0.1	0.22	0.24	0.48	0.67	0.31
+114	39437460	41004640	['population', 'known controversy or self-qualified claims']	['population', 'known controversy or self-qualified claims', 'study design', 'outcome measures']	0.04	0.73	0.34	0.06	0.37	0.22	0.51	0.7	0.6	0.31
+115	39946130	40791037	['dosage or exposure duration', 'outcome measures']	['outcome measures']	0.02	0.49	0.4	0.45	0.08	0.22	0.31	0.44	0.8	0.18
+116	39277784	40631522	['population', 'outcome measures']	['population', 'study design', 'outcome measures']	0.02	0.79	0.44	0.05	0.42	0.23	0.37	0.67	0.78	0.18
+117	40274907	40447978	['study design', 'outcome measures']	['population', 'route or mode of administration', 'study design', 'outcome measures']	0.03	0.63	0.47	0.63	0.09	0.46	0.31	0.64	0.72	0.4
+118	40178431	39698906	['outcome measures', 'population']	['population', 'dosage or exposure duration', 'combined drug effects', 'study design', 'outcome measures']	0.03	0.52	0.53	0.13	0.55	0.19	0.37	0.61	0.6	0.35
+119	40708328	41482786	['outcome measures', 'population']	['population', 'combined drug effects', 'study design', 'outcome measures', 'ambiguous referent']	0.45	0.77	0.38	0.09	0.59	0.36	0.42	0.55	0.59	0.54
+120	40783518	39432604	['population', 'route or mode of administration', 'outcome measures']	['dosage or exposure duration', 'outcome measures']	0.03	0.46	0.79	0.47	0.49	0.35	0.31	0.37	0.68	0.32
+121	28161016	29915869	['ambiguous referent', 'combined drug effects']	['population', 'route or mode of administration', 'outcome measures', 'ambiguous referent']	0.03	0.85	0.31	0.57	0.06	0.22	0.47	0.44	0.56	0.58
+122	28158893	32507446	['known controversy or self-qualified claims', 'dosage or exposure duration', 'study design', 'outcome measures']	['dosage or exposure duration', 'outcome measures']	0.03	0.23	0.81	0.09	0.12	0.3	0.49	0.41	0.77	0.17
+123	28157691	28407660	['study design', 'ambiguous referent', 'outcome measures', 'combined drug effects']	['dosage or exposure duration', 'combined drug effects', 'outcome measures']	0.02	0.34	0.72	0.2	0.71	0.27	0.21	0.46	0.67	0.29
+124	28157691	28742409	['population', 'combined drug effects', 'outcome measures', 'study design', 'dosage or exposure duration']	['dosage or exposure duration', 'combined drug effects', 'outcome measures']	0.02	0.33	0.5	0.13	0.77	0.22	0.29	0.33	0.75	0.21
+125	28157691	28679142	['study design', 'population', 'dosage or exposure duration']	['dosage or exposure duration', 'study design', 'outcome measures']	0.02	0.43	0.83	0.22	0.26	0.33	0.23	0.54	0.5	0.21
+126	28157691	29271278	['population', 'dosage or exposure duration', 'outcome measures', 'study design']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.02	0.51	0.75	0.33	0.2	0.28	0.21	0.59	0.72	0.15
+127	28157691	30658483	['population', 'outcome measures', 'study design']	['dosage or exposure duration', 'outcome measures']	0.02	0.42	0.69	0.2	0.2	0.28	0.3	0.48	0.81	0.18
+128	28157691	33010974	['known controversy or self-qualified claims', 'study design', 'outcome measures']	['dosage or exposure duration', 'outcome measures']	0.02	0.45	0.58	0.14	0.16	0.25	0.29	0.4	0.9	0.21
+129	28157691	40219003	['ambiguous referent', 'outcome measures', 'population', 'study design']	['dosage or exposure duration', 'study design', 'outcome measures']	0.02	0.42	0.5	0.14	0.35	0.25	0.28	0.56	0.87	0.3
+130	27120292	32418546	['outcome measures', 'study design', 'ambiguous referent']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.02	0.65	0.64	0.06	0.15	0.36	0.48	0.7	0.69	0.22
+131	28489244	39923364	['ambiguous referent', 'outcome measures']	['population', 'study design']	0.26	0.88	0.27	0.27	0.08	0.18	0.19	0.64	0.49	0.19
+132	28323797	38071168	['evolving scientific evidence', 'outcome measures']	['population', 'known controversy or self-qualified claims', 'study design', 'outcome measures']	0.09	0.7	0.29	0.14	0.31	0.43	0.58	0.55	0.66	0.37
+133	28283245	32737893	['dosage or exposure duration', 'route or mode of administration', 'population']	['population', 'dosage or exposure duration']	0.03	0.79	0.8	0.37	0.06	0.17	0.27	0.35	0.38	0.15
+134	28274889	30764805	['known controversy or self-qualified claims', 'dosage or exposure duration']	['population', 'dosage or exposure duration', 'outcome measures']	0.03	0.61	0.76	0.27	0.08	0.33	0.26	0.49	0.79	0.43
+135	28424269	30179153	['ambiguous referent', 'outcome measures']	['dosage or exposure duration', 'combined drug effects', 'study design', 'outcome measures']	0.02	0.35	0.66	0.04	0.63	0.37	0.48	0.55	0.61	0.43
+136	28375641	32204978	['population', 'dosage or exposure duration', 'outcome measures', 'known controversy or self-qualified claims']	['population', 'dosage or exposure duration', 'outcome measures']	0.04	0.85	0.54	0.32	0.43	0.28	0.42	0.35	0.67	0.16
+137	28267236	30210115	['ambiguous referent', 'combined drug effects', 'outcome measures']	['combined drug effects', 'outcome measures']	0.02	0.28	0.19	0.12	0.81	0.45	0.32	0.4	0.58	0.19
+138	28540436	37953202	['known controversy or self-qualified claims']	['evolving scientific evidence', 'known controversy or self-qualified claims', 'study design']	0.03	0.26	0.14	0.07	0.05	0.58	0.54	0.63	0.43	0.12
+139	28490648	30205936	['ambiguous referent']	['population', 'study design']	0.08	0.57	0.12	0.07	0.08	0.25	0.33	0.7	0.37	0.14
+140	28490514	30583032	['ambiguous referent', 'outcome measures']	['population', 'outcome measures']	0.03	0.8	0.35	0.11	0.06	0.29	0.21	0.42	0.76	0.19
+141	28490514	33744225	['dosage or exposure duration', 'outcome measures']	['dosage or exposure duration', 'study design', 'outcome measures']	0.03	0.39	0.61	0.24	0.06	0.28	0.19	0.55	0.82	0.28
+142	28490514	34473295	['population', 'outcome measures']	['population', 'outcome measures']	0.02	0.71	0.41	0.11	0.06	0.23	0.3	0.36	0.5	0.21
+143	28490514	36181990	['population', 'dosage or exposure duration', 'outcome measures']	['population', 'dosage or exposure duration', 'outcome measures']	0.02	0.88	0.78	0.16	0.09	0.21	0.16	0.45	0.74	0.18
+144	28485544	34871051	['study design', 'ambiguous referent']	['population', 'evolving scientific evidence', 'known controversy or self-qualified claims', 'study design', 'outcome measures']	0.02	0.57	0.1	0.13	0.11	0.73	0.52	0.7	0.61	0.37
+145	28485544	37277078	['ambiguous referent', 'study design']	['population', 'study design']	0.02	0.86	0.09	0.1	0.12	0.48	0.38	0.53	0.48	0.34
+146	28426856	30904540	['known controversy or self-qualified claims', 'route or mode of administration', 'population', 'outcome measures']	['population', 'route or mode of administration', 'outcome measures']	0.3	0.51	0.33	0.9	0.43	0.31	0.36	0.43	0.57	0.46
+147	28727704	39934398	['known controversy or self-qualified claims', 'population', 'ambiguous referent']	['population', 'outcome measures']	0.02	0.5	0.21	0.42	0.38	0.18	0.38	0.42	0.53	0.24
+148	28700489	32780926	['known controversy or self-qualified claims', 'dosage or exposure duration']	['dosage or exposure duration', 'evolving scientific evidence']	0.05	0.22	0.53	0.19	0.09	0.5	0.32	0.47	0.4	0.19
+149	28700489	40935723	['population', 'dosage or exposure duration']	['population']	0.1	0.7	0.32	0.13	0.17	0.25	0.24	0.32	0.36	0.12
+150	28679140	28668998	['outcome measures', 'dosage or exposure duration', 'combined drug effects', 'population']	['dosage or exposure duration', 'combined drug effects', 'outcome measures', 'ambiguous referent']	0.02	0.48	0.65	0.12	0.59	0.16	0.44	0.22	0.56	0.64
+151	28668998	30922259	['population', 'dosage or exposure duration', 'outcome measures']	['population']	0.03	0.52	0.3	0.06	0.15	0.13	0.27	0.14	0.37	0.36
+152	28657492	32548624	['known controversy or self-qualified claims', 'outcome measures']	['dosage or exposure duration', 'evolving scientific evidence', 'known controversy or self-qualified claims', 'study design', 'outcome measures']	0.02	0.41	0.63	0.04	0.28	0.6	0.64	0.81	0.77	0.24
+153	28626020	27868194	['dosage or exposure duration', 'known controversy or self-qualified claims', 'outcome measures']	['dosage or exposure duration', 'outcome measures']	0.02	0.43	0.83	0.06	0.06	0.41	0.4	0.45	0.82	0.24
+154	28625369	29805112	['evolving scientific evidence']	[]	0.03	0.15	0.12	0.03	0.07	0.19	0.31	0.14	0.17	0.14
+155	28623938	40274907	['population', 'outcome measures', 'ambiguous referent', 'study design']	['population', 'outcome measures']	0.03	0.83	0.34	0.34	0.1	0.24	0.47	0.44	0.73	0.36
+156	28615214	29898836	['population']	['population', 'outcome measures']	0.02	0.78	0.13	0.05	0.17	0.15	0.32	0.45	0.55	0.25
+157	28615145	40274907	['ambiguous referent', 'study design']	['dosage or exposure duration', 'route or mode of administration', 'study design', 'outcome measures']	0.02	0.2	0.76	0.65	0.13	0.36	0.4	0.62	0.59	0.32
+158	28606620	39316773	['population', 'known controversy or self-qualified claims', 'dosage or exposure duration', 'combined drug effects', 'outcome measures']	['population', 'combined drug effects']	0.03	0.93	0.46	0.06	0.53	0.13	0.14	0.29	0.42	0.22
+159	28602646	30633660	['dosage or exposure duration', 'outcome measures']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.02	0.73	0.58	0.29	0.3	0.37	0.45	0.52	0.66	0.17
+160	28598260	31512187	['population', 'ambiguous referent']	['population', 'study design', 'outcome measures']	0.03	0.69	0.44	0.08	0.07	0.24	0.31	0.76	0.52	0.48
+161	28425575	29936918	['population', 'dosage or exposure duration']	['population', 'dosage or exposure duration', 'study design']	0.04	0.88	0.72	0.22	0.07	0.21	0.21	0.62	0.46	0.16
+162	28425575	29123173	['population', 'dosage or exposure duration']	['population', 'dosage or exposure duration', 'study design']	0.07	0.77	0.62	0.15	0.07	0.31	0.32	0.62	0.45	0.18
+163	28760799	31767144	['evolving scientific evidence']	['evolving scientific evidence']	0.02	0.09	0.1	0.05	0.03	0.62	0.34	0.19	0.16	0.13
+164	28739318	35533225	['known controversy or self-qualified claims', 'population']	['population', 'dosage or exposure duration', 'known controversy or self-qualified claims', 'outcome measures']	0.05	0.76	0.53	0.07	0.2	0.26	0.53	0.42	0.5	0.21
+165	28681267	33373701	['study design']	[]	0.02	0.17	0.21	0.09	0.12	0.14	0.12	0.24	0.42	0.23
+166	28648803	31801872	['dosage or exposure duration', 'route or mode of administration', 'outcome measures']	['dosage or exposure duration', 'study design', 'outcome measures']	0.02	0.38	0.76	0.48	0.27	0.3	0.24	0.86	0.87	0.37
+167	28849623	30963552	['population']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.03	0.86	0.52	0.08	0.14	0.2	0.16	0.59	0.63	0.2
+168	28803880	32823218	['known controversy or self-qualified claims', 'dosage or exposure duration', 'study design', 'route or mode of administration', 'population', 'outcome measures']	['population', 'dosage or exposure duration', 'route or mode of administration']	0.02	0.94	0.67	0.54	0.35	0.23	0.41	0.49	0.38	0.2
+169	28803386	31777212	['ambiguous referent', 'combined drug effects', 'study design']	['population', 'combined drug effects', 'study design']	0.03	0.51	0.22	0.1	0.5	0.41	0.28	0.61	0.3	0.11
+170	28954882	39280310	['dosage or exposure duration', 'ambiguous referent']	['population', 'dosage or exposure duration', 'study design']	0.03	0.51	0.61	0.07	0.14	0.27	0.39	0.52	0.32	0.14
+171	28953735	37156466	['dosage or exposure duration', 'population', 'study design']	['population', 'dosage or exposure duration', 'study design']	0.03	0.8	0.59	0.06	0.04	0.24	0.2	0.65	0.4	0.34
+172	28780595	40118519	['ambiguous referent']	['route or mode of administration', 'outcome measures']	0.03	0.49	0.44	0.52	0.24	0.19	0.2	0.47	0.65	0.28
+173	26279065	39450759	['evolving scientific evidence', 'outcome measures', 'ambiguous referent']	['evolving scientific evidence', 'known controversy or self-qualified claims']	0.02	0.42	0.24	0.06	0.2	0.86	0.6	0.46	0.44	0.22
+174	29108664	38123239	['study design', 'dosage or exposure duration', 'outcome measures']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.03	0.55	0.78	0.34	0.08	0.28	0.17	0.74	0.61	0.19
+175	29055155	35841363	['study design']	['combined drug effects', 'study design', 'outcome measures']	0.02	0.36	0.32	0.11	0.74	0.3	0.36	0.68	0.64	0.31
+176	29055155	38174531	['study design', 'outcome measures']	['evolving scientific evidence', 'known controversy or self-qualified claims', 'study design', 'outcome measures']	0.02	0.18	0.37	0.06	0.11	0.51	0.64	0.62	0.69	0.21
+177	29261442	30703190	['population', 'ambiguous referent']	['population', 'outcome measures']	0.02	0.93	0.22	0.05	0.18	0.15	0.14	0.39	0.77	0.24
+178	30278067	29898707	['population', 'dosage or exposure duration', 'known controversy or self-qualified claims']	['population', 'known controversy or self-qualified claims']	0.03	0.66	0.45	0.15	0.04	0.2	0.51	0.47	0.44	0.17
+179	30278067	30762760	['population', 'study design', 'route or mode of administration']	['population', 'route or mode of administration', 'study design']	0.03	0.62	0.35	0.6	0.43	0.14	0.23	0.52	0.4	0.27
+180	30278067	34730529	['dosage or exposure duration', 'outcome measures', 'study design']	['dosage or exposure duration', 'route or mode of administration', 'combined drug effects', 'outcome measures']	0.03	0.16	0.6	0.57	0.56	0.22	0.34	0.48	0.54	0.21
+181	30256811	30255229	['population', 'dosage or exposure duration', 'outcome measures']	['population', 'dosage or exposure duration', 'evolving scientific evidence', 'known controversy or self-qualified claims', 'study design', 'outcome measures']	0.03	0.77	0.68	0.07	0.15	0.55	0.52	0.63	0.57	0.27
+182	30256811	34516033	['population', 'study design', 'outcome measures', 'dosage or exposure duration']	['population', 'dosage or exposure duration', 'evolving scientific evidence', 'known controversy or self-qualified claims', 'outcome measures']	0.03	0.82	0.63	0.07	0.19	0.54	0.52	0.48	0.72	0.33
+183	29402767	36731435	['evolving scientific evidence']	['population', 'known controversy or self-qualified claims', 'outcome measures']	0.11	0.84	0.15	0.04	0.1	0.38	0.56	0.36	0.77	0.28
+184	29370992	35030335	['population', 'combined drug effects', 'dosage or exposure duration', 'route or mode of administration', 'outcome measures', 'study design']	['population', 'study design', 'outcome measures']	0.03	0.72	0.25	0.12	0.48	0.15	0.16	0.53	0.62	0.21
+185	29331328	32186587	['population', 'known controversy or self-qualified claims']	[]	0.03	0.38	0.21	0.06	0.09	0.34	0.39	0.49	0.32	0.21
+186	29325446	33612830	['ambiguous referent', 'outcome measures']	['outcome measures']	0.03	0.29	0.13	0.04	0.1	0.49	0.4	0.37	0.57	0.23
+187	29189044	36813043	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	['population', 'study design']	0.08	0.85	0.24	0.12	0.08	0.15	0.31	0.78	0.45	0.18
+188	29176264	36156542	['dosage or exposure duration', 'combined drug effects', 'study design']	['dosage or exposure duration', 'study design']	0.03	0.31	0.88	0.11	0.29	0.2	0.21	0.56	0.39	0.17
+189	29099421	38051553	['dosage or exposure duration', 'study design', 'known controversy or self-qualified claims']	['dosage or exposure duration', 'combined drug effects', 'study design']	0.02	0.38	0.53	0.1	0.71	0.44	0.39	0.8	0.38	0.18
+190	29072815	31345359	['population', 'dosage or exposure duration', 'outcome measures']	['population', 'dosage or exposure duration', 'study design']	0.03	0.89	0.69	0.08	0.06	0.21	0.17	0.56	0.43	0.11
+191	28921338	31559433	['population', 'dosage or exposure duration', 'outcome measures']	['dosage or exposure duration', 'outcome measures']	0.02	0.41	0.62	0.07	0.09	0.22	0.32	0.4	0.9	0.44
+192	28833331	37061109	['population']	['evolving scientific evidence', 'study design']	0.03	0.3	0.18	0.03	0.06	0.73	0.3	0.7	0.39	0.18
+193	28671712	39443081	['known controversy or self-qualified claims', 'dosage or exposure duration', 'outcome measures']	['population', 'dosage or exposure duration', 'outcome measures']	0.17	0.83	0.69	0.09	0.11	0.23	0.26	0.48	0.73	0.26
+194	29553033	38546454	['ambiguous referent', 'dosage or exposure duration', 'outcome measures']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.03	0.59	0.68	0.22	0.13	0.35	0.46	0.62	0.52	0.18
+195	29490621	35280228	['evolving scientific evidence', 'population', 'study design', 'dosage or exposure duration']	['population', 'study design']	0.06	0.71	0.46	0.08	0.28	0.21	0.34	0.58	0.47	0.29
+196	29451696	31361535	['known controversy or self-qualified claims', 'outcome measures', 'ambiguous referent', 'population']	['population', 'study design', 'outcome measures']	0.02	0.76	0.45	0.09	0.43	0.24	0.27	0.82	0.86	0.31
+197	29702716	33581015	['ambiguous referent', 'known controversy or self-qualified claims']	['population', 'study design', 'outcome measures']	0.02	0.74	0.32	0.06	0.07	0.25	0.26	0.5	0.84	0.31
+198	29637918	34328539	['dosage or exposure duration', 'outcome measures', 'population']	['population', 'dosage or exposure duration', 'study design']	0.03	0.78	0.66	0.07	0.05	0.49	0.33	0.5	0.37	0.18
+199	29599033	40918951	['outcome measures', 'route or mode of administration', 'ambiguous referent']	['route or mode of administration', 'combined drug effects', 'study design', 'outcome measures']	0.02	0.31	0.43	0.86	0.58	0.2	0.14	0.8	0.73	0.39
+200	29238824	38382042	['population', 'outcome measures', 'dosage or exposure duration']	['population', 'dosage or exposure duration', 'outcome measures']	0.02	0.78	0.51	0.08	0.08	0.21	0.19	0.26	0.55	0.16
+201	29707867	30829772	['dosage or exposure duration', 'outcome measures']	['dosage or exposure duration', 'known controversy or self-qualified claims', 'study design']	0.02	0.4	0.82	0.3	0.13	0.46	0.54	0.58	0.46	0.14
+202	29631810	35103539	['ambiguous referent', 'study design']	['population', 'dosage or exposure duration', 'study design']	0.02	0.87	0.54	0.32	0.17	0.29	0.28	0.64	0.17	0.26
+203	29619605	34668986	['study design', 'outcome measures', 'ambiguous referent']	['study design', 'outcome measures']	0.02	0.39	0.45	0.11	0.36	0.24	0.22	0.68	0.68	0.24
+204	29575637	35481712	['dosage or exposure duration', 'population', 'study design']	['population', 'dosage or exposure duration', 'combined drug effects', 'study design']	0.03	0.88	0.66	0.06	0.52	0.23	0.45	0.66	0.46	0.2
+205	29554173	29738424	['outcome measures']	['outcome measures']	0.02	0.08	0.07	0.06	0.1	0.14	0.18	0.13	0.89	0.22
+206	29864432	37855764	['population', 'ambiguous referent', 'outcome measures']	['population', 'dosage or exposure duration', 'outcome measures']	0.04	0.83	0.69	0.23	0.12	0.14	0.18	0.22	0.76	0.14
+207	29864432	38456291	['population', 'dosage or exposure duration']	['population', 'dosage or exposure duration', 'outcome measures']	0.03	0.84	0.66	0.24	0.14	0.13	0.15	0.21	0.62	0.09
+208	29582084	30179153	['outcome measures', 'ambiguous referent', 'known controversy or self-qualified claims']	['combined drug effects', 'study design', 'outcome measures']	0.02	0.41	0.23	0.05	0.66	0.34	0.47	0.58	0.56	0.41
+209	29088030	31237871	['dosage or exposure duration', 'route or mode of administration', 'outcome measures']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.04	0.76	0.58	0.11	0.07	0.23	0.31	0.75	0.62	0.37
+210	28834191	30829772	['study design', 'ambiguous referent']	['dosage or exposure duration', 'known controversy or self-qualified claims', 'study design', 'outcome measures']	0.02	0.44	0.67	0.26	0.45	0.29	0.57	0.77	0.53	0.23
+211	30019676	33620551	['population', 'dosage or exposure duration', 'outcome measures']	['population', 'study design', 'outcome measures']	0.02	0.74	0.44	0.06	0.1	0.19	0.43	0.66	0.63	0.26
+212	29935486	30321520	['study design', 'population', 'outcome measures']	['population', 'outcome measures']	0.03	0.76	0.28	0.08	0.36	0.17	0.17	0.45	0.5	0.14
+213	29935486	30474791	['known controversy or self-qualified claims']	['study design']	0.02	0.31	0.19	0.05	0.27	0.25	0.32	0.55	0.49	0.32
+214	29935486	31012040	['population', 'ambiguous referent']	['population']	0.02	0.77	0.19	0.05	0.23	0.21	0.21	0.41	0.28	0.1
+215	29935486	36517336	['population', 'dosage or exposure duration']	['population', 'combined drug effects']	0.21	0.7	0.33	0.08	0.54	0.13	0.16	0.38	0.32	0.12
+216	29935486	41247673	['population', 'ambiguous referent']	['population']	0.02	0.72	0.2	0.05	0.25	0.21	0.24	0.21	0.43	0.11
+217	29913280	31870950	['dosage or exposure duration', 'outcome measures']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.03	0.84	0.67	0.05	0.1	0.41	0.19	0.65	0.83	0.22
+218	30135019	30636561	['ambiguous referent', 'outcome measures']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.02	0.88	0.71	0.09	0.18	0.19	0.13	0.59	0.53	0.15
+219	30135019	35961692	['outcome measures', 'ambiguous referent', 'population']	['population', 'study design', 'outcome measures']	0.02	0.76	0.19	0.06	0.37	0.17	0.17	0.68	0.6	0.22
+220	30044966	40457233	['dosage or exposure duration', 'outcome measures']	[]	0.02	0.27	0.43	0.05	0.33	0.22	0.26	0.41	0.34	0.29
+221	30027438	33594488	['outcome measures']	['outcome measures']	0.02	0.17	0.08	0.04	0.41	0.14	0.18	0.23	0.88	0.44
+222	29913001	35286456	['study design', 'ambiguous referent', 'outcome measures']	['population', 'study design', 'outcome measures']	0.02	0.86	0.33	0.09	0.1	0.36	0.25	0.51	0.52	0.28
+223	28835228	40096917	['evolving scientific evidence', 'dosage or exposure duration', 'population', 'outcome measures']	['population', 'known controversy or self-qualified claims', 'outcome measures']	0.03	0.68	0.43	0.11	0.07	0.32	0.52	0.48	0.82	0.39
+224	30007557	34076288	['combined drug effects', 'outcome measures']	['population', 'study design', 'outcome measures', 'ambiguous referent']	0.03	0.78	0.21	0.1	0.41	0.23	0.2	0.73	0.73	0.52
+225	29805112	37348152	['study design', 'dosage or exposure duration', 'outcome measures']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.02	0.8	0.7	0.05	0.14	0.32	0.18	0.76	0.57	0.16
+226	30316534	31340012	['dosage or exposure duration', 'outcome measures']	['dosage or exposure duration']	0.02	0.49	0.75	0.13	0.04	0.21	0.13	0.45	0.43	0.12
+227	30316534	32945627	['dosage or exposure duration', 'outcome measures']	['population', 'dosage or exposure duration', 'outcome measures']	0.02	0.58	0.67	0.12	0.06	0.26	0.17	0.48	0.54	0.16
+228	29293905	35946123	['study design', 'route or mode of administration', 'dosage or exposure duration']	['population', 'dosage or exposure duration']	0.07	0.74	0.57	0.28	0.35	0.22	0.27	0.39	0.35	0.17
+229	30322824	31416745	['dosage or exposure duration', 'outcome measures']	['population', 'dosage or exposure duration', 'outcome measures']	0.03	0.64	0.6	0.06	0.31	0.35	0.19	0.47	0.84	0.33
+230	30321667	36333495	['population', 'dosage or exposure duration', 'outcome measures']	['population', 'outcome measures']	0.04	0.83	0.42	0.09	0.39	0.23	0.48	0.32	0.62	0.2
+231	30308388	38513188	['population', 'ambiguous referent', 'outcome measures']	['population', 'study design']	0.02	0.93	0.14	0.03	0.23	0.4	0.19	0.62	0.41	0.17
+232	30222788	30762760	['study design', 'ambiguous referent']	['dosage or exposure duration', 'study design', 'outcome measures']	0.03	0.46	0.53	0.16	0.19	0.27	0.27	0.75	0.58	0.25
+233	30222788	33408009	['population', 'ambiguous referent']	['population', 'study design']	0.02	0.69	0.48	0.35	0.26	0.17	0.28	0.54	0.36	0.34
+234	30222788	34730529	['population', 'study design']	['population', 'outcome measures']	0.03	0.72	0.19	0.2	0.19	0.16	0.24	0.34	0.71	0.3
+235	29123173	37239916	['combined drug effects', 'dosage or exposure duration', 'outcome measures']	['dosage or exposure duration', 'combined drug effects', 'outcome measures']	0.11	0.42	0.75	0.15	0.73	0.23	0.4	0.39	0.77	0.37
+236	30246883	36333495	['dosage or exposure duration', 'combined drug effects', 'study design', 'outcome measures']	['population', 'dosage or exposure duration', 'combined drug effects', 'outcome measures']	0.03	0.74	0.6	0.18	0.67	0.2	0.27	0.44	0.78	0.18
+237	30177485	31748427	['dosage or exposure duration', 'study design']	['population', 'study design', 'outcome measures']	0.03	0.62	0.41	0.04	0.23	0.22	0.29	0.67	0.66	0.35
+238	30177485	34864084	['population', 'dosage or exposure duration', 'outcome measures', 'study design']	['population', 'study design', 'outcome measures']	0.02	0.8	0.38	0.04	0.1	0.22	0.23	0.64	0.85	0.35
+239	30177485	35260678	['ambiguous referent', 'population', 'study design']	['population']	0.02	0.59	0.05	0.03	0.04	0.2	0.22	0.36	0.19	0.25
+240	30177485	36403976	['population', 'study design', 'outcome measures', 'dosage or exposure duration']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.02	0.59	0.53	0.05	0.2	0.29	0.36	0.55	0.59	0.32
+241	30177485	36534221	['population', 'dosage or exposure duration', 'outcome measures']	['population', 'outcome measures']	0.03	0.72	0.48	0.04	0.05	0.32	0.39	0.49	0.73	0.19
+242	30118582	30119941	['dosage or exposure duration', 'study design', 'population', 'combined drug effects']	['dosage or exposure duration', 'combined drug effects', 'study design']	0.02	0.49	0.65	0.06	0.55	0.2	0.26	0.63	0.38	0.39
+243	27986972	33508990	['dosage or exposure duration', 'ambiguous referent']	['population', 'dosage or exposure duration', 'outcome measures']	0.02	0.51	0.63	0.12	0.06	0.29	0.37	0.41	0.6	0.27
+244	27986972	36973702	['known controversy or self-qualified claims', 'route or mode of administration', 'dosage or exposure duration', 'outcome measures']	['population', 'dosage or exposure duration']	0.03	0.87	0.52	0.11	0.05	0.15	0.38	0.28	0.35	0.37
+245	29246130	33386338	['evolving scientific evidence']	['evolving scientific evidence']	0.02	0.11	0.08	0.25	0.07	0.51	0.43	0.25	0.16	0.09
+246	31596326	33413320	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	['population', 'study design', 'outcome measures']	0.18	0.57	0.49	0.16	0.34	0.28	0.35	0.58	0.73	0.4
+247	31104056	38220382	['dosage or exposure duration', 'route or mode of administration', 'known controversy or self-qualified claims', 'outcome measures']	['dosage or exposure duration', 'outcome measures']	0.03	0.34	0.79	0.11	0.05	0.2	0.23	0.48	0.57	0.24
+248	28158893	32825982	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	['population', 'dosage or exposure duration', 'study design']	0.03	0.68	0.51	0.17	0.49	0.19	0.16	0.57	0.38	0.14
+249	28246176	29505549	['known controversy or self-qualified claims', 'population']	['population']	0.03	0.84	0.06	0.04	0.31	0.18	0.29	0.22	0.26	0.12
+250	30630671	32479750	['population', 'dosage or exposure duration']	['population', 'outcome measures']	0.02	0.69	0.15	0.04	0.05	0.37	0.45	0.39	0.61	0.18
+251	30586720	37471285	['population', 'route or mode of administration', 'outcome measures']	['population', 'study design', 'outcome measures']	0.02	0.57	0.47	0.36	0.16	0.27	0.4	0.74	0.83	0.18
+252	30447348	33186774	['dosage or exposure duration']	['dosage or exposure duration']	0.02	0.23	0.5	0.1	0.2	0.26	0.26	0.37	0.44	0.11
+253	30366723	30987415	['population', 'route or mode of administration']	['population', 'dosage or exposure duration']	0.05	0.74	0.52	0.17	0.09	0.15	0.15	0.25	0.49	0.19
+254	30365922	32979978	['population', 'dosage or exposure duration', 'evolving scientific evidence', 'study design', 'outcome measures']	['population', 'outcome measures']	0.02	0.88	0.25	0.07	0.13	0.18	0.22	0.31	0.84	0.43
+255	31142947	36688883	['combined drug effects']	['route or mode of administration', 'combined drug effects', 'study design', 'outcome measures']	0.09	0.31	0.43	0.57	0.72	0.31	0.34	0.69	0.54	0.23
+256	30756142	32792131	['study design', 'outcome measures']	['dosage or exposure duration', 'study design', 'outcome measures']	0.02	0.39	0.51	0.12	0.07	0.4	0.33	0.78	0.67	0.23
+257	30738409	36402630	['dosage or exposure duration']	['dosage or exposure duration']	0.02	0.21	0.64	0.06	0.04	0.23	0.29	0.31	0.31	0.31
+258	30370492	41098003	['population', 'dosage or exposure duration', 'study design']	['population', 'dosage or exposure duration', 'outcome measures']	0.03	0.8	0.56	0.07	0.09	0.21	0.15	0.41	0.57	0.4
+259	30188220	38123239	['dosage or exposure duration', 'study design']	['dosage or exposure duration', 'study design', 'outcome measures']	0.03	0.34	0.85	0.09	0.08	0.42	0.38	0.75	0.51	0.14
+260	31014423	33084980	['population', 'study design']	['population', 'study design', 'outcome measures']	0.14	0.69	0.2	0.09	0.16	0.35	0.22	0.81	0.72	0.4
+261	30902738	39519521	['population', 'outcome measures']	['population']	0.02	0.83	0.45	0.08	0.24	0.26	0.41	0.38	0.49	0.2
+262	30880505	31298405	['population', 'dosage or exposure duration', 'outcome measures']	['dosage or exposure duration', 'outcome measures']	0.05	0.21	0.72	0.08	0.4	0.28	0.29	0.48	0.66	0.33
+263	30860948	37179241	['study design', 'outcome measures']	['evolving scientific evidence']	0.02	0.13	0.12	0.04	0.1	0.85	0.4	0.24	0.44	0.16
+264	31087085	36701905	['study design']	['study design']	0.02	0.36	0.26	0.05	0.14	0.28	0.24	0.59	0.31	0.21
+265	31035775	37348152	['population', 'route or mode of administration']	['population', 'dosage or exposure duration', 'study design']	0.02	0.8	0.84	0.04	0.17	0.29	0.18	0.57	0.28	0.29
+266	30977089	34857248	['combined drug effects', 'outcome measures']	['combined drug effects', 'outcome measures']	0.03	0.31	0.15	0.11	0.8	0.28	0.2	0.26	0.71	0.28
+267	30967436	31069459	['dosage or exposure duration', 'known controversy or self-qualified claims', 'combined drug effects', 'outcome measures']	['dosage or exposure duration', 'route or mode of administration', 'known controversy or self-qualified claims', 'outcome measures']	0.14	0.31	0.61	0.51	0.34	0.3	0.52	0.44	0.75	0.27
+268	30954338	32434234	['population']	['population', 'outcome measures']	0.03	0.62	0.27	0.24	0.23	0.17	0.49	0.27	0.67	0.31
+269	30954338	40845176	['population', 'combined drug effects']	['combined drug effects']	0.06	0.46	0.14	0.41	0.59	0.17	0.45	0.32	0.46	0.32
+270	30227772	33781793	['population', 'known controversy or self-qualified claims', 'outcome measures']	['population', 'known controversy or self-qualified claims', 'outcome measures']	0.02	0.64	0.2	0.15	0.1	0.47	0.53	0.47	0.69	0.44
+271	31228427	32110882	['population']	['population', 'combined drug effects', 'outcome measures']	0.03	0.7	0.33	0.19	0.55	0.18	0.23	0.28	0.7	0.17
+272	31087325	34182873	['population']	['population', 'study design']	0.03	0.92	0.22	0.06	0.05	0.21	0.2	0.5	0.37	0.24
+273	30184031	31559589	['dosage or exposure duration', 'study design']	['dosage or exposure duration']	0.02	0.45	0.79	0.08	0.06	0.22	0.27	0.49	0.14	0.28
+274	30632413	36250147	['population', 'dosage or exposure duration', 'route or mode of administration', 'study design']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.03	0.58	0.65	0.43	0.29	0.18	0.22	0.75	0.57	0.27
+275	31368057	37596359	['population', 'outcome measures']	['population', 'outcome measures']	0.03	0.8	0.16	0.05	0.15	0.24	0.2	0.24	0.76	0.38
+276	31286828	31896491	['population', 'route or mode of administration']	['population']	0.02	0.8	0.15	0.07	0.36	0.27	0.33	0.46	0.29	0.19
+277	31695323	31903588	['population', 'dosage or exposure duration', 'route or mode of administration']	['dosage or exposure duration', 'route or mode of administration']	0.02	0.35	0.82	0.68	0.11	0.19	0.2	0.39	0.15	0.23
+278	31695323	33960404	['population', 'route or mode of administration']	['population']	0.02	0.67	0.43	0.48	0.13	0.25	0.27	0.36	0.25	0.28
+279	31695323	36074385	['population']	['population']	0.02	0.65	0.18	0.19	0.09	0.19	0.19	0.35	0.24	0.14
+280	31462582	38375995	['population', 'study design', 'outcome measures']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.02	0.89	0.54	0.06	0.1	0.18	0.45	0.52	0.69	0.23
+281	31416155	33744225	['population', 'dosage or exposure duration']	['population', 'dosage or exposure duration']	0.03	0.74	0.53	0.09	0.06	0.2	0.19	0.32	0.45	0.25
+282	31416155	36181990	['population', 'dosage or exposure duration', 'outcome measures']	['population', 'dosage or exposure duration']	0.03	0.89	0.76	0.12	0.07	0.18	0.17	0.47	0.46	0.2
+283	31351660	31351659	['study design']	['dosage or exposure duration', 'evolving scientific evidence', 'study design']	0.02	0.16	0.71	0.08	0.05	0.55	0.24	0.76	0.25	0.13
+284	31573637	38401077	['population', 'study design', 'outcome measures']	['population', 'dosage or exposure duration', 'evolving scientific evidence', 'known controversy or self-qualified claims', 'study design', 'outcome measures']	0.05	0.56	0.58	0.29	0.48	0.59	0.56	0.69	0.75	0.2
+285	31570180	33522698	['study design']	['population', 'study design', 'outcome measures']	0.07	0.84	0.46	0.08	0.16	0.27	0.34	0.77	0.75	0.21
+286	31562059	38522443	['population', 'study design', 'outcome measures']	['population', 'study design']	0.02	0.55	0.09	0.09	0.04	0.18	0.16	0.52	0.47	0.11
+287	31537025	31777212	['dosage or exposure duration', 'combined drug effects']	['combined drug effects', 'study design']	0.03	0.36	0.29	0.1	0.59	0.29	0.41	0.57	0.35	0.12
+288	30352748	32804345	['dosage or exposure duration', 'population', 'outcome measures']	['population', 'study design', 'outcome measures']	0.03	0.89	0.35	0.11	0.36	0.16	0.27	0.6	0.62	0.15
+289	30943275	30688550	['population', 'dosage or exposure duration', 'outcome measures']	['population', 'study design']	0.03	0.73	0.36	0.09	0.23	0.18	0.26	0.64	0.42	0.19
+290	30352748	36181990	['population', 'dosage or exposure duration']	['population', 'dosage or exposure duration', 'outcome measures']	0.02	0.71	0.84	0.05	0.33	0.23	0.34	0.39	0.67	0.18
+291	31668468	34887180	['population', 'study design']	['population', 'dosage or exposure duration', 'known controversy or self-qualified claims', 'study design', 'outcome measures']	0.02	0.61	0.55	0.12	0.38	0.31	0.52	0.57	0.54	0.27
+292	31559433	36541437	['dosage or exposure duration', 'combined drug effects', 'outcome measures']	['population', 'dosage or exposure duration', 'combined drug effects', 'known controversy or self-qualified claims', 'outcome measures']	0.04	0.63	0.53	0.13	0.77	0.33	0.55	0.48	0.75	0.25
+293	30442501	33504555	['combined drug effects']	['route or mode of administration', 'combined drug effects', 'study design', 'ambiguous referent']	0.02	0.23	0.49	0.84	0.62	0.41	0.3	0.57	0.28	0.68
+294	31623894	37280158	['population', 'route or mode of administration', 'outcome measures', 'evolving scientific evidence', 'known controversy or self-qualified claims']	['population', 'evolving scientific evidence', 'known controversy or self-qualified claims', 'study design', 'outcome measures']	0.02	0.62	0.14	0.06	0.07	0.81	0.61	0.57	0.81	0.48
+295	31621933	35006266	['population', 'dosage or exposure duration', 'study design']	['population', 'evolving scientific evidence', 'study design']	0.02	0.54	0.39	0.13	0.44	0.5	0.29	0.86	0.24	0.23
+296	30829772	39809953	['dosage or exposure duration', 'known controversy or self-qualified claims']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.02	0.65	0.75	0.12	0.13	0.33	0.48	0.58	0.5	0.14
+297	31777212	33026570	['population', 'combined drug effects', 'study design']	['population', 'combined drug effects', 'outcome measures']	0.03	0.62	0.24	0.07	0.53	0.2	0.24	0.44	0.53	0.16
+298	31873859	35100594	['population', 'outcome measures']	['population', 'combined drug effects', 'outcome measures']	0.04	0.5	0.18	0.07	0.55	0.3	0.31	0.44	0.6	0.23
+299	31873859	37776033	['population']	['population', 'outcome measures']	0.04	0.55	0.14	0.05	0.13	0.36	0.33	0.49	0.52	0.19
+300	31873859	38041752	['population', 'combined drug effects']	['population', 'combined drug effects', 'study design', 'outcome measures']	0.02	0.6	0.2	0.06	0.77	0.27	0.22	0.66	0.6	0.33
+301	31796519	34862248	['population', 'combined drug effects', 'study design']	['combined drug effects', 'study design', 'outcome measures']	0.04	0.44	0.18	0.07	0.56	0.17	0.21	0.57	0.5	0.43
+302	33164936	37471089	['dosage or exposure duration', 'combined drug effects', 'study design', 'outcome measures']	['dosage or exposure duration', 'study design', 'outcome measures']	0.03	0.31	0.79	0.12	0.43	0.3	0.35	0.58	0.69	0.11
+303	31960275	37393389	['population']	[]	0.03	0.47	0.28	0.06	0.11	0.27	0.29	0.36	0.42	0.15
+304	32045773	38205755	['population', 'route or mode of administration', 'combined drug effects']	['population', 'dosage or exposure duration', 'route or mode of administration']	0.08	0.8	0.64	0.55	0.36	0.15	0.23	0.42	0.36	0.26
+305	31950979	32194058	['study design', 'outcome measures']	['study design', 'outcome measures']	0.03	0.4	0.44	0.08	0.11	0.41	0.4	0.6	0.57	0.15
+306	31896491	32702335	['population', 'dosage or exposure duration', 'outcome measures']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.02	0.61	0.65	0.06	0.06	0.47	0.2	0.51	0.84	0.34
+307	31841599	33315105	['dosage or exposure duration', 'evolving scientific evidence']	['dosage or exposure duration', 'study design', 'outcome measures']	0.02	0.44	0.68	0.05	0.11	0.42	0.28	0.6	0.7	0.12
+308	31715077	33522342	['population', 'outcome measures']	['population', 'study design', 'outcome measures', 'ambiguous referent']	0.06	0.82	0.38	0.08	0.39	0.28	0.23	0.7	0.81	0.58
+309	31715077	34666379	['population', 'dosage or exposure duration', 'route or mode of administration', 'study design', 'outcome measures']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.06	0.83	0.65	0.06	0.21	0.3	0.31	0.7	0.67	0.39
+310	32295417	34003667	['population', 'dosage or exposure duration', 'outcome measures']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.02	0.65	0.73	0.11	0.12	0.35	0.24	0.68	0.78	0.33
+311	32295417	36747296	['population', 'dosage or exposure duration', 'route or mode of administration', 'outcome measures']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.03	0.81	0.73	0.28	0.11	0.19	0.15	0.53	0.73	0.26
+312	32204978	34330457	['dosage or exposure duration']	['route or mode of administration', 'outcome measures']	0.03	0.19	0.43	0.51	0.31	0.24	0.27	0.39	0.66	0.16
+313	31950134	32344842	['population', 'dosage or exposure duration']	['population', 'dosage or exposure duration', 'outcome measures']	0.04	0.81	0.72	0.11	0.08	0.16	0.14	0.37	0.71	0.2
+314	31950134	36913250	['population', 'dosage or exposure duration']	['dosage or exposure duration', 'study design', 'outcome measures']	0.03	0.31	0.63	0.06	0.2	0.21	0.16	0.6	0.5	0.14
+315	32423584	32445440	['population', 'outcome measures']	['population', 'evolving scientific evidence', 'outcome measures']	0.03	0.56	0.19	0.05	0.3	0.56	0.28	0.38	0.69	0.18
+316	32423584	33350698	['outcome measures']	['evolving scientific evidence', 'known controversy or self-qualified claims']	0.03	0.28	0.13	0.06	0.14	0.5	0.54	0.32	0.39	0.4
+317	32219386	40958495	['population', 'outcome measures']	['population', 'study design', 'outcome measures']	0.02	0.9	0.09	0.03	0.1	0.15	0.22	0.63	0.84	0.47
+318	32164494	36738751	['population', 'dosage or exposure duration']	['population', 'outcome measures']	0.03	0.8	0.28	0.04	0.09	0.26	0.19	0.41	0.59	0.32
+319	32079861	39509369	['population', 'dosage or exposure duration']	['population', 'dosage or exposure duration', 'study design']	0.02	0.85	0.52	0.08	0.3	0.21	0.15	0.75	0.48	0.33
+320	31977817	38573517	['outcome measures']	['population', 'study design', 'outcome measures', 'ambiguous referent']	0.03	0.79	0.43	0.11	0.12	0.29	0.49	0.8	0.84	0.52
+321	29023327	38032386	['study design', 'outcome measures']	['study design', 'outcome measures']	0.03	0.41	0.23	0.08	0.07	0.19	0.28	0.67	0.7	0.21
+322	32507446	31818232	['outcome measures']	['known controversy or self-qualified claims', 'outcome measures']	0.03	0.29	0.1	0.05	0.07	0.46	0.52	0.3	0.7	0.3
+323	32434291	41256829	['population', 'outcome measures']	['population', 'outcome measures']	0.03	0.7	0.12	0.07	0.2	0.26	0.34	0.38	0.75	0.38
+324	32311204	32946821	['population', 'study design']	['study design', 'outcome measures']	0.02	0.45	0.22	0.03	0.11	0.33	0.41	0.6	0.56	0.38
+325	32245746	40207405	['population', 'dosage or exposure duration', 'outcome measures']	['population', 'known controversy or self-qualified claims', 'outcome measures']	0.03	0.78	0.38	0.04	0.24	0.21	0.5	0.3	0.79	0.37
+326	32245746	40624547	['population', 'outcome measures']	['population', 'outcome measures']	0.02	0.86	0.09	0.03	0.11	0.36	0.38	0.29	0.83	0.33
+327	32534843	36243129	['population', 'outcome measures']	['population', 'combined drug effects', 'study design', 'outcome measures']	0.02	0.61	0.14	0.31	0.54	0.19	0.26	0.54	0.68	0.36
+328	32525048	37143398	['outcome measures', 'dosage or exposure duration']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.03	0.6	0.52	0.08	0.08	0.3	0.42	0.54	0.58	0.36
+329	32725293	34071714	['population', 'dosage or exposure duration', 'outcome measures']	['dosage or exposure duration', 'route or mode of administration', 'study design', 'outcome measures']	0.05	0.35	0.6	0.51	0.14	0.14	0.18	0.59	0.82	0.28
+330	32345787	37192705	['population', 'outcome measures']	['outcome measures']	0.03	0.28	0.25	0.07	0.04	0.44	0.28	0.37	0.87	0.29
+331	32871238	36904232	['population', 'route or mode of administration']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.02	0.86	0.64	0.2	0.29	0.3	0.46	0.69	0.78	0.41
+332	32862667	34876021	['dosage or exposure duration', 'outcome measures']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.02	0.55	0.77	0.07	0.13	0.47	0.22	0.55	0.7	0.25
+333	32848185	36609173	['population', 'outcome measures']	['population', 'outcome measures']	0.03	0.9	0.22	0.05	0.06	0.2	0.38	0.34	0.79	0.31
+334	32806954	36763326	['outcome measures']	['study design']	0.03	0.1	0.28	0.43	0.3	0.18	0.33	0.78	0.46	0.2
+335	33038833	38613004	['population']	['outcome measures']	0.03	0.46	0.2	0.34	0.17	0.35	0.48	0.46	0.54	0.24
+336	32951301	35405973	['study design', 'outcome measures']	['population', 'dosage or exposure duration', 'known controversy or self-qualified claims', 'study design', 'outcome measures']	0.02	0.52	0.58	0.06	0.06	0.43	0.66	0.52	0.76	0.19
+337	32871616	33632377	['population', 'outcome measures']	['population', 'study design', 'outcome measures']	0.02	0.68	0.43	0.14	0.06	0.32	0.38	0.61	0.84	0.33
+338	33080740	39664966	['route or mode of administration', 'outcome measures']	['dosage or exposure duration', 'study design', 'outcome measures']	0.03	0.41	0.73	0.47	0.32	0.33	0.33	0.59	0.69	0.21
+339	33065080	40365675	['population', 'combined drug effects']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.02	0.86	0.62	0.05	0.31	0.26	0.23	0.53	0.6	0.26
+340	33045330	33208641	['population', 'combined drug effects', 'outcome measures']	['population', 'outcome measures']	0.02	0.72	0.41	0.08	0.47	0.25	0.22	0.32	0.79	0.28
+341	32979724	31837209	['population', 'outcome measures']	['population', 'dosage or exposure duration', 'route or mode of administration', 'study design', 'outcome measures']	0.03	0.5	0.59	0.56	0.44	0.24	0.47	0.73	0.77	0.23
+342	32445440	36603741	['population', 'study design']	['population', 'study design']	0.02	0.57	0.22	0.08	0.09	0.39	0.27	0.79	0.48	0.28
+343	32396017	41515229	['population', 'dosage or exposure duration', 'outcome measures']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.21	0.71	0.76	0.17	0.08	0.24	0.25	0.59	0.67	0.29
+344	33207259	38131538	['population', 'study design']	['population', 'study design']	0.02	0.5	0.28	0.05	0.06	0.24	0.25	0.8	0.45	0.17
+345	33332779	33085857	['outcome measures', 'known controversy or self-qualified claims']	['population']	0.02	0.53	0.38	0.12	0.07	0.31	0.32	0.36	0.29	0.29
+346	34975830	34187382	['outcome measures', 'population', 'route or mode of administration', 'dosage or exposure duration']	['population', 'dosage or exposure duration', 'known controversy or self-qualified claims', 'outcome measures']	0.02	0.66	0.67	0.44	0.1	0.41	0.56	0.47	0.7	0.31
+347	34941937	40420803	['outcome measures', 'study design']	['known controversy or self-qualified claims', 'study design']	0.02	0.33	0.32	0.04	0.34	0.37	0.5	0.76	0.39	0.19
+348	36654288	37794745	['population', 'dosage or exposure duration', 'study design']	['population', 'evolving scientific evidence', 'study design']	0.02	0.72	0.47	0.18	0.05	0.59	0.39	0.5	0.47	0.25
+349	34265236	33278625	['dosage or exposure duration', 'outcome measures', 'study design']	['known controversy or self-qualified claims', 'outcome measures']	0.03	0.43	0.46	0.08	0.28	0.47	0.52	0.42	0.83	0.24
+350	34265236	34052007	['dosage or exposure duration', 'outcome measures']	['dosage or exposure duration', 'outcome measures']	0.03	0.48	0.51	0.11	0.34	0.33	0.42	0.37	0.83	0.15
+351	34113095	34113093	['dosage or exposure duration', 'outcome measures']	['dosage or exposure duration', 'study design', 'outcome measures']	0.02	0.46	0.69	0.08	0.09	0.38	0.39	0.73	0.82	0.24
+352	33542047	36647298	['outcome measures', 'dosage or exposure duration', 'population']	['population', 'dosage or exposure duration', 'combined drug effects', 'evolving scientific evidence', 'study design', 'outcome measures']	0.03	0.53	0.7	0.08	0.58	0.56	0.4	0.5	0.76	0.12
+353	33472855	33676589	['known controversy or self-qualified claims']	['population', 'dosage or exposure duration', 'known controversy or self-qualified claims', 'outcome measures']	0.02	0.63	0.59	0.14	0.11	0.4	0.51	0.4	0.59	0.38
+354	33433720	36346210	['dosage or exposure duration', 'combined drug effects', 'population']	['dosage or exposure duration', 'study design', 'outcome measures']	0.04	0.29	0.85	0.15	0.47	0.3	0.4	0.59	0.57	0.4
+355	33350698	36603741	['evolving scientific evidence']	['evolving scientific evidence', 'study design', 'outcome measures']	0.02	0.45	0.14	0.05	0.07	0.65	0.45	0.75	0.51	0.23
+356	33278625	33662102	['outcome measures']	['population', 'evolving scientific evidence', 'outcome measures']	0.05	0.61	0.34	0.08	0.23	0.52	0.4	0.49	0.83	0.2
+357	33278625	35179551	['population', 'dosage or exposure duration', 'outcome measures', 'study design']	['population', 'evolving scientific evidence', 'study design', 'outcome measures']	0.04	0.77	0.43	0.08	0.17	0.51	0.31	0.61	0.89	0.27
+358	33278625	38154616	['dosage or exposure duration', 'outcome measures', 'population']	['population', 'dosage or exposure duration', 'evolving scientific evidence', 'study design', 'outcome measures']	0.04	0.52	0.79	0.1	0.23	0.56	0.35	0.55	0.83	0.22
+359	33278625	38431155	['population', 'outcome measures', 'study design', 'evolving scientific evidence']	['population', 'dosage or exposure duration', 'evolving scientific evidence', 'known controversy or self-qualified claims', 'study design', 'outcome measures']	0.05	0.78	0.64	0.12	0.23	0.63	0.56	0.79	0.86	0.24
+360	34229861	39664966	['route or mode of administration', 'dosage or exposure duration', 'outcome measures']	['dosage or exposure duration', 'outcome measures']	0.03	0.24	0.75	0.08	0.33	0.45	0.4	0.4	0.66	0.24
+361	33753956	38438279	['population', 'outcome measures', 'dosage or exposure duration']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.03	0.83	0.61	0.22	0.06	0.32	0.31	0.52	0.64	0.2
+362	33631337	34748169	['route or mode of administration', 'combined drug effects', 'outcome measures']	['population', 'study design', 'outcome measures']	0.02	0.51	0.49	0.15	0.25	0.25	0.19	0.57	0.74	0.45
+363	30644628	31722024	['population', 'dosage or exposure duration', 'outcome measures']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.03	0.77	0.52	0.16	0.05	0.33	0.27	0.67	0.88	0.22
+364	31474134	32501914	['known controversy or self-qualified claims', 'population']	['population']	0.07	0.71	0.15	0.08	0.07	0.22	0.43	0.38	0.44	0.25
+365	31344339	32862256	['outcome measures']	[]	0.02	0.11	0.07	0.06	0.04	0.07	0.07	0.13	0.13	0.27
+366	29532416	39636391	['outcome measures']	['population', 'dosage or exposure duration', 'outcome measures']	0.05	0.61	0.56	0.08	0.48	0.17	0.16	0.48	0.57	0.19
+367	31851799	40858558	['population']	['population', 'study design']	0.03	0.91	0.14	0.07	0.38	0.17	0.2	0.54	0.24	0.25
+368	32340841	32921680	['dosage or exposure duration', 'outcome measures']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.02	0.61	0.65	0.05	0.13	0.25	0.33	0.63	0.8	0.2
+369	32705319	36793155	['outcome measures']	['route or mode of administration', 'combined drug effects', 'study design', 'outcome measures']	0.02	0.15	0.48	0.85	0.72	0.3	0.27	0.66	0.61	0.39
+370	32945627	35280228	['outcome measures']	['population', 'outcome measures']	0.02	0.76	0.22	0.08	0.15	0.22	0.35	0.43	0.53	0.43
+371	33262012	37403525	['outcome measures', 'population']	['population']	0.03	0.71	0.25	0.24	0.47	0.17	0.34	0.24	0.45	0.28
+372	26964827	28153353	['population', 'outcome measures']	['population', 'dosage or exposure duration', 'outcome measures']	0.1	0.8	0.62	0.2	0.32	0.36	0.24	0.32	0.72	0.31
+373	26897490	28802777	['combined drug effects', 'ambiguous referent']	['population', 'study design']	0.02	0.74	0.44	0.49	0.46	0.27	0.32	0.64	0.46	0.39
+374	26882833	28604179	['outcome measures']	['population', 'outcome measures']	0.03	0.72	0.42	0.22	0.33	0.26	0.37	0.34	0.55	0.24
+375	26854246	26267328	['population', 'outcome measures']	['dosage or exposure duration', 'outcome measures']	0.03	0.21	0.5	0.07	0.09	0.45	0.28	0.29	0.86	0.12
+376	26850803	29705457	['ambiguous referent']	['dosage or exposure duration', 'study design', 'outcome measures']	0.02	0.13	0.77	0.11	0.13	0.14	0.4	0.58	0.53	0.24
+377	26850803	31383445	['ambiguous referent']	['dosage or exposure duration']	0.03	0.11	0.85	0.11	0.35	0.15	0.41	0.4	0.17	0.17
+378	26850803	39775962	['ambiguous referent']	['population', 'dosage or exposure duration', 'outcome measures']	0.04	0.84	0.84	0.14	0.07	0.14	0.42	0.47	0.59	0.18
+379	26830642	27003917	['population', 'outcome measures']	['population', 'combined drug effects', 'outcome measures']	0.03	0.76	0.31	0.17	0.51	0.21	0.22	0.38	0.55	0.16
+380	26822749	32212009	['ambiguous referent']	['dosage or exposure duration', 'evolving scientific evidence', 'study design', 'outcome measures']	0.03	0.46	0.5	0.06	0.11	0.51	0.41	0.54	0.83	0.25
+381	26809813	28329181	['ambiguous referent']	['evolving scientific evidence', 'study design']	0.16	0.31	0.12	0.09	0.15	0.59	0.3	0.54	0.47	0.33
+382	26807672	30312839	['outcome measures', 'population']	['population', 'outcome measures']	0.02	0.72	0.11	0.05	0.25	0.33	0.44	0.41	0.5	0.31
+383	26795413	27344218	['outcome measures', 'ambiguous referent']	['outcome measures']	0.03	0.2	0.22	0.04	0.04	0.14	0.31	0.38	0.9	0.19
+384	26792348	30262436	['outcome measures']	['population']	0.03	0.73	0.29	0.13	0.06	0.17	0.35	0.26	0.25	0.16
+385	26786573	31344685	['dosage or exposure duration']	['population', 'dosage or exposure duration', 'study design']	0.02	0.56	0.82	0.12	0.05	0.34	0.35	0.55	0.43	0.13
+386	26786573	32795167	['ambiguous referent', 'outcome measures']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.02	0.74	0.81	0.12	0.14	0.29	0.48	0.62	0.56	0.3
+387	26775631	27133971	['population', 'study design']	['evolving scientific evidence', 'study design', 'outcome measures']	0.02	0.43	0.18	0.19	0.08	0.51	0.3	0.66	0.56	0.26
+388	26775631	37982566	['population', 'outcome measures']	['population', 'study design']	0.02	0.83	0.13	0.05	0.07	0.41	0.26	0.59	0.42	0.17
+389	26661319	29119275	['ambiguous referent']	['dosage or exposure duration', 'study design', 'outcome measures']	0.02	0.41	0.63	0.06	0.33	0.22	0.34	0.79	0.79	0.35
+390	26507526	30222788	['study design']	['population', 'study design']	0.03	0.72	0.25	0.13	0.14	0.19	0.24	0.74	0.43	0.15
+391	26351971	41026481	['population']	['population', 'evolving scientific evidence']	0.02	0.62	0.38	0.09	0.17	0.72	0.24	0.4	0.45	0.2
+392	26205890	26554884	['population', 'outcome measures']	['population', 'dosage or exposure duration']	0.03	0.8	0.65	0.08	0.42	0.19	0.17	0.35	0.4	0.16
+393	26205890	32492153	['population', 'outcome measures']	['population', 'dosage or exposure duration']	0.03	0.78	0.53	0.07	0.27	0.24	0.36	0.36	0.35	0.18
+394	26205890	34337905	['dosage or exposure duration', 'outcome measures']	['population', 'dosage or exposure duration', 'outcome measures']	0.02	0.62	0.83	0.22	0.3	0.33	0.22	0.34	0.68	0.23
+395	26205890	33352920	['population', 'dosage or exposure duration', 'outcome measures']	['population', 'dosage or exposure duration', 'outcome measures']	0.03	0.83	0.65	0.08	0.39	0.19	0.23	0.34	0.59	0.2
+396	26175036	30829772	['dosage or exposure duration']	['dosage or exposure duration', 'known controversy or self-qualified claims', 'study design', 'outcome measures']	0.02	0.41	0.77	0.21	0.24	0.34	0.66	0.64	0.7	0.23
+397	25648736	26303195	['outcome measures']	['population', 'study design', 'outcome measures']	0.03	0.84	0.3	0.05	0.03	0.12	0.22	0.7	0.66	0.16
+398	25524404	33045433	['population', 'outcome measures']	['population', 'study design', 'outcome measures']	0.16	0.84	0.3	0.12	0.08	0.3	0.37	0.68	0.79	0.24
+399	26962808	33302662	['outcome measures']	['population', 'combined drug effects', 'study design']	0.02	0.56	0.17	0.47	0.77	0.33	0.37	0.7	0.35	0.26
+400	26928392	40608082	['dosage or exposure duration']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.03	0.81	0.64	0.11	0.06	0.4	0.35	0.64	0.73	0.32
+401	26852833	29360560	['outcome measures']	['population', 'combined drug effects', 'known controversy or self-qualified claims', 'outcome measures']	0.04	0.57	0.38	0.42	0.56	0.27	0.5	0.49	0.56	0.28
+402	26850746	39788951	['population', 'outcome measures']	['population', 'dosage or exposure duration', 'known controversy or self-qualified claims', 'study design', 'outcome measures']	0.05	0.85	0.66	0.1	0.08	0.25	0.51	0.56	0.55	0.19
+403	26591005	28541645	['population']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.02	0.84	0.65	0.05	0.18	0.41	0.28	0.58	0.56	0.13
+404	26591005	31728631	['outcome measures']	['outcome measures', 'ambiguous referent']	0.02	0.18	0.06	0.03	0.12	0.14	0.15	0.21	0.93	0.57
+405	26577936	32776763	['combined drug effects']	['dosage or exposure duration', 'combined drug effects', 'known controversy or self-qualified claims', 'study design']	0.02	0.37	0.6	0.16	0.54	0.27	0.53	0.8	0.48	0.21
+406	26554884	34118059	['dosage or exposure duration', 'outcome measures']	['population', 'known controversy or self-qualified claims', 'study design', 'outcome measures']	0.03	0.82	0.46	0.05	0.06	0.33	0.55	0.51	0.82	0.38
+407	26540396	30502903	['study design', 'outcome measures', 'population']	['population', 'study design', 'outcome measures']	0.04	0.83	0.38	0.27	0.36	0.23	0.4	0.66	0.68	0.18
+408	26095960	27538868	['dosage or exposure duration', 'route or mode of administration', 'species']	[]	0.22	0.44	0.42	0.35	0.32	0.12	0.17	0.36	0.17	0.11
+409	27030533	28574453	['population', 'outcome measures']	['population']	0.05	0.81	0.14	0.06	0.1	0.22	0.42	0.36	0.33	0.38
+410	26980460	27816567	['population', 'outcome measures']	['population', 'dosage or exposure duration', 'study design', 'outcome measures', 'ambiguous referent']	0.02	0.7	0.65	0.05	0.32	0.37	0.33	0.77	0.73	0.51
+411	26961597	32434234	['outcome measures']	['dosage or exposure duration', 'study design', 'outcome measures']	0.02	0.4	0.56	0.47	0.42	0.21	0.19	0.53	0.6	0.23
+412	26841365	33522698	['outcome measures', 'dosage or exposure duration']	['dosage or exposure duration']	0.03	0.3	0.81	0.07	0.11	0.25	0.25	0.34	0.33	0.2
+413	27366013	37678871	['ambiguous referent', 'outcome measures']	['dosage or exposure duration', 'combined drug effects', 'known controversy or self-qualified claims', 'study design', 'outcome measures']	0.02	0.37	0.79	0.13	0.55	0.49	0.56	0.52	0.76	0.19
+414	27185699	28918556	['population', 'outcome measures']	['population', 'combined drug effects', 'outcome measures']	0.03	0.64	0.13	0.22	0.59	0.14	0.11	0.38	0.51	0.1
+415	27185699	31770296	['population', 'dosage or exposure duration', 'outcome measures']	['population', 'dosage or exposure duration']	0.09	0.92	0.64	0.21	0.21	0.13	0.12	0.27	0.21	0.14
+416	27250120	28355511	['evolving scientific evidence']	['evolving scientific evidence', 'known controversy or self-qualified claims']	0.04	0.12	0.09	0.05	0.05	0.61	0.52	0.24	0.44	0.21
+417	27050252	28668998	['outcome measures']	['combined drug effects', 'outcome measures']	0.02	0.44	0.47	0.07	0.62	0.16	0.45	0.19	0.73	0.49
+418	27178738	32026435	['population', 'outcome measures']	['population', 'dosage or exposure duration', 'combined drug effects', 'study design']	0.03	0.74	0.67	0.26	0.71	0.16	0.27	0.52	0.33	0.12
+419	27165014	37466211	['population', 'outcome measures']	['population', 'study design']	0.05	0.85	0.32	0.05	0.13	0.25	0.41	0.67	0.38	0.21
+420	27154424	34328539	['dosage or exposure duration']	['population', 'dosage or exposure duration', 'evolving scientific evidence', 'study design']	0.02	0.58	0.76	0.09	0.06	0.51	0.31	0.56	0.28	0.09
+421	27151177	27832040	['population', 'outcome measures']	['study design', 'outcome measures']	0.03	0.47	0.45	0.06	0.12	0.3	0.22	0.74	0.86	0.43
+422	27053384	35253448	['dosage or exposure duration']	[]	0.02	0.29	0.47	0.18	0.1	0.26	0.29	0.39	0.19	0.19
+423	26903532	27348762	['combined drug effects']	['population', 'dosage or exposure duration', 'outcome measures']	0.03	0.59	0.57	0.06	0.38	0.38	0.22	0.49	0.8	0.29
+424	26614823	30293664	['ambiguous referent', 'outcome measures']	['population']	0.02	0.81	0.06	0.03	0.04	0.25	0.22	0.2	0.24	0.27
+425	27687397	28918556	['population', 'ambiguous referent']	['population', 'combined drug effects']	0.02	0.67	0.12	0.12	0.62	0.15	0.14	0.33	0.25	0.09
+426	27488327	30601999	['population', 'outcome measures', 'dosage or exposure duration']	['population', 'dosage or exposure duration', 'route or mode of administration', 'outcome measures']	0.02	0.67	0.74	0.56	0.15	0.22	0.31	0.46	0.74	0.22
+427	27402475	30669280	['population', 'dosage or exposure duration']	['population', 'dosage or exposure duration', 'study design']	0.05	0.85	0.78	0.43	0.13	0.18	0.15	0.56	0.27	0.11
+428	27353245	29738277	['known controversy or self-qualified claims', 'ambiguous referent', 'outcome measures']	['dosage or exposure duration', 'study design', 'outcome measures']	0.02	0.48	0.75	0.15	0.13	0.26	0.24	0.71	0.86	0.38
+429	27353245	30169436	['population', 'dosage or exposure duration', 'outcome measures']	['population', 'study design', 'outcome measures']	0.04	0.9	0.47	0.11	0.08	0.19	0.19	0.53	0.62	0.2
+430	27351320	31873859	['outcome measures']	['outcome measures']	0.02	0.47	0.1	0.05	0.09	0.32	0.36	0.34	0.74	0.31
+431	27351245	33861441	['combined drug effects']	['population', 'combined drug effects', 'study design', 'outcome measures', 'ambiguous referent']	0.05	0.79	0.24	0.11	0.55	0.22	0.28	0.56	0.73	0.5
+432	27116464	28837504	['population']	['population', 'ambiguous referent']	0.02	0.76	0.28	0.03	0.08	0.09	0.24	0.15	0.41	0.6
+433	27075863	31178259	['route or mode of administration', 'study design']	['population']	0.03	0.67	0.37	0.16	0.12	0.17	0.26	0.38	0.33	0.13
+434	26718305	32229194	['route or mode of administration', 'ambiguous referent']	['population']	0.02	0.53	0.25	0.15	0.05	0.24	0.16	0.27	0.3	0.18
+435	27633946	28176599	['outcome measures']	['route or mode of administration', 'combined drug effects', 'study design', 'ambiguous referent']	0.03	0.26	0.29	0.79	0.57	0.27	0.35	0.57	0.35	0.66
+436	27633946	30954338	['known controversy or self-qualified claims', 'population', 'outcome measures']	['known controversy or self-qualified claims']	0.02	0.28	0.16	0.27	0.48	0.18	0.53	0.35	0.49	0.28
+437	27565938	28138828	['combined drug effects', 'dosage or exposure duration']	['combined drug effects', 'ambiguous referent']	0.03	0.21	0.27	0.1	0.57	0.11	0.16	0.38	0.17	0.66
+438	26610858	31560068	['known controversy or self-qualified claims', 'study design']	['evolving scientific evidence', 'known controversy or self-qualified claims', 'study design']	0.02	0.37	0.1	0.04	0.26	0.53	0.59	0.58	0.37	0.32
+439	26002770	36342703	['evolving scientific evidence']	['evolving scientific evidence']	0.02	0.17	0.08	0.03	0.05	0.64	0.4	0.46	0.24	0.14
+440	27617317	31777212	['study design']	['combined drug effects', 'study design']	0.02	0.29	0.33	0.07	0.55	0.31	0.24	0.5	0.29	0.14
+441	27589059	33222767	['population', 'outcome measures']	['population', 'evolving scientific evidence', 'study design', 'outcome measures']	0.02	0.61	0.14	0.05	0.05	0.79	0.45	0.7	0.6	0.25
+442	27570089	30002145	['population']	['population', 'study design', 'outcome measures']	0.02	0.91	0.22	0.04	0.08	0.32	0.26	0.54	0.63	0.24
+443	27569651	36045119	['population', 'dosage or exposure duration', 'outcome measures']	['population', 'dosage or exposure duration', 'study design']	0.05	0.63	0.64	0.09	0.24	0.31	0.46	0.75	0.47	0.16
+444	27534747	38570191	['evolving scientific evidence']	['dosage or exposure duration']	0.02	0.26	0.62	0.08	0.05	0.45	0.48	0.28	0.25	0.16
+445	27505115	41042339	['outcome measures']	['population', 'route or mode of administration', 'study design', 'outcome measures']	0.02	0.53	0.26	0.78	0.12	0.22	0.33	0.68	0.74	0.27
+446	27500351	29360560	['route or mode of administration']	[]	0.05	0.32	0.27	0.4	0.33	0.3	0.26	0.49	0.47	0.29
+447	27418597	28072691	['dosage or exposure duration']	['population', 'dosage or exposure duration', 'outcome measures']	0.02	0.74	0.51	0.05	0.18	0.24	0.37	0.35	0.67	0.31
+448	27642057	28515160	['population', 'outcome measures']	['population', 'outcome measures']	0.03	0.64	0.36	0.08	0.4	0.16	0.26	0.33	0.78	0.42
+449	27642057	29068453	['study design']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.03	0.79	0.53	0.25	0.13	0.15	0.28	0.68	0.78	0.31
+450	26698911	40920401	['population', 'outcome measures']	['population', 'outcome measures']	0.03	0.88	0.15	0.06	0.09	0.19	0.08	0.3	0.65	0.17
+451	29901949	28986051	['population', 'outcome measures', 'dosage or exposure duration']	['population', 'outcome measures']	0.03	0.53	0.34	0.08	0.11	0.16	0.27	0.25	0.73	0.16
+452	27625146	29752604	['population']	['population', 'outcome measures']	0.03	0.69	0.16	0.1	0.16	0.14	0.24	0.38	0.61	0.2
+453	25362247	32776763	['population', 'study design', 'outcome measures']	['dosage or exposure duration']	0.02	0.23	0.54	0.26	0.46	0.29	0.38	0.37	0.4	0.24
+454	27776081	27864638	['dosage or exposure duration', 'outcome measures']	['outcome measures']	0.04	0.35	0.34	0.13	0.07	0.14	0.26	0.42	0.74	0.33
+455	27737646	34213544	['evolving scientific evidence']	[]	0.02	0.1	0.14	0.05	0.05	0.34	0.27	0.26	0.15	0.13
+456	27736246	29746891	['population', 'dosage or exposure duration', 'outcome measures']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.04	0.7	0.57	0.09	0.12	0.24	0.2	0.57	0.78	0.31
+457	27718280	31432562	['population', 'dosage or exposure duration', 'outcome measures']	['population']	0.03	0.93	0.14	0.17	0.31	0.12	0.12	0.25	0.37	0.15
+458	27701366	40499279	['route or mode of administration', 'ambiguous referent', 'population', 'outcome measures', 'study design']	['route or mode of administration', 'study design', 'outcome measures']	0.03	0.47	0.35	0.61	0.2	0.15	0.18	0.54	0.6	0.27
+459	27613521	39607729	['population', 'study design', 'dosage or exposure duration', 'known controversy or self-qualified claims']	['population', 'study design']	0.02	0.93	0.26	0.05	0.11	0.17	0.17	0.51	0.25	0.31
+460	27977392	33413355	['population', 'outcome measures']	['population', 'dosage or exposure duration', 'study design', 'outcome measures', 'ambiguous referent']	0.02	0.66	0.58	0.04	0.16	0.18	0.16	0.52	0.84	0.5
+461	27903009	36363493	['population', 'outcome measures']	['study design', 'outcome measures']	0.02	0.26	0.37	0.1	0.05	0.34	0.27	0.69	0.71	0.15
+462	27852684	35240291	['outcome measures', 'dosage or exposure duration']	['population', 'dosage or exposure duration', 'combined drug effects', 'study design', 'outcome measures']	0.03	0.6	0.66	0.08	0.71	0.25	0.31	0.69	0.69	0.18
+463	27007272	34759045	['outcome measures']	['outcome measures']	0.02	0.43	0.36	0.14	0.25	0.31	0.2	0.47	0.52	0.17
+464	27429113	29186759	['ambiguous referent', 'dosage or exposure duration', 'study design']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.02	0.56	0.82	0.24	0.35	0.25	0.25	0.6	0.58	0.26
+465	27967281	34941611	['dosage or exposure duration', 'study design']	['dosage or exposure duration', 'study design', 'outcome measures']	0.03	0.33	0.53	0.09	0.06	0.2	0.24	0.53	0.74	0.18
+466	27959701	40088922	['dosage or exposure duration']	['evolving scientific evidence', 'study design', 'outcome measures']	0.02	0.37	0.45	0.06	0.22	0.57	0.33	0.73	0.7	0.19
+467	29216203	31950134	['population', 'dosage or exposure duration']	['population', 'dosage or exposure duration', 'outcome measures']	0.07	0.78	0.57	0.13	0.07	0.19	0.4	0.25	0.51	0.21
+468	30580340	39389522	['outcome measures', 'dosage or exposure duration']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.02	0.72	0.77	0.14	0.1	0.23	0.29	0.64	0.83	0.21
+469	28924368	29415668	['combined drug effects', 'outcome measures']	['combined drug effects', 'study design', 'outcome measures']	0.04	0.21	0.22	0.13	0.58	0.3	0.37	0.69	0.86	0.29
+470	28924368	30074934	['combined drug effects', 'outcome measures']	['combined drug effects', 'outcome measures']	0.03	0.23	0.18	0.09	0.53	0.38	0.28	0.42	0.89	0.27
+471	28625255	31241441	['population']	['population', 'outcome measures']	0.38	0.9	0.34	0.2	0.32	0.2	0.29	0.35	0.75	0.25
+472	28463849	37596359	['population', 'dosage or exposure duration']	['population']	0.03	0.81	0.46	0.07	0.09	0.25	0.21	0.23	0.41	0.23
+473	28381198	32052517	['evolving scientific evidence']	[]	0.02	0.22	0.1	0.03	0.13	0.11	0.14	0.21	0.22	0.15
+474	28182690	33960404	['population', 'outcome measures']	['population']	0.03	0.55	0.26	0.11	0.08	0.29	0.49	0.49	0.4	0.2
+475	28176599	32434234	['outcome measures', 'route or mode of administration', 'ambiguous referent']	['route or mode of administration', 'outcome measures', 'ambiguous referent']	0.02	0.34	0.26	0.8	0.36	0.29	0.25	0.33	0.59	0.64
+476	28121184	39359413	['population', 'outcome measures', 'study design']	['population', 'study design', 'outcome measures']	0.03	0.85	0.48	0.08	0.04	0.15	0.17	0.56	0.55	0.21
+477	28117496	28009692	['study design', 'population', 'outcome measures']	['population', 'study design', 'outcome measures']	0.03	0.59	0.44	0.09	0.06	0.29	0.48	0.73	0.86	0.2
+478	28103611	31558480	['study design']	['population', 'study design', 'outcome measures']	0.02	0.66	0.24	0.05	0.12	0.45	0.42	0.8	0.74	0.24
+479	28077507	34962979	['study design']	['population', 'dosage or exposure duration', 'ambiguous referent']	0.02	0.51	0.81	0.03	0.16	0.1	0.22	0.09	0.22	0.61
+480	28068786	27913736	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	['population', 'dosage or exposure duration', 'route or mode of administration', 'combined drug effects', 'study design']	0.06	0.77	0.62	0.55	0.64	0.28	0.21	0.72	0.46	0.35
+481	28068786	36948034	['population', 'study design', 'outcome measures']	['population', 'dosage or exposure duration', 'combined drug effects']	0.03	0.85	0.56	0.42	0.52	0.22	0.23	0.47	0.47	0.23
+482	28065445	37697278	['population', 'study design', 'outcome measures']	['population', 'known controversy or self-qualified claims', 'study design', 'outcome measures']	0.03	0.61	0.32	0.08	0.16	0.26	0.51	0.63	0.83	0.42
+483	28065445	39359014	['dosage or exposure duration', 'outcome measures']	['dosage or exposure duration', 'study design', 'outcome measures']	0.02	0.24	0.67	0.07	0.12	0.26	0.37	0.52	0.88	0.34
+484	28009692	31851017	['study design', 'outcome measures']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.03	0.78	0.56	0.07	0.04	0.2	0.35	0.53	0.73	0.28
+485	27893550	30885839	['ambiguous referent', 'route or mode of administration']	['study design']	0.03	0.2	0.33	0.49	0.14	0.16	0.26	0.61	0.44	0.3
+486	27893550	31668666	['route or mode of administration', 'dosage or exposure duration', 'outcome measures']	['dosage or exposure duration', 'route or mode of administration']	0.03	0.2	0.52	0.62	0.11	0.15	0.16	0.45	0.47	0.37
+487	27893550	34091813	['route or mode of administration', 'outcome measures']	['route or mode of administration', 'study design']	0.03	0.2	0.16	0.69	0.1	0.13	0.15	0.56	0.39	0.34
+488	27893550	36368914	['population', 'dosage or exposure duration', 'combined drug effects', 'route or mode of administration', 'outcome measures']	['population', 'route or mode of administration', 'combined drug effects', 'study design', 'outcome measures']	0.03	0.6	0.45	0.61	0.5	0.17	0.34	0.54	0.5	0.14
+489	27892890	31733180	['evolving scientific evidence']	['evolving scientific evidence']	0.02	0.1	0.11	0.03	0.17	0.76	0.45	0.34	0.42	0.19
+490	27775998	30151823	['population', 'dosage or exposure duration', 'outcome measures', 'route or mode of administration']	['population', 'dosage or exposure duration', 'outcome measures']	0.03	0.78	0.58	0.13	0.07	0.15	0.26	0.33	0.73	0.33
+491	26611718	28410617	['population', 'dosage or exposure duration', 'outcome measures']	['population', 'outcome measures']	0.03	0.81	0.41	0.11	0.26	0.14	0.2	0.24	0.66	0.28
+492	28251937	32380746	['population', 'outcome measures']	['population', 'study design', 'outcome measures']	0.33	0.52	0.49	0.11	0.2	0.18	0.35	0.66	0.73	0.39
+493	28251321	32157434	['outcome measures']	['study design', 'outcome measures']	0.03	0.34	0.21	0.11	0.18	0.28	0.26	0.66	0.57	0.22
+494	26610858	29261442	['study design']	['population', 'known controversy or self-qualified claims', 'study design', 'outcome measures']	0.02	0.55	0.11	0.04	0.15	0.37	0.61	0.58	0.6	0.43
+495	26610858	30860948	['population', 'outcome measures']	['population', 'study design']	0.02	0.91	0.12	0.12	0.22	0.22	0.47	0.53	0.36	0.33
+496	26786573	36181990	['dosage or exposure duration', 'outcome measures']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.02	0.77	0.89	0.19	0.06	0.3	0.38	0.8	0.73	0.18
+497	26882833	33080740	['population', 'outcome measures']	['population', 'outcome measures']	0.03	0.7	0.38	0.27	0.28	0.17	0.31	0.37	0.6	0.26
+498	26882833	34229861	['population', 'outcome measures']	['population', 'dosage or exposure duration', 'route or mode of administration', 'study design', 'outcome measures']	0.02	0.61	0.8	0.73	0.32	0.19	0.35	0.53	0.56	0.24
+499	26928392	38438279	['evolving scientific evidence']	['evolving scientific evidence', 'known controversy or self-qualified claims', 'study design', 'outcome measures']	0.02	0.32	0.13	0.06	0.05	0.6	0.55	0.59	0.63	0.28
+502	27913736	32229194	['population', 'outcome measures']	['population']	0.02	0.62	0.21	0.22	0.26	0.17	0.16	0.21	0.44	0.12
+503	27913736	32737893	['population', 'outcome measures']	['population']	0.03	0.64	0.24	0.24	0.22	0.14	0.16	0.26	0.48	0.17
+504	28157691	29186759	['outcome measures', 'combined drug effects']	['dosage or exposure duration', 'outcome measures']	0.02	0.39	0.77	0.2	0.24	0.26	0.2	0.46	0.88	0.28
+505	28182690	31668468	['study design', 'outcome measures']	['population', 'dosage or exposure duration', 'known controversy or self-qualified claims', 'study design', 'outcome measures']	0.03	0.52	0.54	0.46	0.36	0.29	0.51	0.83	0.51	0.32
+506	28182690	31903588	['outcome measures']	['population', 'dosage or exposure duration']	0.03	0.79	0.66	0.39	0.08	0.19	0.34	0.43	0.21	0.14
+507	28375641	35347555	['evolving scientific evidence', 'outcome measures']	['population', 'dosage or exposure duration', 'outcome measures']	0.03	0.83	0.52	0.31	0.29	0.25	0.38	0.36	0.7	0.18
+508	28803880	30316534	['population', 'dosage or exposure duration', 'outcome measures']	['population']	0.03	0.94	0.41	0.09	0.1	0.22	0.37	0.36	0.37	0.17
+510	29864432	36368914	['population', 'dosage or exposure duration', 'outcome measures']	['population', 'dosage or exposure duration', 'outcome measures']	0.03	0.81	0.75	0.36	0.25	0.16	0.25	0.24	0.73	0.14
+511	31416155	30246883	['dosage or exposure duration', 'population', 'outcome measures']	['population', 'combined drug effects', 'outcome measures']	0.03	0.8	0.48	0.09	0.74	0.16	0.17	0.44	0.69	0.21
+512	31416155	30321667	['outcome measures', 'population']	['population', 'dosage or exposure duration', 'outcome measures']	0.04	0.85	0.52	0.12	0.06	0.19	0.26	0.34	0.54	0.24
+513	31559433	41145460	['population', 'outcome measures', 'dosage or exposure duration']	['population', 'dosage or exposure duration', 'known controversy or self-qualified claims', 'outcome measures']	0.03	0.57	0.63	0.15	0.06	0.32	0.55	0.37	0.7	0.35
+514	31560068	30703190	['outcome measures']	['population']	0.02	0.94	0.16	0.05	0.09	0.13	0.11	0.31	0.49	0.17
+515	31695323	31668468	['population', 'outcome measures']	['population', 'dosage or exposure duration', 'study design']	0.03	0.79	0.62	0.18	0.17	0.18	0.21	0.67	0.3	0.25
+516	31837209	26841365	['population', 'outcome measures']	['population', 'outcome measures']	0.03	0.51	0.47	0.11	0.38	0.25	0.43	0.39	0.87	0.24
+517	31903588	34887180	['population', 'outcome measures']	['population', 'route or mode of administration']	0.02	0.74	0.46	0.65	0.19	0.19	0.37	0.46	0.47	0.19
+518	31950134	28425575	['population']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.04	0.73	0.76	0.12	0.12	0.24	0.18	0.62	0.64	0.32
+519	32434234	30222788	['study design']	['population', 'dosage or exposure duration', 'study design']	0.03	0.59	0.51	0.38	0.31	0.24	0.21	0.71	0.43	0.26
+520	32492153	26554884	['population']	['population']	0.03	0.91	0.49	0.06	0.11	0.16	0.31	0.4	0.34	0.11
+521	32823218	32945627	['outcome measures']	['dosage or exposure duration', 'route or mode of administration', 'study design']	0.03	0.36	0.75	0.53	0.14	0.33	0.27	0.5	0.39	0.16
+522	33085857	40232661	['known controversy or self-qualified claims', 'ambiguous referent']	['population', 'study design']	0.02	0.82	0.13	0.06	0.1	0.3	0.34	0.67	0.25	0.31
+523	33278625	35788169	['study design', 'outcome measures']	['population', 'study design', 'outcome measures']	0.04	0.82	0.42	0.1	0.22	0.44	0.28	0.51	0.78	0.31
+524	33302662	26775631	['outcome measures', 'study design']	['population', 'combined drug effects']	0.03	0.74	0.27	0.14	0.72	0.47	0.44	0.49	0.35	0.31
+525	33352920	30256811	['population', 'dosage or exposure duration']	['population', 'dosage or exposure duration', 'evolving scientific evidence', 'known controversy or self-qualified claims', 'outcome measures']	0.03	0.82	0.68	0.08	0.28	0.52	0.6	0.34	0.65	0.17
+526	33352920	34337905	['population', 'dosage or exposure duration']	['population', 'dosage or exposure duration', 'outcome measures']	0.04	0.84	0.83	0.43	0.47	0.21	0.22	0.43	0.66	0.15
+527	33352920	34118059	['population', 'dosage or exposure duration']	['population', 'known controversy or self-qualified claims', 'study design', 'outcome measures']	0.03	0.83	0.46	0.06	0.4	0.25	0.58	0.5	0.8	0.3
+528	33595593	40884036	['outcome measures']	['population', 'study design']	0.02	0.81	0.38	0.08	0.35	0.31	0.38	0.72	0.28	0.27
+530	33947344	38154616	['combined drug effects']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.03	0.81	0.57	0.19	0.49	0.23	0.21	0.54	0.6	0.15
+531	33947344	34265236	['combined drug effects']	['population', 'dosage or exposure duration', 'outcome measures']	0.03	0.83	0.54	0.2	0.49	0.22	0.34	0.48	0.7	0.15
+532	34337905	26554884	['population', 'dosage or exposure duration']	['population', 'dosage or exposure duration']	0.03	0.83	0.78	0.44	0.07	0.18	0.19	0.36	0.38	0.14
+534	35353979	34052007	['dosage or exposure duration', 'population']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.02	0.69	0.78	0.13	0.4	0.28	0.34	0.61	0.86	0.2
+535	35654818	35107188	['ambiguous referent']	['population', 'dosage or exposure duration', 'known controversy or self-qualified claims', 'outcome measures']	0.03	0.68	0.66	0.08	0.36	0.4	0.55	0.42	0.82	0.37
+536	36181009	37711106	['evolving scientific evidence']	['population', 'outcome measures']	0.02	0.9	0.34	0.09	0.49	0.18	0.23	0.47	0.76	0.15
+537	36794600	31668468	['population', 'dosage or exposure duration']	['population', 'dosage or exposure duration', 'route or mode of administration', 'study design']	0.03	0.65	0.71	0.61	0.23	0.22	0.28	0.73	0.39	0.31
+538	36913250	30246883	['population', 'dosage or exposure duration', 'outcome measures']	['population', 'dosage or exposure duration', 'combined drug effects', 'study design', 'outcome measures']	0.07	0.73	0.69	0.37	0.55	0.15	0.17	0.54	0.7	0.17
+539	37179241	31560068	['population']	['population']	0.02	0.95	0.15	0.09	0.2	0.14	0.15	0.43	0.23	0.31
+540	37482224	36862862	['outcome measures']	['study design', 'outcome measures']	0.02	0.29	0.32	0.19	0.11	0.29	0.44	0.56	0.83	0.48
+541	37711106	35107188	['population', 'outcome measures', 'ambiguous referent']	['population', 'dosage or exposure duration', 'outcome measures']	0.02	0.88	0.77	0.13	0.34	0.27	0.41	0.47	0.72	0.21
+542	38154616	41405131	['dosage or exposure duration', 'route or mode of administration']	['dosage or exposure duration', 'route or mode of administration', 'study design', 'outcome measures']	0.04	0.39	0.57	0.8	0.07	0.23	0.33	0.59	0.68	0.22
+543	38154616	34052007	['outcome measures', 'dosage or exposure duration']	['population', 'dosage or exposure duration', 'study design', 'outcome measures']	0.03	0.56	0.81	0.13	0.44	0.33	0.32	0.61	0.75	0.15
+544	41405131	34265236	['ambiguous referent', 'dosage or exposure duration']	['population', 'dosage or exposure duration', 'route or mode of administration', 'study design', 'outcome measures']	0.05	0.78	0.62	0.78	0.07	0.28	0.46	0.65	0.77	0.17
+545	41405131	33662102	['dosage or exposure duration', 'outcome measures']	['population', 'dosage or exposure duration', 'route or mode of administration', 'study design', 'outcome measures']	0.05	0.74	0.65	0.83	0.05	0.3	0.34	0.68	0.76	0.28
+546	41405131	35179551	['dosage or exposure duration', 'outcome measures']	['population', 'dosage or exposure duration', 'route or mode of administration', 'study design', 'outcome measures']	0.05	0.7	0.58	0.82	0.13	0.24	0.27	0.68	0.76	0.27

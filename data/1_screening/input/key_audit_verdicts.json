@@ -1,0 +1,1150 @@
+{
+"R000": {
+"rid": "R000",
+"verdict": "EXCLUDE",
+"clause": "Published randomised or quasi-randomised trials",
+"reason": "Abstract describes a systematic review of RCTs, so the study design itself is not an RCT (it may be useful as a source of trials, but the criterion is design-based).",
+"confidence": 0.6
+},
+"R004": {
+"rid": "R004",
+"verdict": "EXCLUDE",
+"clause": "SRs ... investigating non-pharmacological core management strategies",
+"reason": "Narrative review of OA biomechanics; not a systematic review and not about non-pharmacological management.",
+"confidence": 0.9
+},
+"R008": {
+"rid": "R008",
+"verdict": "UNSURE",
+"clause": "Treatment: analyzes PGHD to any kind of treatment or medical recommendation",
+"reason": "SR of PROMs measuring satisfaction with colorectal cancer screening; screening is a medical procedure rather than treatment, so fit to the treatment criterion is unclear.",
+"confidence": 0.5
+},
+"R012": {
+"rid": "R012",
+"verdict": "INCLUDE",
+"clause": "adult patients with SLE ... efficacy of interventions (RQ3)",
+"reason": "Primary study in adult SLE patients comparing non-pharmacological CBT and MBSR programmes on quality of life and self-efficacy, with random allocation to groups.",
+"confidence": 0.7
+},
+"R016": {
+"rid": "R016",
+"verdict": "EXCLUDE",
+"clause": "Published randomised or quasi-randomised trials",
+"reason": "Qualitative online focus groups with nurses; no trial and no exercise or non-pharmacological intervention effect.",
+"confidence": 0.95
+},
+"R020": {
+"rid": "R020",
+"verdict": "EXCLUDE",
+"clause": "cross-sectional associations between HairGC and measurements of obesity",
+"reason": "Hair cortisol and DHEA versus executive function in kindergarten children; no obesity measure.",
+"confidence": 0.92
+},
+"R024": {
+"rid": "R024",
+"verdict": "INCLUDE",
+"clause": "LOS with more than 20 subjects; relapse (change of disease activity state)",
+"reason": "Retrospective longitudinal observational study of 168 GCA patients with relapse outcomes and methotrexate exposure.",
+"confidence": 0.75
+},
+"R028": {
+"rid": "R028",
+"verdict": "INCLUDE",
+"clause": "bDMARDs: tocilizumab; AOSD population",
+"reason": "Efficacy of tocilizumab in refractory AOSD patients; single-arm with no comparator, but the criteria do not require one.",
+"confidence": 0.75
+},
+"R032": {
+"rid": "R032",
+"verdict": "INCLUDE",
+"clause": "Eligible study designs included RCTs ... all relevant efficacy/safety outcomes",
+"reason": "Post hoc analyses of two phase 3 RCTs of guselkumab in PsA patients with axial symptoms, reporting efficacy.",
+"confidence": 0.7
+},
+"R036": {
+"rid": "R036",
+"verdict": "UNSURE",
+"clause": "LGMM is applied to PTSS data",
+"reason": "RCT of D-CPT in trauma-exposed youth with CAPS-CA at four time points, but the abstract does not state that latent growth mixture modelling was applied.",
+"confidence": 0.5
+},
+"R040": {
+"rid": "R040",
+"verdict": "INCLUDE",
+"clause": "Eligible study designs included RCTs ... all relevant efficacy outcomes",
+"reason": "Post hoc subgroup analysis of the SELECT-AXIS 1 RCT of upadacitinib in ankylosing spondylitis, reporting efficacy.",
+"confidence": 0.7
+},
+"R044": {
+"rid": "R044",
+"verdict": "INCLUDE",
+"clause": "Population: Human or animal ... transgenerational exposure/outcome design",
+"reason": "In vivo C. elegans study with original data on multigenerational inheritance; not in vitro and not an inherited disease.",
+"confidence": 0.75
+},
+"R048": {
+"rid": "R048",
+"verdict": "INCLUDE",
+"clause": "PTSS is measured at a minimum of three time points; LGMM is applied to PTSS data",
+"reason": "Three waves of PCL-5 in older veterans analysed with a latent growth mixture model of PTSD symptom change.",
+"confidence": 0.8
+},
+"R052": {
+"rid": "R052",
+"verdict": "EXCLUDE",
+"clause": "Eligible study designs included randomised controlled trials (RCTs), strategy trials and observational studies",
+"reason": "Narrative review summarising the RAPID-axSpA RCT; a review is not an eligible design.",
+"confidence": 0.7
+},
+"R056": {
+"rid": "R056",
+"verdict": "UNSURE",
+"clause": "Candidate papers must deal with energy demand, consumption need or use by the human population",
+"reason": "Arctic oil and gas production study that tests the demand argument and uses climate change as a baseline, but focuses on supply; the demand and climate-energy link is unclear from the abstract.",
+"confidence": 0.5
+},
+"R060": {
+"rid": "R060",
+"verdict": "EXCLUDE",
+"clause": "exercise or other non-pharmaceutical interventions ... on CRF or vitality",
+"reason": "RCT comparing minimally invasive with open surgery; intervention is surgical and the outcome is quality of life, not exercise or CRF/vitality.",
+"confidence": 0.85
+},
+"R064": {
+"rid": "R064",
+"verdict": "INCLUDE",
+"clause": "five inclusion criteria: empirical; ages 3-18; teacher-student and peer relationships; individual-level analysis",
+"reason": "Empirical Head Start preschool study (about ages 3-5) with individual-level teacher-student closeness and peer interaction measures modelled by SEM.",
+"confidence": 0.8
+},
+"R068": {
+"rid": "R068",
+"verdict": "EXCLUDE",
+"clause": "We excluded trials comparing drugs or nutritional supplementations, acupuncture",
+"reason": "Randomised acupuncture versus sham trial for radiotherapy nausea; acupuncture is explicitly excluded.",
+"confidence": 0.97
+},
+"R072": {
+"rid": "R072",
+"verdict": "INCLUDE",
+"clause": "Eligible study designs included RCTs ... all relevant efficacy/safety outcomes",
+"reason": "Ixekizumab in radiographic axSpA from two pivotal RCTs, with week 52 functioning and health outcomes.",
+"confidence": 0.9
+},
+"R076": {
+"rid": "R076",
+"verdict": "INCLUDE",
+"clause": "cross-sectional associations between HairGC and measurements of obesity",
+"reason": "Cross-sectional study of hair cortisol against BMI and adiposity measures in children and parents.",
+"confidence": 0.93
+},
+"R080": {
+"rid": "R080",
+"verdict": "INCLUDE",
+"clause": "SR ... analyzes PGHD to any kind of treatment",
+"reason": "Systematic review of HRQoL after total thyroidectomy versus hemithyroidectomy in adults with DTC; HRQoL is patient-reported, though the abstract does not name PROMs explicitly.",
+"confidence": 0.7
+},
+"R084": {
+"rid": "R084",
+"verdict": "EXCLUDE",
+"clause": "Focus is not ML for tropical disease",
+"reason": "Cross-sectional malaria case-management survey in Haiti; no machine learning.",
+"confidence": 0.95
+},
+"R088": {
+"rid": "R088",
+"verdict": "INCLUDE",
+"clause": "Eligible study designs included RCTs ... all relevant efficacy/safety outcomes",
+"reason": "Phase III double-blind placebo-controlled RCT of intravenous golimumab in AS with patient-reported outcomes.",
+"confidence": 0.88
+},
+"R092": {
+"rid": "R092",
+"verdict": "INCLUDE",
+"clause": "RCTs, strategy trials and observational studies ... efficacy outcomes",
+"reason": "Long-term extension imaging outcomes of the RAPID-axSpA RCT in certolizumab-treated axSpA.",
+"confidence": 0.7
+},
+"R096": {
+"rid": "R096",
+"verdict": "EXCLUDE",
+"clause": "original longitudinal observational CER studies ... exploring effectiveness of different drugs",
+"reason": "Cross-sectional mailed survey of care utilisation in veterans with RA; no drug effectiveness analysis.",
+"confidence": 0.9
+},
+"R100": {
+"rid": "R100",
+"verdict": "EXCLUDE",
+"clause": "(1) had a randomized design comparing 2 or more groups",
+"reason": "Observational claims cohort on health care use before first-episode psychosis; no randomisation or psychotherapy trial.",
+"confidence": 0.97
+},
+"R104": {
+"rid": "R104",
+"verdict": "INCLUDE",
+"clause": "randomized design comparing 2 or more groups; psychotherapy; reported suicidal ideation",
+"reason": "RCT of the A-CWS programme versus standard care with suicidal ideation trajectories in adolescents, modelled as continuous latent growth.",
+"confidence": 0.8
+},
+"R108": {
+"rid": "R108",
+"verdict": "EXCLUDE",
+"clause": "Published randomised or quasi-randomised trials",
+"reason": "Claims-based propensity-matched cohort on breast cancer costs and utilisation; no trial and no exercise or non-pharmacological intervention.",
+"confidence": 0.97
+},
+"R112": {
+"rid": "R112",
+"verdict": "INCLUDE",
+"clause": "adult patients with SSc ... efficacy of interventions (RQ3)",
+"reason": "Protocol for a randomised feasibility trial of HIIT and resistance exercise in adult SSc patients with quality-of-life outcomes; results not yet reported.",
+"confidence": 0.65
+},
+"R116": {
+"rid": "R116",
+"verdict": "EXCLUDE",
+"clause": "Studies were included if they were SRs, including a meta-analysis of two or more RCTs",
+"reason": "Single primary RCT of exercise types in knee OA with obesity; not a systematic review or meta-analysis.",
+"confidence": 0.85
+},
+"R120": {
+"rid": "R120",
+"verdict": "UNSURE",
+"clause": "original longitudinal observational CER studies with >=100 participants ... exploring effectiveness of different drugs; studies evaluating extra-articular organ damage were not included",
+"reason": "Retrospective Medicare cohort of allopurinol versus febuxostat (design fits), but dementia may fall under the extra-articular organ-damage exclusion and the sample size is not stated.",
+"confidence": 0.5
+},
+"R124": {
+"rid": "R124",
+"verdict": "EXCLUDE",
+"clause": "non-pharmacological management (RQ1); types of interventions (RQ2)",
+"reason": "Diagnostic in vivo confocal microscopy study in SSc; not a non-pharmacological management study.",
+"confidence": 0.85
+},
+"R128": {
+"rid": "R128",
+"verdict": "EXCLUDE",
+"clause": "We excluded trials comparing drugs or nutritional supplementations",
+"reason": "Randomised trial of fucoidan, a seaweed polysaccharide supplement, given with chemotherapy; not an exercise or behavioural intervention.",
+"confidence": 0.8
+},
+"R132": {
+"rid": "R132",
+"verdict": "INCLUDE",
+"clause": "sJIA and AOSD population; bDMARD canakinumab; efficacy outcomes",
+"reason": "Phase III open-label canakinumab study in Japanese systemic JIA patients with efficacy outcomes.",
+"confidence": 0.8
+},
+"R136": {
+"rid": "R136",
+"verdict": "UNSURE",
+"clause": "trials evaluating the effect of ... on CRF or vitality",
+"reason": "Analysis of a yoga intervention arm in post-treatment breast cancer survivors reports adherence predictors only; no CRF or vitality effect is shown in the abstract.",
+"confidence": 0.5
+},
+"R140": {
+"rid": "R140",
+"verdict": "INCLUDE",
+"clause": "empirical; ages 3-18; teacher-student and peer relationships; individual-level analysis",
+"reason": "Swiss primary and secondary student survey with teacher and peer needs-support variables modelled by SEM at the individual level.",
+"confidence": 0.75
+},
+"R144": {
+"rid": "R144",
+"verdict": "INCLUDE",
+"clause": "(I3) discriminated agricultural practices; (I6) biodiversity of agroecosystems; (I7) real-life sampling",
+"reason": "Field study of small mammals in organic versus conventional wheat fields along a landscape-complexity gradient, with statistical analysis and control fields.",
+"confidence": 0.88
+},
+"R148": {
+"rid": "R148",
+"verdict": "EXCLUDE",
+"clause": "Eligible study designs included randomised controlled trials (RCTs), strategy trials and observational studies",
+"reason": "Reported data come from a single-arm open-label phase 3b induction period, which is neither an RCT nor an observational study.",
+"confidence": 0.65
+},
+"R152": {
+"rid": "R152",
+"verdict": "INCLUDE",
+"clause": "RCTs and LOS of non-pharmacological interventions in people with any RMD",
+"reason": "RCT of hydrotherapy versus land physiotherapy in JIA; productivity cost (parents' time away from paid work) touches the work-outcome domain.",
+"confidence": 0.7
+},
+"R156": {
+"rid": "R156",
+"verdict": "INCLUDE",
+"clause": "Eligible study designs included RCTs ... all relevant efficacy/safety outcomes",
+"reason": "Placebo-controlled RCT of etanercept in suspected nr-axSpA with ASAS20 and MRI efficacy outcomes.",
+"confidence": 0.9
+},
+"R160": {
+"rid": "R160",
+"verdict": "EXCLUDE",
+"clause": "We excluded trials comparing drugs or nutritional supplementations",
+"reason": "RCT of calcium plus vitamin D supplementation versus placebo with lung cancer incidence; supplement excluded and outcome is not CRF or vitality.",
+"confidence": 0.97
+},
+"R001": {
+"rid": "R001",
+"verdict": "INCLUDE",
+"clause": "(I3) with discriminated agricultural practices",
+"reason": "17-year field fertilization experiment comparing organic and mineral fertilizers with an unfertilized control on several soil biota groups; no clear exclusion applies, though the abstract does not describe the statistics.",
+"confidence": 0.7
+},
+"R005": {
+"rid": "R005",
+"verdict": "INCLUDE",
+"clause": "(I5) on a scale ranging from farm to landscape",
+"reason": "Field bird survey of grazed versus abandoned Alpine pastures analysed by regression with grazing and landscape variables.",
+"confidence": 0.8
+},
+"R009": {
+"rid": "R009",
+"verdict": "EXCLUDE",
+"clause": "The population included patients with GCA",
+"reason": "Population is children with mucopolysaccharidosis II; DAS-II GCA here is a cognitive score, not giant cell arteritis.",
+"confidence": 0.9
+},
+"R013": {
+"rid": "R013",
+"verdict": "INCLUDE",
+"clause": "(3) studies on biological material derived from peripheral blood",
+"reason": "Peripheral-blood DNA methylation case-control comparison in SLE and primary Sjogren's with a reported AUC classifier; not purely IFN pathway genetics.",
+"confidence": 0.7
+},
+"R017": {
+"rid": "R017",
+"verdict": "INCLUDE",
+"clause": "SRs including meta-analysis of two or more RCTs on hip or knee OA, non-pharmacological",
+"reason": "Cochrane systematic review of RCTs on land-based therapeutic exercise for knee OA with pain and function outcomes.",
+"confidence": 0.92
+},
+"R021": {
+"rid": "R021",
+"verdict": "INCLUDE",
+"clause": "RCTs ... All relevant efficacy/safety outcomes were included",
+"reason": "Post hoc analysis of the randomised double-blind ABILITY-3 trial relating adalimumab trough concentrations to remission and flare.",
+"confidence": 0.8
+},
+"R025": {
+"rid": "R025",
+"verdict": "INCLUDE",
+"clause": "MTX was administered to RA patients or RA animal models; studies that did not analyse efficacy were excluded",
+"reason": "Post hoc analysis of abatacept plus MTX versus MTX alone in early RA with efficacy outcomes; MTX is given in the comparator arm, so the co-administration exclusion does not clearly apply.",
+"confidence": 0.6
+},
+"R029": {
+"rid": "R029",
+"verdict": "INCLUDE",
+"clause": "Measurement of biomarkers in body fluids (serum) ... Studies focuses on NSCLC",
+"reason": "Serum autoantibody biomarkers distinguishing lung adenocarcinoma from benign nodules, with reported sensitivity and specificity in more than 10 subjects.",
+"confidence": 0.88
+},
+"R033": {
+"rid": "R033",
+"verdict": "INCLUDE",
+"clause": "Published randomised trials evaluating the effect of all kind of exercise or other non-pharmaceutical interventions on CRF or vitality",
+"reason": "RCT of Qigong, a non-drug movement intervention, in cancer survivors reporting fatigue and QoL; design and intervention fit, though the abstract emphasises QoL over fatigue.",
+"confidence": 0.6
+},
+"R037": {
+"rid": "R037",
+"verdict": "INCLUDE",
+"clause": "(1) had a randomized design comparing 2 or more groups; reported suicidal ideation, suicide attempts, or self-harm",
+"reason": "Randomised feasibility trial of group mentalization-based therapy versus treatment as usual, with self-harm and emergency-presentation outcomes in adolescents.",
+"confidence": 0.88
+},
+"R041": {
+"rid": "R041",
+"verdict": "UNSURE",
+"clause": "(1) use of LASSI",
+"reason": "Abstract mentions study skills and GPA but does not state whether LASSI was used or report an effect size measure.",
+"confidence": 0.4
+},
+"R045": {
+"rid": "R045",
+"verdict": "EXCLUDE",
+"clause": "observational studies (the latter only for safety and extra-musculoskeletal manifestations)",
+"reason": "Observational prevalence study of AS in primary and secondary care; it is neither an RCT nor a safety or extra-musculoskeletal outcome study.",
+"confidence": 0.8
+},
+"R049": {
+"rid": "R049",
+"verdict": "INCLUDE",
+"clause": "The populations of interest were adult patients with SLE",
+"reason": "Qualitative study of adult African-American women with SLE in a peer-mentoring self-management intervention, covering patient experiences, needs and barriers.",
+"confidence": 0.7
+},
+"R053": {
+"rid": "R053",
+"verdict": "INCLUDE",
+"clause": "RCTs, strategy trials and observational studies ... All relevant efficacy/safety outcomes were included",
+"reason": "Post hoc pooled analysis of four phase 3 randomised secukinumab trials on enthesitis outcomes.",
+"confidence": 0.85
+},
+"R057": {
+"rid": "R057",
+"verdict": "UNSURE",
+"clause": "IC2: The title or abstract of the article is about the measurement or application of the source code similarity",
+"reason": "Abstract concerns model and metamodel (Ecore) clone detection; it is unclear whether metamodels count as source code under IC2.",
+"confidence": 0.5
+},
+"R061": {
+"rid": "R061",
+"verdict": "INCLUDE",
+"clause": "RCTs ... All relevant efficacy/safety outcomes were included",
+"reason": "Phase 3 FUTURE 2 RCT reporting 104-week secukinumab efficacy and safety in psoriatic arthritis.",
+"confidence": 0.92
+},
+"R065": {
+"rid": "R065",
+"verdict": "EXCLUDE",
+"clause": "Content contains patient-generated health data (PGHD)",
+"reason": "Systematic review of cost-effectiveness thresholds in cost-utility analysis; no patient-generated health data are analysed.",
+"confidence": 0.9
+},
+"R069": {
+"rid": "R069",
+"verdict": "EXCLUDE",
+"clause": "analyses had to be performed at the level of the individual student ... peer relationships",
+"reason": "Multilevel analysis of teacher job satisfaction from teacher questionnaires (TALIS); the sample is teachers, not students, and no student peer-relationship measure is reported.",
+"confidence": 0.9
+},
+"R073": {
+"rid": "R073",
+"verdict": "EXCLUDE",
+"clause": "measure or focus on the effects of the physical environment on physical activity",
+"reason": "National NCD risk-factor survey on demographic and urban-rural determinants; no physical environment measure or physical activity ecology focus.",
+"confidence": 0.85
+},
+"R077": {
+"rid": "R077",
+"verdict": "INCLUDE",
+"clause": "Measurement of biomarkers in body fluids including blood (serum or plasma) ... Studies focuses on NSCLC",
+"reason": "Plasma miRNA signature for early lung adenocarcinoma reporting AUC, sensitivity and specificity against healthy controls.",
+"confidence": 0.9
+},
+"R081": {
+"rid": "R081",
+"verdict": "INCLUDE",
+"clause": "RCTs ... All relevant efficacy/safety outcomes were included",
+"reason": "Two-year follow-up of a phase III randomised double-blind placebo-controlled secukinumab trial in psoriatic arthritis.",
+"confidence": 0.9
+},
+"R085": {
+"rid": "R085",
+"verdict": "INCLUDE",
+"clause": "RCTs and LOS with more than 20 subjects ... disease activity state, namely active disease and remission",
+"reason": "RCT of tocilizumab in GCA with 30 randomised participants reporting MRA vessel-wall remission alongside clinical remission.",
+"confidence": 0.65
+},
+"R089": {
+"rid": "R089",
+"verdict": "INCLUDE",
+"clause": "Observational studies, namely cohort studies/registries with >50 cases ... Studies were only eligible if they included a comparator group",
+"reason": "Multi-centre retrospective cohort of 213 RA patients on abatacept versus other bDMARDs, with an infection outcome, though most reported outcomes are efficacy and persistence.",
+"confidence": 0.5
+},
+"R093": {
+"rid": "R093",
+"verdict": "INCLUDE",
+"clause": "(3) studies that described results on biological material derived from peripheral blood (ie, serum)",
+"reason": "Serum IFN-lambda1 and IFN-alpha measured in a cross-sectional case-control SLE cohort with 261 population controls.",
+"confidence": 0.85
+},
+"R097": {
+"rid": "R097",
+"verdict": "EXCLUDE",
+"clause": "IC2: The title or abstract of the article is about the measurement or application of the source code similarity",
+"reason": "Bibliometric n-gram trend analysis of program comprehension paper metadata; it does not concern source code similarity.",
+"confidence": 0.95
+},
+"R101": {
+"rid": "R101",
+"verdict": "INCLUDE",
+"clause": "Content contains patient-generated health data (PGHD) ... patient preference information (PPI)",
+"reason": "Mixed-methods systematic review of women's values and preferences on LMWH in pregnancy; preference data fit the PPI part of the PGHD definition, though the fit is not literal.",
+"confidence": 0.55
+},
+"R105": {
+"rid": "R105",
+"verdict": "INCLUDE",
+"clause": "analyses had to be performed at the level of the individual student ... relationships with classmates",
+"reason": "Growth mixture model of 241 elementary-school children linking kindergarten teacher and peer relationships to externalizing trajectories.",
+"confidence": 0.8
+},
+"R109": {
+"rid": "R109",
+"verdict": "INCLUDE",
+"clause": "MTX was administered to RA patients or RA animal models; in vivo",
+"reason": "Case-control study of conventional DMARD (including MTX) use in RA patients with a CVD outcome; the outcome is a drug benefit rather than a safety-only study, so the efficacy exclusion is not clearly triggered.",
+"confidence": 0.5
+},
+"R113": {
+"rid": "R113",
+"verdict": "INCLUDE",
+"clause": "studies reporting any relation between ECM molecules and the immune traits of the tumors",
+"reason": "Pan-cancer bioinformatic and cell-based analysis of RCN3, an ECM-related gene, with immune infiltration and immunotherapy relevance; ICI response is only inferred.",
+"confidence": 0.6
+},
+"R117": {
+"rid": "R117",
+"verdict": "INCLUDE",
+"clause": "Observational studies, namely cohort studies/registries with >50 cases ... safety outcomes considered: venous thromboembolism",
+"reason": "US claims-database cohort of RA patients on csDMARDs versus b/tsDMARDs with inpatient VTE as the safety outcome and a comparator group.",
+"confidence": 0.9
+},
+"R121": {
+"rid": "R121",
+"verdict": "INCLUDE",
+"clause": "RCTs ... All relevant efficacy/safety outcomes were included",
+"reason": "Post hoc analysis of a randomised phase 2 tofacitinib trial in AS with MRI and clinical outcomes.",
+"confidence": 0.85
+},
+"R125": {
+"rid": "R125",
+"verdict": "EXCLUDE",
+"clause": "Published randomised or quasi-randomised trials evaluating the effect of all kind of exercise",
+"reason": "Study protocol for an RCT of exercise during rectal cancer treatment; it reports no effect data, so it does not evaluate an effect.",
+"confidence": 0.6
+},
+"R129": {
+"rid": "R129",
+"verdict": "INCLUDE",
+"clause": "Eligible are systematic reviews ... Content contains patient-generated health data (PROMs)",
+"reason": "Systematic review and meta-analysis of patient-reported outcomes (BREAST-Q) after nipple- versus skin-sparing mastectomy in adult women.",
+"confidence": 0.78
+},
+"R133": {
+"rid": "R133",
+"verdict": "INCLUDE",
+"clause": "RCTs ... All relevant efficacy/safety outcomes were included",
+"reason": "Open-label run-in (Part A) of the C-OPTIMISE certolizumab RCT reporting efficacy and safety in axSpA.",
+"confidence": 0.7
+},
+"R137": {
+"rid": "R137",
+"verdict": "INCLUDE",
+"clause": "RCTs ... All relevant efficacy/safety outcomes were included",
+"reason": "Three-year extension of the MEASURE 1 secukinumab RCT reporting efficacy and safety; the open-label extension design is not strictly randomised.",
+"confidence": 0.6
+},
+"R141": {
+"rid": "R141",
+"verdict": "INCLUDE",
+"clause": "RCTs ... All relevant efficacy/safety outcomes were included",
+"reason": "Post hoc pooled analysis of randomised phase III secukinumab MEASURE trials on enthesitis outcomes.",
+"confidence": 0.9
+},
+"R145": {
+"rid": "R145",
+"verdict": "INCLUDE",
+"clause": "(2) design as cross-sectional; ... cohort studies; (3) peripheral blood",
+"reason": "Prospective cohort of 51 juvenile and adult dermatomyositis patients with whole-blood IFN gene scores and serum cytokines.",
+"confidence": 0.8
+},
+"R149": {
+"rid": "R149",
+"verdict": "UNSURE",
+"clause": "Population included are studies examining adult human subjects; Treatment: analyzes PGHD to any kind of treatment",
+"reason": "Umbrella review of digital patient-experience evaluation, which uses PREM-type data, but the abstract does not state the adult population or the treatment focus.",
+"confidence": 0.45
+},
+"R153": {
+"rid": "R153",
+"verdict": "EXCLUDE",
+"clause": "(1) use of LASSI",
+"reason": "Logistic regression of persistence on GPA and credit variables; the abstract does not mention LASSI use or an effect size measure.",
+"confidence": 0.8
+},
+"R157": {
+"rid": "R157",
+"verdict": "INCLUDE",
+"clause": "Measurement of biomarkers in body fluids including blood (serum or plasma) ... Studies focuses on NSCLC",
+"reason": "Serum anti-ENO1 autoantibody study in NSCLC reporting AUC and sensitivity against 270 normal controls.",
+"confidence": 0.85
+},
+"R161": {
+"rid": "R161",
+"verdict": "INCLUDE",
+"clause": "Only SRs and randomised controlled trials (RCTs) or controlled clinical trials were eligible; the comparator was placebo",
+"reason": "Post hoc analysis of two belimumab RCTs in adult SLE with a placebo comparator and FACIT-F fatigue outcome.",
+"confidence": 0.7
+},
+"R002": {
+"rid": "R002",
+"verdict": "INCLUDE",
+"clause": "Study Type: systematic reviews; Content: PGHD (PROMs)",
+"reason": "Systematic review of PROM use, reporting and analysis in phase 3 advanced breast cancer trials of treatments, which meets the review-type, PROM and treatment criteria.",
+"confidence": 0.6
+},
+"R006": {
+"rid": "R006",
+"verdict": "INCLUDE",
+"clause": "Eligible designs: randomised controlled trials",
+"reason": "Systematic review and network meta-analysis of phase 2/3 RCTs in AS, matching the RCT design criterion.",
+"confidence": 0.7
+},
+"R010": {
+"rid": "R010",
+"verdict": "UNSURE",
+"clause": "RCTs ... evaluating non-pharmacological interventions in people with any RMD",
+"reason": "Design is an RCT protocol of massage/exercise, but the population is nonspecific neck pain, which is not clearly an RMD, and no results are reported.",
+"confidence": 0.5
+},
+"R014": {
+"rid": "R014",
+"verdict": "INCLUDE",
+"clause": "Population: GCA; outcomes: remission, relapse",
+"reason": "Systematic review and meta-analysis of tocilizumab in GCA reporting remission and relapse across trials and observational studies, which matches the population, outcome and design criteria.",
+"confidence": 0.7
+},
+"R018": {
+"rid": "R018",
+"verdict": "INCLUDE",
+"clause": "Eligible designs: randomised controlled trials",
+"reason": "Double-blind placebo-controlled RCT of upadacitinib in active AS with efficacy and safety outcomes.",
+"confidence": 0.9
+},
+"R022": {
+"rid": "R022",
+"verdict": "INCLUDE",
+"clause": "Peripheral blood biological material; type I IFN assay",
+"reason": "Measures MxA (a type I IFN activity assay) in whole blood of SLE and SSc patients in cohort and cross-sectional designs.",
+"confidence": 0.75
+},
+"R026": {
+"rid": "R026",
+"verdict": "INCLUDE",
+"clause": "Physical environment and human physical activity outcome; multilevel social ecological approach",
+"reason": "Cross-sectional study measuring GIS-based green space exposure against free-time physical activity in children, adjusting for intrapersonal, family and neighbourhood factors.",
+"confidence": 0.85
+},
+"R030": {
+"rid": "R030",
+"verdict": "INCLUDE",
+"clause": "Adults with RA; RCTs with safety outcomes (serious AEs, infections)",
+"reason": "Systematic review and network meta-analysis of biologics in RA reporting serious adverse events and infections from RCTs, which fits the safety-focused criteria.",
+"confidence": 0.6
+},
+"R034": {
+"rid": "R034",
+"verdict": "EXCLUDE",
+"clause": "Exposure ... transgenerational in nature",
+"reason": "Clinical cohort of hospitalised patients on cephalosporins with no transgenerational exposure design.",
+"confidence": 0.9
+},
+"R038": {
+"rid": "R038",
+"verdict": "INCLUDE",
+"clause": "IC2: title or abstract about measurement or application of source code similarity",
+"reason": "Proposes an automated token-based clone detection tool, which is a source code similarity approach and is not excluded by EC4 or EC5.",
+"confidence": 0.6
+},
+"R042": {
+"rid": "R042",
+"verdict": "INCLUDE",
+"clause": "Population: sJIA and AOSD; all relevant efficacy information",
+"reason": "Retrospective case series of 18 sJIA patients reporting corticosteroid, biologic and remission outcomes.",
+"confidence": 0.6
+},
+"R046": {
+"rid": "R046",
+"verdict": "INCLUDE",
+"clause": "PTSS measured at 3+ time points after traumatic event; LGMM applied",
+"reason": "Prospective cohort with baseline, 3- and 6-month PTSD symptom assessments after whiplash analysed with latent growth mixture modelling.",
+"confidence": 0.8
+},
+"R050": {
+"rid": "R050",
+"verdict": "INCLUDE",
+"clause": "Longitudinal observational CER studies with >=100 participants exploring drug effectiveness",
+"reason": "Finnish register cohort of 127 PsA patients on infliximab or etanercept followed for 24 months.",
+"confidence": 0.9
+},
+"R054": {
+"rid": "R054",
+"verdict": "INCLUDE",
+"clause": "Eligible designs: randomised controlled trials",
+"reason": "Phase 3 RCT of secukinumab in PsA with 52-week efficacy and safety results.",
+"confidence": 0.95
+},
+"R058": {
+"rid": "R058",
+"verdict": "EXCLUDE",
+"clause": "Exposure ... transgenerational in nature",
+"reason": "Compares resistance of field and lab-acclimated Ceriodaphnia populations under historical metal exposure, which is not a transgenerational exposure design.",
+"confidence": 0.6
+},
+"R062": {
+"rid": "R062",
+"verdict": "INCLUDE",
+"clause": "Population: sJIA and AOSD; efficacy of canakinumab",
+"reason": "Pooled analysis of five canakinumab trials in sJIA patients stratified by age, reporting efficacy and safety.",
+"confidence": 0.8
+},
+"R066": {
+"rid": "R066",
+"verdict": "INCLUDE",
+"clause": "Adults with RA; cohort studies with >50 cases; safety outcome: malignancy",
+"reason": "Nationwide prospective cohort of 5,023 RA patients (148 malignancies) reporting malignancy risk and hydroxychloroquine association.",
+"confidence": 0.9
+},
+"R070": {
+"rid": "R070",
+"verdict": "EXCLUDE",
+"clause": "Published randomised or quasi-randomised trials evaluating exercise or other non-pharmaceutical interventions on CRF",
+"reason": "Cross-sectional survey of collusion about diagnosis disclosure in palliative care, with no intervention and no CRF outcome.",
+"confidence": 0.95
+},
+"R074": {
+"rid": "R074",
+"verdict": "INCLUDE",
+"clause": "Peripheral blood PBMCs in SLE; IFN-alpha assay by flow cytometry",
+"reason": "Experimental case-control style comparison of TLR7-mediated type I IFN-alpha production in PBMCs from SLE and control patients.",
+"confidence": 0.7
+},
+"R078": {
+"rid": "R078",
+"verdict": "EXCLUDE",
+"clause": "Observational studies only for safety and extra-musculoskeletal manifestations",
+"reason": "Cross-sectional ultrasound comparison of Achilles tendon in AS patients versus controls, an observational musculoskeletal outcome outside the permitted scope.",
+"confidence": 0.8
+},
+"R082": {
+"rid": "R082",
+"verdict": "EXCLUDE",
+"clause": "PTSS is evaluated using a validated scale",
+"reason": "Cohort of spinal cord injury depression trajectories measured with PHQ-9; PTSS is not assessed, although the criteria require PTSS.",
+"confidence": 0.85
+},
+"R086": {
+"rid": "R086",
+"verdict": "INCLUDE",
+"clause": "Longitudinal observational CER studies with >=100 participants exploring effectiveness/safety of drugs",
+"reason": "Medicaid cohort of more than 1,000 propensity-matched SLE initiators of MMF, AZA or CYC comparing serious infection and mortality.",
+"confidence": 0.8
+},
+"R090": {
+"rid": "R090",
+"verdict": "INCLUDE",
+"clause": "Population: sJIA and AOSD; interventions include biologics and corticosteroids; efficacy outcomes",
+"reason": "Case report plus literature review of 11 AOSD-like cases describing treatment responses to NSAIDs, corticosteroids and biologics; no design restriction is stated.",
+"confidence": 0.55
+},
+"R094": {
+"rid": "R094",
+"verdict": "INCLUDE",
+"clause": "Adults with confirmed ASSD; cohort studies",
+"reason": "Retrospective cohort of adults with anti-aminoacyl-tRNA synthetase autoantibodies, which is a cohort design named in the criteria.",
+"confidence": 0.75
+},
+"R098": {
+"rid": "R098",
+"verdict": "UNSURE",
+"clause": "Measures physical environment and human physical activity outcome; social ecological approach",
+"reason": "Describes a church-based RCT design with PA and environmental-level intervention components, but the abstract does not show that the physical environment is measured or associated with PA.",
+"confidence": 0.45
+},
+"R102": {
+"rid": "R102",
+"verdict": "UNSURE",
+"clause": "Adult SLE; non-pharmacological management RQs",
+"reason": "Narrative review of fatigue in SLE mentioning physical activity, sleep and therapeutic options, but it does not clearly address non-pharmacological management.",
+"confidence": 0.4
+},
+"R106": {
+"rid": "R106",
+"verdict": "INCLUDE",
+"clause": "Adult SLE; non-pharmacological self-management; RCT",
+"reason": "Protocol for a three-arm randomised, wait-list controlled trial of a self-management intervention in adults with lupus.",
+"confidence": 0.65
+},
+"R110": {
+"rid": "R110",
+"verdict": "INCLUDE",
+"clause": "Eligible designs: randomised controlled trials; efficacy outcomes",
+"reason": "Post hoc analysis of COAST-V and COAST-W RCTs reporting work productivity and activity impairment outcomes for ixekizumab in axSpA.",
+"confidence": 0.85
+},
+"R114": {
+"rid": "R114",
+"verdict": "EXCLUDE",
+"clause": "Eligible designs: RCTs, strategy trials; observational only for safety/extra-MSK",
+"reason": "Case-control MRI volumetric imaging of cervical cord gray matter in CSM, an observational musculoskeletal study without treatment or safety focus.",
+"confidence": 0.85
+},
+"R118": {
+"rid": "R118",
+"verdict": "INCLUDE",
+"clause": "RCTs of non-pharmacological interventions in people with any RMD; work outcome: sick leave",
+"reason": "Randomised controlled trial of a postal intervention on sick leave, with a rheumatic/arthritis subgroup among musculoskeletal and mental-disorder participants.",
+"confidence": 0.55
+},
+"R122": {
+"rid": "R122",
+"verdict": "EXCLUDE",
+"clause": "Study type: systematic reviews synthesizing pre-existing primary research; content: PGHD",
+"reason": "Delphi consensus study building a clinical registry minimum data set for corrosive ingestion, which is neither a systematic review nor PGHD.",
+"confidence": 0.9
+},
+"R126": {
+"rid": "R126",
+"verdict": "INCLUDE",
+"clause": "Human patients with RMDs (SLE); peripheral blood (serum, PBMC); type I IFN activity assay",
+"reason": "Case-control comparison of serum type I IFN bioactivity in SLE and NMO patients versus controls, with SLE patients satisfying the RMD criterion.",
+"confidence": 0.7
+},
+"R130": {
+"rid": "R130",
+"verdict": "INCLUDE",
+"clause": "Eligible designs: randomised controlled trials",
+"reason": "Post hoc analysis of the ABILITY-1 RCT of adalimumab in nr-axSpA, reporting changes in objective inflammation over time.",
+"confidence": 0.75
+},
+"R134": {
+"rid": "R134",
+"verdict": "INCLUDE",
+"clause": "Randomized design vs control; psychotherapy; reports suicidal attempts or self-harm",
+"reason": "RCT of treatment as usual versus brief intervention with psychoeducation and phone contact, reporting repeated suicidal behaviour hospital presentations.",
+"confidence": 0.75
+},
+"R138": {
+"rid": "R138",
+"verdict": "UNSURE",
+"clause": "I6: focused on the biodiversity of agroecosystems",
+"reason": "Field study of tillage and cover cropping with a bare-fallow control, but it reports microbial activity and soil properties rather than biodiversity.",
+"confidence": 0.5
+},
+"R142": {
+"rid": "R142",
+"verdict": "EXCLUDE",
+"clause": "Type: peer-reviewed original empirical articles",
+"reason": "Proposes a holistic renovation strategy for a Benidorm building without an empirical study, although the setting is European and the topic touches planning and nature.",
+"confidence": 0.6
+},
+"R146": {
+"rid": "R146",
+"verdict": "INCLUDE",
+"clause": "Eligible designs: randomised controlled trials",
+"reason": "Post hoc analysis of two phase 3 RCTs (COAST-V/W) of ixekizumab in r-axSpA with ASAS40 outcomes at week 16.",
+"confidence": 0.9
+},
+"R150": {
+"rid": "R150",
+"verdict": "EXCLUDE",
+"clause": "In vitro exposure studies excluded; transgenerational exposure design required",
+"reason": "In vitro F9 embryonal carcinoma cell study of heparan sulfate structures, which is excluded as an in vitro study and is not transgenerational.",
+"confidence": 0.95
+},
+"R154": {
+"rid": "R154",
+"verdict": "INCLUDE",
+"clause": "Original research on ECM molecules, immune traits and immune checkpoint response in cancer",
+"reason": "Bioinformatic original research on ABI3BP in lung tumours linking it to immune infiltration and predicted immune checkpoint inhibitor response.",
+"confidence": 0.75
+},
+"R158": {
+"rid": "R158",
+"verdict": "UNSURE",
+"clause": "Exclusion (3): articles that did not specify the type of IFN the assay measures",
+"reason": "Prospective cohort of at-risk and SLE patients using interferon-stimulated gene scores in blood, but the abstract does not name type I IFN explicitly.",
+"confidence": 0.5
+},
+"R162": {
+"rid": "R162",
+"verdict": "EXCLUDE",
+"clause": "Population: hip or knee OA or persisting knee pain; non-pharmacological core management strategies",
+"reason": "Historical narrative on acetylsalicylic acid in pregnancy and the ASPRE trial, which is not a systematic review of non-pharmacological OA management.",
+"confidence": 0.95
+},
+"R003": {
+"rid": "R003",
+"verdict": "INCLUDE",
+"clause": "any relation between ECM molecules and the immune traits of the tumors",
+"reason": "TNBC patient datasets; CAF subtypes differ in ECM pathways, immune cells and immunotherapy response rates.",
+"confidence": 0.8
+},
+"R007": {
+"rid": "R007",
+"verdict": "INCLUDE",
+"clause": "longitudinal observational CER studies with >=100 participants exploring effectiveness of different drugs",
+"reason": "Propensity-matched incident-user cohort of 5927 vs 5927 allopurinol users vs comparators, outcome all-cause mortality.",
+"confidence": 0.85
+},
+"R011": {
+"rid": "R011",
+"verdict": "INCLUDE",
+"clause": "Eligible study designs included randomised controlled trials (RCTs)",
+"reason": "Randomised 1:1:1:1 placebo/ADA-controlled ixekizumab trial in r-axSpA through 52 weeks; design qualifies.",
+"confidence": 0.95
+},
+"R015": {
+"rid": "R015",
+"verdict": "INCLUDE",
+"clause": "randomised controlled trials ... evaluating non-pharmacological interventions in people with any RMD",
+"reason": "RCT of a non-drug workplace intervention program in RA; work productivity is the primary outcome.",
+"confidence": 0.85
+},
+"R019": {
+"rid": "R019",
+"verdict": "INCLUDE",
+"clause": "presented data on human patients with RMDs ... peripheral blood",
+"reason": "SLE patient serum MIF (ELISA) and PBMC IFN-gene data with correlations, plus in vitro work; human patient component qualifies.",
+"confidence": 0.7
+},
+"R023": {
+"rid": "R023",
+"verdict": "INCLUDE",
+"clause": "Geography: Europe; planning addressed as a field of action",
+"reason": "Serbia flood-resilience policy and planning analysis; publication year and empirical design are not stated in the abstract.",
+"confidence": 0.5
+},
+"R027": {
+"rid": "R027",
+"verdict": "EXCLUDE",
+"clause": "PTSS is evaluated using a validated scale / LGMM is applied to PTSS data",
+"reason": "GMM is applied to HADS depression trajectories after TBI; the outcome is depression, not PTSS.",
+"confidence": 0.85
+},
+"R031": {
+"rid": "R031",
+"verdict": "INCLUDE",
+"clause": "adult patients with SLE ... aims of non-pharmacological management (RQ1)",
+"reason": "Adult women with SLE; aerobic exercise is a non-pharmacological intervention with patient-reported outcomes. Design is non-randomised, and the excerpt does not restrict design.",
+"confidence": 0.7
+},
+"R035": {
+"rid": "R035",
+"verdict": "EXCLUDE",
+"clause": "observational studies (the latter only for safety and extra-musculoskeletal manifestations)",
+"reason": "Retrospective descriptive series of 1385 sacral tumors reporting epidemiology; no RCT, efficacy or safety outcome.",
+"confidence": 0.9
+},
+"R039": {
+"rid": "R039",
+"verdict": "INCLUDE",
+"clause": "Eligible study designs included randomised controlled trials (RCTs)",
+"reason": "DISCOVER-2 randomised placebo-controlled guselkumab trial in biologic-naive PsA, 1-year efficacy and safety.",
+"confidence": 0.95
+},
+"R043": {
+"rid": "R043",
+"verdict": "EXCLUDE",
+"clause": "PTSS is evaluated using a validated scale / LGMM is applied to PTSS data",
+"reason": "Outcome is quality of life (WHOQoL-Bref); PTSD is only a covariate and no LGMM is applied.",
+"confidence": 0.85
+},
+"R047": {
+"rid": "R047",
+"verdict": "INCLUDE",
+"clause": "Measurement of biomarkers in body fluids including blood (serum or plasma)",
+"reason": "NSCLC vs healthy-control serum exosomal lncRNA biomarker with ROC AUC and prognostic analysis.",
+"confidence": 0.85
+},
+"R051": {
+"rid": "R051",
+"verdict": "INCLUDE",
+"clause": "studies that described results on biological material derived from peripheral blood (ie, ... cell subsets)",
+"reason": "Flow cytometry of blood monocyte and DC subsets plus plasma sMer ELISA in SLE patients vs controls, with correlations.",
+"confidence": 0.9
+},
+"R055": {
+"rid": "R055",
+"verdict": "INCLUDE",
+"clause": "For treatment in Still's disease ... sJIA ... tocilizumab (TCZ)",
+"reason": "Long-term tocilizumab efficacy and safety in sJIA; the study is single-arm open-label, and the criteria define comparators without expressly requiring one.",
+"confidence": 0.6
+},
+"R059": {
+"rid": "R059",
+"verdict": "INCLUDE",
+"clause": "IC2: The title or abstract of the article is about the measurement or application of the source code similarity",
+"reason": "Proposes an automated Type-2 clone detection technique for Dockerfiles with application experiments; citation criterion IC3 not assessable from abstract.",
+"confidence": 0.8
+},
+"R063": {
+"rid": "R063",
+"verdict": "INCLUDE",
+"clause": "Content: spatial context of cities addressed; any kind of nature addressed",
+"reason": "Empirical citizen-science dragonfly data for Germany comparing urban, agricultural and natural land use; year not stated in abstract.",
+"confidence": 0.8
+},
+"R067": {
+"rid": "R067",
+"verdict": "INCLUDE",
+"clause": "randomised controlled trials (RCTs) ... non-pharmacological interventions ... work outcome domains",
+"reason": "Cochrane review of RCTs of non-pharmacological interventions to prevent job loss in inflammatory arthritis; work outcomes reported.",
+"confidence": 0.9
+},
+"R071": {
+"rid": "R071",
+"verdict": "EXCLUDE",
+"clause": "RCTs and LOS with more than 20 subjects ... outcomes: disease activity state",
+"reason": "Cross-sectional serology study of MDA autoantibodies vs SLAM and other markers; GCA is only one arm and disease activity state is not the outcome.",
+"confidence": 0.85
+},
+"R075": {
+"rid": "R075",
+"verdict": "EXCLUDE",
+"clause": "Exposure ... study design ... was transgenerational in nature",
+"reason": "Standard F0-exposed multigenerational toxicity study with outcomes in F1 and F2 only; no F3 or later generation outcome is reported.",
+"confidence": 0.65
+},
+"R079": {
+"rid": "R079",
+"verdict": "INCLUDE",
+"clause": "Eligible study designs included randomised controlled trials (RCTs)",
+"reason": "Post hoc analyses of randomised PSUMMIT 1/2 placebo-controlled ustekinumab trials in PsA with PRO outcomes.",
+"confidence": 0.9
+},
+"R083": {
+"rid": "R083",
+"verdict": "EXCLUDE",
+"clause": "examined psychotherapy ... randomized design comparing 2 or more groups",
+"reason": "Single case report of iTBS (neuromodulation, not psychotherapy) and is not a randomised comparison of groups.",
+"confidence": 0.95
+},
+"R087": {
+"rid": "R087",
+"verdict": "INCLUDE",
+"clause": "RCTs with a primary safety outcome were included",
+"reason": "Randomised double-blind AURIEL-RA trial of adalimumab biosimilar vs reference in RA, primary endpoint is AESI safety.",
+"confidence": 0.95
+},
+"R091": {
+"rid": "R091",
+"verdict": "INCLUDE",
+"clause": "Eligible study designs included randomised controlled trials (RCTs)",
+"reason": "Randomised placebo-controlled iguratimod trial in active spondyloarthritis with ASAS20 efficacy and safety outcomes.",
+"confidence": 0.95
+},
+"R095": {
+"rid": "R095",
+"verdict": "INCLUDE",
+"clause": "relation between ECM molecules and the immune traits of the tumors; response to immune checkpoint inhibition",
+"reason": "ccRCC TCGA analysis links immune hot/cold tiers to ECM remodeling DEGs, and the model predicts survival in immunotherapy patients.",
+"confidence": 0.75
+},
+"R099": {
+"rid": "R099",
+"verdict": "INCLUDE",
+"clause": "Study analyzes PGHD to any kind of treatment ... lifestyle changes ... medical devices",
+"reason": "Systematic review of RCTs using digital activity trackers (patient-generated data) for exercise in adult cancer survivors.",
+"confidence": 0.9
+},
+"R103": {
+"rid": "R103",
+"verdict": "EXCLUDE",
+"clause": "randomised trials evaluating ... interventions on CRF or vitality in patients with CRF",
+"reason": "Randomised psychological couple intervention, but outcomes are cancer-related distress, anxiety, depression and dyadic adjustment; CRF or vitality is not assessed.",
+"confidence": 0.75
+},
+"R107": {
+"rid": "R107",
+"verdict": "INCLUDE",
+"clause": "identify explicitly as a 'systematic review' in their title; assess the effect of a non-acute, non-communicable, environmental exposure on a health outcome",
+"reason": "Title is a systematic review and meta-analysis; residential petrochemical exposure (non-acute) vs haematological malignancy in humans. Publication date not in abstract.",
+"confidence": 0.8
+},
+"R111": {
+"rid": "R111",
+"verdict": "INCLUDE",
+"clause": "SRs, including a meta-analysis of two or more RCTs on people diagnosed with hip or knee OA",
+"reason": "Systematic review and meta-analysis of 14 RCTs of whole-body vibration in knee OA with pain and function outcomes.",
+"confidence": 0.95
+},
+"R115": {
+"rid": "R115",
+"verdict": "INCLUDE",
+"clause": "Candidate papers must deal with the impact of climate change on energy (and not the other way around)",
+"reason": "Climate change effects on heating season length and heating degree days, i.e. human energy demand for heating.",
+"confidence": 0.9
+},
+"R119": {
+"rid": "R119",
+"verdict": "INCLUDE",
+"clause": "SRs, including a meta-analysis of two or more RCTs on people diagnosed with hip or knee OA",
+"reason": "Systematic review and meta-analysis of 17 studies (23 exercise groups) of land-based exercise in knee OA with pain outcomes.",
+"confidence": 0.95
+},
+"R123": {
+"rid": "R123",
+"verdict": "INCLUDE",
+"clause": "We included all studies in which MTX was administered to RA patients",
+"reason": "Randomised CONCERTO trial of ascending methotrexate with adalimumab in RA, reporting efficacy outcomes.",
+"confidence": 0.95
+},
+"R127": {
+"rid": "R127",
+"verdict": "EXCLUDE",
+"clause": "Published randomised or quasi-randomised trials ... on CRF or vitality in patients with CRF",
+"reason": "Single-group pilot with no randomisation; outcomes are dyspnea, QOL and mood, not CRF or vitality.",
+"confidence": 0.9
+},
+"R131": {
+"rid": "R131",
+"verdict": "INCLUDE",
+"clause": "RCTs and LOS with more than 20 subjects ... population included patients with GCA",
+"reason": "Randomised tocilizumab trial in giant-cell arteritis (251 patients) with disease-activity remission outcomes.",
+"confidence": 0.95
+},
+"R135": {
+"rid": "R135",
+"verdict": "INCLUDE",
+"clause": "Eligible study designs included randomised controlled trials (RCTs)",
+"reason": "Long-term end-of-study results of randomised phase 3 MEASURE 2 secukinumab trial in AS; poster format is not an exclusion here.",
+"confidence": 0.8
+},
+"R139": {
+"rid": "R139",
+"verdict": "INCLUDE",
+"clause": "the study had to report measures of affective aspects of both the teacher\u2013student relationship or interactions and peer relationships",
+"reason": "Empirical questionnaire study of 344 Grade 10 students with teacher- and classmate-related perceptions at individual level; affective-relationship match is only partly explicit.",
+"confidence": 0.6
+},
+"R143": {
+"rid": "R143",
+"verdict": "INCLUDE",
+"clause": "Regarding outcomes, the core concept was fatigue; RCTs ... comparator was placebo",
+"reason": "Randomised placebo-controlled golimumab trial in PsA; HRQoL outcomes include FACIT-Fatigue, though fatigue is one domain among several.",
+"confidence": 0.75
+},
+"R147": {
+"rid": "R147",
+"verdict": "EXCLUDE",
+"clause": "Study Type: Eligible are systematic reviews, literature reviews or meta-analytical publications",
+"reason": "Mixed-methods curriculum study with focus groups and surveys; not a review and not about patient-generated health data in treatment.",
+"confidence": 0.95
+},
+"R151": {
+"rid": "R151",
+"verdict": "INCLUDE",
+"clause": "relation between ECM molecules and the immune traits of the tumors; response to immune checkpoint inhibition",
+"reason": "Patient data show TGF\u03b22 associated with immune infiltration and ICB response; ECM link via stroma score, EMT and ECM-related methylation enrichment.",
+"confidence": 0.7
+},
+"R155": {
+"rid": "R155",
+"verdict": "INCLUDE",
+"clause": "Measurement of biomarkers in body fluids ... (serum or plasma); Studies focuses on NSCLC",
+"reason": "Human case-control study of 59 early NSCLC vs controls, plasma miRNA with sensitivity, specificity and AUC.",
+"confidence": 0.95
+},
+"R159": {
+"rid": "R159",
+"verdict": "INCLUDE",
+"clause": "presented data on human patients with RMDs ... cell subsets",
+"reason": "Primary Sj\u00f6gren's syndrome and sicca patients; blood pDC RNA-seq and cytokine assays with a diagnostic classifier.",
+"confidence": 0.85
+},
+"R163": {
+"rid": "R163",
+"verdict": "INCLUDE",
+"clause": "Eligible study designs included randomised controlled trials (RCTs)",
+"reason": "Phase III randomised, placebo- and adalimumab-controlled ixekizumab trial in biologic-naive PsA with ACR20 outcome.",
+"confidence": 0.98
+}
+}

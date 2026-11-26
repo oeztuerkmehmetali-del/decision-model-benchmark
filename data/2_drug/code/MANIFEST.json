@@ -1,0 +1,73 @@
+{
+ "study": "x8 DrugCon-Bench: Jev 1.13 and d3-ultra as contradiction judges",
+ "dataset": {
+  "name": "DrugCon-Bench",
+  "repo": "https://github.com/MengfeiLan/DrugCon_Drug_Contradiction",
+  "commit": "2c2d5f5f4542cee0925a6b6b398694cc2433083d",
+  "code_licence": "MIT (input/LICENSE)",
+  "paper": "Lan et al. 2026, medRxiv doi:10.64898/2026.11.11.26367856 (posted 2026-11-12)",
+  "copied": "input/eval_sets/, input/prompts.md, input/LICENSE, input/CITATION.cff, code/drugcon/{__init__,evaluation}.py"
+ },
+ "models": {
+  "jev": {
+   "id": "jev-1.13.0",
+   "endpoint": "https://api.typesafe.ai",
+   "release": "2026-09-15"
+  },
+  "d3u": {
+   "id": "vllm-sr/d3-ultra",
+   "endpoint": "https://decision.vllm-sr.ai",
+   "note": "pinned 'vllm-sr/d3' is rejected by the endpoint; d3-ultra answered"
+  }
+ },
+ "runs": {
+  "main": "2026-11-20, full sets, logs <model>/log_<task>__<model>.txt",
+  "repeat": "compare/rep1_started_utc.txt; seeded subsets (pandas sample random_state=0): detection n=200, explanation n=50"
+ },
+ "decision_rules_fixed_before_runs": {
+  "detection": "argmax of typed choice",
+  "explanation": "factor kept if p>=0.5"
+ },
+ "software": {
+  "python": "3.13.7",
+  "numpy": "2.5.3",
+  "pandas": "2.3.3",
+  "matplotlib": "3.10.9"
+ },
+ "rebuild": "bash code/reproduce.sh --verify",
+ "files": {
+  "../shared/jevlib.py": "630196a7c3ff78edcd487f71a9dd359e36eded0176d46a65059a99aeb1336df2",
+  "baseline/paper_reference.csv": "39d1a1abd8ff2539b1692a4e141462a876cf604f5616a881a4f3dce5af1375eb",
+  "code/analyze.py": "29f2a71e7d13098bbc5473bc7da1ea601f707856eb10be477ce8e762d4fe3fc2",
+  "code/drugcon/__init__.py": "c8afa0c53b7e10b454f31670948675ecccc630fea66aaf93c94740132abf19b3",
+  "code/drugcon/evaluation.py": "cd7623f2b3e43ab0ef7090925234ac7f1d314fdb8b774c199e23a6b49892a032",
+  "code/run.py": "0df9bc40ce39316e145f6b0dd8961e7ab31e53a9520dd9b2c0008894144bf0fe",
+  "d3u/cache_d3u.jsonl": "7541530a8c6e83edc4b888b470f20ed0a21fa144730b99412a8a72a4d5fdea48",
+  "d3u/cache_d3u_rep1.jsonl": "247c14c7ee19522eaff852c290ded6520c24119aa37407c86b018f356a73c854",
+  "d3u/detection__d3u.tsv": "beadfe8bb75daffcfe3349aae39f094f19898b951485a6b40f6a67a25c982d51",
+  "d3u/detection__d3u_limit200_rep1.tsv": "0fd6474b6e25fd6d8e61cd2277229931700e29b3f14536702657134cf00d75a0",
+  "d3u/explanation__d3u.tsv": "6f53e3a9b02a0adc715a4288d52842b5eed208ed322ed28eca824e6f2771f7f4",
+  "d3u/explanation__d3u_limit50_rep1.tsv": "f8a7812e2bb68b61c46efb0a081646033ac29923c3f378d6a91615b610ea9674",
+  "d3u/log_detection__d3u.txt": "f4ad4057be102b609cf96cb9b4115aa71740b93f7357d151713320d8c4b587cf",
+  "d3u/log_detection__d3u_rep1.txt": "4591ff2bcd44211bb24c10058c140af61afcd45dd01dab087a87c54babc5f59d",
+  "d3u/log_explanation__d3u.txt": "b418edfe1d2cf1c863d95b2e2346447c41e24955553f09a6e5b79776f6945d07",
+  "d3u/log_explanation__d3u_rep1.txt": "b310f2bce44190d7fc15771886309a61bca7345a3104a758ccd43e74d7556829",
+  "input/CITATION.cff": "fdb28b706aa8c8237cf3bc9913deba71490323590becdc186bef6e9621df79d2",
+  "input/LICENSE": "2b72305e7a3741fa0ab0c99ead65888d2d7b97343bec6e86957a40706fc437ba",
+  "input/eval_sets/PROVENANCE.txt": "a4b6748835e3d3938e41335d34f772016bd35d15e63966ec4f3eb3ae18f74741",
+  "input/eval_sets/detection.csv": "201b0062bc0d1cf32e8f50eff2a156a4392e3622dc7791d67d11d7ec81b07159",
+  "input/eval_sets/explanation.csv": "b719e63395cf50d79177222320e82540d80e7243b1a2399bd408b427afd3912b",
+  "input/prompts.md": "b18128bd6ed8085a376409062611de49871f2473956f26c9e6e5aa81d8ef1525",
+  "input/worked_example.json": "ebd980d9d16be5df53b91e9cff582b61dd7f969dfa06ed113b1da075e583e741",
+  "jev/cache_jev.jsonl": "12713adfb699fa25274ff24494a18c8590ebd5c9987cccda36cd2638c55b0600",
+  "jev/cache_jev_rep1.jsonl": "3035f4d4576caa72e9db2a9a2cf7f9aa5dcad39da244cad449a2ff543ca6c0ff",
+  "jev/detection__jev.tsv": "b0bcdd96035a5ab29c2453fd1ce3973f1f466322f2c8ca033c257d24aa286689",
+  "jev/detection__jev_limit200_rep1.tsv": "cc1adbc3b06245e571e30ef8727f4170980d9a4e2486a17c886d648aed7fb902",
+  "jev/explanation__jev.tsv": "dd22b51b93f43ded42d06d13cb1898c6d7f806a7c090348c6d371e4edf127551",
+  "jev/explanation__jev_limit50_rep1.tsv": "8247535ed0abc9dd4ada42c8e5e27fbf80c479cfa9626b18f31a4db3fdeab698",
+  "jev/log_detection__jev.txt": "b796645a5bb242b206fa9be56410a66ef420780d650ef2e8793ea761d83f4616",
+  "jev/log_detection__jev_rep1.txt": "e1fa20bb1613d1f2d515d496fad4bc24555ac6513bf641b569dc98386f72038f",
+  "jev/log_explanation__jev.txt": "40be74518b785ff7a8cf0791dd5e1aa55bb28d0676d4f7aba59f4668d3c2e89b",
+  "jev/log_explanation__jev_rep1.txt": "f8b03d715c3165355f6a748383873d46334fb422e4dd4394b767a86d190b7eba"
+ }
+}

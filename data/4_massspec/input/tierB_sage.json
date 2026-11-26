@@ -1,0 +1,22 @@
+{
+  "database": {
+    "bucket_size": 32768,
+    "enzyme": {"missed_cleavages": 2, "min_len": 6, "max_len": 30, "cleave_at": "KR", "restrict": "P"},
+    "fragment_min_mz": 150, "fragment_max_mz": 2000,
+    "peptide_min_mass": 500, "peptide_max_mass": 5000,
+    "ion_kinds": ["b", "y"], "min_ion_index": 2,
+    "static_mods": {"C": 57.0215},
+    "variable_mods": {"M": [15.9949]},
+    "max_variable_mods": 2,
+    "decoy_tag": "rev_", "generate_decoys": true,
+    "fasta": "data/processed/tierB/human_arath.fasta"
+  },
+  "precursor_tol": {"ppm": [-10, 10]},
+  "fragment_tol": {"ppm": [-10, 10]},
+  "isotope_errors": [-1, 3],
+  "deisotope": true, "chimera": false, "predict_rt": true,
+  "min_peaks": 15, "max_peaks": 150, "max_fragment_charge": 2,
+  "report_psms": 1,
+  "output_directory": "data/processed/tierB/sage_out",
+  "mzml_paths": ["data/processed/tierB/b1931.ms2.mzML"]
+}

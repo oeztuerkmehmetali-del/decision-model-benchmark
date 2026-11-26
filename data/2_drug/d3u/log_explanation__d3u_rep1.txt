@@ -1,0 +1,15 @@
+vllm-sr/d3-ultra explanation n=50
+                                        factor  precision  recall     f1  support  low_support
+0                                      species      0.000   0.000  0.000      0.0         True
+1                                   population      0.607   0.810  0.694     21.0         True
+2                  dosage or exposure duration      0.696   0.889  0.780     18.0         True
+3              route or mode of administration      0.167   0.200  0.182      5.0         True
+4                        combined drug effects      0.500   0.750  0.600      4.0         True
+5                 evolving scientific evidence      0.000   0.000  0.000      3.0         True
+6   known controversy or self-qualified claims      0.000   0.000  0.000      0.0         True
+7                                 study design      0.625   0.500  0.556     10.0         True
+8                             outcome measures      0.700   0.452  0.549     31.0         True
+9                           ambiguous referent      0.000   0.000  0.000      8.0         True
+10                                       MICRO      0.589   0.560  0.574    100.0        False
+11                                       MACRO        NaN     NaN  0.336      NaN        False
+USAGE {'requests': 50, 'cache_hits': 0, 'input_tokens': 100746, 'retries': 0} tokens->cost at Jev price $0.0042

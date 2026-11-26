@@ -1,0 +1,44 @@
+{
+ "model": "jev-1.13.0",
+ "cache": "pancreas_catalog_v36_cooc_r1.jsonl",
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "celltype": {
+    "type": "choice",
+    "choice": "type B pancreatic cell",
+    "confidence": 0.96,
+    "probabilities": {
+     "pancreatic D cell": 0.0,
+     "pancreatic ductal cell": 0.0,
+     "mature NK T cell": 0.0,
+     "pancreatic A cell": 0.0,
+     "endothelial cell": 0.0,
+     "B cell": 0.03,
+     "CD4-positive, alpha-beta T cell": 0.0,
+     "plasma cell": 0.0,
+     "fibroblast": 0.0,
+     "non-classical monocyte": 0.0,
+     "CD8-positive, alpha-beta T cell": 0.0,
+     "neutrophil": 0.0,
+     "pancreatic PP cell": 0.0,
+     "intermediate monocyte": 0.0,
+     "type B pancreatic cell": 0.96,
+     "classical monocyte": 0.0,
+     "none of these": 0.01,
+     "pancreatic stellate cell": 0.0,
+     "natural killer cell": 0.0,
+     "macrophage": 0.0,
+     "mast cell": 0.0,
+     "T cell": 0.0,
+     "monocyte": 0.0,
+     "pancreatic acinar cell": 0.0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 669,
+   "output_tokens": 275
+  }
+ }
+}

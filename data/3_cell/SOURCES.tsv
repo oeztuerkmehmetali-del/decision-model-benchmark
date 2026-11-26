@@ -1,0 +1,93 @@
+paper_path	study_source	role	modified	note
+input/processed/pancreas_fullcells_lit_fixed.npz	data/processed/pancreas_fullcells_lit_fixed.npz	input	no	test+train cell expression (pool genes only); is_test marks held-out cells
+input/split_pancreas/pancreas_split.json	data/processed/split_pancreas/pancreas_split.json	input	no	frozen split, seed 0 (evaluation labels via npz cell_type)
+input/split_pancreas/pancreas_options.json	data/processed/split_pancreas/pancreas_options.json	input	no	candidate cell-type list put into the model question
+input/pool/pancreas_pool_fixed.json	data/processed/pool/pancreas_pool_fixed.json	input	no	CellMarker 2.0 pre-2022 marker genes per type; gene set asked of both models and the baseline marker list
+input/cooc/pancreas_cooc_fixed.json	runs/shared/pancreas_cooc_fixed.json	input	no	PubMed co-mention counts; partners shown to the model in the +literature arm
+input/cooc/pancreas_cooc_fixed.cache.jsonl	runs/shared/pancreas_cooc_fixed.cache.jsonl	input	no	PubMed esearch count cache for jev_cooc.py
+jev/runs/pancreas_catalog_v36_jevonly_r1.json	runs/jev/pancreas_catalog_v36_jevonly_r1.json	jev	no	catalogue: per gene model answer (pred/conf/probs)
+d3u/runs/pancreas_catalog_v36_jevonly_r1.json	runs/d3u/pancreas_catalog_v36_jevonly_r1.json	d3u	no	catalogue: per gene model answer (pred/conf/probs)
+jev/runs/pancreas_catalog_v36_jevonly_r1.jsonl	runs/jev/pancreas_catalog_v36_jevonly_r1.jsonl	jev	no	raw answer cache, key=sha256(model,state,questions)
+d3u/runs/pancreas_catalog_v36_jevonly_r1.jsonl	runs/d3u/pancreas_catalog_v36_jevonly_r1.jsonl	d3u	no	raw answer cache, key=sha256(model,state,questions)
+jev/runs/pancreas_catalog_v36_jevonly_r2.json	runs/jev/pancreas_catalog_v36_jevonly_r2.json	jev	no	catalogue: per gene model answer (pred/conf/probs)
+d3u/runs/pancreas_catalog_v36_jevonly_r2.json	runs/d3u/pancreas_catalog_v36_jevonly_r2.json	d3u	no	catalogue: per gene model answer (pred/conf/probs)
+jev/runs/pancreas_catalog_v36_jevonly_r2.jsonl	runs/jev/pancreas_catalog_v36_jevonly_r2.jsonl	jev	no	raw answer cache, key=sha256(model,state,questions)
+d3u/runs/pancreas_catalog_v36_jevonly_r2.jsonl	runs/d3u/pancreas_catalog_v36_jevonly_r2.jsonl	d3u	no	raw answer cache, key=sha256(model,state,questions)
+jev/runs/pancreas_catalog_v36_jevonly_r3.json	runs/jev/pancreas_catalog_v36_jevonly_r3.json	jev	no	catalogue: per gene model answer (pred/conf/probs)
+d3u/runs/pancreas_catalog_v36_jevonly_r3.json	runs/d3u/pancreas_catalog_v36_jevonly_r3.json	d3u	no	catalogue: per gene model answer (pred/conf/probs)
+jev/runs/pancreas_catalog_v36_jevonly_r3.jsonl	runs/jev/pancreas_catalog_v36_jevonly_r3.jsonl	jev	no	raw answer cache, key=sha256(model,state,questions)
+d3u/runs/pancreas_catalog_v36_jevonly_r3.jsonl	runs/d3u/pancreas_catalog_v36_jevonly_r3.jsonl	d3u	no	raw answer cache, key=sha256(model,state,questions)
+jev/runs/pancreas_catalog_v36_cooc_r1.json	runs/jev/pancreas_catalog_v36_cooc_r1.json	jev	no	catalogue: per gene model answer (pred/conf/probs)
+d3u/runs/pancreas_catalog_v36_cooc_r1.json	runs/d3u/pancreas_catalog_v36_cooc_r1.json	d3u	no	catalogue: per gene model answer (pred/conf/probs)
+jev/runs/pancreas_catalog_v36_cooc_r1.jsonl	runs/jev/pancreas_catalog_v36_cooc_r1.jsonl	jev	no	raw answer cache, key=sha256(model,state,questions)
+d3u/runs/pancreas_catalog_v36_cooc_r1.jsonl	runs/d3u/pancreas_catalog_v36_cooc_r1.jsonl	d3u	no	raw answer cache, key=sha256(model,state,questions)
+jev/runs/pancreas_catalog_v36_cooc_r2.json	runs/jev/pancreas_catalog_v36_cooc_r2.json	jev	no	catalogue: per gene model answer (pred/conf/probs)
+d3u/runs/pancreas_catalog_v36_cooc_r2.json	runs/d3u/pancreas_catalog_v36_cooc_r2.json	d3u	no	catalogue: per gene model answer (pred/conf/probs)
+jev/runs/pancreas_catalog_v36_cooc_r2.jsonl	runs/jev/pancreas_catalog_v36_cooc_r2.jsonl	jev	no	raw answer cache, key=sha256(model,state,questions)
+d3u/runs/pancreas_catalog_v36_cooc_r2.jsonl	runs/d3u/pancreas_catalog_v36_cooc_r2.jsonl	d3u	no	raw answer cache, key=sha256(model,state,questions)
+jev/runs/pancreas_catalog_v36_cooc_r3.json	runs/jev/pancreas_catalog_v36_cooc_r3.json	jev	no	catalogue: per gene model answer (pred/conf/probs)
+d3u/runs/pancreas_catalog_v36_cooc_r3.json	runs/d3u/pancreas_catalog_v36_cooc_r3.json	d3u	no	catalogue: per gene model answer (pred/conf/probs)
+jev/runs/pancreas_catalog_v36_cooc_r3.jsonl	runs/jev/pancreas_catalog_v36_cooc_r3.jsonl	jev	no	raw answer cache, key=sha256(model,state,questions)
+d3u/runs/pancreas_catalog_v36_cooc_r3.jsonl	runs/d3u/pancreas_catalog_v36_cooc_r3.jsonl	d3u	no	raw answer cache, key=sha256(model,state,questions)
+input/processed/heart_fullcells_lit_fixed.npz	data/processed/heart_fullcells_lit_fixed.npz	input	no	test+train cell expression (pool genes only); is_test marks held-out cells
+input/split_heart/heart_split.json	data/processed/split_heart/heart_split.json	input	no	frozen split, seed 0 (evaluation labels via npz cell_type)
+input/split_heart/heart_options.json	data/processed/split_heart/heart_options.json	input	no	candidate cell-type list put into the model question
+input/pool/heart_pool_fixed.json	data/processed/pool/heart_pool_fixed.json	input	no	CellMarker 2.0 pre-2022 marker genes per type; gene set asked of both models and the baseline marker list
+input/cooc/heart_cooc_fixed.json	runs/shared/heart_cooc_fixed.json	input	no	PubMed co-mention counts; partners shown to the model in the +literature arm
+input/cooc/heart_cooc_fixed.cache.jsonl	runs/shared/heart_cooc_fixed.cache.jsonl	input	no	PubMed esearch count cache for jev_cooc.py
+jev/runs/heart_catalog_v36_jevonly_r1.json	runs/jev/heart_catalog_v36_jevonly_r1.json	jev	no	catalogue: per gene model answer (pred/conf/probs)
+d3u/runs/heart_catalog_v36_jevonly_r1.json	runs/d3u/heart_catalog_v36_jevonly_r1.json	d3u	no	catalogue: per gene model answer (pred/conf/probs)
+jev/runs/heart_catalog_v36_jevonly_r1.jsonl	runs/jev/heart_catalog_v36_jevonly_r1.jsonl	jev	no	raw answer cache, key=sha256(model,state,questions)
+d3u/runs/heart_catalog_v36_jevonly_r1.jsonl	runs/d3u/heart_catalog_v36_jevonly_r1.jsonl	d3u	no	raw answer cache, key=sha256(model,state,questions)
+jev/runs/heart_catalog_v36_jevonly_r2.json	runs/jev/heart_catalog_v36_jevonly_r2.json	jev	no	catalogue: per gene model answer (pred/conf/probs)
+d3u/runs/heart_catalog_v36_jevonly_r2.json	runs/d3u/heart_catalog_v36_jevonly_r2.json	d3u	no	catalogue: per gene model answer (pred/conf/probs)
+jev/runs/heart_catalog_v36_jevonly_r2.jsonl	runs/jev/heart_catalog_v36_jevonly_r2.jsonl	jev	no	raw answer cache, key=sha256(model,state,questions)
+d3u/runs/heart_catalog_v36_jevonly_r2.jsonl	runs/d3u/heart_catalog_v36_jevonly_r2.jsonl	d3u	no	raw answer cache, key=sha256(model,state,questions)
+jev/runs/heart_catalog_v36_jevonly_r3.json	runs/jev/heart_catalog_v36_jevonly_r3.json	jev	no	catalogue: per gene model answer (pred/conf/probs)
+d3u/runs/heart_catalog_v36_jevonly_r3.json	runs/d3u/heart_catalog_v36_jevonly_r3.json	d3u	no	catalogue: per gene model answer (pred/conf/probs)
+jev/runs/heart_catalog_v36_jevonly_r3.jsonl	runs/jev/heart_catalog_v36_jevonly_r3.jsonl	jev	no	raw answer cache, key=sha256(model,state,questions)
+d3u/runs/heart_catalog_v36_jevonly_r3.jsonl	runs/d3u/heart_catalog_v36_jevonly_r3.jsonl	d3u	no	raw answer cache, key=sha256(model,state,questions)
+jev/runs/heart_catalog_v36_cooc_r1.json	runs/jev/heart_catalog_v36_cooc_r1.json	jev	no	catalogue: per gene model answer (pred/conf/probs)
+d3u/runs/heart_catalog_v36_cooc_r1.json	runs/d3u/heart_catalog_v36_cooc_r1.json	d3u	no	catalogue: per gene model answer (pred/conf/probs)
+jev/runs/heart_catalog_v36_cooc_r1.jsonl	runs/jev/heart_catalog_v36_cooc_r1.jsonl	jev	no	raw answer cache, key=sha256(model,state,questions)
+d3u/runs/heart_catalog_v36_cooc_r1.jsonl	runs/d3u/heart_catalog_v36_cooc_r1.jsonl	d3u	no	raw answer cache, key=sha256(model,state,questions)
+jev/runs/heart_catalog_v36_cooc_r2.json	runs/jev/heart_catalog_v36_cooc_r2.json	jev	no	catalogue: per gene model answer (pred/conf/probs)
+d3u/runs/heart_catalog_v36_cooc_r2.json	runs/d3u/heart_catalog_v36_cooc_r2.json	d3u	no	catalogue: per gene model answer (pred/conf/probs)
+jev/runs/heart_catalog_v36_cooc_r2.jsonl	runs/jev/heart_catalog_v36_cooc_r2.jsonl	jev	no	raw answer cache, key=sha256(model,state,questions)
+d3u/runs/heart_catalog_v36_cooc_r2.jsonl	runs/d3u/heart_catalog_v36_cooc_r2.jsonl	d3u	no	raw answer cache, key=sha256(model,state,questions)
+jev/runs/heart_catalog_v36_cooc_r3.json	runs/jev/heart_catalog_v36_cooc_r3.json	jev	no	catalogue: per gene model answer (pred/conf/probs)
+d3u/runs/heart_catalog_v36_cooc_r3.json	runs/d3u/heart_catalog_v36_cooc_r3.json	d3u	no	catalogue: per gene model answer (pred/conf/probs)
+jev/runs/heart_catalog_v36_cooc_r3.jsonl	runs/jev/heart_catalog_v36_cooc_r3.jsonl	jev	no	raw answer cache, key=sha256(model,state,questions)
+d3u/runs/heart_catalog_v36_cooc_r3.jsonl	runs/d3u/heart_catalog_v36_cooc_r3.jsonl	d3u	no	raw answer cache, key=sha256(model,state,questions)
+baseline/Cell_marker_Human.xlsx	data/raw/Cell_marker_Human.xlsx	baseline	no	CellMarker 2.0 Human table, sha256 bf52b8cd...; source of pools and of all CellMarker comparators
+compare/jev_vs_baseline/pancreas_eval_v36.json	results/jev/pancreas_eval_v36.json	compare	no	Jev arms + CellMarker comparators M0/M1/M1n/M2 scored on the same test cells
+compare/d3u_vs_baseline/pancreas_eval_v36.json	results/d3u/pancreas_eval_v36.json	compare	no	d3-ultra arms + CellMarker comparators
+compare/jev_vs_baseline/heart_eval_v36.json	results/jev/heart_eval_v36.json	compare	no	Jev arms + CellMarker comparators M0/M1/M1n/M2 scored on the same test cells
+compare/d3u_vs_baseline/heart_eval_v36.json	results/d3u/heart_eval_v36.json	compare	no	d3-ultra arms + CellMarker comparators
+compare/jev_vs_baseline/heart_donor_bootstrap.json	results/jev/heart_donor_bootstrap.json	compare	no	donor bootstrap vs M1n (size-normalised, post hoc)
+compare/jev_vs_baseline/heart_donor_bootstrap_M2.json	results/jev/heart_donor_bootstrap_M2.json	compare	no	donor bootstrap vs M2 (z-score)
+compare/d3u_vs_baseline/heart_donor_bootstrap_M2.json	results/d3u/heart_donor_bootstrap_M2.json	compare	no	donor bootstrap vs M2 (z-score)
+code/eval_v31.py	scripts/eval_v31.py	code	paths-only	
+code/donor_bootstrap_v38.py	scripts/donor_bootstrap_v38.py	code	paths-only	
+code/jev_catalog.py	scripts/jev_catalog.py	code	paths-only	working tree (study git status: foreign-modified/untracked)
+code/questions.py	scripts/questions.py	code	no	working tree (study git status: foreign-modified/untracked)
+code/jev_cooc.py	scripts/jev_cooc.py	code	paths-only	
+code/pool_build.py	scripts/pool_build.py	code	paths-only	
+code/split_cl.py	scripts/split_cl.py	code	paths-only	paths only; needs external processed h5ad, not run
+code/extract_full.py	scripts/helix/extract_full.py	code	paths-only	paths only; needs external processed h5ad, not run
+code/helix_fetch.py	scripts/helix/helix_fetch.py	code	paths-only	paths only; needs network + cellxgene-census, not run
+code/helix_qc.py	scripts/helix/helix_qc.py	code	paths-only	working tree (study git status: untracked/foreign-modified, contains harmony block); paths only; needs scanpy, not run
+code/d3u_run.sh	scripts/d3u_run.sh	code	paths-only	d3-ultra catalogue builds
+code/run_v36_pancreas.sh	scripts/run_v36_pancreas.sh	code	paths-only	Jev 1.13 pancreas catalogue builds
+code/run_v36_heart.sh	scripts/run_v36_heart.sh	code	paths-only	Jev 1.13 heart catalogue builds (working tree, study git status untracked)
+README.md	new	doc	new	
+SOURCES.tsv	new	doc	new	this file
+input/EXTERNAL.tsv	new	input	new	files >50MB / not local
+input/fetch.sh	new	input	new	places/checks EXTERNAL files
+input/worked_example.json	new	input	new	worked-example request, from code/worked_example.py
+jev/worked_example_answer.json	new	jev	new	cached Jev answer for worked example
+d3u/worked_example_answer.json	new	d3u	new	cached d3-ultra answer for worked example
+code/worked_example.py	new	code	new	
+code/extract_baseline.py	new	code	new	
+baseline/pancreas_cellmarker_scorers.json	new	baseline	new	slice of eval file
+baseline/heart_cellmarker_scorers.json	new	baseline	new	slice of eval file

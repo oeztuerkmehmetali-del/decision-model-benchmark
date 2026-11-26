@@ -1,0 +1,215 @@
+[INFO] mokapot version 0.10.0
+[INFO] Written by William E. Fondrie (wfondrie@uw.edu) in the
+[INFO] Department of Genome Sciences at the University of Washington.
+[INFO] Command issued:
+[INFO] /home/mehmet/miniconda3/envs/x2pilot/bin/mokapot tierB/sage_nopep.pin --dest_dir baseline --file_root tB --seed 1 --max_workers 4 --keep_decoys
+[INFO] 
+[INFO] Starting Analysis
+[INFO] =================
+[INFO] Parsing PSMs...
+[INFO] Reading tierB/sage_nopep.pin...
+/home/mehmet/miniconda3/envs/x2pilot/lib/python3.11/site-packages/mokapot/parsers/pin.py:238: FutureWarning: errors='ignore' is deprecated and will raise in a future version. Use to_numeric without passing `errors` and catch exceptions explicitly instead
+  yield psms.apply(pd.to_numeric, errors="ignore")
+[INFO] Using 30 features:
+[INFO]   (1)	retentiontime
+[INFO]   (2)	ion_mobility
+[INFO]   (3)	rank
+[INFO]   (4)	z=2
+[INFO]   (5)	z=3
+[INFO]   (6)	z=4
+[INFO]   (7)	z=5
+[INFO]   (8)	z=6
+[INFO]   (9)	z=other
+[INFO]   (10)	peptide_len
+[INFO]   (11)	missed_cleavages
+[INFO]   (12)	semi_enzymatic
+[INFO]   (13)	isotope_error
+[INFO]   (14)	ln(precursor_ppm)
+[INFO]   (15)	fragment_ppm
+[INFO]   (16)	ln(hyperscore)
+[INFO]   (17)	ln(delta_next)
+[INFO]   (18)	ln(delta_best)
+[INFO]   (19)	aligned_rt
+[INFO]   (20)	predicted_rt
+[INFO]   (21)	sqrt(delta_rt_model)
+[INFO]   (22)	predicted_mobility
+[INFO]   (23)	sqrt(delta_mobility)
+[INFO]   (24)	matched_peaks
+[INFO]   (25)	longest_b
+[INFO]   (26)	longest_y
+[INFO]   (27)	longest_y_pct
+[INFO]   (28)	ln(matched_intensity_pct)
+[INFO]   (29)	scored_candidates
+[INFO]   (30)	ln(-poisson)
+[INFO] Found 46191 PSMs.
+[INFO]   - 37061 target PSMs and 9130 decoy PSMs detected.
+[INFO] Splitting PSMs into 3 folds...
+[INFO] 
+[INFO] 
+[INFO] === Analyzing Fold 1 ===
+[INFO] 
+[INFO] === Analyzing Fold 2 ===
+[INFO] Finding initial direction...
+[INFO] === Analyzing Fold 3 ===
+[INFO] Finding initial direction...
+[INFO] Finding initial direction...
+[INFO] 	- Selected feature ln(-poisson) with 16923 PSMs at q<=0.01.
+[INFO] 	- Selected feature ln(-poisson) with 17077 PSMs at q<=0.01.
+[INFO] 	- Selected feature ln(-poisson) with 16920 PSMs at q<=0.01.
+[INFO] Selecting hyperparameters...
+[INFO] Selecting hyperparameters...
+[INFO] Selecting hyperparameters...
+[INFO] 	- class_weight = {0: 1, 1: 1}
+[INFO] Beginning training loop...
+[INFO] 	- class_weight = {0: 10, 1: 10}
+[INFO] Beginning training loop...
+[INFO] 	- class_weight = {0: 10, 1: 10}
+[INFO] Beginning training loop...
+[INFO] 	- Iteration 0: 17822 training PSMs passed.
+[INFO] 	- Iteration 0: 17705 training PSMs passed.
+[INFO] 	- Iteration 0: 17718 training PSMs passed.
+[INFO] 	- Iteration 1: 17955 training PSMs passed.
+[INFO] 	- Iteration 1: 18112 training PSMs passed.
+[INFO] 	- Iteration 2: 17989 training PSMs passed.
+[INFO] 	- Iteration 1: 18011 training PSMs passed.
+[INFO] 	- Iteration 2: 18180 training PSMs passed.
+[INFO] 	- Iteration 2: 18071 training PSMs passed.
+[INFO] 	- Iteration 3: 18186 training PSMs passed.
+[INFO] 	- Iteration 3: 17982 training PSMs passed.
+[INFO] 	- Iteration 3: 18062 training PSMs passed.
+[INFO] 	- Iteration 4: 18192 training PSMs passed.
+[INFO] 	- Iteration 5: 18195 training PSMs passed.
+[INFO] 	- Iteration 4: 17989 training PSMs passed.
+[INFO] 	- Iteration 4: 18055 training PSMs passed.
+[INFO] 	- Iteration 6: 18202 training PSMs passed.
+[INFO] 	- Iteration 5: 17996 training PSMs passed.
+[INFO] 	- Iteration 7: 18210 training PSMs passed.
+[INFO] 	- Iteration 5: 18050 training PSMs passed.
+[INFO] 	- Iteration 6: 18014 training PSMs passed.
+[INFO] 	- Iteration 8: 18206 training PSMs passed.
+[INFO] 	- Iteration 9: 18206 training PSMs passed.
+[INFO] Normalized feature weights in the learned model:
+[INFO]     Feature                    Weight
+[INFO]     retentiontime              -0.1011632846740493
+[INFO]     ion_mobility               0.0
+[INFO]     rank                       0.0
+[INFO]     z=2                        -0.02419720303134435
+[INFO]     z=3                        0.00946037804549751
+[INFO]     z=4                        0.009850781759734122
+[INFO]     z=5                        0.05678143239720931
+[INFO]     z=6                        0.002105671338956989
+[INFO]     z=other                    -0.005055742703329454
+[INFO]     peptide_len                0.30443560413751225
+[INFO]     missed_cleavages           -0.15740677207720505
+[INFO]     semi_enzymatic             0.0
+[INFO]     isotope_error              -0.04477561892021731
+[INFO]     ln(precursor_ppm)          -0.11172154516904084
+[INFO]     fragment_ppm               -0.20899265469197031
+[INFO]     ln(hyperscore)             -0.7557773603534159
+[INFO]     ln(delta_next)             0.7418330063512717
+[INFO]     ln(delta_best)             0.0
+[INFO]     aligned_rt                 -0.10116407638721255
+[INFO]     predicted_rt               0.10461477796250125
+[INFO]     sqrt(delta_rt_model)       -0.7669736579861653
+[INFO]     predicted_mobility         0.0
+[INFO]     sqrt(delta_mobility)       0.0
+[INFO]     matched_peaks              -0.3994104817929655
+[INFO]     longest_b                  -0.3617640973135659
+[INFO]     longest_y                  -0.29268842950939017
+[INFO]     longest_y_pct              0.579480642857435
+[INFO]     ln(matched_intensity_pct)  0.433500211511431
+[INFO]     scored_candidates          -0.2310690768255607
+[INFO]     ln(-poisson)               3.776122328153944
+[INFO]     intercept                  1.5691750480983404
+[INFO] Done training.
+[INFO] 	- Iteration 6: 18053 training PSMs passed.
+[INFO] 	- Iteration 7: 18004 training PSMs passed.
+[INFO] 	- Iteration 7: 18057 training PSMs passed.
+[INFO] 	- Iteration 8: 18060 training PSMs passed.
+[INFO] 	- Iteration 8: 18004 training PSMs passed.
+[INFO] 	- Iteration 9: 18054 training PSMs passed.
+[INFO] Normalized feature weights in the learned model:
+[INFO]     Feature                    Weight
+[INFO]     retentiontime              -0.06211853365817718
+[INFO]     ion_mobility               0.0
+[INFO]     rank                       0.0
+[INFO]     z=2                        -0.00897860493598493
+[INFO]     z=3                        0.028092557315154226
+[INFO]     z=4                        -0.0442375236656177
+[INFO]     z=5                        0.04587870852912467
+[INFO]     z=6                        -0.015169269590772284
+[INFO]     z=other                    -0.007398612106382846
+[INFO]     peptide_len                0.2630256540194023
+[INFO]     missed_cleavages           -0.15414781024170693
+[INFO]     semi_enzymatic             0.0
+[INFO]     isotope_error              -0.05131846568650685
+[INFO]     ln(precursor_ppm)          -0.10228803184681667
+[INFO]     fragment_ppm               -0.16170486037800202
+[INFO]     ln(hyperscore)             -0.5955827702064069
+[INFO]     ln(delta_next)             0.7225312149926952
+[INFO]     ln(delta_best)             0.0
+[INFO]     aligned_rt                 -0.06211975105141529
+[INFO]     predicted_rt               0.12482274461297334
+[INFO]     sqrt(delta_rt_model)       -0.7383743670478781
+[INFO]     predicted_mobility         0.0
+[INFO]     sqrt(delta_mobility)       0.0
+[INFO]     matched_peaks              -1.1740299942036707
+[INFO]     longest_b                  -0.38893690168287925
+[INFO]     longest_y                  -0.2078458837465635
+[INFO]     longest_y_pct              0.5981795000914288
+[INFO]     ln(matched_intensity_pct)  0.3103394808641194
+[INFO]     scored_candidates          -0.18459297521839796
+[INFO]     ln(-poisson)               3.9905606696019964
+[INFO]     intercept                  1.298303595340917
+[INFO] Done training.
+[INFO] 	- Iteration 9: 17996 training PSMs passed.
+[INFO] Normalized feature weights in the learned model:
+[INFO]     Feature                    Weight
+[INFO]     retentiontime              -0.07842121973465105
+[INFO]     ion_mobility               0.0
+[INFO]     rank                       0.0
+[INFO]     z=2                        -0.04593849814355413
+[INFO]     z=3                        0.04468716227129841
+[INFO]     z=4                        -0.011144251101048691
+[INFO]     z=5                        0.049213331013308784
+[INFO]     z=6                        0.011587534130150295
+[INFO]     z=other                    -0.013494362557843372
+[INFO]     peptide_len                0.23695407610110938
+[INFO]     missed_cleavages           -0.12692654946870485
+[INFO]     semi_enzymatic             0.0
+[INFO]     isotope_error              -0.006103510386843907
+[INFO]     ln(precursor_ppm)          -0.08892809020755958
+[INFO]     fragment_ppm               -0.09726622324930147
+[INFO]     ln(hyperscore)             -0.3780545676626759
+[INFO]     ln(delta_next)             0.6853615755486535
+[INFO]     ln(delta_best)             0.0
+[INFO]     aligned_rt                 -0.07842001645519668
+[INFO]     predicted_rt               0.22647176822151702
+[INFO]     sqrt(delta_rt_model)       -0.7233668877112233
+[INFO]     predicted_mobility         0.0
+[INFO]     sqrt(delta_mobility)       0.0
+[INFO]     matched_peaks              -2.553154947877733
+[INFO]     longest_b                  -0.27894434204205604
+[INFO]     longest_y                  -0.24116697672829762
+[INFO]     longest_y_pct              0.6555714761581197
+[INFO]     ln(matched_intensity_pct)  0.31438098545815807
+[INFO]     scored_candidates          -0.18305858696533733
+[INFO]     ln(-poisson)               4.694408571777975
+[INFO]     intercept                  1.003756231118337
+[INFO] Done training.
+[INFO] 
+[INFO] Assigning confidence...
+[INFO] Performing target-decoy competition...
+[INFO] Keeping the best match per FileName+ScanNr+ExpMass columns...
+[INFO] 	- Found 46191 PSMs from unique spectra.
+[INFO] 	- Found 32739 unique peptides.
+[INFO] Assiging q-values to PSMs...
+[INFO] 	- Found 27070 PSMs with q<=0.01
+[INFO] Assiging PEPs to PSMs...
+[INFO] Assiging q-values to peptides...
+[INFO] 	- Found 14949 peptides with q<=0.01
+[INFO] Assiging PEPs to peptides...
+[INFO] Writing results...
+[INFO] 
+[INFO] === DONE! ===
+[INFO] mokapot analysis completed in 0:00:15

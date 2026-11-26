@@ -1,0 +1,67 @@
+{
+ "review": "Harms_2024",
+ "record_id": "https://openalex.org/w2896253248",
+ "split": "dev",
+ "label_included": 1,
+ "request": {
+  "state": {
+   "title": "From metropolitan rivers to civic corridors: assessing the evolution of the suburban landscape",
+   "criteria": "Type: Peer-reviewed original empirical articles\nLanguage: English\nPublication: 2016–2022\nGeography: Europe\nContent: Is the spatial context of cities addressed? Is planning addressed as a field of action? Is any kind of nature addressed?",
+   "abstract": "The sustainability of metropolitan regions is closely related to the transformation of rivers into civic and ecological corridors. While river rehabilitation in the inner city has been widely reported, ongoing river rehabilitation processes in non-central city parts remain under-researched. We analysed the socio-spatial evolution of a 10-km suburban stretch of a river in the Metropolitan Region of Barcelona by means of a review of planning regulations and municipal newsletters. We observed that, in the course of over 40 years, a system of public open spaces and facilities was incrementally created on the riverbanks, in keeping with a progressive reinforcement of the everyday relationship between local communities and the river. Today, a common political determination on the river’s future, in conjunction with enhanced citizen activism, is paving the way for comprehensive, participatory river management."
+  },
+  "questions": {
+   "clause_0": {
+    "type": "noul",
+    "instructions": "Does this record satisfy this eligibility clause? Clause: Type: Peer-reviewed original empirical articles"
+   },
+   "clause_1": {
+    "type": "noul",
+    "instructions": "Does this record satisfy this eligibility clause? Clause: Publication: 2016–2022"
+   },
+   "clause_2": {
+    "type": "noul",
+    "instructions": "Does this record satisfy this eligibility clause? Clause: Content: Is the spatial context of cities addressed? Is planning addressed as a field of action? Is any kind of nature addressed?"
+   },
+   "include": {
+    "type": "noul",
+    "instructions": "Overall: should this record be INCLUDED for full-text review? Eligibility criteria: Type: Peer-reviewed original empirical articles\nLanguage: English\nPublication: 2016–2022\nGeography: Europe\nContent: Is the spatial context of cities addressed? Is planning addressed as a field of action? Is any kind of nature addressed?"
+   }
+  }
+ },
+ "jev_1.13_answers": {
+  "clause_0": {
+   "noul": 0.77,
+   "confidence": null
+  },
+  "clause_1": {
+   "noul": 0.74,
+   "confidence": null
+  },
+  "clause_2": {
+   "noul": 0.97,
+   "confidence": null
+  },
+  "include": {
+   "noul": 0.88,
+   "confidence": null
+  }
+ },
+ "d3_ultra_answers": {
+  "clause_0": {
+   "noul": 0.950182760127531,
+   "confidence": null
+  },
+  "clause_1": {
+   "noul": 0.8617055801319591,
+   "confidence": null
+  },
+  "clause_2": {
+   "noul": 0.9763993439003947,
+   "confidence": null
+  },
+  "include": {
+   "noul": 0.8856703045142238,
+   "confidence": null
+  }
+ }
+}

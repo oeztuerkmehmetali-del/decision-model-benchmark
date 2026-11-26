@@ -1,0 +1,182 @@
+{
+ "detection": {
+  "pair_id": 0,
+  "gold_label": "Contradiction exists",
+  "state": {
+   "task": "Decide whether two biomedical claims about the same drug-disease association present a contradiction, using counterfactual reasoning: assume Claim 1 is true and ask whether Claim 2's overall assessment of the drug for the disease still holds; then the reverse. A contradiction here is an apparent contradiction: the two claims give opposing overall assessments of the same drug for the same disease (effective vs. ineffective, beneficial vs. harmful, safe vs. unsafe); it need not be a strict logical impossibility. A contradiction may be partial: if one subclaim opposes the other claim, the pair is contradictory even if other parts agree. Do NOT dismiss a contradiction merely because the studies differ in outcome, patient subgroup, dose, duration, timing, comparator or study design."
+  },
+  "questions": {
+   "pair": {
+    "type": "choice",
+    "criteria": {
+     "Contradiction exists": "The overall assessments of the drug for the disease oppose each other, fully or in part.",
+     "Claims can coexist": "The claims concern different drugs or diseases, express the same overall direction, or make no clear assessment of the drug-disease association."
+    },
+    "instructions": "Claim 1: Adding nebulized magnesium sulfate to standard therapy in patients with moderate to severe asthma attacks leads to greater and faster improvement in PEFR, respiratory rate, oxygen saturation and respiratory rate.It also reduces hospitalization rates in this patient population.\nClaim 2: The use of nebulised magnesium sulphate in moderate asthma exacerbation as adjuvant treatment showed no benefit to standard treatment in our study."
+   }
+  },
+  "answers": {
+   "jev": {
+    "pair": {
+     "type": "choice",
+     "choice": "Contradiction exists",
+     "confidence": 1.0,
+     "probabilities": {
+      "Contradiction exists": 1.0,
+      "Claims can coexist": 0.0
+     }
+    }
+   },
+   "d3u": {
+    "pair": {
+     "type": "choice",
+     "choice": "Contradiction exists",
+     "probabilities": {
+      "Contradiction exists": 0.9998880595015782,
+      "Claims can coexist": 0.0001119404984217278
+     },
+     "confidence": 0.9997761190031564
+    }
+   }
+  }
+ },
+ "explanation": {
+  "id": 0,
+  "gold_factors": "['ambiguous referent', 'population']",
+  "state": {
+   "task": "Two biomedical claims report opposing outcomes for the same drug-disease association. Determine which contextual factor(s) explain the apparent contradiction. Base the analysis strictly on the provided claims and abstracts; do not use external knowledge.",
+   "claim_1": "This is the first randomised study to investigate the efficacy and safety of the combination of osimertinib and cytotoxic chemotherapy for EGFR-mutated NSCLC.The addition of chemotherapy to osimertinib as a second-line treatment did not prolong survival, while it was found to be generally tolerable.This combination strategy will be further validated in the first-line setting.",
+   "claim_1_context": "Osimertinib is now a standard treatment for patients with previously untreated EGFR-mutated advanced non-small cell lung cancer (NSCLC). We here investigated whether the combination of osimertinib with cytotoxic chemotherapy might hold additive efficacy, as well as tolerability. We conducted an open-label randomised phase 2 study to evaluate osimertinib and carboplatin-pemetrexed combination in comparison with osimertinib monotherapy in EGFR mutation-positive NSCLC patients who experienced disease progression associated with the emergence of the T790M resistance mutation of EGFR during first-line EGFR-TKI therapy. The primary endpoint was PFS, with secondary endpoints, including OS, response, and safety. Given that osimertinib was approved as a first-line treatment during the study, patient accrual was discontinued, and a final analysis was performed for the 62 enrolled patients. Median PFS was 15.8 months for the osimertinib monotherapy group and 14.6 months for the combination therapy group (hazard ratio of 1.09, with a 95% confidence interval of 0.51-2.32; P = .83). Median OS was not reached in either group. The overall response rate was 71.4% in the osimertinib monotherapy group and 53.6% in the combination group. The frequency or severity of known adverse events in the combination group was comparable to those with carboplatin and pemetrexed previously reported, and novel adverse events were not observed in this study. This is the first randomised study to investigate the efficacy and safety of the combination of osimertinib and cytotoxic chemotherapy for EGFR-mutated NSCLC. The addition of chemotherapy to osimertinib as a second-line treatment did not prolong survival, while it was found to be generally tolerable. This combination strategy will be further validated in the first-line setting. Japan Registry of Clinical Trials (jRCT) identifier: jRCTs071180062.",
+   "claim_2": "These findings support osimertinib as a backbone treatment for EGFR-mutated advanced NSCLC through lines of therapy.",
+   "claim_2_context": "COMPEL (NCT04765059) was a global, randomized, double-blind study that evaluated osimertinib plus chemotherapy versus placebo plus chemotherapy in patients with epidermal growth factor receptor (EGFR)-mutated advanced non-small-cell lung cancer (NSCLC) following non-central nervous system (CNS) progression on first-line osimertinib. Patients were randomly assigned to receive osimertinib 80 mg, or placebo, once daily (o.d.) in combination with chemotherapy [cisplatin 75 mg/m2 or carboplatin area under the curve 5 plus pemetrexed 500 mg/m2 every 3 weeks (q3w) for four cycles], followed by osimertinib 80 mg, or placebo, o.d. in combination with maintenance pemetrexed (500 mg/m2 q3w) until progression. The primary endpoint was investigator-assessed progression-free survival (PFS). Secondary endpoints included CNS PFS according to CNS metastases status at baseline and overall survival (OS). Ninety-eight patients were randomly assigned (49 per arm). Median PFS in all patients was 8.4 months [95% confidence interval (CI) 5.7-11.8 months] with osimertinib plus chemotherapy versus 4.4 months (95% CI 3.5-5.6 months) with placebo plus chemotherapy [hazard ratio (HR) 0.43, 95% CI 0.27-0.70]. CNS PFS was longer with osimertinib plus chemotherapy versus placebo plus chemotherapy (HR 0.56, 95% CI 0.27-1.13) in patients without baseline CNS metastases (n = 75). Median OS in all patients was 15.9 months (95% CI 12.4-20.8 months) with osimertinib plus chemotherapy versus 9.8 months (95% CI 8.4-17.2 months) with placebo plus chemotherapy (HR 0.71, 95% CI 0.42-1.23). Grade ≥3 adverse events occurred more frequently with osimertinib plus chemotherapy (63%) than placebo plus chemotherapy (46%). In patients with non-CNS progression on first-line osimertinib, osimertinib plus chemotherapy was associated with improved PFS and longer OS compared with placebo plus chemotherapy. These findings support osimertinib as a backbone treatment for EGFR-mutated advanced NSCLC through lines of therapy."
+  },
+  "questions": {
+   "f0": {
+    "type": "noul",
+    "instructions": "Does the contextual factor 'species' explain the apparent contradiction between the two claims?"
+   },
+   "f1": {
+    "type": "noul",
+    "instructions": "Does the contextual factor 'population' explain the apparent contradiction between the two claims?"
+   },
+   "f2": {
+    "type": "noul",
+    "instructions": "Does the contextual factor 'dosage or exposure duration' explain the apparent contradiction between the two claims?"
+   },
+   "f3": {
+    "type": "noul",
+    "instructions": "Does the contextual factor 'route or mode of administration' explain the apparent contradiction between the two claims?"
+   },
+   "f4": {
+    "type": "noul",
+    "instructions": "Does the contextual factor 'combined drug effects' explain the apparent contradiction between the two claims?"
+   },
+   "f5": {
+    "type": "noul",
+    "instructions": "Does the contextual factor 'evolving scientific evidence' explain the apparent contradiction between the two claims?"
+   },
+   "f6": {
+    "type": "noul",
+    "instructions": "Does the contextual factor 'known controversy or self-qualified claims' explain the apparent contradiction between the two claims?"
+   },
+   "f7": {
+    "type": "noul",
+    "instructions": "Does the contextual factor 'study design' explain the apparent contradiction between the two claims?"
+   },
+   "f8": {
+    "type": "noul",
+    "instructions": "Does the contextual factor 'outcome measures' explain the apparent contradiction between the two claims?"
+   },
+   "f9": {
+    "type": "noul",
+    "instructions": "Does the contextual factor 'ambiguous referent' explain the apparent contradiction between the two claims?"
+   }
+  },
+  "answers": {
+   "jev": {
+    "f0": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "f1": {
+     "type": "noul",
+     "noul": 0.68
+    },
+    "f2": {
+     "type": "noul",
+     "noul": 0.21
+    },
+    "f3": {
+     "type": "noul",
+     "noul": 0.08
+    },
+    "f4": {
+     "type": "noul",
+     "noul": 0.31
+    },
+    "f5": {
+     "type": "noul",
+     "noul": 0.5
+    },
+    "f6": {
+     "type": "noul",
+     "noul": 0.19
+    },
+    "f7": {
+     "type": "noul",
+     "noul": 0.58
+    },
+    "f8": {
+     "type": "noul",
+     "noul": 0.51
+    },
+    "f9": {
+     "type": "noul",
+     "noul": 0.36
+    }
+   },
+   "d3u": {
+    "f0": {
+     "type": "noul",
+     "noul": 2.0752271461904808e-05
+    },
+    "f1": {
+     "type": "noul",
+     "noul": 0.7008818179106171
+    },
+    "f2": {
+     "type": "noul",
+     "noul": 0.007030568397400568
+    },
+    "f3": {
+     "type": "noul",
+     "noul": 0.002433394375344086
+    },
+    "f4": {
+     "type": "noul",
+     "noul": 0.3763352222342723
+    },
+    "f5": {
+     "type": "noul",
+     "noul": 0.24997522682025353
+    },
+    "f6": {
+     "type": "noul",
+     "noul": 0.027674832068566205
+    },
+    "f7": {
+     "type": "noul",
+     "noul": 0.463399664658318
+    },
+    "f8": {
+     "type": "noul",
+     "noul": 0.22042977809906006
+    },
+    "f9": {
+     "type": "noul",
+     "noul": 0.030598777707688925
+    }
+   }
+  }
+ }
+}

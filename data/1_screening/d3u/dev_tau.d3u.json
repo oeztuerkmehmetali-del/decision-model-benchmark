@@ -1,0 +1,340 @@
+{
+ "model": "vllm-sr/d3-ultra",
+ "taus": [
+  0.01,
+  0.02,
+  0.03,
+  0.04,
+  0.05,
+  0.06,
+  0.07,
+  0.08,
+  0.09,
+  0.1,
+  0.11,
+  0.12,
+  0.13,
+  0.14,
+  0.15,
+  0.16,
+  0.17,
+  0.18,
+  0.19,
+  0.2,
+  0.21,
+  0.22,
+  0.23,
+  0.24,
+  0.25,
+  0.26,
+  0.27,
+  0.28,
+  0.29,
+  0.3,
+  0.31,
+  0.32,
+  0.33,
+  0.34,
+  0.35,
+  0.36,
+  0.37,
+  0.38,
+  0.39,
+  0.4,
+  0.41,
+  0.42,
+  0.43,
+  0.44,
+  0.45,
+  0.46,
+  0.47,
+  0.48,
+  0.49,
+  0.5,
+  0.51,
+  0.52,
+  0.53,
+  0.54,
+  0.55,
+  0.56,
+  0.57,
+  0.58,
+  0.59,
+  0.6,
+  0.61,
+  0.62,
+  0.63,
+  0.64,
+  0.65,
+  0.66,
+  0.67,
+  0.68,
+  0.69,
+  0.7,
+  0.71,
+  0.72,
+  0.73,
+  0.74,
+  0.75,
+  0.76,
+  0.77,
+  0.78,
+  0.79,
+  0.8,
+  0.81,
+  0.82,
+  0.83,
+  0.84,
+  0.85,
+  0.86,
+  0.87,
+  0.88,
+  0.89,
+  0.9,
+  0.91,
+  0.92,
+  0.93,
+  0.94,
+  0.95,
+  0.96,
+  0.97,
+  0.98,
+  0.99
+ ],
+ "reviews": {
+  "Ali_2024": {
+   "tau": 0.5,
+   "dev_auto_frac": 0.0,
+   "dev_recall": 0.0,
+   "dev_n": 309
+  },
+  "Aouad_2024": {
+   "tau": 0.4,
+   "dev_auto_frac": 1.0,
+   "dev_recall": 1.0,
+   "dev_n": 428
+  },
+  "Attai_2022": {
+   "tau": 0.11,
+   "dev_auto_frac": 1.0,
+   "dev_recall": 0.9574468085106383,
+   "dev_n": 1207
+  },
+  "Bindoli_2024a": {
+   "tau": 0.67,
+   "dev_auto_frac": 1.0,
+   "dev_recall": 0.9736842105263158,
+   "dev_n": 869
+  },
+  "Burska_2023": {
+   "tau": 0.27,
+   "dev_auto_frac": 1.0,
+   "dev_recall": 0.9545454545454546,
+   "dev_n": 2272
+  },
+  "Butink_2023": {
+   "tau": 0.32,
+   "dev_auto_frac": 1.0,
+   "dev_recall": 1.0,
+   "dev_n": 1854
+  },
+  "Cozim-Melges_2024": {
+   "tau": 0.35,
+   "dev_auto_frac": 1.0,
+   "dev_recall": 0.9649122807017544,
+   "dev_n": 378
+  },
+  "Endedijk_2021": {
+   "tau": 0.4,
+   "dev_auto_frac": 1.0,
+   "dev_recall": 0.9622641509433962,
+   "dev_n": 654
+  },
+  "Farisogullari_2023": {
+   "tau": 0.46,
+   "dev_auto_frac": 1.0,
+   "dev_recall": 0.9714285714285714,
+   "dev_n": 863
+  },
+  "Fejza_2023": {
+   "tau": 0.79,
+   "dev_auto_frac": 1.0,
+   "dev_recall": 0.9629629629629629,
+   "dev_n": 899
+  },
+  "Fong_2021": {
+   "tau": 0.5,
+   "dev_auto_frac": 0.0,
+   "dev_recall": 0.0,
+   "dev_n": 293
+  },
+  "Harms_2024": {
+   "tau": 0.63,
+   "dev_auto_frac": 1.0,
+   "dev_recall": 0.9642857142857143,
+   "dev_n": 503
+  },
+  "Hilfiker_2017": {
+   "tau": 0.5,
+   "dev_auto_frac": 0.0,
+   "dev_recall": 0.0,
+   "dev_n": 5300
+  },
+  "Lauper_2021": {
+   "tau": 0.21,
+   "dev_auto_frac": 1.0,
+   "dev_recall": 0.9578947368421052,
+   "dev_n": 3982
+  },
+  "Leenaars_2020": {
+   "tau": 0.5,
+   "dev_auto_frac": 1.0,
+   "dev_recall": 0.9568345323741008,
+   "dev_n": 1368
+  },
+  "Low_2023": {
+   "tau": 0.01,
+   "dev_auto_frac": 1.0,
+   "dev_recall": 1.0,
+   "dev_n": 333
+  },
+  "Maciel_2024": {
+   "tau": 0.03,
+   "dev_auto_frac": 1.0,
+   "dev_recall": 1.0,
+   "dev_n": 163
+  },
+  "Mejean_2024": {
+   "tau": 0.1,
+   "dev_auto_frac": 1.0,
+   "dev_recall": 0.9743589743589743,
+   "dev_n": 291
+  },
+  "Menon_2022": {
+   "tau": 0.39,
+   "dev_auto_frac": 1.0,
+   "dev_recall": 0.9523809523809523,
+   "dev_n": 291
+  },
+  "Mohamed_2023": {
+   "tau": 0.43,
+   "dev_auto_frac": 1.0,
+   "dev_recall": 0.9583333333333334,
+   "dev_n": 1619
+  },
+  "Monschau_2025": {
+   "tau": 0.07,
+   "dev_auto_frac": 1.0,
+   "dev_recall": 0.9666666666666667,
+   "dev_n": 4429
+  },
+  "Moran_2020": {
+   "tau": 0.03,
+   "dev_auto_frac": 1.0,
+   "dev_recall": 0.9565217391304348,
+   "dev_n": 1194
+  },
+  "Moseng_2024": {
+   "tau": 0.5,
+   "dev_auto_frac": 0.0,
+   "dev_recall": 0.0,
+   "dev_n": 2132
+  },
+  "Parodis_2023a": {
+   "tau": 0.24,
+   "dev_auto_frac": 1.0,
+   "dev_recall": 0.967741935483871,
+   "dev_n": 2474
+  },
+  "Parodis_2023b": {
+   "tau": 0.6,
+   "dev_auto_frac": 1.0,
+   "dev_recall": 1.0,
+   "dev_n": 1006
+  },
+  "Rinne_2021": {
+   "tau": 0.11,
+   "dev_auto_frac": 1.0,
+   "dev_recall": 0.9555555555555556,
+   "dev_n": 569
+  },
+  "Sanchez-Alvarez_2023": {
+   "tau": 0.07,
+   "dev_auto_frac": 1.0,
+   "dev_recall": 0.9791666666666666,
+   "dev_n": 1373
+  },
+  "Sepriano_2022": {
+   "tau": 0.21,
+   "dev_auto_frac": 1.0,
+   "dev_recall": 0.9705882352941176,
+   "dev_n": 1055
+  },
+  "Taschner_2024": {
+   "tau": 0.51,
+   "dev_auto_frac": 1.0,
+   "dev_recall": 0.95,
+   "dev_n": 793
+  },
+  "Tektonidou_2019": {
+   "tau": 0.66,
+   "dev_auto_frac": 1.0,
+   "dev_recall": 0.9705882352941176,
+   "dev_n": 749
+  },
+  "Tumkaya_2018": {
+   "tau": 0.03,
+   "dev_auto_frac": 1.0,
+   "dev_recall": 1.0,
+   "dev_n": 288
+  },
+  "Viguie_2020": {
+   "tau": 0.12,
+   "dev_auto_frac": 1.0,
+   "dev_recall": 0.9583333333333334,
+   "dev_n": 1383
+  },
+  "Walker_2018": {
+   "tau": 0.32,
+   "dev_auto_frac": 1.0,
+   "dev_recall": 0.9736842105263158,
+   "dev_n": 7040
+  },
+  "Webers_2022": {
+   "tau": 0.14,
+   "dev_auto_frac": 1.0,
+   "dev_recall": 0.98,
+   "dev_n": 4846
+  },
+  "Zakeri-Nasrabadi_2023b": {
+   "tau": 0.24,
+   "dev_auto_frac": 1.0,
+   "dev_recall": 0.9629629629629629,
+   "dev_n": 1031
+  },
+  "Zanframundo_2022": {
+   "tau": 0.13,
+   "dev_auto_frac": 1.0,
+   "dev_recall": 0.9583333333333334,
+   "dev_n": 800
+  },
+  "van_Ballegooijen_2024": {
+   "tau": 0.47,
+   "dev_auto_frac": 1.0,
+   "dev_recall": 0.9615384615384616,
+   "dev_n": 1976
+  },
+  "van_de_Schoot_2025": {
+   "tau": 0.47,
+   "dev_auto_frac": 1.0,
+   "dev_recall": 0.9571428571428572,
+   "dev_n": 4863
+  },
+  "van_der_Valk_2021": {
+   "tau": 0.5,
+   "dev_auto_frac": 0.0,
+   "dev_recall": 0.0,
+   "dev_n": 216
+  }
+ }
+}
