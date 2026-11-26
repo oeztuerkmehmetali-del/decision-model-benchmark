@@ -5,7 +5,7 @@
 # usage (from the case folder): bash code/d3u_run.sh
 set -eu
 cd "$(dirname "$0")/.."
-export VLLM_SR_API_KEY="${VLLM_SR_API_KEY:-$(grep -o 'VLLM_SR_API_KEY=\S*' ~/.bashrc | head -1 | cut -d= -f2- | tr -d '"')}"
+: "${VLLM_SR_API_KEY:?set VLLM_SR_API_KEY in the environment}"
 export TYPESAFE_BASE_URL=https://decision.vllm-sr.ai JEV_KEY_ENV=VLLM_SR_API_KEY JEV_TOKEN_CAP=1000000000
 export X3_MODEL=vllm-sr/d3-ultra X7_MODEL=vllm-sr/d3-ultra X7_WORKERS="${X7_WORKERS:-4}"
 export X7_OUTDIR="$PWD/d3u/runs"

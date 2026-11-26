@@ -2,13 +2,13 @@
 [INFO] Written by William E. Fondrie (wfondrie@uw.edu) in the
 [INFO] Department of Genome Sciences at the University of Washington.
 [INFO] Command issued:
-[INFO] /home/mehmet/miniconda3/envs/x2pilot/bin/mokapot data/processed/d3u/sage_d3.pin --dest_dir results/d3u/mokapot --file_root tBd3 --seed 1 --max_workers 4 --keep_decoys
+[INFO] <env>/bin/mokapot data/processed/d3u/sage_d3.pin --dest_dir results/d3u/mokapot --file_root tBd3 --seed 1 --max_workers 4 --keep_decoys
 [INFO] 
 [INFO] Starting Analysis
 [INFO] =================
 [INFO] Parsing PSMs...
 [INFO] Reading data/processed/d3u/sage_d3.pin...
-/home/mehmet/miniconda3/envs/x2pilot/lib/python3.11/site-packages/mokapot/parsers/pin.py:238: FutureWarning: errors='ignore' is deprecated and will raise in a future version. Use to_numeric without passing `errors` and catch exceptions explicitly instead
+<env>/lib/python3.11/site-packages/mokapot/parsers/pin.py:238: FutureWarning: errors='ignore' is deprecated and will raise in a future version. Use to_numeric without passing `errors` and catch exceptions explicitly instead
   yield psms.apply(pd.to_numeric, errors="ignore")
 [INFO] Using 32 features:
 [INFO]   (1)	retentiontime

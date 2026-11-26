@@ -43,6 +43,7 @@ Offline re-run check done for this folder: see `RERUN.md`.
 
 ## 5. Known gaps
 * `input/reviews_union.json` and `input/split.json` are copied as they are; the original `data/raw/synergy` CSVs come from SYNERGY (OpenAlex ids); no external files > 50 MB, so `input/EXTERNAL.tsv` has no data rows and `input/fetch.sh` only documents the SYNERGY source.
+* Licence: the SYNERGY dataset (`synergy-dataset==2.2`) is released under CC0; the titles and abstracts in `input/synergy/` and `input/questions/` remain under their publishers' terms.
 * Steps 2 and 6 cannot run here without network / ASReview 3.0.8; their outputs are shipped. The ASReview `.asreview` intermediates and logs are not shipped.
 * d3-ultra: 1,792 test records were queried (cached, never scored) before the threshold was frozen (`pre_tau_test_queries_disclosed` in `d3u/results_d3u.json`); the d3-ultra cache holds 1,434 keys that match no current record (origin unknown, never read).
 * Jev answer files hold more dev/test records (64,947 / 19,902) than the frozen split (62,093 / 18,183); only records in the split are scored.
