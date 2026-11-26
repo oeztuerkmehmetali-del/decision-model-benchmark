@@ -39,3 +39,8 @@ code/MANIFEST.json	new	code	new	written by code/manifest.py; sha256 of inputs an
 code/drugcon/__init__.py	studies/x8_drugcon/data/raw/DrugCon/src/drugcon/__init__.py	code	no	authors' package
 code/drugcon/evaluation.py	studies/x8_drugcon/data/raw/DrugCon/src/drugcon/evaluation.py	code	no	authors' scorer (binary_prf, multilabel_metrics)
 README.md	new	doc	new	
+input/upstream/README.md	studies/x8_drugcon/data/raw/upstream/DrugCon/data/README.md	input	no	upstream DrugCon @2c2d5f5; data CC BY 4.0 (README section 'License and source text'); source of the 494/615/48 annotation counts
+input/upstream/abstract_sentences.csv	studies/x8_drugcon/data/raw/upstream/DrugCon/data/drugcon_bench/abstract_sentences.csv	input	no	upstream DrugCon @2c2d5f5; CC BY 4.0, abstract text under each PMC OA article's licence
+input/upstream/abstracts.csv	studies/x8_drugcon/data/raw/upstream/DrugCon/data/drugcon_bench/abstracts.csv	input	no	upstream DrugCon @2c2d5f5; CC BY 4.0, abstract text under each PMC OA article's licence
+input/upstream/contradictory_claim_pairs.csv	studies/x8_drugcon/data/raw/upstream/DrugCon/data/drugcon_bench/contradictory_claim_pairs.csv	input	no	upstream DrugCon @2c2d5f5; CC BY 4.0, abstract text under each PMC OA article's licence
+input/upstream/gpt41nano_pipeline_outputs.csv	studies/x8_drugcon/data/raw/upstream/DrugCon/data/drugcon_bench/gpt41nano_pipeline_outputs.csv	input	no	upstream DrugCon @2c2d5f5; CC BY 4.0

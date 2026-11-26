@@ -3,12 +3,12 @@
 
 Independent re-implementation of the eval_v31 scorer (STATUS s29/s36c); no import
 of eval_v31. Per-cell correctness vectors are reproduced from
-  data/processed/heart_fullcells_lit_fixed.npz, data/processed/pool/heart_pool_fixed.json,
-  runs/jev/heart_catalog_v36_{jevonly,cooc}_r{1,2,3}.json
-and checked against results/jev/heart_eval_v36.json to 1e-4 before any statistic is
+  input/processed/heart_fullcells_lit_fixed.npz, input/pool/heart_pool_fixed.json,
+  jev/runs/heart_catalog_v36_{jevonly,cooc}_r{1,2,3}.json   (paths relative to the case folder)
+and checked against compare/jev_vs_baseline/heart_eval_v36.json to 1e-4 before any statistic is
 computed (--tol, default 1e-4).
 
-Donor labels come from data/processed/heart.h5ad obs/donor_id read with h5py
+Donor labels come from input/external/heart.h5ad obs/donor_id read with h5py
 (categories + codes only; X is never touched). npz row i == h5ad row i, verified
 by asserting cell_type equality for all 35,384 rows.
 
@@ -18,7 +18,7 @@ Stats: donor-cluster bootstrap, resample the 6 donors with replacement, B=10000,
 seed 0, 95% percentile CI of the micro and of the macro accuracy difference vs
 M1n; plus leave-one-donor-out micro differences.
 
-Usage: python3 donor_bootstrap_v38.py [--out results/jev/heart_donor_bootstrap.json]
+Usage: python3 code/donor_bootstrap_v38.py [--out compare/jev_vs_baseline/heart_donor_bootstrap.json]
 """
 from __future__ import annotations
 
@@ -67,7 +67,7 @@ def donor_labels(tissue: str, n_rows: int):
 
 
 def W_of(X, test, gi):
-    L = np.log1p(X[np.ix_(test, gi)].astype(np.float64))
+    L = X[np.ix_(test, gi)].astype(np.float64)  # X is log1p-CP10K already (same scorer as eval_v31)
     tot = L.sum(1, keepdims=True)
     tot[tot == 0] = 1
     return L / tot

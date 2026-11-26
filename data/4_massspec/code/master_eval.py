@@ -3,7 +3,7 @@ Run from anywhere:  python code/master_eval.py | tee compare/master_result.txt  
 Per scorer: AUROC (human vs Arabidopsis-only) and targets accepted at entrapment FDP <= 1%
 (FDP_ent = N_ent(1+1/r)/N_T on the ranked prefix; tie groups kept whole, so no tie-break favours anyone),
 with a PSM bootstrap paired against mokapot. All scorer inputs are species-blind, which the entrapment truth needs.
-d3 rows appear once compare/d3_all.tsv (run_d3_all.py: full context, labels masked) and d3u/tBd3.mokapot.psms.txt exist.
+d3 rows appear once compare/d3_all.tsv (make_d3_all.py: d3-ultra asked Jev's exact requests) and d3u/tBd3.mokapot.psms.txt exist.
 """
 import os, sys
 import numpy as np, pandas as pd
@@ -37,7 +37,7 @@ def main():
     f3 = os.path.join(CMP, "d3_all.tsv"); d3 = None
     if os.path.exists(f3):
         d3 = pd.read_csv(f3, sep="\t").astype({"SpecId": str}).set_index("SpecId").reindex(t.index)
-        rows.insert(2, ("d3 zero-shot, full context, labels masked", d3.d3_p))
+        rows.insert(2, ("d3-ultra zero-shot (same requests as Jev)", d3.d3_p))
         # hard-case vote, both rules fixed before any band-level result of this d3 run was looked at: inside the paper's
         # borderline band (mokapot q 0.5-5%, one contiguous stretch of mokapot's ranking, contains the 1% cut) re-rank by
         # w*rank(d3) + (1-w)*rank(mokapot); outside the band keep mokapot's order
@@ -67,18 +67,10 @@ def main():
               f"{na / accepted(S[ref], ent) - 1:+.1%} [{np.percentile(rel, 2.5):+.1%},{np.percentile(rel, 97.5):+.1%}]")
     if d3 is not None:
         hs = S["engine score alone (ln hyperscore), no model"]  # scrambled PSM assignment would give ~0 here
-        rho = pd.Series(S["d3 zero-shot, full context, labels masked"]).corr(pd.Series(hs), method="spearman")
+        rho = pd.Series(S["d3-ultra zero-shot (same requests as Jev)"]).corr(pd.Series(hs), method="spearman")
         print(f"\nmapping self-check: rank correlation of d3 with the engine score = {rho:.2f}"); assert rho > 0.2, "d3 answers look mis-assigned"
-        m = d3.d3_p_thin.notna().to_numpy()
-        if m.any():  # context effect, paired on the PSMs the stopped thin-context run had already scored (a random subset)
-            a, b, yy = d3.d3_p.to_numpy()[m], d3.d3_p_thin.to_numpy()[m], y[m]; df = []
-            for _ in range(BOOT):
-                i = rng.integers(0, m.sum(), m.sum()); df.append(auroc(a[i], yy[i]) - auroc(b[i], yy[i]))
-            print(f"context effect (d3, same {int(m.sum())} targets, {int((1 - yy).sum())} known wrong): full context AUROC {auroc(a, yy):.3f}  "
-                  f"thin context (paper wording) {auroc(b, yy):.3f}  diff {auroc(a, yy) - auroc(b, yy):+.3f} [{np.percentile(df, 2.5):+.3f},{np.percentile(df, 97.5):+.3f}]"
-                  f"  (on these PSMs: Jev 1.13 {auroc(t.jev_p.to_numpy()[m], yy):.3f}; mokapot {auroc(t.score.to_numpy()[m], yy):.3f})")
         yb = y[inb]; df = []  # the band is cut on mokapot's score, which lowers mokapot's own AUROC inside it
-        A = {"mokapot": S[ref][inb], "d3 full context": S["d3 zero-shot, full context, labels masked"][inb],
+        A = {"mokapot": S[ref][inb], "d3-ultra": S["d3-ultra zero-shot (same requests as Jev)"][inb],
              "equal vote": S["mokapot, hard cases re-ranked: equal vote with d3"][inb], "Jev whole-run answers": S["Jev 1.13 zero-shot (published run)"][inb]}
         for _ in range(BOOT):
             i = rng.integers(0, inb.sum(), inb.sum()); df.append([auroc(v[i], yb[i]) for v in A.values()])

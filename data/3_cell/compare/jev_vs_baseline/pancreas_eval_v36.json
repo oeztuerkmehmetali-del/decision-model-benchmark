@@ -66,30 +66,30 @@
    },
    "n_classes_zero": 22,
    "vs_M1": {
-    "delta_acc": -0.4368852459016393,
-    "b_M1_only": 1096,
-    "c_method_only": 30,
-    "mcnemar_p_unadjusted": 2.0254160348572617e-280,
-    "mcnemar_log10_p_unadjusted": -279.6934857561111
+    "delta_acc": -0.42172131147540987,
+    "b_M1_only": 1029,
+    "c_method_only": 0,
+    "mcnemar_p_unadjusted": 3.4766779039175e-310,
+    "mcnemar_log10_p_unadjusted": -309.4588355425727
    },
    "vs_M1n_posthoc": {
-    "delta_acc": -0.2491803278688524,
-    "b_M1n_only": 608,
+    "delta_acc": -0.2639344262295082,
+    "b_M1n_only": 644,
     "c_method_only": 0,
-    "mcnemar_p_unadjusted": 1.8827498946116282e-183,
-    "mcnemar_log10_p_unadjusted": -182.7252073680366
+    "mcnemar_p_unadjusted": 2.739761686260504e-194,
+    "mcnemar_log10_p_unadjusted": -193.56228721193992
    }
   },
   "M1_cellmarker_uniform": {
-   "acc": 0.8331967213114754,
+   "acc": 0.8180327868852459,
    "wilson": [
-    0.8178829543115116,
-    0.8474629502675741
+    0.8022278564871672,
+    0.8328378531725753
    ],
-   "macro_acc": 0.42552264754098545,
+   "macro_acc": 0.39485545987648935,
    "selective": {
-    "cov75": 0.9371584699453552,
-    "cov50": 0.9860655737704918
+    "cov75": 0.9120218579234972,
+    "cov50": 0.95
    },
    "per_class_recall": {
     "B cell": 1.0,
@@ -97,44 +97,44 @@
     "CD8-positive, alpha-beta T cell": 0.0,
     "T cell": 0.0,
     "classical monocyte": 0.0,
-    "endothelial cell": 0.975609756097561,
-    "fibroblast": 0.25806451612903225,
+    "endothelial cell": 0.9645232815964523,
+    "fibroblast": 0.1935483870967742,
     "intermediate monocyte": 0.0,
-    "macrophage": 0.9256756756756757,
+    "macrophage": 0.9358108108108109,
     "mast cell": 0.0,
     "mature NK T cell": 0.0,
     "monocyte": 0.0,
     "natural killer cell": 1.0,
     "neutrophil": 1.0,
     "non-classical monocyte": 0.0,
-    "pancreatic A cell": 1.0,
+    "pancreatic A cell": 0.625,
     "pancreatic D cell": 0.5,
     "pancreatic PP cell": 0.0,
-    "pancreatic acinar cell": 0.9689762150982419,
-    "pancreatic ductal cell": 0.9327485380116959,
-    "pancreatic stellate cell": 0.12790697674418605,
-    "plasma cell": 0.3333333333333333,
-    "type B pancreatic cell": 0.7647058823529411
+    "pancreatic acinar cell": 1.0,
+    "pancreatic ductal cell": 0.7631578947368421,
+    "pancreatic stellate cell": 0.19767441860465115,
+    "plasma cell": 0.6666666666666666,
+    "type B pancreatic cell": 0.23529411764705882
    },
    "n_classes_zero": 10,
    "vs_M1n_posthoc": {
-    "delta_acc": 0.18770491803278688,
-    "b_M1n_only": 68,
-    "c_method_only": 526,
-    "mcnemar_p_unadjusted": 1.0954945684050764e-88,
-    "mcnemar_log10_p_unadjusted": -87.96038977138265
+    "delta_acc": 0.15778688524590168,
+    "b_M1n_only": 36,
+    "c_method_only": 421,
+    "mcnemar_p_unadjusted": 2.1905296088375903e-84,
+    "mcnemar_log10_p_unadjusted": -83.65945087219689
    }
   },
   "M1n_size_normalized_posthoc": {
-   "acc": 0.6454918032786885,
+   "acc": 0.6602459016393443,
    "wilson": [
-    0.6262956176927521,
-    0.6642305768036505
+    0.641214079110904,
+    0.6787739266583734
    ],
-   "macro_acc": 0.28865827460022386,
+   "macro_acc": 0.3144633196805816,
    "selective": {
-    "cov75": 0.7448087431693989,
-    "cov50": 0.8467213114754099
+    "cov75": 0.7704918032786885,
+    "cov50": 0.8557377049180328
    },
    "per_class_recall": {
     "B cell": 0.36363636363636365,
@@ -142,32 +142,32 @@
     "CD8-positive, alpha-beta T cell": 0.0,
     "T cell": 0.0,
     "classical monocyte": 0.0,
-    "endothelial cell": 0.7738359201773836,
-    "fibroblast": 0.16129032258064516,
+    "endothelial cell": 0.7937915742793792,
+    "fibroblast": 0.1935483870967742,
     "intermediate monocyte": 0.0,
-    "macrophage": 0.02027027027027027,
+    "macrophage": 0.05067567567567568,
     "mast cell": 1.0,
     "mature NK T cell": 0.0,
     "monocyte": 0.0,
     "natural killer cell": 0.0,
     "neutrophil": 0.0,
     "non-classical monocyte": 0.0,
-    "pancreatic A cell": 0.75,
+    "pancreatic A cell": 0.875,
     "pancreatic D cell": 0.5,
     "pancreatic PP cell": 1.0,
     "pancreatic acinar cell": 1.0,
-    "pancreatic ductal cell": 0.5584795321637427,
-    "pancreatic stellate cell": 0.5116279069767442,
-    "plasma cell": 0.0,
+    "pancreatic ductal cell": 0.5994152046783626,
+    "pancreatic stellate cell": 0.5232558139534884,
+    "plasma cell": 0.3333333333333333,
     "type B pancreatic cell": 0.0
    },
-   "n_classes_zero": 12,
+   "n_classes_zero": 11,
    "vs_M1": {
-    "delta_acc": -0.18770491803278688,
-    "b_M1_only": 526,
-    "c_method_only": 68,
-    "mcnemar_p_unadjusted": 1.0954945684050764e-88,
-    "mcnemar_log10_p_unadjusted": -87.96038977138265
+    "delta_acc": -0.15778688524590168,
+    "b_M1_only": 421,
+    "c_method_only": 36,
+    "mcnemar_p_unadjusted": 2.1905296088375903e-84,
+    "mcnemar_log10_p_unadjusted": -83.65945087219689
    }
   },
   "M2_zscore_cellmarker": {
@@ -208,30 +208,30 @@
    },
    "n_classes_zero": 7,
    "vs_M1": {
-    "delta_acc": -0.06434426229508194,
-    "b_M1_only": 260,
-    "c_method_only": 103,
-    "mcnemar_p_unadjusted": 8.711422286140651e-17,
-    "mcnemar_log10_p_unadjusted": -16.059910933328098
+    "delta_acc": -0.049180327868852514,
+    "b_M1_only": 291,
+    "c_method_only": 171,
+    "mcnemar_p_unadjusted": 2.5956985058144164e-08,
+    "mcnemar_log10_p_unadjusted": -7.585745752882872
    },
    "vs_M1n_posthoc": {
-    "delta_acc": 0.12336065573770494,
-    "b_M1n_only": 272,
-    "c_method_only": 573,
-    "mcnemar_p_unadjusted": 1.7543997208060925e-25,
-    "mcnemar_log10_p_unadjusted": -24.755871450443834
+    "delta_acc": 0.10860655737704916,
+    "b_M1n_only": 274,
+    "c_method_only": 539,
+    "mcnemar_p_unadjusted": 9.406808961092871e-21,
+    "mcnemar_log10_p_unadjusted": -20.026557675788553
    }
   },
   "jev_v36_jevonly_r1": {
-   "acc": 0.7581967213114754,
+   "acc": 0.7557377049180328,
    "wilson": [
-    0.7408097542674188,
-    0.7747719430078874
+    0.7382963011980617,
+    0.7723750941984322
    ],
-   "macro_acc": 0.3085627338008855,
+   "macro_acc": 0.44446856537674767,
    "selective": {
-    "cov75": 0.8360655737704918,
-    "cov50": 0.8827868852459017
+    "cov75": 0.8349726775956284,
+    "cov50": 0.8770491803278688
    },
    "per_class_recall": {
     "B cell": 1.0,
@@ -239,56 +239,56 @@
     "CD8-positive, alpha-beta T cell": 0.0,
     "T cell": 0.0,
     "classical monocyte": 0.0,
-    "endothelial cell": 0.9068736141906873,
+    "endothelial cell": 0.8713968957871396,
     "fibroblast": 0.0,
     "intermediate monocyte": 0.0,
-    "macrophage": 0.7398648648648649,
+    "macrophage": 0.6993243243243243,
     "mast cell": 0.0,
     "mature NK T cell": 0.0,
     "monocyte": 0.0,
     "natural killer cell": 0.8888888888888888,
-    "neutrophil": 0.0,
+    "neutrophil": 1.0,
     "non-classical monocyte": 0.0,
-    "pancreatic A cell": 0.0,
-    "pancreatic D cell": 0.0,
-    "pancreatic PP cell": 0.0,
+    "pancreatic A cell": 0.125,
+    "pancreatic D cell": 0.5,
+    "pancreatic PP cell": 1.0,
     "pancreatic acinar cell": 1.0,
-    "pancreatic ductal cell": 0.4678362573099415,
-    "pancreatic stellate cell": 0.7209302325581395,
-    "plasma cell": 0.6666666666666666,
-    "type B pancreatic cell": 0.7058823529411765
+    "pancreatic ductal cell": 0.5,
+    "pancreatic stellate cell": 0.7558139534883721,
+    "plasma cell": 1.0,
+    "type B pancreatic cell": 0.8823529411764706
    },
-   "n_classes_zero": 14,
+   "n_classes_zero": 10,
    "vs_M1": {
-    "delta_acc": -0.07499999999999996,
-    "b_M1_only": 274,
-    "c_jev_only": 91,
-    "mcnemar_p": 2.0035152994616346e-22,
-    "mcnemar_p_holm": 1.0017576497308173e-21
+    "delta_acc": -0.06229508196721312,
+    "b_M1_only": 217,
+    "c_jev_only": 65,
+    "mcnemar_p": 2.7082756337038705e-20,
+    "mcnemar_p_holm": 1.3541378168519354e-19
    },
    "vs_M1n_posthoc": {
-    "delta_acc": 0.11270491803278693,
-    "b_M1n_only": 64,
-    "c_jev_only": 339,
-    "mcnemar_p": 2.6037088885752366e-46,
-    "mcnemar_p_holm": 5.207417777150473e-46
+    "delta_acc": 0.09549180327868856,
+    "b_M1n_only": 66,
+    "c_jev_only": 299,
+    "mcnemar_p": 1.5401019670342165e-36,
+    "mcnemar_p_holm": 3.080203934068433e-36
    },
    "sensitivity_renorm_posthoc": {
-    "acc": 0.7278688524590164,
-    "macro_acc": 0.2779902814802875,
-    "delta_acc_vs_M1": -0.10532786885245893
+    "acc": 0.728688524590164,
+    "macro_acc": 0.32515524823990705,
+    "delta_acc_vs_M1": -0.08934426229508197
    }
   },
   "jev_v36_jevonly_r2": {
-   "acc": 0.7577868852459017,
+   "acc": 0.7520491803278688,
    "wilson": [
-    0.7403907927413085,
-    0.7743725208875292
+    0.7345275327491776,
+    0.7687784098290975
    ],
-   "macro_acc": 0.32280122858857935,
+   "macro_acc": 0.40067086287940173,
    "selective": {
-    "cov75": 0.8349726775956284,
-    "cov50": 0.8819672131147541
+    "cov75": 0.8311475409836065,
+    "cov50": 0.8762295081967213
    },
    "per_class_recall": {
     "B cell": 1.0,
@@ -296,56 +296,56 @@
     "CD8-positive, alpha-beta T cell": 0.0,
     "T cell": 0.0,
     "classical monocyte": 0.0,
-    "endothelial cell": 0.9068736141906873,
+    "endothelial cell": 0.8713968957871396,
     "fibroblast": 0.0,
     "intermediate monocyte": 0.0,
-    "macrophage": 0.7398648648648649,
+    "macrophage": 0.6891891891891891,
     "mast cell": 0.0,
     "mature NK T cell": 0.0,
     "monocyte": 0.0,
     "natural killer cell": 0.8888888888888888,
-    "neutrophil": 0.0,
+    "neutrophil": 1.0,
     "non-classical monocyte": 0.0,
-    "pancreatic A cell": 0.0,
-    "pancreatic D cell": 0.0,
+    "pancreatic A cell": 0.125,
+    "pancreatic D cell": 0.5,
     "pancreatic PP cell": 0.0,
     "pancreatic acinar cell": 1.0,
-    "pancreatic ductal cell": 0.4619883040935672,
-    "pancreatic stellate cell": 0.7209302325581395,
+    "pancreatic ductal cell": 0.47953216374269003,
+    "pancreatic stellate cell": 0.7790697674418605,
     "plasma cell": 1.0,
-    "type B pancreatic cell": 0.7058823529411765
+    "type B pancreatic cell": 0.8823529411764706
    },
-   "n_classes_zero": 14,
+   "n_classes_zero": 11,
    "vs_M1": {
-    "delta_acc": -0.07540983606557372,
-    "b_M1_only": 275,
-    "c_jev_only": 91,
-    "mcnemar_p": 1.3309165103818208e-22,
-    "mcnemar_p_holm": 7.985499062290925e-22
+    "delta_acc": -0.06598360655737712,
+    "b_M1_only": 227,
+    "c_jev_only": 66,
+    "mcnemar_p": 7.528591257942963e-22,
+    "mcnemar_p_holm": 4.517154754765778e-21
    },
    "vs_M1n_posthoc": {
-    "delta_acc": 0.11229508196721316,
-    "b_M1n_only": 66,
-    "c_jev_only": 340,
-    "mcnemar_p": 1.491976752433775e-45,
-    "mcnemar_p_holm": 1.491976752433775e-45
+    "delta_acc": 0.09180327868852456,
+    "b_M1n_only": 72,
+    "c_jev_only": 296,
+    "mcnemar_p": 2.3041993528588307e-33,
+    "mcnemar_p_holm": 2.3041993528588307e-33
    },
    "sensitivity_renorm_posthoc": {
-    "acc": 0.7352459016393442,
-    "macro_acc": 0.2944235760306944,
-    "delta_acc_vs_M1": -0.09795081967213115
+    "acc": 0.7340163934426229,
+    "macro_acc": 0.3270788562834986,
+    "delta_acc_vs_M1": -0.08401639344262302
    }
   },
   "jev_v36_jevonly_r3": {
-   "acc": 0.7627049180327868,
+   "acc": 0.7594262295081967,
    "wilson": [
-    0.7454197355735128,
-    0.7791641818129496
+    0.7420667659357756,
+    0.7759700822789368
    ],
-   "macro_acc": 0.32948396126067797,
+   "macro_acc": 0.39802691458327955,
    "selective": {
-    "cov75": 0.8327868852459016,
-    "cov50": 0.8827868852459017
+    "cov75": 0.8300546448087431,
+    "cov50": 0.8762295081967213
    },
    "per_class_recall": {
     "B cell": 1.0,
@@ -353,64 +353,64 @@
     "CD8-positive, alpha-beta T cell": 0.0,
     "T cell": 0.0,
     "classical monocyte": 0.0,
-    "endothelial cell": 0.9068736141906873,
+    "endothelial cell": 0.8713968957871396,
     "fibroblast": 0.0,
     "intermediate monocyte": 0.0,
-    "macrophage": 0.7905405405405406,
+    "macrophage": 0.7533783783783784,
     "mast cell": 0.0,
     "mature NK T cell": 0.0,
     "monocyte": 0.0,
     "natural killer cell": 0.8888888888888888,
-    "neutrophil": 0.0,
+    "neutrophil": 1.0,
     "non-classical monocyte": 0.0,
     "pancreatic A cell": 0.0,
-    "pancreatic D cell": 0.0,
+    "pancreatic D cell": 0.5,
     "pancreatic PP cell": 0.0,
     "pancreatic acinar cell": 1.0,
-    "pancreatic ductal cell": 0.4473684210526316,
-    "pancreatic stellate cell": 0.7209302325581395,
+    "pancreatic ductal cell": 0.47953216374269003,
+    "pancreatic stellate cell": 0.7790697674418605,
     "plasma cell": 1.0,
-    "type B pancreatic cell": 0.8235294117647058
+    "type B pancreatic cell": 0.8823529411764706
    },
-   "n_classes_zero": 14,
+   "n_classes_zero": 12,
    "vs_M1": {
-    "delta_acc": -0.07049180327868854,
-    "b_M1_only": 266,
-    "c_jev_only": 94,
-    "mcnemar_p": 3.7403708874629583e-20,
-    "mcnemar_p_holm": 1.4961483549851833e-19
+    "delta_acc": -0.05860655737704923,
+    "b_M1_only": 211,
+    "c_jev_only": 68,
+    "mcnemar_p": 3.2653705146955397e-18,
+    "mcnemar_p_holm": 1.3061482058782159e-17
    },
    "vs_M1n_posthoc": {
-    "delta_acc": 0.11721311475409835,
-    "b_M1n_only": 70,
-    "c_jev_only": 356,
-    "mcnemar_p": 3.379383409142962e-47,
-    "mcnemar_p_holm": 1.0138150227428887e-46
+    "delta_acc": 0.09918032786885245,
+    "b_M1n_only": 73,
+    "c_jev_only": 315,
+    "mcnemar_p": 6.384573304280972e-37,
+    "mcnemar_p_holm": 1.9153719912842916e-36
    },
    "sensitivity_renorm_posthoc": {
-    "acc": 0.7319672131147541,
-    "macro_acc": 0.3034244862694202,
-    "delta_acc_vs_M1": -0.10122950819672127
+    "acc": 0.7352459016393442,
+    "macro_acc": 0.3272618029571108,
+    "delta_acc_vs_M1": -0.08278688524590172
    }
   },
   "jev_v36_cooc_r1": {
-   "acc": 0.8463114754098361,
+   "acc": 0.8377049180327869,
    "wilson": [
-    0.8314577410119901,
-    0.8600764402540952
+    0.8225454240522061,
+    0.8518027006380358
    ],
-   "macro_acc": 0.3694467841875289,
+   "macro_acc": 0.42600018001794643,
    "selective": {
-    "cov75": 0.9349726775956284,
-    "cov50": 0.9631147540983607
+    "cov75": 0.9153005464480874,
+    "cov50": 0.9221311475409836
    },
    "per_class_recall": {
     "B cell": 1.0,
     "CD4-positive, alpha-beta T cell": 0.0,
     "CD8-positive, alpha-beta T cell": 0.0,
     "T cell": 0.0,
-    "classical monocyte": 0.0,
-    "endothelial cell": 0.9667405764966741,
+    "classical monocyte": 0.012987012987012988,
+    "endothelial cell": 0.9534368070953437,
     "fibroblast": 0.0,
     "intermediate monocyte": 0.0,
     "macrophage": 0.9831081081081081,
@@ -420,46 +420,46 @@
     "natural killer cell": 1.0,
     "neutrophil": 0.0,
     "non-classical monocyte": 0.0,
-    "pancreatic A cell": 0.0,
-    "pancreatic D cell": 0.0,
+    "pancreatic A cell": 0.875,
+    "pancreatic D cell": 0.5,
     "pancreatic PP cell": 0.0,
-    "pancreatic acinar cell": 0.9979317476732161,
-    "pancreatic ductal cell": 0.7485380116959064,
+    "pancreatic acinar cell": 1.0,
+    "pancreatic ductal cell": 0.672514619883041,
     "pancreatic stellate cell": 0.9186046511627907,
     "plasma cell": 1.0,
     "type B pancreatic cell": 0.8823529411764706
    },
-   "n_classes_zero": 14,
+   "n_classes_zero": 11,
    "vs_M1": {
-    "delta_acc": 0.013114754098360715,
-    "b_M1_only": 87,
-    "c_jev_only": 119,
-    "mcnemar_p": 0.030533701546126262,
-    "mcnemar_p_holm": 0.09160110463837878
+    "delta_acc": 0.01967213114754096,
+    "b_M1_only": 45,
+    "c_jev_only": 93,
+    "mcnemar_p": 5.3730760472650606e-05,
+    "mcnemar_p_holm": 0.00016119228141795182
    },
    "vs_M1n_posthoc": {
-    "delta_acc": 0.2008196721311476,
-    "b_M1n_only": 20,
-    "c_jev_only": 510,
-    "mcnemar_p": 5.178351167080986e-124,
-    "mcnemar_p_holm": 2.0713404668323945e-123
+    "delta_acc": 0.17745901639344264,
+    "b_M1n_only": 10,
+    "c_jev_only": 443,
+    "mcnemar_p": 7.981493598946541e-117,
+    "mcnemar_p_holm": 4.788896159367925e-116
    },
    "sensitivity_renorm_posthoc": {
-    "acc": 0.8581967213114754,
-    "macro_acc": 0.3741256939006272,
-    "delta_acc_vs_M1": 0.025000000000000022
+    "acc": 0.8389344262295082,
+    "macro_acc": 0.4162368695193981,
+    "delta_acc_vs_M1": 0.020901639344262257
    }
   },
   "jev_v36_cooc_r2": {
-   "acc": 0.8463114754098361,
+   "acc": 0.8368852459016394,
    "wilson": [
-    0.8314577410119901,
-    0.8600764402540952
+    0.8216974083007852,
+    0.8510139490965193
    ],
-   "macro_acc": 0.3693953420685363,
+   "macro_acc": 0.4253083978616334,
    "selective": {
-    "cov75": 0.9344262295081968,
-    "cov50": 0.9622950819672131
+    "cov75": 0.9153005464480874,
+    "cov50": 0.9221311475409836
    },
    "per_class_recall": {
     "B cell": 1.0,
@@ -467,7 +467,7 @@
     "CD8-positive, alpha-beta T cell": 0.0,
     "T cell": 0.0,
     "classical monocyte": 0.0,
-    "endothelial cell": 0.9645232815964523,
+    "endothelial cell": 0.9534368070953437,
     "fibroblast": 0.0,
     "intermediate monocyte": 0.0,
     "macrophage": 0.9831081081081081,
@@ -477,46 +477,46 @@
     "natural killer cell": 1.0,
     "neutrophil": 0.0,
     "non-classical monocyte": 0.0,
-    "pancreatic A cell": 0.0,
-    "pancreatic D cell": 0.0,
+    "pancreatic A cell": 0.875,
+    "pancreatic D cell": 0.5,
     "pancreatic PP cell": 0.0,
-    "pancreatic acinar cell": 0.9989658738366081,
-    "pancreatic ductal cell": 0.7485380116959064,
+    "pancreatic acinar cell": 1.0,
+    "pancreatic ductal cell": 0.6695906432748538,
     "pancreatic stellate cell": 0.9186046511627907,
     "plasma cell": 1.0,
     "type B pancreatic cell": 0.8823529411764706
    },
-   "n_classes_zero": 14,
+   "n_classes_zero": 12,
    "vs_M1": {
-    "delta_acc": 0.013114754098360715,
-    "b_M1_only": 88,
-    "c_jev_only": 120,
-    "mcnemar_p": 0.0313499456740341,
-    "mcnemar_p_holm": 0.09160110463837878
+    "delta_acc": 0.01885245901639343,
+    "b_M1_only": 46,
+    "c_jev_only": 92,
+    "mcnemar_p": 0.00011174345588505883,
+    "mcnemar_p_holm": 0.00022348691177011767
    },
    "vs_M1n_posthoc": {
-    "delta_acc": 0.2008196721311476,
-    "b_M1n_only": 19,
-    "c_jev_only": 509,
-    "mcnemar_p": 7.52092605957056e-125,
-    "mcnemar_p_holm": 4.512555635742336e-124
+    "delta_acc": 0.1766393442622951,
+    "b_M1n_only": 10,
+    "c_jev_only": 441,
+    "mcnemar_p": 3.0533640144998897e-116,
+    "mcnemar_p_holm": 1.5266820072499449e-115
    },
    "sensitivity_renorm_posthoc": {
-    "acc": 0.8573770491803279,
-    "macro_acc": 0.3738516784664287,
-    "delta_acc_vs_M1": 0.02418032786885249
+    "acc": 0.8377049180327869,
+    "macro_acc": 0.4203779046727822,
+    "delta_acc_vs_M1": 0.01967213114754096
    }
   },
   "jev_v36_cooc_r3": {
-   "acc": 0.8454918032786886,
+   "acc": 0.8368852459016394,
    "wilson": [
-    0.8306082933488802,
-    0.8592891206242678
+    0.8216974083007852,
+    0.8510139490965193
    ],
-   "macro_acc": 0.36917180852469245,
+   "macro_acc": 0.4253083978616334,
    "selective": {
-    "cov75": 0.933879781420765,
-    "cov50": 0.9622950819672131
+    "cov75": 0.9147540983606557,
+    "cov50": 0.921311475409836
    },
    "per_class_recall": {
     "B cell": 1.0,
@@ -524,7 +524,7 @@
     "CD8-positive, alpha-beta T cell": 0.0,
     "T cell": 0.0,
     "classical monocyte": 0.0,
-    "endothelial cell": 0.9623059866962306,
+    "endothelial cell": 0.9534368070953437,
     "fibroblast": 0.0,
     "intermediate monocyte": 0.0,
     "macrophage": 0.9831081081081081,
@@ -534,34 +534,34 @@
     "natural killer cell": 1.0,
     "neutrophil": 0.0,
     "non-classical monocyte": 0.0,
-    "pancreatic A cell": 0.0,
-    "pancreatic D cell": 0.0,
+    "pancreatic A cell": 0.875,
+    "pancreatic D cell": 0.5,
     "pancreatic PP cell": 0.0,
-    "pancreatic acinar cell": 0.9989658738366081,
-    "pancreatic ductal cell": 0.7456140350877193,
+    "pancreatic acinar cell": 1.0,
+    "pancreatic ductal cell": 0.6695906432748538,
     "pancreatic stellate cell": 0.9186046511627907,
     "plasma cell": 1.0,
     "type B pancreatic cell": 0.8823529411764706
    },
-   "n_classes_zero": 14,
+   "n_classes_zero": 12,
    "vs_M1": {
-    "delta_acc": 0.012295081967213184,
-    "b_M1_only": 90,
-    "c_jev_only": 120,
-    "mcnemar_p": 0.04511408786484073,
-    "mcnemar_p_holm": 0.09160110463837878
+    "delta_acc": 0.01885245901639343,
+    "b_M1_only": 46,
+    "c_jev_only": 92,
+    "mcnemar_p": 0.00011174345588505883,
+    "mcnemar_p_holm": 0.00022348691177011767
    },
    "vs_M1n_posthoc": {
-    "delta_acc": 0.20000000000000007,
-    "b_M1n_only": 19,
-    "c_jev_only": 507,
-    "mcnemar_p": 2.795980532700915e-124,
-    "mcnemar_p_holm": 1.3979902663504574e-123
+    "delta_acc": 0.1766393442622951,
+    "b_M1n_only": 10,
+    "c_jev_only": 441,
+    "mcnemar_p": 3.0533640144998897e-116,
+    "mcnemar_p_holm": 1.5266820072499449e-115
    },
    "sensitivity_renorm_posthoc": {
-    "acc": 0.8573770491803279,
-    "macro_acc": 0.3736675870464382,
-    "delta_acc_vs_M1": 0.02418032786885249
+    "acc": 0.8385245901639344,
+    "macro_acc": 0.415263059734027,
+    "delta_acc_vs_M1": 0.020491803278688492
    }
   }
  }

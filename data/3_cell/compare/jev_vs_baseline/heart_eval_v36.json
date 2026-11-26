@@ -82,30 +82,30 @@
    },
    "n_classes_zero": 30,
    "vs_M1": {
-    "delta_acc": 0.22883392226148408,
-    "b_M1_only": 19,
+    "delta_acc": 0.22784452296819788,
+    "b_M1_only": 26,
     "c_method_only": 1638,
     "mcnemar_p_unadjusted": 0.0,
-    "mcnemar_log10_p_unadjusted": -454.4635653107105
+    "mcnemar_log10_p_unadjusted": -443.54683504123255
    },
    "vs_M1n_posthoc": {
-    "delta_acc": -0.002968197879858664,
-    "b_M1n_only": 1659,
+    "delta_acc": -0.036607773851590114,
+    "b_M1n_only": 1897,
     "c_method_only": 1638,
-    "mcnemar_p_unadjusted": 0.7276104388014214,
-    "mcnemar_log10_p_unadjusted": -0.13810107887559298
+    "mcnemar_p_unadjusted": 1.4171917762709447e-05,
+    "mcnemar_log10_p_unadjusted": -4.848571376470545
    }
   },
   "M1_cellmarker_uniform": {
-   "acc": 0.002685512367491166,
+   "acc": 0.003674911660777385,
    "wilson": [
-    0.0017199558606376677,
-    0.004190841747829797
+    0.0025091481396531065,
+    0.005379374185807601
    ],
-   "macro_acc": 0.05376344086021505,
+   "macro_acc": 0.059986351143192077,
    "selective": {
-    "cov75": 0.0003769317753486619,
-    "cov50": 0.0
+    "cov75": 0.003015454202789295,
+    "cov50": 0.004239683436970039
    },
    "per_class_recall": {
     "B cell": 0.0,
@@ -119,7 +119,7 @@
     "endothelial cell": 0.0,
     "endothelial cell of artery": 0.0,
     "endothelial cell of lymphatic vessel": 0.0,
-    "erythrocyte": 0.6666666666666666,
+    "erythrocyte": 0.8518518518518519,
     "fibroblast": 0.0,
     "fibroblast of cardiac tissue": 0.0,
     "intermediate monocyte": 0.0,
@@ -130,76 +130,76 @@
     "monocyte": 0.0,
     "natural killer cell": 0.0,
     "neuron": 0.0,
-    "neutrophil": 0.0,
+    "neutrophil": 0.006493506493506494,
     "non-classical monocyte": 0.0,
     "pericyte": 0.0,
     "plasma cell": 0.0,
     "plasmacytoid dendritic cell": 1.0,
     "regular atrial cardiac myocyte": 0.0,
-    "smooth muscle cell": 0.0,
+    "smooth muscle cell": 0.0012315270935960591,
     "vein endothelial cell": 0.0,
     "ventricular cardiac muscle cell": 0.0
    },
-   "n_classes_zero": 29,
+   "n_classes_zero": 27,
    "vs_M1n_posthoc": {
-    "delta_acc": -0.23180212014134274,
-    "b_M1n_only": 1641,
+    "delta_acc": -0.264452296819788,
+    "b_M1n_only": 1872,
     "c_method_only": 1,
     "mcnemar_p_unadjusted": 0.0,
-    "mcnemar_log10_p_unadjusted": -490.77458532115804
+    "mcnemar_log10_p_unadjusted": -560.255382296421
    }
   },
   "M1n_size_normalized_posthoc": {
-   "acc": 0.23448763250883392,
+   "acc": 0.26812720848056537,
    "wilson": [
-    0.2247608097358816,
-    0.2445026358538601
+    0.2579326673906072,
+    0.2785734185769047
    ],
-   "macro_acc": 0.3247682214381457,
+   "macro_acc": 0.3034637864617606,
    "selective": {
-    "cov75": 0.289860535243121,
-    "cov50": 0.30893159977388357
+    "cov75": 0.341688654353562,
+    "cov50": 0.32532504239683435
    },
    "per_class_recall": {
-    "B cell": 0.9090909090909091,
+    "B cell": 0.9545454545454546,
     "CD4-positive, alpha-beta T cell": 0.08064516129032258,
-    "CD8-positive, alpha-beta T cell": 0.2857142857142857,
-    "T cell": 1.0,
+    "CD8-positive, alpha-beta T cell": 0.25210084033613445,
+    "T cell": 0.0,
     "basophil": 0.0,
-    "capillary endothelial cell": 0.0,
+    "capillary endothelial cell": 0.004651162790697674,
     "cardiac endothelial cell": 0.0,
     "classical monocyte": 0.0,
     "endothelial cell": 0.0,
     "endothelial cell of artery": 0.0,
     "endothelial cell of lymphatic vessel": 0.0,
     "erythrocyte": 1.0,
-    "fibroblast": 0.1891891891891892,
+    "fibroblast": 0.34281650071123754,
     "fibroblast of cardiac tissue": 0.0,
     "intermediate monocyte": 0.0,
-    "macrophage": 0.4475873544093178,
+    "macrophage": 0.6156405990016639,
     "mast cell": 1.0,
     "mature NK T cell": 0.0,
     "mesothelial cell": 0.0,
     "monocyte": 0.0,
-    "natural killer cell": 0.8571428571428571,
+    "natural killer cell": 0.9047619047619048,
     "neuron": 1.0,
     "neutrophil": 0.9090909090909091,
     "non-classical monocyte": 0.0,
-    "pericyte": 0.3793969849246231,
+    "pericyte": 0.2562814070351759,
     "plasma cell": 1.0,
     "plasmacytoid dendritic cell": 0.0,
-    "regular atrial cardiac myocyte": 0.06660746003552398,
-    "smooth muscle cell": 0.9433497536945813,
+    "regular atrial cardiac myocyte": 0.12255772646536411,
+    "smooth muscle cell": 0.9642857142857143,
     "vein endothelial cell": 0.0,
     "ventricular cardiac muscle cell": 0.0
    },
    "n_classes_zero": 16,
    "vs_M1": {
-    "delta_acc": 0.23180212014134274,
+    "delta_acc": 0.264452296819788,
     "b_M1_only": 1,
-    "c_method_only": 1641,
+    "c_method_only": 1872,
     "mcnemar_p_unadjusted": 0.0,
-    "mcnemar_log10_p_unadjusted": -490.77458532115804
+    "mcnemar_log10_p_unadjusted": -560.255382296421
    }
   },
   "M2_zscore_cellmarker": {
@@ -248,30 +248,30 @@
    },
    "n_classes_zero": 18,
    "vs_M1": {
-    "delta_acc": 0.19519434628975263,
+    "delta_acc": 0.19420494699646643,
     "b_M1_only": 1,
-    "c_method_only": 1382,
+    "c_method_only": 1375,
     "mcnemar_p_unadjusted": 0.0,
-    "mcnemar_log10_p_unadjusted": -412.88231791750127
+    "mcnemar_log10_p_unadjusted": -410.77731009771725
    },
    "vs_M1n_posthoc": {
-    "delta_acc": -0.036607773851590114,
-    "b_M1n_only": 813,
-    "c_method_only": 554,
-    "mcnemar_p_unadjusted": 2.584855994358444e-12,
-    "mcnemar_log10_p_unadjusted": -11.58756364699849
+    "delta_acc": -0.07024734982332156,
+    "b_M1n_only": 1017,
+    "c_method_only": 520,
+    "mcnemar_p_unadjusted": 2.5714722283347868e-37,
+    "mcnemar_log10_p_unadjusted": -36.589818161658286
    }
   },
   "jev_v36_jevonly_r1": {
-   "acc": 0.4371731448763251,
+   "acc": 0.47886925795053004,
    "wilson": [
-    0.4256516799335921,
-    0.44876280053733686
+    0.46724329725296415,
+    0.4905181534341087
    ],
-   "macro_acc": 0.28833331554818287,
+   "macro_acc": 0.34602731933560105,
    "selective": {
-    "cov75": 0.4640030154542028,
-    "cov50": 0.3747880158281515
+    "cov75": 0.5175273275537128,
+    "cov50": 0.42594686263425663
    },
    "per_class_recall": {
     "B cell": 1.0,
@@ -280,63 +280,63 @@
     "T cell": 1.0,
     "basophil": 0.0,
     "capillary endothelial cell": 0.0,
-    "cardiac endothelial cell": 0.8614163614163615,
+    "cardiac endothelial cell": 0.8907203907203908,
     "classical monocyte": 0.0,
     "endothelial cell": 0.0,
     "endothelial cell of artery": 0.0,
     "endothelial cell of lymphatic vessel": 0.0,
-    "erythrocyte": 0.7407407407407407,
+    "erythrocyte": 0.9629629629629629,
     "fibroblast": 0.0,
-    "fibroblast of cardiac tissue": 0.8985507246376812,
+    "fibroblast of cardiac tissue": 0.9478260869565217,
     "intermediate monocyte": 0.0,
     "macrophage": 0.978369384359401,
-    "mast cell": 0.16666666666666666,
+    "mast cell": 0.8333333333333334,
     "mature NK T cell": 0.0,
     "mesothelial cell": 0.0,
     "monocyte": 0.0,
-    "natural killer cell": 0.7619047619047619,
+    "natural killer cell": 0.9047619047619048,
     "neuron": 0.0,
-    "neutrophil": 0.577922077922078,
+    "neutrophil": 0.6883116883116883,
     "non-classical monocyte": 0.0,
     "pericyte": 0.0,
-    "plasma cell": 0.6666666666666666,
+    "plasma cell": 1.0,
     "plasmacytoid dendritic cell": 0.0,
     "regular atrial cardiac myocyte": 0.0,
-    "smooth muscle cell": 0.3091133004926108,
+    "smooth muscle cell": 0.5640394088669951,
     "vein endothelial cell": 0.0,
-    "ventricular cardiac muscle cell": 0.9769820971867008
+    "ventricular cardiac muscle cell": 0.9565217391304348
    },
    "n_classes_zero": 19,
    "vs_M1": {
-    "delta_acc": 0.43448763250883393,
-    "b_M1_only": 4,
-    "c_jev_only": 3078,
+    "delta_acc": 0.47519434628975266,
+    "b_M1_only": 3,
+    "c_jev_only": 3365,
     "mcnemar_p": 0.0,
     "mcnemar_p_holm": 0.0
    },
    "vs_M1n_posthoc": {
-    "delta_acc": 0.20268551236749116,
-    "b_M1n_only": 1000,
-    "c_jev_only": 2434,
-    "mcnemar_p": 4.007809303442449e-136,
-    "mcnemar_p_holm": 2.0039046517212243e-135
+    "delta_acc": 0.21074204946996467,
+    "b_M1n_only": 896,
+    "c_jev_only": 2387,
+    "mcnemar_p": 1.358652097337427e-154,
+    "mcnemar_p_holm": 6.793260486687135e-154
    },
    "sensitivity_renorm_posthoc": {
-    "acc": 0.059929328621908126,
-    "macro_acc": 0.048878732341950816,
-    "delta_acc_vs_M1": 0.05724381625441696
+    "acc": 0.06459363957597174,
+    "macro_acc": 0.06157461884862663,
+    "delta_acc_vs_M1": 0.06091872791519435
    }
   },
   "jev_v36_jevonly_r2": {
-   "acc": 0.43575971731448765,
+   "acc": 0.4784452296819788,
    "wilson": [
-    0.42424323521394663,
-    0.4473459242327064
+    0.46681992090301005,
+    0.49009393347678
    ],
-   "macro_acc": 0.28354783344007173,
+   "macro_acc": 0.34226529360414565,
    "selective": {
-    "cov75": 0.46909159442140974,
-    "cov50": 0.38920293951384966
+    "cov75": 0.525065963060686,
+    "cov50": 0.43612210288298475
    },
    "per_class_recall": {
     "B cell": 1.0,
@@ -345,63 +345,63 @@
     "T cell": 1.0,
     "basophil": 0.0,
     "capillary endothelial cell": 0.0,
-    "cardiac endothelial cell": 0.8675213675213675,
+    "cardiac endothelial cell": 0.8962148962148963,
     "classical monocyte": 0.0,
     "endothelial cell": 0.0,
     "endothelial cell of artery": 0.0,
     "endothelial cell of lymphatic vessel": 0.0,
-    "erythrocyte": 0.7037037037037037,
+    "erythrocyte": 0.9629629629629629,
     "fibroblast": 0.0,
-    "fibroblast of cardiac tissue": 0.9014492753623189,
+    "fibroblast of cardiac tissue": 0.9449275362318841,
     "intermediate monocyte": 0.0,
-    "macrophage": 0.978369384359401,
-    "mast cell": 0.16666666666666666,
+    "macrophage": 0.9767054908485857,
+    "mast cell": 0.8333333333333334,
     "mature NK T cell": 0.0,
     "mesothelial cell": 0.0,
     "monocyte": 0.0,
-    "natural killer cell": 0.8095238095238095,
+    "natural killer cell": 0.9047619047619048,
     "neuron": 0.0,
-    "neutrophil": 0.4025974025974026,
+    "neutrophil": 0.5584415584415584,
     "non-classical monocyte": 0.0,
     "pericyte": 0.0,
-    "plasma cell": 0.6666666666666666,
+    "plasma cell": 1.0,
     "plasmacytoid dendritic cell": 0.0,
     "regular atrial cardiac myocyte": 0.0,
-    "smooth muscle cell": 0.31650246305418717,
+    "smooth muscle cell": 0.5763546798029556,
     "vein endothelial cell": 0.0,
-    "ventricular cardiac muscle cell": 0.9769820971867008
+    "ventricular cardiac muscle cell": 0.9565217391304348
    },
    "n_classes_zero": 19,
    "vs_M1": {
-    "delta_acc": 0.4330742049469965,
-    "b_M1_only": 4,
-    "c_jev_only": 3068,
+    "delta_acc": 0.4747703180212014,
+    "b_M1_only": 3,
+    "c_jev_only": 3362,
     "mcnemar_p": 0.0,
     "mcnemar_p_holm": 0.0
    },
    "vs_M1n_posthoc": {
-    "delta_acc": 0.20127208480565373,
-    "b_M1n_only": 1019,
-    "c_jev_only": 2443,
-    "mcnemar_p": 4.628279205619477e-133,
-    "mcnemar_p_holm": 1.8513116822477907e-132
+    "delta_acc": 0.2103180212014134,
+    "b_M1n_only": 905,
+    "c_jev_only": 2393,
+    "mcnemar_p": 3.2816490618171983e-153,
+    "mcnemar_p_holm": 1.3126596247268793e-152
    },
    "sensitivity_renorm_posthoc": {
-    "acc": 0.05950530035335689,
-    "macro_acc": 0.04867203550131288,
-    "delta_acc_vs_M1": 0.056819787985865726
+    "acc": 0.06402826855123675,
+    "macro_acc": 0.061268573135790455,
+    "delta_acc_vs_M1": 0.06035335689045936
    }
   },
   "jev_v36_jevonly_r3": {
-   "acc": 0.44720848056537105,
+   "acc": 0.4846643109540636,
    "wilson": [
-    0.43565437130731455,
-    0.45881988843597454
+    0.47303028171598754,
+    0.4963149851706172
    ],
-   "macro_acc": 0.290458899538249,
+   "macro_acc": 0.34667274992919167,
    "selective": {
-    "cov75": 0.47776102525442893,
-    "cov50": 0.39202939513849633
+    "cov75": 0.5286468149264983,
+    "cov50": 0.43414358394573205
    },
    "per_class_recall": {
     "B cell": 1.0,
@@ -410,193 +410,193 @@
     "T cell": 1.0,
     "basophil": 0.0,
     "capillary endothelial cell": 0.0,
-    "cardiac endothelial cell": 0.8760683760683761,
+    "cardiac endothelial cell": 0.9053724053724054,
     "classical monocyte": 0.0,
     "endothelial cell": 0.0,
     "endothelial cell of artery": 0.0,
     "endothelial cell of lymphatic vessel": 0.0,
-    "erythrocyte": 0.7777777777777778,
+    "erythrocyte": 1.0,
     "fibroblast": 0.0,
-    "fibroblast of cardiac tissue": 0.9246376811594202,
+    "fibroblast of cardiac tissue": 0.9507246376811594,
     "intermediate monocyte": 0.0,
-    "macrophage": 0.9800332778702163,
+    "macrophage": 0.9767054908485857,
+    "mast cell": 0.8333333333333334,
+    "mature NK T cell": 0.0,
+    "mesothelial cell": 0.0,
+    "monocyte": 0.0,
+    "natural killer cell": 0.9047619047619048,
+    "neuron": 0.0,
+    "neutrophil": 0.6233766233766234,
+    "non-classical monocyte": 0.0,
+    "pericyte": 0.0,
+    "plasma cell": 1.0,
+    "plasmacytoid dendritic cell": 0.0,
+    "regular atrial cardiac myocyte": 0.0,
+    "smooth muscle cell": 0.5960591133004927,
+    "vein endothelial cell": 0.0,
+    "ventricular cardiac muscle cell": 0.9565217391304348
+   },
+   "n_classes_zero": 19,
+   "vs_M1": {
+    "delta_acc": 0.4809893992932862,
+    "b_M1_only": 2,
+    "c_jev_only": 3405,
+    "mcnemar_p": 0.0,
+    "mcnemar_p_holm": 0.0
+   },
+   "vs_M1n_posthoc": {
+    "delta_acc": 0.21653710247349822,
+    "b_M1n_only": 879,
+    "c_jev_only": 2411,
+    "mcnemar_p": 4.326505666902678e-163,
+    "mcnemar_p_holm": 2.595903400141607e-162
+   },
+   "sensitivity_renorm_posthoc": {
+    "acc": 0.06374558303886926,
+    "macro_acc": 0.06118710551562828,
+    "delta_acc_vs_M1": 0.060070671378091876
+   }
+  },
+  "jev_v36_cooc_r1": {
+   "acc": 0.4332155477031802,
+   "wilson": [
+    0.4217082751464208,
+    0.44479530645653526
+   ],
+   "macro_acc": 0.298758901939152,
+   "selective": {
+    "cov75": 0.45966830003769316,
+    "cov50": 0.4109666478236292
+   },
+   "per_class_recall": {
+    "B cell": 1.0,
+    "CD4-positive, alpha-beta T cell": 0.0,
+    "CD8-positive, alpha-beta T cell": 0.0,
+    "T cell": 1.0,
+    "basophil": 0.0,
+    "capillary endothelial cell": 0.0,
+    "cardiac endothelial cell": 0.8394383394383395,
+    "classical monocyte": 0.0,
+    "endothelial cell": 0.0,
+    "endothelial cell of artery": 0.0,
+    "endothelial cell of lymphatic vessel": 0.0,
+    "erythrocyte": 0.9259259259259259,
+    "fibroblast": 0.0,
+    "fibroblast of cardiac tissue": 0.9826086956521739,
+    "intermediate monocyte": 0.0,
+    "macrophage": 0.9900166389351082,
     "mast cell": 0.16666666666666666,
     "mature NK T cell": 0.0,
     "mesothelial cell": 0.0,
     "monocyte": 0.0,
-    "natural killer cell": 0.7619047619047619,
+    "natural killer cell": 1.0,
     "neuron": 0.0,
-    "neutrophil": 0.5064935064935064,
+    "neutrophil": 0.012987012987012988,
     "non-classical monocyte": 0.0,
     "pericyte": 0.0,
-    "plasma cell": 0.6666666666666666,
+    "plasma cell": 1.0,
     "plasmacytoid dendritic cell": 0.0,
     "regular atrial cardiac myocyte": 0.0,
-    "smooth muscle cell": 0.3669950738916256,
+    "smooth muscle cell": 0.3694581280788177,
+    "vein endothelial cell": 0.0,
+    "ventricular cardiac muscle cell": 0.9744245524296675
+   },
+   "n_classes_zero": 19,
+   "vs_M1": {
+    "delta_acc": 0.42954063604240283,
+    "b_M1_only": 3,
+    "c_jev_only": 3042,
+    "mcnemar_p": 0.0,
+    "mcnemar_p_holm": 0.0
+   },
+   "vs_M1n_posthoc": {
+    "delta_acc": 0.16508833922261484,
+    "b_M1n_only": 1156,
+    "c_jev_only": 2324,
+    "mcnemar_p": 9.026819095944793e-89,
+    "mcnemar_p_holm": 2.708045728783438e-88
+   },
+   "sensitivity_renorm_posthoc": {
+    "acc": 0.2562544169611307,
+    "macro_acc": 0.22549638867952013,
+    "delta_acc_vs_M1": 0.25257950530035334
+   }
+  },
+  "jev_v36_cooc_r2": {
+   "acc": 0.43053003533568907,
+   "wilson": [
+    0.4190328199199518,
+    0.4421026517368798
+   ],
+   "macro_acc": 0.2965908029416753,
+   "selective": {
+    "cov75": 0.4628722201281568,
+    "cov50": 0.4098360655737705
+   },
+   "per_class_recall": {
+    "B cell": 1.0,
+    "CD4-positive, alpha-beta T cell": 0.0,
+    "CD8-positive, alpha-beta T cell": 0.0,
+    "T cell": 1.0,
+    "basophil": 0.0,
+    "capillary endothelial cell": 0.0,
+    "cardiac endothelial cell": 0.836996336996337,
+    "classical monocyte": 0.0,
+    "endothelial cell": 0.0,
+    "endothelial cell of artery": 0.0,
+    "endothelial cell of lymphatic vessel": 0.0,
+    "erythrocyte": 0.9259259259259259,
+    "fibroblast": 0.0,
+    "fibroblast of cardiac tissue": 0.9797101449275363,
+    "intermediate monocyte": 0.0,
+    "macrophage": 0.9916805324459235,
+    "mast cell": 0.16666666666666666,
+    "mature NK T cell": 0.0,
+    "mesothelial cell": 0.0,
+    "monocyte": 0.0,
+    "natural killer cell": 0.9523809523809523,
+    "neuron": 0.0,
+    "neutrophil": 0.012987012987012988,
+    "non-classical monocyte": 0.0,
+    "pericyte": 0.0,
+    "plasma cell": 1.0,
+    "plasmacytoid dendritic cell": 0.0,
+    "regular atrial cardiac myocyte": 0.0,
+    "smooth muscle cell": 0.35098522167487683,
     "vein endothelial cell": 0.0,
     "ventricular cardiac muscle cell": 0.9769820971867008
    },
    "n_classes_zero": 19,
    "vs_M1": {
-    "delta_acc": 0.4445229681978799,
+    "delta_acc": 0.4268551236749117,
     "b_M1_only": 3,
-    "c_jev_only": 3148,
+    "c_jev_only": 3023,
     "mcnemar_p": 0.0,
     "mcnemar_p_holm": 0.0
    },
    "vs_M1n_posthoc": {
-    "delta_acc": 0.21272084805653713,
-    "b_M1n_only": 962,
-    "c_jev_only": 2467,
-    "mcnemar_p": 1.810570514255283e-150,
-    "mcnemar_p_holm": 1.08634230855317e-149
+    "delta_acc": 0.1624028268551237,
+    "b_M1n_only": 1172,
+    "c_jev_only": 2321,
+    "mcnemar_p": 1.3820194329637946e-85,
+    "mcnemar_p_holm": 1.3820194329637946e-85
    },
    "sensitivity_renorm_posthoc": {
-    "acc": 0.05964664310954063,
-    "macro_acc": 0.04876553713759151,
-    "delta_acc_vs_M1": 0.05696113074204947
-   }
-  },
-  "jev_v36_cooc_r1": {
-   "acc": 0.3789399293286219,
-   "wilson": [
-    0.367704173659884,
-    0.3903070806108712
-   ],
-   "macro_acc": 0.2537489624031833,
-   "selective": {
-    "cov75": 0.3886166603844704,
-    "cov50": 0.356416054267948
-   },
-   "per_class_recall": {
-    "B cell": 1.0,
-    "CD4-positive, alpha-beta T cell": 0.0,
-    "CD8-positive, alpha-beta T cell": 0.0,
-    "T cell": 1.0,
-    "basophil": 0.0,
-    "capillary endothelial cell": 0.0,
-    "cardiac endothelial cell": 0.7735042735042735,
-    "classical monocyte": 0.0,
-    "endothelial cell": 0.0,
-    "endothelial cell of artery": 0.0,
-    "endothelial cell of lymphatic vessel": 0.0,
-    "erythrocyte": 0.5185185185185185,
-    "fibroblast": 0.0,
-    "fibroblast of cardiac tissue": 0.9710144927536232,
-    "intermediate monocyte": 0.0,
-    "macrophage": 0.9900166389351082,
-    "mast cell": 0.0,
-    "mature NK T cell": 0.0,
-    "mesothelial cell": 0.0,
-    "monocyte": 0.0,
-    "natural killer cell": 0.9047619047619048,
-    "neuron": 0.0,
-    "neutrophil": 0.006493506493506494,
-    "non-classical monocyte": 0.0,
-    "pericyte": 0.0,
-    "plasma cell": 0.6666666666666666,
-    "plasmacytoid dendritic cell": 0.0,
-    "regular atrial cardiac myocyte": 0.0,
-    "smooth muscle cell": 0.0480295566502463,
-    "vein endothelial cell": 0.0,
-    "ventricular cardiac muscle cell": 0.9872122762148338
-   },
-   "n_classes_zero": 20,
-   "vs_M1": {
-    "delta_acc": 0.37625441696113077,
-    "b_M1_only": 7,
-    "c_jev_only": 2669,
-    "mcnemar_p": 0.0,
-    "mcnemar_p_holm": 0.0
-   },
-   "vs_M1n_posthoc": {
-    "delta_acc": 0.144452296819788,
-    "b_M1n_only": 1297,
-    "c_jev_only": 2319,
-    "mcnemar_p": 1.6240718125672863e-65,
-    "mcnemar_p_holm": 3.2481436251345725e-65
-   },
-   "sensitivity_renorm_posthoc": {
-    "acc": 0.19151943462897528,
-    "macro_acc": 0.12343155333135059,
-    "delta_acc_vs_M1": 0.1888339222614841
-   }
-  },
-  "jev_v36_cooc_r2": {
-   "acc": 0.3795053003533569,
-   "wilson": [
-    0.3682659611690308,
-    0.3908754215114349
-   ],
-   "macro_acc": 0.25376787591108924,
-   "selective": {
-    "cov75": 0.39257444402563135,
-    "cov50": 0.356416054267948
-   },
-   "per_class_recall": {
-    "B cell": 1.0,
-    "CD4-positive, alpha-beta T cell": 0.0,
-    "CD8-positive, alpha-beta T cell": 0.0,
-    "T cell": 1.0,
-    "basophil": 0.0,
-    "capillary endothelial cell": 0.0,
-    "cardiac endothelial cell": 0.7765567765567766,
-    "classical monocyte": 0.0,
-    "endothelial cell": 0.0,
-    "endothelial cell of artery": 0.0,
-    "endothelial cell of lymphatic vessel": 0.0,
-    "erythrocyte": 0.5185185185185185,
-    "fibroblast": 0.0,
-    "fibroblast of cardiac tissue": 0.9681159420289855,
-    "intermediate monocyte": 0.0,
-    "macrophage": 0.9916805324459235,
-    "mast cell": 0.0,
-    "mature NK T cell": 0.0,
-    "mesothelial cell": 0.0,
-    "monocyte": 0.0,
-    "natural killer cell": 0.9047619047619048,
-    "neuron": 0.0,
-    "neutrophil": 0.006493506493506494,
-    "non-classical monocyte": 0.0,
-    "pericyte": 0.0,
-    "plasma cell": 0.6666666666666666,
-    "plasmacytoid dendritic cell": 0.0,
-    "regular atrial cardiac myocyte": 0.0,
-    "smooth muscle cell": 0.046798029556650245,
-    "vein endothelial cell": 0.0,
-    "ventricular cardiac muscle cell": 0.9872122762148338
-   },
-   "n_classes_zero": 20,
-   "vs_M1": {
-    "delta_acc": 0.37681978798586574,
-    "b_M1_only": 7,
-    "c_jev_only": 2673,
-    "mcnemar_p": 0.0,
-    "mcnemar_p_holm": 0.0
-   },
-   "vs_M1n_posthoc": {
-    "delta_acc": 0.14501766784452297,
-    "b_M1n_only": 1298,
-    "c_jev_only": 2324,
-    "mcnemar_p": 6.500959153583389e-66,
-    "mcnemar_p_holm": 1.9502877460750167e-65
-   },
-   "sensitivity_renorm_posthoc": {
-    "acc": 0.19109540636042402,
-    "macro_acc": 0.12606649855030144,
-    "delta_acc_vs_M1": 0.18840989399293284
+    "acc": 0.2539929328621908,
+    "macro_acc": 0.2265482183778553,
+    "delta_acc_vs_M1": 0.25031802120141344
    }
   },
   "jev_v36_cooc_r3": {
-   "acc": 0.37851590106007066,
+   "acc": 0.43265017667844524,
    "wilson": [
-    0.3672828437211887,
-    0.3898808142422837
+    0.42114499271688977,
+    0.4442284604763559
    ],
-   "macro_acc": 0.25896663834010747,
+   "macro_acc": 0.2971266038111803,
    "selective": {
-    "cov75": 0.39295137580098,
-    "cov50": 0.35443753533069533
+    "cov75": 0.4651338107802488,
+    "cov50": 0.41379310344827586
    },
    "per_class_recall": {
     "B cell": 1.0,
@@ -605,51 +605,51 @@
     "T cell": 1.0,
     "basophil": 0.0,
     "capillary endothelial cell": 0.0,
-    "cardiac endothelial cell": 0.7722832722832723,
+    "cardiac endothelial cell": 0.8388278388278388,
     "classical monocyte": 0.0,
     "endothelial cell": 0.0,
     "endothelial cell of artery": 0.0,
     "endothelial cell of lymphatic vessel": 0.0,
-    "erythrocyte": 0.5185185185185185,
+    "erythrocyte": 0.9259259259259259,
     "fibroblast": 0.0,
-    "fibroblast of cardiac tissue": 0.9681159420289855,
+    "fibroblast of cardiac tissue": 0.9797101449275363,
     "intermediate monocyte": 0.0,
     "macrophage": 0.9916805324459235,
     "mast cell": 0.16666666666666666,
     "mature NK T cell": 0.0,
     "mesothelial cell": 0.0,
     "monocyte": 0.0,
-    "natural killer cell": 0.9047619047619048,
+    "natural killer cell": 0.9523809523809523,
     "neuron": 0.0,
-    "neutrophil": 0.006493506493506494,
+    "neutrophil": 0.012987012987012988,
     "non-classical monocyte": 0.0,
     "pericyte": 0.0,
-    "plasma cell": 0.6666666666666666,
+    "plasma cell": 1.0,
     "plasmacytoid dendritic cell": 0.0,
     "regular atrial cardiac myocyte": 0.0,
-    "smooth muscle cell": 0.04556650246305419,
+    "smooth muscle cell": 0.3657635467980296,
     "vein endothelial cell": 0.0,
-    "ventricular cardiac muscle cell": 0.9872122762148338
+    "ventricular cardiac muscle cell": 0.9769820971867008
    },
    "n_classes_zero": 19,
    "vs_M1": {
-    "delta_acc": 0.3758303886925795,
-    "b_M1_only": 7,
-    "c_jev_only": 2666,
+    "delta_acc": 0.42897526501766786,
+    "b_M1_only": 3,
+    "c_jev_only": 3038,
     "mcnemar_p": 0.0,
     "mcnemar_p_holm": 0.0
    },
    "vs_M1n_posthoc": {
-    "delta_acc": 0.14402826855123674,
-    "b_M1n_only": 1298,
-    "c_jev_only": 2317,
-    "mcnemar_p": 3.7277021830102068e-65,
-    "mcnemar_p_holm": 3.7277021830102068e-65
+    "delta_acc": 0.16452296819787987,
+    "b_M1n_only": 1160,
+    "c_jev_only": 2324,
+    "mcnemar_p": 4.6225130313372744e-88,
+    "mcnemar_p_holm": 9.245026062674549e-88
    },
    "sensitivity_renorm_posthoc": {
-    "acc": 0.19208480565371025,
-    "macro_acc": 0.12472379101898352,
-    "delta_acc_vs_M1": 0.18939929328621907
+    "acc": 0.25696113074204946,
+    "macro_acc": 0.22543329307974624,
+    "delta_acc_vs_M1": 0.2532862190812721
    }
   }
  }

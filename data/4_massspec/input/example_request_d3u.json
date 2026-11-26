@@ -1,143 +1,137 @@
 {
  "model": "vllm-sr/d3-ultra",
- "cache_file": "d3u/cache_all.jsonl",
- "cache_key_sha256": "3e28e47951318a495f72e8b1350b4a41ccff34d58bd152c8e33873d9034c8fc8",
+ "cache_file": "d3u/cache_tB_all_choice.jsonl",
+ "cache_key_sha256": "cfbde928707e8b8fb2974de22d6a1c003c0ba84418e65822cafe45f502de0cc5",
  "state": {
-  "task": "Quality control of peptide-spectrum matches (PSMs) from one shotgun-proteomics run. Each question describes one PSM. Judge whether the peptide the search engine assigned is the peptide that produced the spectrum.",
-  "sample": "Human HEK293T (293T) cell lysate. Proteins reduced with DTT, alkylated with iodoacetamide, digested with Lys-C and then trypsin; peptides separated into 24 basic-pH reversed-phase fractions. This run is one of those fractions.",
-  "acquisition": "Thermo Q Exactive, nano-LC with a 3 h gradient, data-dependent top-20 method. MS1 in the Orbitrap at 70,000 resolution (300-1500 m/z). MS2 by HCD, 2 m/z isolation window, read in the Orbitrap at 17,500 resolution; centroided spectra. 55,352 MS2 spectra in the run.",
-  "search": "Sage 0.14.6. Database: 20,416 human and 16,345 Arabidopsis thaliana SwissProt proteins plus reversed decoy sequences. No plant material is in the sample, so a match to an Arabidopsis-only or a decoy sequence is necessarily wrong. Trypsin (after K/R, not before P), up to 2 missed cleavages, peptide length 6-30, peptide mass 500-5000 Da; fixed carbamidomethyl-Cys, variable Met oxidation (max 2); precursor and fragment tolerance 10 ppm; isotope offsets -1 to +3; b and y ions, fragment charge up to 2; spectra deisotoped, 150 most intense peaks kept; only the top-ranked peptide per spectrum is reported.",
-  "listed_psms": "All 46,191 top-ranked PSMs of the run are listed, unfiltered and in random order. From the number of decoy hits (9,130), about 40% of the listed PSMs are expected to be wrong and about 60% correct.",
-  "not_shown": "Peptide sequence, protein, species and target/decoy status are withheld for every PSM. Judge from the match evidence.",
-  "how_to_read": "A correct match usually explains the intense peaks of the spectrum with long contiguous b/y ladders (especially y); a false match typically matches many weak/noise peaks, scattered ions, few of the intense peaks. Buckets compare this PSM with all listed PSMs (1 = lowest, 10 = highest)."
+  "task": "Tandem-MS peptide-spectrum match (PSM) quality control. Each question describes one database-search PSM by search-engine features only. Estimate the probability that the PSM is a correct identification."
  },
  "questions": {
   "psm_0": {
    "type": "choice",
-   "instructions": "Is this PSM a correct identification? ln hyperscore=3.66 (bucket 7/10); ln gap to next-best candidate (delta_next)=2.53 (bucket 6/10); matched fragment peaks=11 (bucket 7/10); longest y run / peptide length=0.45 (bucket 7/10); ln % of spectrum intensity matched=2.38 (bucket 3/10); ln(-log10 Poisson score)=2.18 (bucket 7/10); mean absolute fragment mass error (ppm)=3.1 (bucket 8/10); ln precursor mass error (ppm)=2.11 (bucket 9/10); sqrt retention-time prediction error=0.35 (bucket 7/10); candidate peptides scored for this spectrum=608 (bucket 7/10); peptide length=11 (bucket 4/10); missed cleavages=0 (bucket 1/10); charge=2+; 0/5 of the 5 most intense peaks explained by b/y ions; 1/10 of the 10 most intense peaks explained; 3/20 of the 20 most intense peaks explained; fraction of total ion current explained=0.07 (bucket 3/10); fraction of possible b ions matched=0.30 (bucket 6/10); fraction of possible y ions matched=0.80 (bucket 8/10); matched ion ladders (ordinals from the N-terminus for b, C-terminus for y): b2-4 | y1-3,5-9; retention time (min)=55.8; retention time on a 0-1 scale=0.27; predicted retention time on the same scale=0.39; precursor isotope offset (Da)=2; longest contiguous b run (ions)=3; longest contiguous y run (ions)=5",
+   "instructions": "Is this PSM a correct identification? ln hyperscore=4.56 (bucket 10/10); ln gap to next-best candidate (delta_next)=4.17 (bucket 10/10); matched fragment peaks=32 (bucket 10/10); longest y run / peptide length=0.59 (bucket 8/10); ln % of spectrum intensity matched=3.94 (bucket 9/10); ln(-log10 Poisson score)=3.50 (bucket 10/10); mean absolute fragment mass error (ppm)=2.3 (bucket 5/10); ln precursor mass error (ppm)=0.06 (bucket 1/10); sqrt retention-time prediction error=0.05 (bucket 1/10); candidate peptides scored for this spectrum=664 (bucket 8/10); peptide length=27 (bucket 10/10); missed cleavages=1 (bucket 7/10); charge=3+; 2/5 of the 5 most intense peaks explained by b/y ions; 6/10 of the 10 most intense peaks explained; 10/20 of the 20 most intense peaks explained; fraction of total ion current explained=0.36 (bucket 9/10); fraction of possible b ions matched=0.38 (bucket 8/10); fraction of possible y ions matched=0.73 (bucket 8/10); matched ion ladders (ordinals from the N-terminus for b, C-terminus for y): b2-4,9-12,14-16 | y2-17,22-24 Context: Sage search against a target-decoy database; only candidates near the 1% FDR cut-off are listed, so many are false. A correct match usually explains the intense peaks of the spectrum with long contiguous b/y ladders (especially y); a false match typically matches many weak/noise peaks, scattered ions, few of the intense peaks. Buckets compare this PSM with the other listed PSMs (10 = highest). Answer with the probability that this PSM is correct.",
    "criteria": {
-    "yes": "the assigned peptide produced this spectrum: a correct identification",
-    "no": "the assigned peptide did not produce this spectrum: a wrong match"
+    "yes": null,
+    "no": null
    }
   },
   "psm_1": {
    "type": "choice",
-   "instructions": "Is this PSM a correct identification? ln hyperscore=4.02 (bucket 10/10); ln gap to next-best candidate (delta_next)=3.15 (bucket 9/10); matched fragment peaks=17 (bucket 10/10); longest y run / peptide length=0.38 (bucket 6/10); ln % of spectrum intensity matched=3.81 (bucket 9/10); ln(-log10 Poisson score)=2.69 (bucket 10/10); mean absolute fragment mass error (ppm)=1.9 (bucket 3/10); ln precursor mass error (ppm)=2.32 (bucket 10/10); sqrt retention-time prediction error=0.05 (bucket 1/10); candidate peptides scored for this spectrum=1380 (bucket 10/10); peptide length=21 (bucket 10/10); missed cleavages=0 (bucket 1/10); charge=4+; 5/5 of the 5 most intense peaks explained by b/y ions; 8/10 of the 10 most intense peaks explained; 9/20 of the 20 most intense peaks explained; fraction of total ion current explained=0.27 (bucket 8/10); fraction of possible b ions matched=0.30 (bucket 6/10); fraction of possible y ions matched=0.55 (bucket 6/10); matched ion ladders (ordinals from the N-terminus for b, C-terminus for y): b2-4,6-7,9 | y1-8,10-12; retention time (min)=61.8; retention time on a 0-1 scale=0.30; predicted retention time on the same scale=0.30; precursor isotope offset (Da)=1; longest contiguous b run (ions)=3; longest contiguous y run (ions)=8",
+   "instructions": "Is this PSM a correct identification? ln hyperscore=4.66 (bucket 10/10); ln gap to next-best candidate (delta_next)=4.29 (bucket 10/10); matched fragment peaks=35 (bucket 10/10); longest y run / peptide length=0.88 (bucket 10/10); ln % of spectrum intensity matched=3.98 (bucket 10/10); ln(-log10 Poisson score)=3.64 (bucket 10/10); mean absolute fragment mass error (ppm)=2.1 (bucket 4/10); ln precursor mass error (ppm)=0.90 (bucket 2/10); sqrt retention-time prediction error=0.17 (bucket 2/10); candidate peptides scored for this spectrum=1065 (bucket 10/10); peptide length=24 (bucket 10/10); missed cleavages=1 (bucket 7/10); charge=3+; 2/5 of the 5 most intense peaks explained by b/y ions; 5/10 of the 10 most intense peaks explained; 9/20 of the 20 most intense peaks explained; fraction of total ion current explained=0.35 (bucket 9/10); fraction of possible b ions matched=0.52 (bucket 9/10); fraction of possible y ions matched=0.91 (bucket 10/10); matched ion ladders (ordinals from the N-terminus for b, C-terminus for y): b2-3,5-10,12-13,17,22 | y2-22 Context: Sage search against a target-decoy database; only candidates near the 1% FDR cut-off are listed, so many are false. A correct match usually explains the intense peaks of the spectrum with long contiguous b/y ladders (especially y); a false match typically matches many weak/noise peaks, scattered ions, few of the intense peaks. Buckets compare this PSM with the other listed PSMs (10 = highest). Answer with the probability that this PSM is correct.",
    "criteria": {
-    "yes": "the assigned peptide produced this spectrum: a correct identification",
-    "no": "the assigned peptide did not produce this spectrum: a wrong match"
+    "yes": null,
+    "no": null
    }
   },
   "psm_2": {
    "type": "choice",
-   "instructions": "Is this PSM a correct identification? ln hyperscore=3.42 (bucket 5/10); ln gap to next-best candidate (delta_next)=0.37 (bucket 2/10); matched fragment peaks=6 (bucket 4/10); longest y run / peptide length=0.08 (bucket 2/10); ln % of spectrum intensity matched=1.75 (bucket 2/10); ln(-log10 Poisson score)=1.43 (bucket 4/10); mean absolute fragment mass error (ppm)=3.2 (bucket 8/10); ln precursor mass error (ppm)=1.65 (bucket 7/10); sqrt retention-time prediction error=0.79 (bucket 10/10); candidate peptides scored for this spectrum=1355 (bucket 10/10); peptide length=13 (bucket 5/10); missed cleavages=0 (bucket 1/10); charge=4+; 0/5 of the 5 most intense peaks explained by b/y ions; 0/10 of the 10 most intense peaks explained; 1/20 of the 20 most intense peaks explained; fraction of total ion current explained=0.03 (bucket 1/10); fraction of possible b ions matched=0.25 (bucket 5/10); fraction of possible y ions matched=0.17 (bucket 2/10); matched ion ladders (ordinals from the N-terminus for b, C-terminus for y): b2,4,12 | y1,8; retention time (min)=39.3; retention time on a 0-1 scale=0.19; predicted retention time on the same scale=0.82; precursor isotope offset (Da)=2; longest contiguous b run (ions)=1; longest contiguous y run (ions)=1",
+   "instructions": "Is this PSM a correct identification? ln hyperscore=4.33 (bucket 10/10); ln gap to next-best candidate (delta_next)=3.81 (bucket 10/10); matched fragment peaks=24 (bucket 10/10); longest y run / peptide length=0.86 (bucket 10/10); ln % of spectrum intensity matched=3.99 (bucket 10/10); ln(-log10 Poisson score)=3.17 (bucket 10/10); mean absolute fragment mass error (ppm)=1.5 (bucket 2/10); ln precursor mass error (ppm)=1.11 (bucket 3/10); sqrt retention-time prediction error=0.14 (bucket 2/10); candidate peptides scored for this spectrum=368 (bucket 5/10); peptide length=14 (bucket 6/10); missed cleavages=0 (bucket 1/10); charge=3+; 4/5 of the 5 most intense peaks explained by b/y ions; 6/10 of the 10 most intense peaks explained; 9/20 of the 20 most intense peaks explained; fraction of total ion current explained=0.34 (bucket 9/10); fraction of possible b ions matched=0.69 (bucket 10/10); fraction of possible y ions matched=0.92 (bucket 10/10); matched ion ladders (ordinals from the N-terminus for b, C-terminus for y): b2-6,8-11 | y1-12 Context: Sage search against a target-decoy database; only candidates near the 1% FDR cut-off are listed, so many are false. A correct match usually explains the intense peaks of the spectrum with long contiguous b/y ladders (especially y); a false match typically matches many weak/noise peaks, scattered ions, few of the intense peaks. Buckets compare this PSM with the other listed PSMs (10 = highest). Answer with the probability that this PSM is correct.",
    "criteria": {
-    "yes": "the assigned peptide produced this spectrum: a correct identification",
-    "no": "the assigned peptide did not produce this spectrum: a wrong match"
+    "yes": null,
+    "no": null
    }
   },
   "psm_3": {
    "type": "choice",
-   "instructions": "Is this PSM a correct identification? ln hyperscore=3.71 (bucket 7/10); ln gap to next-best candidate (delta_next)=2.60 (bucket 7/10); matched fragment peaks=12 (bucket 8/10); longest y run / peptide length=0.20 (bucket 4/10); ln % of spectrum intensity matched=2.60 (bucket 4/10); ln(-log10 Poisson score)=2.27 (bucket 8/10); mean absolute fragment mass error (ppm)=2.9 (bucket 7/10); ln precursor mass error (ppm)=1.75 (bucket 7/10); sqrt retention-time prediction error=0.17 (bucket 2/10); candidate peptides scored for this spectrum=1489 (bucket 10/10); peptide length=10 (bucket 3/10); missed cleavages=1 (bucket 7/10); charge=2+; 0/5 of the 5 most intense peaks explained by b/y ions; 1/10 of the 10 most intense peaks explained; 2/20 of the 20 most intense peaks explained; fraction of total ion current explained=0.09 (bucket 4/10); fraction of possible b ions matched=0.78 (bucket 10/10); fraction of possible y ions matched=0.56 (bucket 6/10); matched ion ladders (ordinals from the N-terminus for b, C-terminus for y): b2-4,6-9 | y2,4-5,7-8; retention time (min)=82.4; retention time on a 0-1 scale=0.40; predicted retention time on the same scale=0.37; precursor isotope offset (Da)=0; longest contiguous b run (ions)=4; longest contiguous y run (ions)=2",
+   "instructions": "Is this PSM a correct identification? ln hyperscore=4.36 (bucket 10/10); ln gap to next-best candidate (delta_next)=3.95 (bucket 10/10); matched fragment peaks=27 (bucket 10/10); longest y run / peptide length=0.52 (bucket 7/10); ln % of spectrum intensity matched=4.08 (bucket 10/10); ln(-log10 Poisson score)=3.31 (bucket 10/10); mean absolute fragment mass error (ppm)=3.7 (bucket 9/10); ln precursor mass error (ppm)=0.08 (bucket 1/10); sqrt retention-time prediction error=0.24 (bucket 4/10); candidate peptides scored for this spectrum=439 (bucket 6/10); peptide length=25 (bucket 10/10); missed cleavages=1 (bucket 7/10); charge=3+; 4/5 of the 5 most intense peaks explained by b/y ions; 5/10 of the 10 most intense peaks explained; 10/20 of the 20 most intense peaks explained; fraction of total ion current explained=0.39 (bucket 10/10); fraction of possible b ions matched=0.42 (bucket 8/10); fraction of possible y ions matched=0.54 (bucket 6/10); matched ion ladders (ordinals from the N-terminus for b, C-terminus for y): b2-4,7,9-11,13-15 | y2-14 Context: Sage search against a target-decoy database; only candidates near the 1% FDR cut-off are listed, so many are false. A correct match usually explains the intense peaks of the spectrum with long contiguous b/y ladders (especially y); a false match typically matches many weak/noise peaks, scattered ions, few of the intense peaks. Buckets compare this PSM with the other listed PSMs (10 = highest). Answer with the probability that this PSM is correct.",
    "criteria": {
-    "yes": "the assigned peptide produced this spectrum: a correct identification",
-    "no": "the assigned peptide did not produce this spectrum: a wrong match"
+    "yes": null,
+    "no": null
    }
   },
   "psm_4": {
    "type": "choice",
-   "instructions": "Is this PSM a correct identification? ln hyperscore=3.80 (bucket 8/10); ln gap to next-best candidate (delta_next)=3.12 (bucket 9/10); matched fragment peaks=13 (bucket 8/10); longest y run / peptide length=0.53 (bucket 7/10); ln % of spectrum intensity matched=3.97 (bucket 9/10); ln(-log10 Poisson score)=2.41 (bucket 9/10); mean absolute fragment mass error (ppm)=1.7 (bucket 3/10); ln precursor mass error (ppm)=2.03 (bucket 9/10); sqrt retention-time prediction error=0.29 (bucket 6/10); candidate peptides scored for this spectrum=292 (bucket 4/10); peptide length=15 (bucket 7/10); missed cleavages=0 (bucket 1/10); charge=2+; 4/5 of the 5 most intense peaks explained by b/y ions; 5/10 of the 10 most intense peaks explained; 7/20 of the 20 most intense peaks explained; fraction of total ion current explained=0.38 (bucket 10/10); fraction of possible b ions matched=0.21 (bucket 4/10); fraction of possible y ions matched=0.71 (bucket 7/10); matched ion ladders (ordinals from the N-terminus for b, C-terminus for y): b2-4 | y2-3,5-12; retention time (min)=142.9; retention time on a 0-1 scale=0.69; predicted retention time on the same scale=0.77; precursor isotope offset (Da)=0; longest contiguous b run (ions)=3; longest contiguous y run (ions)=8",
+   "instructions": "Is this PSM a correct identification? ln hyperscore=4.48 (bucket 10/10); ln gap to next-best candidate (delta_next)=3.98 (bucket 10/10); matched fragment peaks=27 (bucket 10/10); longest y run / peptide length=0.83 (bucket 10/10); ln % of spectrum intensity matched=3.82 (bucket 9/10); ln(-log10 Poisson score)=3.33 (bucket 10/10); mean absolute fragment mass error (ppm)=1.7 (bucket 3/10); ln precursor mass error (ppm)=0.96 (bucket 2/10); sqrt retention-time prediction error=0.10 (bucket 1/10); candidate peptides scored for this spectrum=719 (bucket 8/10); peptide length=24 (bucket 10/10); missed cleavages=0 (bucket 1/10); charge=4+; 4/5 of the 5 most intense peaks explained by b/y ions; 6/10 of the 10 most intense peaks explained; 10/20 of the 20 most intense peaks explained; fraction of total ion current explained=0.28 (bucket 8/10); fraction of possible b ions matched=0.26 (bucket 6/10); fraction of possible y ions matched=0.87 (bucket 9/10); matched ion ladders (ordinals from the N-terminus for b, C-terminus for y): b2-7 | y1-20 Context: Sage search against a target-decoy database; only candidates near the 1% FDR cut-off are listed, so many are false. A correct match usually explains the intense peaks of the spectrum with long contiguous b/y ladders (especially y); a false match typically matches many weak/noise peaks, scattered ions, few of the intense peaks. Buckets compare this PSM with the other listed PSMs (10 = highest). Answer with the probability that this PSM is correct.",
    "criteria": {
-    "yes": "the assigned peptide produced this spectrum: a correct identification",
-    "no": "the assigned peptide did not produce this spectrum: a wrong match"
+    "yes": null,
+    "no": null
    }
   },
   "psm_5": {
    "type": "choice",
-   "instructions": "Is this PSM a correct identification? ln hyperscore=3.22 (bucket 2/10); ln gap to next-best candidate (delta_next)=3.22 (bucket 9/10); matched fragment peaks=4 (bucket 1/10); longest y run / peptide length=0.07 (bucket 1/10); ln % of spectrum intensity matched=2.15 (bucket 3/10); ln(-log10 Poisson score)=1.11 (bucket 2/10); mean absolute fragment mass error (ppm)=1.9 (bucket 4/10); ln precursor mass error (ppm)=1.78 (bucket 7/10); sqrt retention-time prediction error=0.52 (bucket 9/10); candidate peptides scored for this spectrum=235 (bucket 3/10); peptide length=14 (bucket 6/10); missed cleavages=1 (bucket 7/10); charge=2+; 2/5 of the 5 most intense peaks explained by b/y ions; 2/10 of the 10 most intense peaks explained; 3/20 of the 20 most intense peaks explained; fraction of total ion current explained=0.07 (bucket 3/10); fraction of possible b ions matched=0.15 (bucket 3/10); fraction of possible y ions matched=0.15 (bucket 2/10); matched ion ladders (ordinals from the N-terminus for b, C-terminus for y): b2,7 | y1,4; retention time (min)=80.8; retention time on a 0-1 scale=0.39; predicted retention time on the same scale=0.12; precursor isotope offset (Da)=3; longest contiguous b run (ions)=1; longest contiguous y run (ions)=1",
+   "instructions": "Is this PSM a correct identification? ln hyperscore=4.36 (bucket 10/10); ln gap to next-best candidate (delta_next)=3.87 (bucket 10/10); matched fragment peaks=26 (bucket 10/10); longest y run / peptide length=0.68 (bucket 9/10); ln % of spectrum intensity matched=4.14 (bucket 10/10); ln(-log10 Poisson score)=3.24 (bucket 10/10); mean absolute fragment mass error (ppm)=1.8 (bucket 3/10); ln precursor mass error (ppm)=0.45 (bucket 1/10); sqrt retention-time prediction error=0.04 (bucket 1/10); candidate peptides scored for this spectrum=529 (bucket 7/10); peptide length=19 (bucket 9/10); missed cleavages=0 (bucket 1/10); charge=3+; 4/5 of the 5 most intense peaks explained by b/y ions; 6/10 of the 10 most intense peaks explained; 9/20 of the 20 most intense peaks explained; fraction of total ion current explained=0.36 (bucket 9/10); fraction of possible b ions matched=0.67 (bucket 10/10); fraction of possible y ions matched=0.78 (bucket 8/10); matched ion ladders (ordinals from the N-terminus for b, C-terminus for y): b2-8,10-14 | y1-13,18 Context: Sage search against a target-decoy database; only candidates near the 1% FDR cut-off are listed, so many are false. A correct match usually explains the intense peaks of the spectrum with long contiguous b/y ladders (especially y); a false match typically matches many weak/noise peaks, scattered ions, few of the intense peaks. Buckets compare this PSM with the other listed PSMs (10 = highest). Answer with the probability that this PSM is correct.",
    "criteria": {
-    "yes": "the assigned peptide produced this spectrum: a correct identification",
-    "no": "the assigned peptide did not produce this spectrum: a wrong match"
+    "yes": null,
+    "no": null
    }
   },
   "psm_6": {
    "type": "choice",
-   "instructions": "Is this PSM a correct identification? ln hyperscore=3.86 (bucket 9/10); ln gap to next-best candidate (delta_next)=2.74 (bucket 7/10); matched fragment peaks=12 (bucket 8/10); longest y run / peptide length=0.75 (bucket 9/10); ln % of spectrum intensity matched=3.92 (bucket 9/10); ln(-log10 Poisson score)=2.23 (bucket 8/10); mean absolute fragment mass error (ppm)=1.7 (bucket 2/10); ln precursor mass error (ppm)=1.11 (bucket 3/10); sqrt retention-time prediction error=0.15 (bucket 2/10); candidate peptides scored for this spectrum=949 (bucket 9/10); peptide length=12 (bucket 4/10); missed cleavages=0 (bucket 1/10); charge=2+; 3/5 of the 5 most intense peaks explained by b/y ions; 5/10 of the 10 most intense peaks explained; 8/20 of the 20 most intense peaks explained; fraction of total ion current explained=0.33 (bucket 9/10); fraction of possible b ions matched=0.27 (bucket 6/10); fraction of possible y ions matched=0.82 (bucket 9/10); matched ion ladders (ordinals from the N-terminus for b, C-terminus for y): b2-4 | y2-10; retention time (min)=116.8; retention time on a 0-1 scale=0.56; predicted retention time on the same scale=0.54; precursor isotope offset (Da)=0; longest contiguous b run (ions)=3; longest contiguous y run (ions)=9",
+   "instructions": "Is this PSM a correct identification? ln hyperscore=4.52 (bucket 10/10); ln gap to next-best candidate (delta_next)=4.04 (bucket 10/10); matched fragment peaks=30 (bucket 10/10); longest y run / peptide length=0.40 (bucket 6/10); ln % of spectrum intensity matched=3.75 (bucket 8/10); ln(-log10 Poisson score)=3.42 (bucket 10/10); mean absolute fragment mass error (ppm)=1.7 (bucket 2/10); ln precursor mass error (ppm)=1.38 (bucket 5/10); sqrt retention-time prediction error=0.13 (bucket 2/10); candidate peptides scored for this spectrum=1180 (bucket 10/10); peptide length=25 (bucket 10/10); missed cleavages=0 (bucket 1/10); charge=3+; 4/5 of the 5 most intense peaks explained by b/y ions; 6/10 of the 10 most intense peaks explained; 10/20 of the 20 most intense peaks explained; fraction of total ion current explained=0.28 (bucket 8/10); fraction of possible b ions matched=0.42 (bucket 8/10); fraction of possible y ions matched=0.75 (bucket 8/10); matched ion ladders (ordinals from the N-terminus for b, C-terminus for y): b2-6,8-9,11,13,20 | y2-3,5-14,16-17,19-20,22-23 Context: Sage search against a target-decoy database; only candidates near the 1% FDR cut-off are listed, so many are false. A correct match usually explains the intense peaks of the spectrum with long contiguous b/y ladders (especially y); a false match typically matches many weak/noise peaks, scattered ions, few of the intense peaks. Buckets compare this PSM with the other listed PSMs (10 = highest). Answer with the probability that this PSM is correct.",
    "criteria": {
-    "yes": "the assigned peptide produced this spectrum: a correct identification",
-    "no": "the assigned peptide did not produce this spectrum: a wrong match"
+    "yes": null,
+    "no": null
    }
   },
   "psm_7": {
    "type": "choice",
-   "instructions": "Is this PSM a correct identification? ln hyperscore=3.62 (bucket 6/10); ln gap to next-best candidate (delta_next)=2.58 (bucket 6/10); matched fragment peaks=11 (bucket 7/10); longest y run / peptide length=0.15 (bucket 3/10); ln % of spectrum intensity matched=2.45 (bucket 3/10); ln(-log10 Poisson score)=2.21 (bucket 8/10); mean absolute fragment mass error (ppm)=1.9 (bucket 3/10); ln precursor mass error (ppm)=1.63 (bucket 7/10); sqrt retention-time prediction error=0.18 (bucket 3/10); candidate peptides scored for this spectrum=431 (bucket 6/10); peptide length=13 (bucket 5/10); missed cleavages=1 (bucket 7/10); charge=2+; 1/5 of the 5 most intense peaks explained by b/y ions; 1/10 of the 10 most intense peaks explained; 5/20 of the 20 most intense peaks explained; fraction of total ion current explained=0.10 (bucket 4/10); fraction of possible b ions matched=0.42 (bucket 8/10); fraction of possible y ions matched=0.50 (bucket 5/10); matched ion ladders (ordinals from the N-terminus for b, C-terminus for y): b4,7,9-10,12 | y1-2,4,7-8,11; retention time (min)=104.5; retention time on a 0-1 scale=0.50; predicted retention time on the same scale=0.47; precursor isotope offset (Da)=-1; longest contiguous b run (ions)=2; longest contiguous y run (ions)=2",
+   "instructions": "Is this PSM a correct identification? ln hyperscore=4.42 (bucket 10/10); ln gap to next-best candidate (delta_next)=3.97 (bucket 10/10); matched fragment peaks=26 (bucket 10/10); longest y run / peptide length=0.58 (bucket 8/10); ln % of spectrum intensity matched=3.83 (bucket 9/10); ln(-log10 Poisson score)=3.28 (bucket 10/10); mean absolute fragment mass error (ppm)=2.5 (bucket 6/10); ln precursor mass error (ppm)=1.19 (bucket 4/10); sqrt retention-time prediction error=0.11 (bucket 1/10); candidate peptides scored for this spectrum=924 (bucket 9/10); peptide length=24 (bucket 10/10); missed cleavages=0 (bucket 1/10); charge=3+; 3/5 of the 5 most intense peaks explained by b/y ions; 6/10 of the 10 most intense peaks explained; 12/20 of the 20 most intense peaks explained; fraction of total ion current explained=0.35 (bucket 9/10); fraction of possible b ions matched=0.17 (bucket 3/10); fraction of possible y ions matched=0.91 (bucket 10/10); matched ion ladders (ordinals from the N-terminus for b, C-terminus for y): b2-5 | y1-14,16-22 Context: Sage search against a target-decoy database; only candidates near the 1% FDR cut-off are listed, so many are false. A correct match usually explains the intense peaks of the spectrum with long contiguous b/y ladders (especially y); a false match typically matches many weak/noise peaks, scattered ions, few of the intense peaks. Buckets compare this PSM with the other listed PSMs (10 = highest). Answer with the probability that this PSM is correct.",
    "criteria": {
-    "yes": "the assigned peptide produced this spectrum: a correct identification",
-    "no": "the assigned peptide did not produce this spectrum: a wrong match"
+    "yes": null,
+    "no": null
    }
   },
   "psm_8": {
    "type": "choice",
-   "instructions": "Is this PSM a correct identification? ln hyperscore=3.56 (bucket 6/10); ln gap to next-best candidate (delta_next)=1.82 (bucket 5/10); matched fragment peaks=8 (bucket 5/10); longest y run / peptide length=0.50 (bucket 7/10); ln % of spectrum intensity matched=3.55 (bucket 7/10); ln(-log10 Poisson score)=1.80 (bucket 6/10); mean absolute fragment mass error (ppm)=1.6 (bucket 2/10); ln precursor mass error (ppm)=1.10 (bucket 3/10); sqrt retention-time prediction error=0.29 (bucket 6/10); candidate peptides scored for this spectrum=631 (bucket 7/10); peptide length=6 (bucket 1/10); missed cleavages=0 (bucket 1/10); charge=2+; 1/5 of the 5 most intense peaks explained by b/y ions; 3/10 of the 10 most intense peaks explained; 7/20 of the 20 most intense peaks explained; fraction of total ion current explained=0.17 (bucket 6/10); fraction of possible b ions matched=0.80 (bucket 10/10); fraction of possible y ions matched=0.80 (bucket 8/10); matched ion ladders (ordinals from the N-terminus for b, C-terminus for y): b2-5 | y2-5; retention time (min)=72.6; retention time on a 0-1 scale=0.35; predicted retention time on the same scale=0.43; precursor isotope offset (Da)=0; longest contiguous b run (ions)=4; longest contiguous y run (ions)=3",
+   "instructions": "Is this PSM a correct identification? ln hyperscore=4.19 (bucket 10/10); ln gap to next-best candidate (delta_next)=3.75 (bucket 10/10); matched fragment peaks=22 (bucket 10/10); longest y run / peptide length=0.78 (bucket 10/10); ln % of spectrum intensity matched=4.19 (bucket 10/10); ln(-log10 Poisson score)=3.06 (bucket 10/10); mean absolute fragment mass error (ppm)=1.4 (bucket 1/10); ln precursor mass error (ppm)=1.37 (bucket 5/10); sqrt retention-time prediction error=0.12 (bucket 2/10); candidate peptides scored for this spectrum=320 (bucket 4/10); peptide length=18 (bucket 9/10); missed cleavages=0 (bucket 1/10); charge=2+; 4/5 of the 5 most intense peaks explained by b/y ions; 8/10 of the 10 most intense peaks explained; 9/20 of the 20 most intense peaks explained; fraction of total ion current explained=0.47 (bucket 10/10); fraction of possible b ions matched=0.47 (bucket 9/10); fraction of possible y ions matched=0.82 (bucket 9/10); matched ion ladders (ordinals from the N-terminus for b, C-terminus for y): b2-6,8,10-11 | y1-14 Context: Sage search against a target-decoy database; only candidates near the 1% FDR cut-off are listed, so many are false. A correct match usually explains the intense peaks of the spectrum with long contiguous b/y ladders (especially y); a false match typically matches many weak/noise peaks, scattered ions, few of the intense peaks. Buckets compare this PSM with the other listed PSMs (10 = highest). Answer with the probability that this PSM is correct.",
    "criteria": {
-    "yes": "the assigned peptide produced this spectrum: a correct identification",
-    "no": "the assigned peptide did not produce this spectrum: a wrong match"
+    "yes": null,
+    "no": null
    }
   },
   "psm_9": {
    "type": "choice",
-   "instructions": "Is this PSM a correct identification? ln hyperscore=3.99 (bucket 10/10); ln gap to next-best candidate (delta_next)=3.33 (bucket 9/10); matched fragment peaks=16 (bucket 9/10); longest y run / peptide length=0.86 (bucket 10/10); ln % of spectrum intensity matched=3.20 (bucket 6/10); ln(-log10 Poisson score)=2.66 (bucket 10/10); mean absolute fragment mass error (ppm)=1.8 (bucket 3/10); ln precursor mass error (ppm)=1.30 (bucket 5/10); sqrt retention-time prediction error=0.43 (bucket 8/10); candidate peptides scored for this spectrum=698 (bucket 8/10); peptide length=14 (bucket 6/10); missed cleavages=1 (bucket 7/10); charge=3+; 1/5 of the 5 most intense peaks explained by b/y ions; 1/10 of the 10 most intense peaks explained; 3/20 of the 20 most intense peaks explained; fraction of total ion current explained=0.10 (bucket 4/10); fraction of possible b ions matched=0.15 (bucket 3/10); fraction of possible y ions matched=1.00 (bucket 10/10); matched ion ladders (ordinals from the N-terminus for b, C-terminus for y): b2-3 | y1-13; retention time (min)=197.6; retention time on a 0-1 scale=0.95; predicted retention time on the same scale=0.76; precursor isotope offset (Da)=0; longest contiguous b run (ions)=2; longest contiguous y run (ions)=12",
+   "instructions": "Is this PSM a correct identification? ln hyperscore=4.34 (bucket 10/10); ln gap to next-best candidate (delta_next)=3.91 (bucket 10/10); matched fragment peaks=26 (bucket 10/10); longest y run / peptide length=0.84 (bucket 10/10); ln % of spectrum intensity matched=4.18 (bucket 10/10); ln(-log10 Poisson score)=3.27 (bucket 10/10); mean absolute fragment mass error (ppm)=2.1 (bucket 5/10); ln precursor mass error (ppm)=0.12 (bucket 1/10); sqrt retention-time prediction error=0.15 (bucket 2/10); candidate peptides scored for this spectrum=540 (bucket 7/10); peptide length=19 (bucket 9/10); missed cleavages=0 (bucket 1/10); charge=2+; 3/5 of the 5 most intense peaks explained by b/y ions; 6/10 of the 10 most intense peaks explained; 13/20 of the 20 most intense peaks explained; fraction of total ion current explained=0.46 (bucket 10/10); fraction of possible b ions matched=0.56 (bucket 10/10); fraction of possible y ions matched=0.89 (bucket 9/10); matched ion ladders (ordinals from the N-terminus for b, C-terminus for y): b2-9,12-13 | y2-17 Context: Sage search against a target-decoy database; only candidates near the 1% FDR cut-off are listed, so many are false. A correct match usually explains the intense peaks of the spectrum with long contiguous b/y ladders (especially y); a false match typically matches many weak/noise peaks, scattered ions, few of the intense peaks. Buckets compare this PSM with the other listed PSMs (10 = highest). Answer with the probability that this PSM is correct.",
    "criteria": {
-    "yes": "the assigned peptide produced this spectrum: a correct identification",
-    "no": "the assigned peptide did not produce this spectrum: a wrong match"
+    "yes": null,
+    "no": null
    }
   },
   "psm_10": {
    "type": "choice",
-   "instructions": "Is this PSM a correct identification? ln hyperscore=4.36 (bucket 10/10); ln gap to next-best candidate (delta_next)=3.91 (bucket 10/10); matched fragment peaks=26 (bucket 10/10); longest y run / peptide length=0.64 (bucket 8/10); ln % of spectrum intensity matched=4.24 (bucket 10/10); ln(-log10 Poisson score)=3.26 (bucket 10/10); mean absolute fragment mass error (ppm)=1.4 (bucket 1/10); ln precursor mass error (ppm)=1.67 (bucket 7/10); sqrt retention-time prediction error=0.22 (bucket 4/10); candidate peptides scored for this spectrum=1128 (bucket 10/10); peptide length=22 (bucket 10/10); missed cleavages=1 (bucket 7/10); charge=3+; 4/5 of the 5 most intense peaks explained by b/y ions; 8/10 of the 10 most intense peaks explained; 13/20 of the 20 most intense peaks explained; fraction of total ion current explained=0.43 (bucket 10/10); fraction of possible b ions matched=0.52 (bucket 9/10); fraction of possible y ions matched=0.67 (bucket 7/10); matched ion ladders (ordinals from the N-terminus for b, C-terminus for y): b3,6-11,13-16 | y1-14; retention time (min)=199.2; retention time on a 0-1 scale=0.96; predicted retention time on the same scale=0.91; precursor isotope offset (Da)=0; longest contiguous b run (ions)=6; longest contiguous y run (ions)=14",
+   "instructions": "Is this PSM a correct identification? ln hyperscore=4.45 (bucket 10/10); ln gap to next-best candidate (delta_next)=4.01 (bucket 10/10); matched fragment peaks=28 (bucket 10/10); longest y run / peptide length=0.78 (bucket 10/10); ln % of spectrum intensity matched=4.15 (bucket 10/10); ln(-log10 Poisson score)=3.32 (bucket 10/10); mean absolute fragment mass error (ppm)=1.4 (bucket 2/10); ln precursor mass error (ppm)=1.30 (bucket 5/10); sqrt retention-time prediction error=0.09 (bucket 1/10); candidate peptides scored for this spectrum=728 (bucket 8/10); peptide length=23 (bucket 10/10); missed cleavages=0 (bucket 1/10); charge=2+; 3/5 of the 5 most intense peaks explained by b/y ions; 5/10 of the 10 most intense peaks explained; 11/20 of the 20 most intense peaks explained; fraction of total ion current explained=0.35 (bucket 9/10); fraction of possible b ions matched=0.45 (bucket 9/10); fraction of possible y ions matched=0.82 (bucket 9/10); matched ion ladders (ordinals from the N-terminus for b, C-terminus for y): b2-4,7-13 | y2-19 Context: Sage search against a target-decoy database; only candidates near the 1% FDR cut-off are listed, so many are false. A correct match usually explains the intense peaks of the spectrum with long contiguous b/y ladders (especially y); a false match typically matches many weak/noise peaks, scattered ions, few of the intense peaks. Buckets compare this PSM with the other listed PSMs (10 = highest). Answer with the probability that this PSM is correct.",
    "criteria": {
-    "yes": "the assigned peptide produced this spectrum: a correct identification",
-    "no": "the assigned peptide did not produce this spectrum: a wrong match"
+    "yes": null,
+    "no": null
    }
   },
   "psm_11": {
    "type": "choice",
-   "instructions": "Is this PSM a correct identification? ln hyperscore=3.30 (bucket 3/10); ln gap to next-best candidate (delta_next)=1.37 (bucket 4/10); matched fragment peaks=5 (bucket 2/10); longest y run / peptide length=0.10 (bucket 2/10); ln % of spectrum intensity matched=2.96 (bucket 5/10); ln(-log10 Poisson score)=1.31 (bucket 3/10); mean absolute fragment mass error (ppm)=6.5 (bucket 10/10); ln precursor mass error (ppm)=1.62 (bucket 7/10); sqrt retention-time prediction error=0.62 (bucket 10/10); candidate peptides scored for this spectrum=488 (bucket 6/10); peptide length=10 (bucket 3/10); missed cleavages=1 (bucket 7/10); charge=2+; 1/5 of the 5 most intense peaks explained by b/y ions; 2/10 of the 10 most intense peaks explained; 3/20 of the 20 most intense peaks explained; fraction of total ion current explained=0.16 (bucket 6/10); fraction of possible b ions matched=0.33 (bucket 7/10); fraction of possible y ions matched=0.22 (bucket 3/10); matched ion ladders (ordinals from the N-terminus for b, C-terminus for y): b2-3,7 | y1,5; retention time (min)=42.4; retention time on a 0-1 scale=0.20; predicted retention time on the same scale=0.59; precursor isotope offset (Da)=0; longest contiguous b run (ions)=2; longest contiguous y run (ions)=1",
+   "instructions": "Is this PSM a correct identification? ln hyperscore=4.45 (bucket 10/10); ln gap to next-best candidate (delta_next)=4.45 (bucket 10/10); matched fragment peaks=27 (bucket 10/10); longest y run / peptide length=0.72 (bucket 9/10); ln % of spectrum intensity matched=4.12 (bucket 10/10); ln(-log10 Poisson score)=3.28 (bucket 10/10); mean absolute fragment mass error (ppm)=1.6 (bucket 2/10); ln precursor mass error (ppm)=1.30 (bucket 5/10); sqrt retention-time prediction error=0.23 (bucket 4/10); candidate peptides scored for this spectrum=81 (bucket 1/10); peptide length=25 (bucket 10/10); missed cleavages=0 (bucket 1/10); charge=2+; 3/5 of the 5 most intense peaks explained by b/y ions; 8/10 of the 10 most intense peaks explained; 11/20 of the 20 most intense peaks explained; fraction of total ion current explained=0.36 (bucket 9/10); fraction of possible b ions matched=0.38 (bucket 8/10); fraction of possible y ions matched=0.75 (bucket 8/10); matched ion ladders (ordinals from the N-terminus for b, C-terminus for y): b2,4-10,14 | y2-19 Context: Sage search against a target-decoy database; only candidates near the 1% FDR cut-off are listed, so many are false. A correct match usually explains the intense peaks of the spectrum with long contiguous b/y ladders (especially y); a false match typically matches many weak/noise peaks, scattered ions, few of the intense peaks. Buckets compare this PSM with the other listed PSMs (10 = highest). Answer with the probability that this PSM is correct.",
    "criteria": {
-    "yes": "the assigned peptide produced this spectrum: a correct identification",
-    "no": "the assigned peptide did not produce this spectrum: a wrong match"
+    "yes": null,
+    "no": null
    }
   },
   "psm_12": {
    "type": "choice",
-   "instructions": "Is this PSM a correct identification? ln hyperscore=3.24 (bucket 2/10); ln gap to next-best candidate (delta_next)=3.24 (bucket 9/10); matched fragment peaks=5 (bucket 2/10); longest y run / peptide length=0.23 (bucket 5/10); ln % of spectrum intensity matched=3.12 (bucket 5/10); ln(-log10 Poisson score)=1.28 (bucket 3/10); mean absolute fragment mass error (ppm)=6.7 (bucket 10/10); ln precursor mass error (ppm)=1.67 (bucket 7/10); sqrt retention-time prediction error=0.59 (bucket 9/10); candidate peptides scored for this spectrum=17 (bucket 1/10); peptide length=13 (bucket 5/10); missed cleavages=0 (bucket 1/10); charge=2+; 1/5 of the 5 most intense peaks explained by b/y ions; 1/10 of the 10 most intense peaks explained; 1/20 of the 20 most intense peaks explained; fraction of total ion current explained=0.10 (bucket 4/10); fraction of possible b ions matched=0.08 (bucket 1/10); fraction of possible y ions matched=0.33 (bucket 4/10); matched ion ladders (ordinals from the N-terminus for b, C-terminus for y): b2 | y1-3,6; retention time (min)=113.2; retention time on a 0-1 scale=0.54; predicted retention time on the same scale=0.20; precursor isotope offset (Da)=3; longest contiguous b run (ions)=1; longest contiguous y run (ions)=3",
+   "instructions": "Is this PSM a correct identification? ln hyperscore=4.21 (bucket 10/10); ln gap to next-best candidate (delta_next)=3.72 (bucket 10/10); matched fragment peaks=22 (bucket 10/10); longest y run / peptide length=0.74 (bucket 9/10); ln % of spectrum intensity matched=3.71 (bucket 8/10); ln(-log10 Poisson score)=3.03 (bucket 10/10); mean absolute fragment mass error (ppm)=2.5 (bucket 6/10); ln precursor mass error (ppm)=1.69 (bucket 7/10); sqrt retention-time prediction error=0.06 (bucket 1/10); candidate peptides scored for this spectrum=215 (bucket 3/10); peptide length=19 (bucket 9/10); missed cleavages=0 (bucket 1/10); charge=3+; 1/5 of the 5 most intense peaks explained by b/y ions; 5/10 of the 10 most intense peaks explained; 9/20 of the 20 most intense peaks explained; fraction of total ion current explained=0.24 (bucket 8/10); fraction of possible b ions matched=0.28 (bucket 6/10); fraction of possible y ions matched=0.94 (bucket 10/10); matched ion ladders (ordinals from the N-terminus for b, C-terminus for y): b3-5,8,10 | y1-14,16-18 Context: Sage search against a target-decoy database; only candidates near the 1% FDR cut-off are listed, so many are false. A correct match usually explains the intense peaks of the spectrum with long contiguous b/y ladders (especially y); a false match typically matches many weak/noise peaks, scattered ions, few of the intense peaks. Buckets compare this PSM with the other listed PSMs (10 = highest). Answer with the probability that this PSM is correct.",
    "criteria": {
-    "yes": "the assigned peptide produced this spectrum: a correct identification",
-    "no": "the assigned peptide did not produce this spectrum: a wrong match"
+    "yes": null,
+    "no": null
    }
   },
   "psm_13": {
    "type": "choice",
-   "instructions": "Is this PSM a correct identification? ln hyperscore=3.54 (bucket 6/10); ln gap to next-best candidate (delta_next)=2.49 (bucket 6/10); matched fragment peaks=10 (bucket 6/10); longest y run / peptide length=0.08 (bucket 2/10); ln % of spectrum intensity matched=2.99 (bucket 5/10); ln(-log10 Poisson score)=2.07 (bucket 7/10); mean absolute fragment mass error (ppm)=3.3 (bucket 8/10); ln precursor mass error (ppm)=0.03 (bucket 1/10); sqrt retention-time prediction error=0.17 (bucket 3/10); candidate peptides scored for this spectrum=582 (bucket 7/10); peptide length=24 (bucket 10/10); missed cleavages=0 (bucket 1/10); charge=3+; 0/5 of the 5 most intense peaks explained by b/y ions; 2/10 of the 10 most intense peaks explained; 2/20 of the 20 most intense peaks explained; fraction of total ion current explained=0.13 (bucket 5/10); fraction of possible b ions matched=0.22 (bucket 5/10); fraction of possible y ions matched=0.22 (bucket 3/10); matched ion ladders (ordinals from the N-terminus for b, C-terminus for y): b3,5-6,8-9 | y2-3,9,12,14; retention time (min)=162.9; retention time on a 0-1 scale=0.78; predicted retention time on the same scale=0.75; precursor isotope offset (Da)=1; longest contiguous b run (ions)=2; longest contiguous y run (ions)=2",
+   "instructions": "Is this PSM a correct identification? ln hyperscore=4.35 (bucket 10/10); ln gap to next-best candidate (delta_next)=3.82 (bucket 10/10); matched fragment peaks=26 (bucket 10/10); longest y run / peptide length=0.79 (bucket 10/10); ln % of spectrum intensity matched=4.24 (bucket 10/10); ln(-log10 Poisson score)=3.29 (bucket 10/10); mean absolute fragment mass error (ppm)=2.3 (bucket 5/10); ln precursor mass error (ppm)=1.28 (bucket 5/10); sqrt retention-time prediction error=0.03 (bucket 1/10); candidate peptides scored for this spectrum=530 (bucket 7/10); peptide length=19 (bucket 9/10); missed cleavages=0 (bucket 1/10); charge=2+; 4/5 of the 5 most intense peaks explained by b/y ions; 7/10 of the 10 most intense peaks explained; 11/20 of the 20 most intense peaks explained; fraction of total ion current explained=0.49 (bucket 10/10); fraction of possible b ions matched=0.56 (bucket 10/10); fraction of possible y ions matched=0.89 (bucket 9/10); matched ion ladders (ordinals from the N-terminus for b, C-terminus for y): b2-11 | y1-15,17 Context: Sage search against a target-decoy database; only candidates near the 1% FDR cut-off are listed, so many are false. A correct match usually explains the intense peaks of the spectrum with long contiguous b/y ladders (especially y); a false match typically matches many weak/noise peaks, scattered ions, few of the intense peaks. Buckets compare this PSM with the other listed PSMs (10 = highest). Answer with the probability that this PSM is correct.",
    "criteria": {
-    "yes": "the assigned peptide produced this spectrum: a correct identification",
-    "no": "the assigned peptide did not produce this spectrum: a wrong match"
+    "yes": null,
+    "no": null
    }
   },
   "psm_14": {
    "type": "choice",
-   "instructions": "Is this PSM a correct identification? ln hyperscore=3.41 (bucket 4/10); ln gap to next-best candidate (delta_next)=1.60 (bucket 4/10); matched fragment peaks=7 (bucket 5/10); longest y run / peptide length=0.18 (bucket 4/10); ln % of spectrum intensity matched=3.49 (bucket 7/10); ln(-log10 Poisson score)=1.68 (bucket 5/10); mean absolute fragment mass error (ppm)=2.2 (bucket 5/10); ln precursor mass error (ppm)=1.46 (bucket 6/10); sqrt retention-time prediction error=0.20 (bucket 3/10); candidate peptides scored for this spectrum=364 (bucket 5/10); peptide length=11 (bucket 4/10); missed cleavages=0 (bucket 1/10); charge=3+; 2/5 of the 5 most intense peaks explained by b/y ions; 4/10 of the 10 most intense peaks explained; 4/20 of the 20 most intense peaks explained; fraction of total ion current explained=0.20 (bucket 7/10); fraction of possible b ions matched=0.30 (bucket 6/10); fraction of possible y ions matched=0.40 (bucket 5/10); matched ion ladders (ordinals from the N-terminus for b, C-terminus for y): b2,5-6 | y1-2,4-5; retention time (min)=145.6; retention time on a 0-1 scale=0.70; predicted retention time on the same scale=0.66; precursor isotope offset (Da)=0; longest contiguous b run (ions)=2; longest contiguous y run (ions)=2",
+   "instructions": "Is this PSM a correct identification? ln hyperscore=4.44 (bucket 10/10); ln gap to next-best candidate (delta_next)=3.92 (bucket 10/10); matched fragment peaks=27 (bucket 10/10); longest y run / peptide length=0.57 (bucket 8/10); ln % of spectrum intensity matched=4.02 (bucket 10/10); ln(-log10 Poisson score)=3.29 (bucket 10/10); mean absolute fragment mass error (ppm)=1.4 (bucket 1/10); ln precursor mass error (ppm)=1.12 (bucket 3/10); sqrt retention-time prediction error=0.16 (bucket 2/10); candidate peptides scored for this spectrum=1008 (bucket 10/10); peptide length=28 (bucket 10/10); missed cleavages=0 (bucket 1/10); charge=3+; 4/5 of the 5 most intense peaks explained by b/y ions; 7/10 of the 10 most intense peaks explained; 13/20 of the 20 most intense peaks explained; fraction of total ion current explained=0.38 (bucket 10/10); fraction of possible b ions matched=0.33 (bucket 7/10); fraction of possible y ions matched=0.63 (bucket 7/10); matched ion ladders (ordinals from the N-terminus for b, C-terminus for y): b3-8,12,18-19 | y1,3-18 Context: Sage search against a target-decoy database; only candidates near the 1% FDR cut-off are listed, so many are false. A correct match usually explains the intense peaks of the spectrum with long contiguous b/y ladders (especially y); a false match typically matches many weak/noise peaks, scattered ions, few of the intense peaks. Buckets compare this PSM with the other listed PSMs (10 = highest). Answer with the probability that this PSM is correct.",
    "criteria": {
-    "yes": "the assigned peptide produced this spectrum: a correct identification",
-    "no": "the assigned peptide did not produce this spectrum: a wrong match"
+    "yes": null,
+    "no": null
    }
   },
   "psm_15": {
    "type": "choice",
-   "instructions": "Is this PSM a correct identification? ln hyperscore=3.34 (bucket 4/10); ln gap to next-best candidate (delta_next)=0.77 (bucket 3/10); matched fragment peaks=5 (bucket 2/10); longest y run / peptide length=0.44 (bucket 7/10); ln % of spectrum intensity matched=3.40 (bucket 7/10); ln(-log10 Poisson score)=1.29 (bucket 3/10); mean absolute fragment mass error (ppm)=7.2 (bucket 10/10); ln precursor mass error (ppm)=0.14 (bucket 1/10); sqrt retention-time prediction error=0.33 (bucket 7/10); candidate peptides scored for this spectrum=177 (bucket 2/10); peptide length=9 (bucket 2/10); missed cleavages=2 (bucket 10/10); charge=2+; 1/5 of the 5 most intense peaks explained by b/y ions; 1/10 of the 10 most intense peaks explained; 3/20 of the 20 most intense peaks explained; fraction of total ion current explained=0.21 (bucket 7/10); fraction of possible b ions matched=0.12 (bucket 2/10); fraction of possible y ions matched=0.50 (bucket 5/10); matched ion ladders (ordinals from the N-terminus for b, C-terminus for y): b2 | y1-4; retention time (min)=54.1; retention time on a 0-1 scale=0.26; predicted retention time on the same scale=0.15; precursor isotope offset (Da)=3; longest contiguous b run (ions)=1; longest contiguous y run (ions)=4",
+   "instructions": "Is this PSM a correct identification? ln hyperscore=4.18 (bucket 10/10); ln gap to next-best candidate (delta_next)=3.64 (bucket 10/10); matched fragment peaks=22 (bucket 10/10); longest y run / peptide length=0.50 (bucket 7/10); ln % of spectrum intensity matched=4.32 (bucket 10/10); ln(-log10 Poisson score)=3.02 (bucket 10/10); mean absolute fragment mass error (ppm)=2.3 (bucket 6/10); ln precursor mass error (ppm)=2.06 (bucket 9/10); sqrt retention-time prediction error=0.05 (bucket 1/10); candidate peptides scored for this spectrum=92 (bucket 1/10); peptide length=24 (bucket 10/10); missed cleavages=0 (bucket 1/10); charge=3+; 5/5 of the 5 most intense peaks explained by b/y ions; 6/10 of the 10 most intense peaks explained; 11/20 of the 20 most intense peaks explained; fraction of total ion current explained=0.55 (bucket 10/10); fraction of possible b ions matched=0.39 (bucket 8/10); fraction of possible y ions matched=0.52 (bucket 6/10); matched ion ladders (ordinals from the N-terminus for b, C-terminus for y): b2,5-7,9-13 | y1-12 Context: Sage search against a target-decoy database; only candidates near the 1% FDR cut-off are listed, so many are false. A correct match usually explains the intense peaks of the spectrum with long contiguous b/y ladders (especially y); a false match typically matches many weak/noise peaks, scattered ions, few of the intense peaks. Buckets compare this PSM with the other listed PSMs (10 = highest). Answer with the probability that this PSM is correct.",
    "criteria": {
-    "yes": "the assigned peptide produced this spectrum: a correct identification",
-    "no": "the assigned peptide did not produce this spectrum: a wrong match"
+    "yes": null,
+    "no": null
    }
   }
  },
@@ -145,152 +139,152 @@
   "answers": {
    "psm_0": {
     "type": "choice",
-    "choice": "no",
+    "choice": "yes",
     "probabilities": {
-     "yes": 0.19443099531942634,
-     "no": 0.8055690046805737
+     "yes": 0.917587461011761,
+     "no": 0.08241253898823896
     },
-    "confidence": 0.6111380093611474
+    "confidence": 0.8351749220235221
    },
    "psm_1": {
     "type": "choice",
     "choice": "yes",
     "probabilities": {
-     "yes": 0.9976589222115446,
-     "no": 0.002341077788455336
+     "yes": 0.9559342505062278,
+     "no": 0.044065749493772184
     },
-    "confidence": 0.9953178444230892
+    "confidence": 0.9118685010124556
    },
    "psm_2": {
     "type": "choice",
-    "choice": "no",
+    "choice": "yes",
     "probabilities": {
-     "yes": 0.00038306551761420885,
-     "no": 0.9996169344823858
+     "yes": 0.9807493346379896,
+     "no": 0.019250665362010366
     },
-    "confidence": 0.9992338689647715
+    "confidence": 0.9614986692759793
    },
    "psm_3": {
     "type": "choice",
-    "choice": "no",
+    "choice": "yes",
     "probabilities": {
-     "yes": 0.46031163514589174,
-     "no": 0.5396883648541082
+     "yes": 0.8638871231011822,
+     "no": 0.13611287689881782
     },
-    "confidence": 0.07937672970821641
+    "confidence": 0.7277742462023644
    },
    "psm_4": {
     "type": "choice",
     "choice": "yes",
     "probabilities": {
-     "yes": 0.9984410944017704,
-     "no": 0.0015589055982296186
+     "yes": 0.9689523704027134,
+     "no": 0.031047629597286523
     },
-    "confidence": 0.9968821888035408
+    "confidence": 0.9379047408054269
    },
    "psm_5": {
     "type": "choice",
-    "choice": "no",
+    "choice": "yes",
     "probabilities": {
-     "yes": 0.006483556228014329,
-     "no": 0.9935164437719857
+     "yes": 0.9814300032465719,
+     "no": 0.0185699967534281
     },
-    "confidence": 0.9870328875439713
+    "confidence": 0.9628600064931438
    },
    "psm_6": {
     "type": "choice",
     "choice": "yes",
     "probabilities": {
-     "yes": 0.9992047154067571,
-     "no": 0.0007952845932429047
+     "yes": 0.8377117860999171,
+     "no": 0.16228821390008288
     },
-    "confidence": 0.9984094308135143
+    "confidence": 0.6754235721998343
    },
    "psm_7": {
     "type": "choice",
-    "choice": "no",
+    "choice": "yes",
     "probabilities": {
-     "yes": 0.20502669803758417,
-     "no": 0.7949733019624159
+     "yes": 0.9393752041179778,
+     "no": 0.060624795882022194
     },
-    "confidence": 0.5899466039248318
+    "confidence": 0.8787504082359556
    },
    "psm_8": {
     "type": "choice",
     "choice": "yes",
     "probabilities": {
-     "yes": 0.9057480569201439,
-     "no": 0.09425194307985604
+     "yes": 0.9839362878217632,
+     "no": 0.016063712178236718
     },
-    "confidence": 0.8114961138402879
+    "confidence": 0.9678725756435265
    },
    "psm_9": {
     "type": "choice",
     "choice": "yes",
     "probabilities": {
-     "yes": 0.8310074210166931,
-     "no": 0.16899257898330688
+     "yes": 0.9877443826853303,
+     "no": 0.012255617314669717
     },
-    "confidence": 0.6620148420333862
+    "confidence": 0.9754887653706605
    },
    "psm_10": {
     "type": "choice",
     "choice": "yes",
     "probabilities": {
-     "yes": 0.9998870078759213,
-     "no": 0.00011299212407865858
+     "yes": 0.970696317414056,
+     "no": 0.029303682585943902
     },
-    "confidence": 0.9997740157518427
+    "confidence": 0.9413926348281121
    },
    "psm_11": {
     "type": "choice",
-    "choice": "no",
+    "choice": "yes",
     "probabilities": {
-     "yes": 0.008464695870010749,
-     "no": 0.9915353041299892
+     "yes": 0.9811461871520821,
+     "no": 0.01885381284791789
     },
-    "confidence": 0.9830706082599785
+    "confidence": 0.9622923743041643
    },
    "psm_12": {
     "type": "choice",
-    "choice": "no",
+    "choice": "yes",
     "probabilities": {
-     "yes": 0.02775168962170357,
-     "no": 0.9722483103782964
+     "yes": 0.5979160844658639,
+     "no": 0.40208391553413614
     },
-    "confidence": 0.9444966207565928
+    "confidence": 0.19583216893172772
    },
    "psm_13": {
     "type": "choice",
-    "choice": "no",
+    "choice": "yes",
     "probabilities": {
-     "yes": 0.09855047833659825,
-     "no": 0.9014495216634018
+     "yes": 0.9903582460169955,
+     "no": 0.009641753983004528
     },
-    "confidence": 0.8028990433268035
+    "confidence": 0.980716492033991
    },
    "psm_14": {
     "type": "choice",
-    "choice": "no",
+    "choice": "yes",
     "probabilities": {
-     "yes": 0.4111579656600952,
-     "no": 0.5888420343399048
+     "yes": 0.9676553715130914,
+     "no": 0.03234462848690855
     },
-    "confidence": 0.17768406867980957
+    "confidence": 0.9353107430261829
    },
    "psm_15": {
     "type": "choice",
-    "choice": "no",
+    "choice": "yes",
     "probabilities": {
-     "yes": 0.13261434831065977,
-     "no": 0.8673856516893402
+     "yes": 0.9360041548609424,
+     "no": 0.0639958451390576
     },
-    "confidence": 0.7347713033786805
+    "confidence": 0.8720083097218847
    }
   },
   "model": "vllm-sr/d3-ultra",
   "usage": {
-   "input_tokens": 16073,
+   "input_tokens": 16347,
    "output_tokens": 0
   }
  }

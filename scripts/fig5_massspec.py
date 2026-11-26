@@ -21,7 +21,7 @@ for ln in open(P / "master_result.txt"):
     if m: M[m[1].strip()] = dict(auc=float(m[2]), auc_ci=(float(m[3]), float(m[4])), n=int(m[5]), n_ci=(int(m[6]), int(m[7])),
                                  pct=float(m[8]), ci=(float(m[9]), float(m[10])))
 assert len(M) == 9
-ROW = {"eng": "engine score alone (ln hyperscore), no model", "jev": "Jev 1.13 zero-shot (published run)", "d3": "d3 zero-shot, full context, labels masked",
+ROW = {"eng": "engine score alone (ln hyperscore), no model", "jev": "Jev 1.13 zero-shot (published run)", "d3": "d3-ultra zero-shot (same requests as Jev)",
        "mok": "mokapot (standard, 30 feat.)", "trn": "trained reader on Jev's inputs (mokapot, 24 feat.)"}
 assert M[ROW["jev"]]["pct"] == -30.1 and M[ROW["jev"]]["ci"] == (-33.8, -21.7)
 assert M[ROW["mok"]]["n"] == 27047 and M[ROW["trn"]]["n"] == 27071
@@ -40,17 +40,17 @@ band = pd.read_csv(f"{JEV_DIR}/tB_boundary_sage_rel_ev.tsv", sep="\t").astype({"
 inb = t.index.isin(band.index); yb = y[inb]
 B = {"mok": S["mok"][inb], "jev": band.jev_p.reindex(t.index[inb]).to_numpy(float), "d3": S["d3"][inb]}  # Jev: its dedicated borderline run
 au = {k: auroc(v, yb) for k, v in B.items()}
-assert (int(inb.sum()), int((1 - yb).sum())) == (2799, 543) and [f"{au[k]:.3f}" for k in ("mok", "jev", "d3")] == ["0.653", "0.564", "0.551"], au
+assert (int(inb.sum()), int((1 - yb).sum())) == (2799, 543) and [f"{au[k]:.3f}" for k in ("mok", "jev", "d3")] == ["0.653", "0.564", "0.526"], au
 
 # ---- subset sizes ----
 r = pd.read_csv(P / "small_data.tsv", sep="\t"); K = {"mok": "mokapot", "d3": "d3", "jev": "jev", "eng": "engine"}
 st500 = r.loc[r["size"] == 500, "status"]
-assert len(st500) == 20 and (st500 == "failed").all(), st500.value_counts()  # paper: mokapot trained on 0 of 20 subsets of 500
+assert len(st500) == 20 and (st500 != "trained").all(), st500.value_counts()  # paper: mokapot trained on 0 of 20 subsets of 500
 
 
 def size_panel(a, val, ylabel):
     for k in ("mok", "d3", "eng", "jev"):
-        g = r[r["size"] >= 1000] if k == "mok" else r  # at 500 no mokapot model could be trained (20 of 20 failed)
+        g = r[r["size"] >= 1000] if k == "mok" else r  # at 500 no mokapot model could be trained (0 of 20)
         q = g.groupby("size").apply(lambda x: pd.Series(np.percentile(val(x, K[k]), [25, 50, 75])), include_groups=False)
         a.fill_between(q.index, q[0], q[2], color=COL[k], alpha=.15, lw=0)
         a.plot(q.index, q[1], "o-", color=COL[k], ms=3, lw=1.5 if k == "mok" else 1.1, label=NAME[k])
@@ -82,8 +82,8 @@ for i, (k, lab) in enumerate(rows):
     a.errorbar(v, i, xerr=[[v - e["ci"][0]], [e["ci"][1] - v]], fmt="o", color=COL[k], capsize=2.5, ms=4.5, lw=1.2)
     a.text(e["ci"][1] + 1.2, i, f"{lab}\n{e['n']:,}", va="center", fontsize=6.3, color=COL[k])
 a.axvline(0, color=REF, lw=1)
-a.set_yticks([]); a.set_ylim(len(rows) - .5, -.5); a.set_xlim(-37, 9); a.grid(axis="y", visible=False); a.spines["left"].set_visible(False)
-a.set(xlabel="change vs mokapot (%)", xticks=[-30, -15, 0])
+a.set_yticks([]); a.set_ylim(len(rows) - .5, -.5); a.set_xlim(-68, 16); a.grid(axis="y", visible=False); a.spines["left"].set_visible(False)
+a.set(xlabel="change vs mokapot (%)", xticks=[-60, -30, 0])
 a.set_title("b  At 1% error")
 
 a = ax[2]
@@ -97,5 +97,5 @@ dump("massspec", {
     **{k: {"accepted": M[ROW[k]]["n"], "pct_vs_mokapot": M[ROW[k]]["pct"], "ci95": list(M[ROW[k]]["ci"]), "auroc": M[ROW[k]]["auc"]} for k in ROW},
     "borderline": {"n": 2799, "known_wrong": 543, "auroc": {k: round(float(v), 3) for k, v in au.items()}},
     "share_pct_median_at_20000": {k: float(acc_share(top, K[k]).median()) for k in K},
-    "subset_mokapot_untrainable_at_500": bool((st500 == "failed").all())})
+    "subset_mokapot_untrainable_at_500": bool((st500 != "trained").all())})
 print("ok", {k: M[v]["n"] for k, v in ROW.items()}, au)

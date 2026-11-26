@@ -38,8 +38,8 @@ for t in TISS:
         assert len({D3[t][f"jev_v36_{a_}_r{r}"]["acc"] for r in (1, 2, 3)}) == 1
 D3ACC = {t: {a_: D3[t][f"jev_v36_{a_}_r1"]["acc"] for a_, *_ in D3U} for t in TISS}
 D3MAC = {t: {a_: D3[t][f"jev_v36_{a_}_r1"]["macro_acc"] for a_, *_ in D3U} for t in TISS}
-assert [round(100 * D3ACC["pancreas"][a_], 1) for a_ in ("jevonly", "cooc")] == [80.0, 76.7]
-assert [round(100 * D3ACC["heart"][a_], 1) for a_ in ("jevonly", "cooc")] == [39.3, 28.4]
+assert [round(100 * D3ACC["pancreas"][a_], 1) for a_ in ("jevonly", "cooc")] == [79.4, 75.8]
+assert [round(100 * D3ACC["heart"][a_], 1) for a_ in ("jevonly", "cooc")] == [41.0, 34.7]
 
 
 def stat(t, key, f):  # builds averaged for Jev arms (three builds), single value for database scorers
@@ -49,12 +49,12 @@ def stat(t, key, f):  # builds averaged for Jev arms (three builds), single valu
 ACC = {t: {k: stat(t, k, "acc") for k, *_ in SC} for t in TISS}
 MAC = {t: {k: stat(t, k, "macro_acc") for k, *_ in SC} for t in TISS}
 MAJ = {t: M[t]["M0_majority"]["acc"] for t in TISS}
-# ---- asserts against paper_readable_v2.tex (abstract / Results 3.x) ----
-assert round(100 * ACC["pancreas"]["M1_cellmarker_uniform"], 1) == 83.3
-assert round(100 * ACC["pancreas"]["jev_v36_cooc"], 1) == 84.6
-assert round(100 * ACC["heart"]["jev_v36_jevonly"], 1) == 44.0
-assert round(100 * ACC["heart"]["M1n_size_normalized_posthoc"], 1) == 23.4
-assert round(ACC["heart"]["M1_cellmarker_uniform"], 4) == 0.0027  # "uniform database scorer gets 0.0027 of heart cells"
+# ---- asserts against paper.tex (abstract / Results); single-log scorer, 2026-11-26 ----
+assert round(100 * ACC["pancreas"]["M1_cellmarker_uniform"], 1) == 81.8
+assert round(100 * ACC["pancreas"]["jev_v36_cooc"], 1) == 83.7
+assert round(100 * ACC["heart"]["jev_v36_jevonly"], 1) == 48.1
+assert round(100 * ACC["heart"]["M1n_size_normalized_posthoc"], 1) == 26.8
+assert round(ACC["heart"]["M1_cellmarker_uniform"], 4) == 0.0037  # "uniform database scorer gets 0.0037 of heart cells"
 assert round(MAJ["heart"], 3) == 0.232  # "most common type (0.232)"
 assert round(100 * ACC["heart"]["M2_zscore_cellmarker"], 1) == 19.8
 
@@ -63,9 +63,9 @@ assert round(100 * ACC["heart"]["M2_zscore_cellmarker"], 1) == 19.8
 donor = load("compare/jev_vs_baseline/heart_donor_bootstrap_M2.json")["results"]
 donor_d3f = load("compare/d3u_vs_baseline/heart_donor_bootstrap_M2.json"); donor_d3 = donor_d3f["results"]
 donor_m1n = load("compare/jev_vs_baseline/heart_donor_bootstrap.json")["results"]
-assert [round(x, 3) for x in donor_m1n["_v36_jevonly_r1"]["micro_diff_ci95"]] == [-0.016, 0.347]
-assert [round(100 * x, 1) for x in donor["_v36_jevonly_r1"]["micro_diff_ci95"]] == [11.1, 36.3]
-assert [round(100 * x, 1) for x in donor_d3["_v36_jevonly_r1"]["micro_diff_ci95"]] == [5.9, 33.0]
+assert [round(x, 3) for x in donor_m1n["_v36_jevonly_r1"]["micro_diff_ci95"]] == [-0.001, 0.376]
+assert [round(100 * x, 1) for x in donor["_v36_jevonly_r1"]["micro_diff_ci95"]] == [16.7, 42.1]
+assert [round(100 * x, 1) for x in donor_d3["_v36_jevonly_r1"]["micro_diff_ci95"]] == [7.5, 35.9]
 
 
 def wald(t, tag, vk, src=M):  # cell-level paired Wald 95% CI in pp from McNemar b/c counts (as in x7 make_figs.fig_paired)

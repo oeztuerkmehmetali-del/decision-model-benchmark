@@ -8,7 +8,7 @@ Folder roles: `input/` (given to the models + evaluation labels), `jev/` (Jev 1.
 Does asking a decision model which cell type each CellMarker 2.0 marker gene belongs to add accuracy to the plain CellMarker 2.0 marker list when annotating held-out Tabula Sapiens cells (pancreas 2,440 test cells, heart 7,075 test cells)?
 
 ## 2. Decision-model task (identical for Jev 1.13 and d3-ultra)
-**Unit of a call: one gene, not one cell.** For each gene in the CellMarker pool (pancreas 372 genes, heart 648 genes; `input/pool/<tissue>_pool_fixed.json`: pre-2022 CellMarker 2.0 marker genes of the tissue's cell types) the model returns a probability over the tissue's candidate cell types plus `none of these`. A gene x type matrix P is built from these probabilities; a test cell is scored with the log1p, row-normalised expression of the pool genes times P (`code/eval_v31.py`); the cell is labelled with the highest-scoring type (ties: first in sorted order). No cell expression, label or dataset text is shown to a model.
+**Unit of a call: one gene, not one cell.** For each gene in the CellMarker pool (pancreas 372 genes, heart 648 genes; `input/pool/<tissue>_pool_fixed.json`: pre-2022 CellMarker 2.0 marker genes of the tissue's cell types) the model returns a probability over the tissue's candidate cell types plus `none of these`. A gene x type matrix P is built from these probabilities; a test cell is scored with its row-normalised expression of the pool genes (the stored matrix is already log1p of counts per 10,000; no further log is taken) times P (`code/eval_v31.py`); the cell is labelled with the highest-scoring type (ties: first in sorted order). No cell expression, label or dataset text is shown to a model. Results before 2026-11-26 applied log1p a second time; they are archived in `studies/x7/side_analyses/superseded_runs/double_log/`.
 
 Request (`code/jev_catalog.py`, `code/questions.py`; client `paper/data/shared/jevlib.py`; payload `{"model", "state", "questions"}`, nothing else):
 - `state` template: `{"tissue": <pancreas|heart>, "gene": <symbol>, "relations": [{"gene": <partner>, "cooc_band": "high"|"med"|"low"}, ...]}`. `relations` = up to 5 PubMed co-mention partners of the gene among the pool genes, ranked by cosine of the co-mention counts (`input/cooc/`), banded high >0.3, med >0.1, else low. **Arm `jevonly`: `relations` is empty** (bare gene). **Arm `cooc` (+literature): partners as above.**
@@ -21,8 +21,8 @@ Request (`code/jev_catalog.py`, `code/questions.py`; client `paper/data/shared/j
 
 ## 3. Comparator (baseline) and where its outputs come from
 CellMarker 2.0 Human table `baseline/Cell_marker_Human.xlsx` (sha256 bf52b8cd...). No model involved. Four scorers on the same cells and genes, computed inside `code/eval_v31.py` and stored in the eval files; `baseline/<tissue>_cellmarker_scorers.json` is a slice of them (`code/extract_baseline.py`):
-- M0 majority training label; M1 plain list (gene weight 1/k over the k types listing it; used as the pancreas comparator); M2 z-score version (test-cell z-scores of the pool genes times the M1 weights; used as the heart comparator); M1n size-normalised version (M1 column divided by type pool size; **post hoc**, added because plain M1 collapses to the largest-pool type on heart: 0.0027 accuracy).
-Baseline values: pancreas M1 0.8332, heart M2 0.1979, heart M1n 0.2345, majority 0.396 / 0.232.
+- M0 majority training label; M1 plain list (gene weight 1/k over the k types listing it; used as the pancreas comparator); M2 z-score version (test-cell z-scores of the pool genes times the M1 weights; used as the heart comparator); M1n size-normalised version (M1 column divided by type pool size; **post hoc**, added because plain M1 collapses to the largest-pool type on heart: 0.0037 accuracy).
+Baseline values: pancreas M1 0.818, heart M2 0.198, heart M1n 0.268, majority 0.396 / 0.232.
 
 ## 4. Steps, input -> model calls -> results -> figure
 Reproducibility: `offline` = from files here; `API` = needs model API (cached answers are given); `HPC/ext` = external tool or data.
@@ -39,7 +39,7 @@ Reproducibility: `offline` = from files here; `API` = needs model API (cached an
 | 7 | Baseline slice, worked example | `python3 code/extract_baseline.py`; `python3 code/worked_example.py` | offline |
 | 8 | Figure + numbers | from `paper/scripts/`: `python3 fig4_cell.py` -> `figs/fig4_cell.{pdf,png}`, `numbers.json["cell"]` | offline |
 
-Headline values asserted by `fig4_cell.py` (all in `numbers.json["cell"]`): pancreas plain list 83.3%, Jev + literature 84.6%; heart Jev alone 44.0% vs z-score list 19.8% (+23.9 points, donor-resampled 95% interval 11.1 to 36.3) and vs size-normalised list 23.4% (interval -1.6 to +34.7); d3-ultra alone 80.0% (pancreas) and 39.3% (heart).
+Headline values asserted by `fig4_cell.py` (all in `numbers.json["cell"]`): pancreas plain list 81.8%, Jev alone 75.6%, Jev + literature 83.7%; heart Jev alone 48.1% vs z-score list 19.8% (build 1: +28.1 points, donor-resampled 95% interval 16.7 to 42.1) and vs size-normalised list 26.8% (interval -0.2 to +37.6); d3-ultra alone 79.4% (pancreas) and 41.0% (heart; vs z-score list interval 7.5 to 35.9).
 
 ## 5. Known gaps
 - The raw and processed h5ad files and the pancreas processed h5ad exist only on bwHelix (workspace `fr_mo1039-af3c5/x7`); their sha256 is `unknown`. The shipped npz/split files are therefore not regenerable from here; steps 1-2 and 4-8 do not need them. No pancreas donor ids are stored, so pancreas has only the cell-level Wald interval.

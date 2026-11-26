@@ -91,3 +91,4 @@ code/worked_example.py	new	code	new
 code/extract_baseline.py	new	code	new	
 baseline/pancreas_cellmarker_scorers.json	new	baseline	new	slice of eval file
 baseline/heart_cellmarker_scorers.json	new	baseline	new	slice of eval file
+input/external/heart.h5ad	studies/x7/data/processed/heart.h5ad	input	no	local only (gitignored, 1.07 GB); sha256 in input/EXTERNAL.tsv

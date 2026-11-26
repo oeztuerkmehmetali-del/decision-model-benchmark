@@ -17,7 +17,7 @@ from master_eval import IN, CMP, accepted, auroc  # noqa: E402
 SIZES, DRAWS, SEED = (500, 1000, 2000, 5000, 10000, 20000), 20, 20261120
 FALLBACK = "did not improve over the best feature"  # mokapot 0.10.0 brew.py: it then scores by its single best feature
 ZERO = {"d3": "d3_p", "jev": "jev_p", "engine": "hs"}  # stored zero-shot answers and the raw engine score
-FULL = (37061, 3579, 27047, 22197, 21939)  # master_result.txt: targets, known wrong, accepted by mokapot, d3, engine
+FULL = (37061, 3579, 27047, 12157, 21939)  # master_result.txt: targets, known wrong, accepted by mokapot, d3, engine
 
 
 def mokapot(lines, tmp):

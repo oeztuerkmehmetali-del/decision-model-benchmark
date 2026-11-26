@@ -1,0 +1,7 @@
+band score [-0.492,0.150): 46191 PSMs (37061 T / 9130 D)
+requests rebuilt 2887; found in Jev cache 2887; Jev cache size 2887
+band score [-0.492,0.150): 46191 PSMs (37061 T / 9130 D)
+model vllm-sr/d3-ultra: 48 PSMs asked twice; max |p_yes diff| 0.0000; verdict flips 0
+band score [-0.492,0.150): 46191 PSMs (37061 T / 9130 D)
+requests=2887 cache_hits=0 tokens=45812424 cost=$1.9241 -> runs/d3u/tB_all_choice.tsv
+[2026-11-26T18:47:18+01:00] DONE

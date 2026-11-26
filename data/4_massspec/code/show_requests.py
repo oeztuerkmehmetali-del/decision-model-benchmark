@@ -24,18 +24,12 @@ def grab(state, questions, cache):
 
 
 os.chdir(ROOT)
-if which == "jev":
-    import run_boundary
-    jevlib.ask_many = lambda items, cache=None, workers=4, model=None: grab(items[0][0], items[0][1], cache)
-    sys.argv = ["run_boundary.py", "--all", "--qtype", "choice", "--variant", "sage_rel_ev", "--pin", "input/sage_nopep.pin", "--evidence", "input/evidence.tsv",
-                "--mok", "baseline/tB.mokapot.psms.txt", "--mok-decoy", "baseline/tB.mokapot.decoy.psms.txt",
-                "--cache", "jev/boundary_jev_cache_tB_all_choice.jsonl", "--out", "/dev/null"]
-    main = run_boundary.main
-else:
-    import run_d3_all
-    jevlib.ask = lambda state, questions, cache=None, model=None: grab(state, questions, cache)
-    sys.argv = ["run_d3_all.py"]
-    main = run_d3_all.main
+import run_boundary  # both models got the same requests; only model id and cache differ
+jevlib.ask_many = lambda items, cache=None, workers=4, model=None: grab(items[0][0], items[0][1], cache)
+sys.argv = ["run_boundary.py", "--all", "--qtype", "choice", "--variant", "sage_rel_ev", "--pin", "input/sage_nopep.pin", "--evidence", "input/evidence.tsv",
+            "--mok", "baseline/tB.mokapot.psms.txt", "--mok-decoy", "baseline/tB.mokapot.decoy.psms.txt",
+            "--cache", f"{which}/{'boundary_jev_cache_tB_all_choice' if which == 'jev' else 'cache_tB_all_choice'}.jsonl", "--out", "/dev/null"]
+main = run_boundary.main
 try:
     main()
 except Got:

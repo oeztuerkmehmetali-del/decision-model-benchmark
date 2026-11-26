@@ -12,7 +12,7 @@ code/master_eval.py	studies/x2/scripts/master_eval.py	code	paths-only	path const
 code/mzxml2mzml.py	studies/x2/scripts/mzxml2mzml.py	code	no	
 code/psm_serializer.py	studies/x2/scripts/psm_serializer.py	code	no	
 code/run_boundary.py	studies/x2/scripts/run_boundary.py	code	paths-only	sys.path to ../../shared jevlib, cache default jev/, usage lines
-code/run_d3_all.py	studies/x2/scripts/run_d3_all.py	code	paths-only	writes compare/d3_all.tsv, d3u/sage_d3.pin; cache d3u/cache_all.jsonl; shared jevlib
+code/make_d3_all.py	studies/x2/scripts/make_d3_all.py	code	paths-only	reads jev/ and d3u/tB_all_choice.tsv; writes compare/d3_all.tsv, d3u/sage_d3.pin
 code/serializer_test.py	studies/x2/scripts/serializer_test.py	code	paths-only	docstring run line only
 code/show_requests.py	new	code	new	new: regenerates example requests offline
 code/small_data.py	studies/x2/scripts/small_data.py	code	paths-only	reads compare/d3_all.tsv, input/*.pin; writes compare/small_data.tsv
@@ -21,8 +21,9 @@ compare/d3_all.tsv	studies/x2/results/d3_all.tsv	compare	no
 compare/master_result.txt	studies/x2/results/master_result.txt	compare	no	
 compare/small_data.tsv	studies/x2/results/small_data.tsv	compare	no	
 compare/small_data_result.txt	studies/x2/results/small_data_result.txt	compare	no	
-d3u/cache_all.jsonl	studies/x2/runs/d3u/cache_all.jsonl	d3u	no	
-d3u/run_d3_all.log	studies/x2/logs/d3u/run_d3_all.log	d3u	no	
+d3u/cache_tB_all_choice.jsonl	studies/x2/runs/d3u/cache_tB_all_choice.jsonl	d3u	no	
+d3u/run_d3_same_question.log	studies/x2/logs/d3u/run_d3_same_question.log	d3u	no	
+d3u/tB_all_choice.tsv	studies/x2/runs/d3u/tB_all_choice.tsv	d3u	no	
 d3u/sage_d3.pin	studies/x2/data/processed/d3u/sage_d3.pin	d3u	no	
 d3u/tBd3.log	studies/x2/logs/d3u/tBd3.log	d3u	no	
 d3u/tBd3.mokapot.decoy.psms.txt	studies/x2/results/d3u/mokapot/tBd3.mokapot.decoy.psms.txt	d3u	no	
@@ -50,3 +51,5 @@ jev/tBjev.log	studies/x2/logs/jev/tBjev.log	jev	no
 jev/tBjev.mokapot.decoy.psms.txt	studies/x2/results/jev/mokapot/tBjev.mokapot.decoy.psms.txt	jev	no	
 jev/tBjev.mokapot.psms.txt	studies/x2/results/jev/mokapot/tBjev.mokapot.psms.txt	jev	no	
 SOURCES.tsv	new	doc	new	this file
+input/b1931.mzXML	studies/x2/data/raw/tierB/b1931.mzXML	input	no	local only (gitignored, 1.46 GB); sha256 in input/EXTERNAL.tsv
+input/b1931.ms2.mzML	studies/x2/data/processed/tierB/b1931.ms2.mzML	input	no	local only (gitignored, 266 MB); sha256 in input/EXTERNAL.tsv

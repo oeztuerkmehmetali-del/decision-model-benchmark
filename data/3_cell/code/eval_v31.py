@@ -4,7 +4,7 @@
 Same cells/genes for every method:
   M0 majority | M1 CellMarker-uniform (no Jev) | M2 z-score marker counting
   with CellMarker labels (no Jev) | M3 Jev-only catalog | M4 Jev+cooc catalog
-Scorer: W = row-normalized log1p(expr); S = W @ P (23 type columns only);
+Scorer: W = row-normalized expression (X is already log1p-CP10K); S = W @ P (23 type columns only);
 argmax with lexicographic tie-break (first type in sorted order wins).
 Metrics: forced micro acc + Wilson CI, macro acc (mean per-class recall over
 test classes), selective acc at 75/50% confidence coverage, exact McNemar vs
@@ -106,7 +106,7 @@ def main():
     gi = [genes.index(g) for g in g_use]
     test = np.where(is_test)[0]
     gt = gt_all[test]
-    L = np.log1p(X[np.ix_(test, gi)].astype(np.float64))
+    L = X[np.ix_(test, gi)].astype(np.float64)  # X is log1p-CP10K already; a second log1p was the as-run bug
     tot = L.sum(1, keepdims=True); tot[tot == 0] = 1
     W = L / tot
     out = {"tissue": t, "n_test": int(len(test)), "n_genes": len(g_use), "types": types,
