@@ -58,7 +58,7 @@ stored results and writes every quoted value to `figs/numbers.json`.
 
 ## Licence
 
-Code: MIT (`LICENSE`). Paper text, figures and result files: CC BY 4.0 (`LICENSE-TEXT`). Third-party data keep the licences listed above.
+Code: MIT (`LICENSE`). Paper text, figures and result files: CC BY 4.0 (`CC-BY-4.0.txt`). Third-party data keep the licences listed above.
 
 ## Results
 
