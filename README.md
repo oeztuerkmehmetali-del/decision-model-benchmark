@@ -56,6 +56,10 @@ stored results and writes every quoted value to `figs/numbers.json`.
 - Case 3: Tabula Sapiens cells and CellMarker 2.0 markers, cited in the paper.
 - Case 4: UniProt Swiss-Prot protein sequences (CC BY 4.0).
 
+## Licence
+
+Code: MIT. Paper text, figures and result files: CC BY 4.0. Third-party data keep the licences listed above. See `LICENSE`.
+
 ## Results
 
 | Case | Measure | Jev 1.13 | d3-ultra | Comparator | Reading |
