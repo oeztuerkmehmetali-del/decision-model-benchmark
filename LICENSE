@@ -1,15 +1,6 @@
-Copyright (c) 2026 Mehmet Ali Öztürk and Simon Elsässer
-
-This repository carries two licences.
-
-1. Code (all scripts and programs, e.g. files ending in .py and .sh): MIT License, below.
-
-2. Paper text, figures and the result files produced by this project: Creative Commons
-   Attribution 4.0 International (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/
-
-Third-party data redistributed here keep their own licences; see "Third-party data" in README.md.
-
 MIT License
+
+Copyright (c) 2026 Mehmet Ali Öztürk and Simon Elsässer
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
