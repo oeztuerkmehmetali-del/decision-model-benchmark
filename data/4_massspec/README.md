@@ -54,5 +54,5 @@ Headline (`compare/master_result.txt`), accepted at 1% entrapment FDP: engine 21
 - Jev call dates are not recorded; Jev reruns are paid and not repeatable. The band-run arguments were reconstructed from the stored output.
 - mokapot 0.10.0 is not byte-reproducible run to run with the same seed (checked: three runs on one 1,000-match subset gave three different outputs), so the mokapot columns of the shrink-the-run test change slightly on a rerun (for example trained on 8 or 9 of the 20 subsets of 1,000); the model columns and the conclusions do not. The stored table is the run of 2026-11-26.
 - Spectra are external; no offline step needs them.
-- `input/human_arath.fasta` holds the reviewed UniProt Swiss-Prot proteins of human (UP000005640) and Arabidopsis thaliana (UP000006548), licence CC BY 4.0; the UniProt release was not recorded.
+- `input/human_arath.fasta` holds reviewed UniProt Swiss-Prot entries only (20,416 human, taxon 9606; 16,345 Arabidopsis thaliana, taxon 3702); UniProt is licensed CC BY 4.0; the UniProt release was not recorded.
 - In the four mokapot logs (`baseline/tB.log`, `baseline/tB_fm_ev.log`, `jev/tBjev.log`, `d3u/tBd3.log`) the local install path is replaced by `<env>`; otherwise they equal the study logs.

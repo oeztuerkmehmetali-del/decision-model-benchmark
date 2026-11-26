@@ -31,3 +31,10 @@ stored results and writes every quoted value to `figs/numbers.json`.
 - Raw files over 50 MB (mass-spectrometry spectra; single-cell `.h5ad` files) are not included. They are listed with
   size and sha256 in `data/<case>/input/EXTERNAL.tsv`; `input/fetch.sh` checks them after download.
 - Case-specific gaps are listed in each case README.
+
+## Third-party data
+
+- Case 1: SYNERGY dataset (`synergy-dataset==2.2`, CC0 1.0).
+- Case 2: DrugCon-Bench annotations (CC BY 4.0); abstract text is from the PMC Open Access subset under each article's licence (`data/2_drug/input/upstream/README.md`).
+- Case 3: Tabula Sapiens cells and CellMarker 2.0 markers, cited in the paper.
+- Case 4: UniProt Swiss-Prot protein sequences (CC BY 4.0).

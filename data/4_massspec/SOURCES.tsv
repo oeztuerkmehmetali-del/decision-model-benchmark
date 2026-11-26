@@ -1,9 +1,9 @@
 paper_path	study_source	role	modified	note
 README.md	new	doc	new	
-baseline/tB.log	studies/x2/logs/baselines/tB.log	baseline	no	
+baseline/tB.log	studies/x2/logs/baselines/tB.log	baseline	yes	local install path replaced by <env> (lines 5, 11)
 baseline/tB.mokapot.decoy.psms.txt	studies/x2/results/baselines/mokapot/tB.mokapot.decoy.psms.txt	baseline	no	
 baseline/tB.mokapot.psms.txt	studies/x2/results/baselines/mokapot/tB.mokapot.psms.txt	baseline	no	
-baseline/tB_fm_ev.log	studies/x2/logs/baselines/tB_fm_ev.log	baseline	no	
+baseline/tB_fm_ev.log	studies/x2/logs/baselines/tB_fm_ev.log	baseline	yes	local install path replaced by <env> (lines 5, 11)
 baseline/tB_fm_ev.mokapot.decoy.psms.txt	studies/x2/results/baselines/mokapot/tB_fm_ev.mokapot.decoy.psms.txt	baseline	no	
 baseline/tB_fm_ev.mokapot.psms.txt	studies/x2/results/baselines/mokapot/tB_fm_ev.mokapot.psms.txt	baseline	no	
 code/eval_tierB_all.py	studies/x2/scripts/eval_tierB_all.py	code	paths-only	path constants/usage adapted to this layout
@@ -25,7 +25,7 @@ d3u/cache_tB_all_choice.jsonl	studies/x2/runs/d3u/cache_tB_all_choice.jsonl	d3u	
 d3u/run_d3_same_question.log	studies/x2/logs/d3u/run_d3_same_question.log	d3u	no	
 d3u/tB_all_choice.tsv	studies/x2/runs/d3u/tB_all_choice.tsv	d3u	no	
 d3u/sage_d3.pin	studies/x2/data/processed/d3u/sage_d3.pin	d3u	no	
-d3u/tBd3.log	studies/x2/logs/d3u/tBd3.log	d3u	no	
+d3u/tBd3.log	studies/x2/logs/d3u/tBd3.log	d3u	yes	local install path replaced by <env> (lines 5, 11)
 d3u/tBd3.mokapot.decoy.psms.txt	studies/x2/results/d3u/mokapot/tBd3.mokapot.decoy.psms.txt	d3u	no	
 d3u/tBd3.mokapot.psms.txt	studies/x2/results/d3u/mokapot/tBd3.mokapot.psms.txt	d3u	no	
 input/EXTERNAL.tsv	new	doc	new	
@@ -47,7 +47,7 @@ jev/boundary_jev_cache_tB_sage_rel_ev.jsonl	studies/x2/runs/jev/boundary_jev_cac
 jev/sage_jev.pin	studies/x2/data/processed/jev/sage_jev.pin	jev	no	
 jev/tB_all_choice.tsv	studies/x2/runs/jev/tB_all_choice.tsv	jev	no	
 jev/tB_boundary_sage_rel_ev.tsv	studies/x2/runs/jev/tB_boundary_sage_rel_ev.tsv	jev	no	
-jev/tBjev.log	studies/x2/logs/jev/tBjev.log	jev	no	
+jev/tBjev.log	studies/x2/logs/jev/tBjev.log	jev	yes	local install path replaced by <env> (lines 5, 11)
 jev/tBjev.mokapot.decoy.psms.txt	studies/x2/results/jev/mokapot/tBjev.mokapot.decoy.psms.txt	jev	no	
 jev/tBjev.mokapot.psms.txt	studies/x2/results/jev/mokapot/tBjev.mokapot.psms.txt	jev	no	
 SOURCES.tsv	new	doc	new	this file
