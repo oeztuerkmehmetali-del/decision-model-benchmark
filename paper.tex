@@ -65,7 +65,7 @@ A decision model needs neither labels nor training. Given a record's title and a
 Without any training, both decision models produced a reading order that showed no detectable difference from ASReview's: Jev and d3-ultra each saved a median 0.74 of the reading and ASReview 0.70 (Fig.~\ref{fig:screening}a,b). These savings assume that the reviewer stops exactly when 95\% of the eligible studies have been found, a point nobody can see in advance, so they show the most each ordering could save. In practice a decision model can be stopped at a score cut-off fixed beforehand on separate records of the same review. Stopped in this way, Jev still found 550 of the 577 eligible studies but saved less of the reading (a median 0.64), and d3-ultra's cut-off stopped too early and found 452. For screening, a decision model can therefore produce a good reading order without the labelling that active learning needs, but a safe point to stop reading remains open for the model as for ASReview.
 
 \subsection{Drug-trial claims: close to the best published model}
-\begin{figure}[!b]\centering
+\begin{figure}[!t]\centering
 \includegraphics[width=\columnwidth]{figs/fig3_drug.pdf}
 \caption{\textbf{Drug-trial claims: both decision models score close to the best published model.} Detection F$_1$ on the 1,731 expert-labelled pairs of DrugCon-Bench for Jev~1.13 and d3-ultra (bars: 95\% intervals from a bootstrap over the 217 groups of pairs that share an abstract) beside the eleven models published with the benchmark (open circles; values from Lan et al., published without intervals).}
 \label{fig:drug}
@@ -75,11 +75,7 @@ Contradictions between trial claims pose a second text problem. Before trial res
 
 Without a tool to run, the baseline is a benchmark. DrugCon-Bench, released on 12 November 2026, holds 1,731 pairs of claims from randomised-trial abstracts, each labelled by expert annotators as contradictory or not (542 contradictory)~\cite{lan2026,lancode}. Its authors asked eleven general language models the question directly, and the best reached an F$_1$ of 0.793; F$_1$ balances finding contradictory pairs against raising false alarms, and 1 is perfect.
 
-A decision model returns the probability that two claims contradict, and we called a pair contradictory when the model rated contradiction the more likely answer. Both decision models scored close to the best published model: Jev reached an F$_1$ of 0.796, d3-ultra 0.792 and the best published model 0.793 (Fig.~\ref{fig:drug}). Each was detectably better than at least the six weakest of the eleven published models and showed no detectable difference from the strongest ones. The probabilities carried information beyond the yes-or-no verdict, ranking contradictory pairs well above the others (area under the ROC curve 0.94 for Jev and 0.93 for d3-ultra, where 1 is a perfect ranking). For evidence synthesis, a decision model can therefore flag contradicting claim pairs with no detectable difference from the best general language models, leaving the expert to confirm the flagged pairs.
-
-\subsection{Cell types: a gain only where the database is weak}
-
-\begin{figure*}[t]\centering
+\begin{figure*}[b]\centering
 \includegraphics[width=\textwidth]{figs/fig4_cell.pdf}
 \caption{\textbf{Cell types: Jev gains over CellMarker only where the database baseline is weak.} Held-out Tabula Sapiens cells.
 \textbf{a}, Share of test cells named correctly (bars; Jev bars are means of three builds; blue, d3-ultra), macro accuracy (diamonds) and the share obtained by always naming the most common type (dotted). The baseline is the plain marker list in pancreas and the z-score version in heart; ``+ literature'' adds genes that PubMed articles mention together with each candidate gene.
@@ -87,7 +83,11 @@ A decision model returns the probability that two claims contradict, and we call
 \label{fig:cell}
 \end{figure*}
 
-\begin{figure*}[b]\centering
+A decision model returns the probability that two claims contradict, and we called a pair contradictory when the model rated contradiction the more likely answer. Both decision models scored close to the best published model: Jev reached an F$_1$ of 0.796, d3-ultra 0.792 and the best published model 0.793 (Fig.~\ref{fig:drug}). Each was detectably better than at least the six weakest of the eleven published models and showed no detectable difference from the strongest ones. The probabilities carried information beyond the yes-or-no verdict, ranking contradictory pairs well above the others (area under the ROC curve 0.94 for Jev and 0.93 for d3-ultra, where 1 is a perfect ranking). For evidence synthesis, a decision model can therefore flag contradicting claim pairs with no detectable difference from the best general language models, leaving the expert to confirm the flagged pairs.
+
+\subsection{Cell types: a gain only where the database is weak}
+
+\begin{figure*}[t]\centering
 \includegraphics[width=\textwidth]{figs/fig5_massspec.pdf}
 \caption{\textbf{Mass spectrometry: the decision models accept fewer matches than a re-scorer trained on the run.} Re-scoring 37,061 peptide-spectrum matches of one human run.
 \textbf{a}, Accepted matches as the allowed error rises; dots mark the 1\% level used in the text.
