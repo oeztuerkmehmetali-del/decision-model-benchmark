@@ -13,7 +13,7 @@ We tested two pretrained decision models, Jev 1.13 and d3-ultra, on four public 
 answers. The tasks are ordered from text input to numeric input, and each is compared with the tool a practitioner
 would otherwise use.
 
-![Figure 1. What a decision model is, and the four tests.](figs/fig1_gradient.png)
+<p align="center"><img src="figs/fig1_gradient.png" alt="Figure 1. What a decision model is, and the four tests." width="80%"></p>
 
 ## What we found
 
@@ -36,7 +36,7 @@ difference in the share of reading saved from ASReview, an active-learning scree
 decisions, when both are stopped at the ideal point. No reviewer knows that point in advance, so these values are an
 upper bound; the paper also reports a cut-off set beforehand.
 
-![Figure 2. Study screening.](figs/fig2_screening.png)
+<p align="center"><img src="figs/fig2_screening.png" alt="Figure 2. Study screening." width="100%"></p>
 
 ### 2. Drug-trial claims: no detectable difference from the best published model
 
@@ -44,7 +44,7 @@ On 1,731 expert-labelled pairs of claims from randomised drug trials, both decis
 range of the eleven published language models (F1 0.58 to 0.79), with no detectable difference from the strongest
 of them.
 
-![Figure 3. Drug-trial claims.](figs/fig3_drug.png)
+<p align="center"><img src="figs/fig3_drug.png" alt="Figure 3. Drug-trial claims." width="55%"></p>
 
 ### 3. Cell types: a gain only where the database is weak
 
@@ -54,7 +54,7 @@ cells correctly. In heart, which it covers poorly, the database needed a correct
 of cells (19.8%), while the uncorrected model lists named 48.1% (Jev) and 41.0% (d3-ultra). Against another
 correction of the database (26.8%) Jev's lead, with only six donors, is not firmly established.
 
-![Figure 4. Cell types.](figs/fig4_cell.png)
+<p align="center"><img src="figs/fig4_cell.png" alt="Figure 4. Cell types." width="100%"></p>
 
 ### 4. Mass spectrometry: behind a re-scorer trained on the run
 
@@ -62,7 +62,7 @@ Asked whether each peptide-spectrum match is correct, the decision models accept
 error than mokapot, a re-scorer trained on the same run, and fewer than the search engine's own score (21,939).
 Given to mokapot as one more feature, neither model changed its count (27,047 with Jev, 27,021 with d3-ultra).
 
-![Figure 5. Mass spectrometry.](figs/fig5_massspec.png)
+<p align="center"><img src="figs/fig5_massspec.png" alt="Figure 5. Mass spectrometry." width="100%"></p>
 
 Intervals, the pre-set screening cut-off and the caveats are in the paper; the stored results behind every
 comparison, and the code that computes its interval, are in this repository.
