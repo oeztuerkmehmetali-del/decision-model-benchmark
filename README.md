@@ -1,6 +1,6 @@
 # Pretrained Decision Models in Bioinformatics: Comparable to Active-Learning Screening, Baseline-Dependent in Cell-Type Annotation, Behind a Trained Mass-Spectrometry Re-scorer
 
-Mehmet Ali Öztürk ([ORCID 0000-0002-0840-1402](https://orcid.org/0000-0002-0840-1402)) and Simon J. Elsässer. Paper: [`paper.pdf`](paper.pdf). This repository holds the paper, its data and its code.
+Mehmet Ali Öztürk ([ORCID 0000-0002-0840-1402](https://orcid.org/0000-0002-0840-1402)) and Simon J. Elsässer ([ORCID 0000-0001-8724-4849](https://orcid.org/0000-0001-8724-4849)). Paper: [`paper.pdf`](paper.pdf). This repository holds the paper, its data and its code.
 
 ## The question
 
