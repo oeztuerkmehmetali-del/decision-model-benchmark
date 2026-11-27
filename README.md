@@ -72,5 +72,5 @@ Code: MIT (`LICENSE`). Paper text, figures and result files: CC BY 4.0 (`CC-BY-4
 
 The two decision models showed no detectable difference from the comparators on the two text tasks, gained in
 cell-type annotation only where the curated database is weak, and stayed behind a trained re-scorer on numeric
-mass-spectrometry data. The pre-set cut-off for screening and the caveats are in the paper; the stored results behind every comparison, and the code that computes its interval, are in `data/`.
+mass-spectrometry data. The pre-set cut-off for screening and the caveats are in the paper; the stored results behind every comparison, and the code that computes its interval, are in this repository.
 Given to mokapot as one more feature, neither model changed its count (27,047 with Jev, 27,021 with d3-ultra).
