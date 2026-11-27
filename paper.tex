@@ -83,7 +83,7 @@ Without a tool to run, the baseline is a benchmark. DrugCon-Bench, released on 1
 \label{fig:cell}
 \end{figure*}
 
-A decision model returns the probability that two claims contradict, and we called a pair contradictory when the model rated contradiction the more likely answer. Both decision models scored close to the best published model: Jev reached an F$_1$ of 0.796, d3-ultra 0.792 and the best published model 0.793 (Fig.~\ref{fig:drug}). The eleven published models ranged from 0.58 to 0.79, so both decision models sat at the top of that range, with no detectable difference from the strongest published models and not ahead of them. The probabilities carried information beyond the yes-or-no verdict, ranking contradictory pairs well above the others (area under the ROC curve 0.94 for Jev and 0.93 for d3-ultra, where 1 is a perfect ranking). For evidence synthesis, a decision model can therefore flag contradicting claim pairs with no detectable difference from the best general language models, leaving the expert to confirm the flagged pairs.
+A decision model returns the probability that two claims contradict, and we called a pair contradictory when the model rated contradiction the more likely answer. Both decision models scored close to the best published model: Jev reached an F$_1$ of 0.796, d3-ultra 0.792 and the best published model 0.793 (Fig.~\ref{fig:drug}). The eleven published models ranged from 0.58 to 0.79, so both decision models sat at the top of that range, with no detectable difference from the strongest published models. The probabilities carried information beyond the yes-or-no verdict, ranking contradictory pairs well above the others (area under the ROC curve 0.94 for Jev and 0.93 for d3-ultra, where 1 is a perfect ranking). For evidence synthesis, a decision model can therefore flag contradicting claim pairs with no detectable difference from the best general language models, leaving the expert to confirm the flagged pairs.
 
 \subsection{Cell types: a gain only where the database is weak}
 
@@ -122,7 +122,7 @@ Test & Measure & Compared with & Jev & d3-ultra & Comparator & Take-home\\
 \midrule
 Study screening & work saved at 95\% recall & ASReview, an active-learning screener & \textbf{0.74} & \textbf{0.74} & 0.70 & no detectable difference at the ideal stopping point, without training\\
 \addlinespace
-Drug-trial claims & F$_1$ & best published model on the benchmark & \textbf{0.796} & 0.792 & 0.793 & close to the best published model, not ahead\\
+Drug-trial claims & F$_1$ & best published model on the benchmark & \textbf{0.796} & 0.792 & 0.793 & no detectable difference from the best published model\\
 \addlinespace
 Cell types, pancreas & cells named correctly & CellMarker 2.0, a curated database & 75.6\% & 79.4\% & \textbf{81.8\%} & behind where the database is good\\
 \addlinespace
