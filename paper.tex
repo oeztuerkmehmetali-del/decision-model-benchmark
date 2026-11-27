@@ -102,7 +102,7 @@ A decision model has read the same literature. For each candidate gene we asked 
 
 In pancreas, the database remained the better choice. Because both lists were used the same way, only the lists differ, and the database named 81.8\% of cells correctly against 75.6\% for Jev (Fig.~\ref{fig:cell}a,b): about six more cells in every hundred received the right name from the curated lists. With each cell type counted equally, Jev's list scored 41.4\% against 39.5\% for the same database lists, and the z-score version of the database described below scored 53.6\%, above both.
 
-Heart shows what the model can add where curated markers are thin. The database lists, applied as in pancreas, named almost no heart cells correctly, so we compared the models with two ways an analyst would repair the database: standardising each gene's expression across the cells before scoring (the z-score version) named 19.8\% of heart cells, and dividing each type's score by the length of its marker list (the size-normalised version) named 26.8\%. With neither repair, Jev's list named 48.1\% of heart cells and d3-ultra's named 41.0\% (Fig.~\ref{fig:cell}a,b).
+Heart shows what the model can add where curated markers are thin. Used exactly as in pancreas, the database lists named almost no heart cells correctly (0.4\%), so the plain database is not a fair comparator there. The heart baseline in Fig.~\ref{fig:cell} is therefore a corrected database, the z-score version, in which each gene's expression is standardised across the cells before scoring; it named 19.8\% of heart cells (black bar in Fig.~\ref{fig:cell}a). The model lists received no correction. Used plainly, as in pancreas, Jev's list named 48.1\% of heart cells and d3-ultra's 41.0\% (orange and blue bars). A second correction of the database, dividing each type's score by the length of its marker list (the size-normalised version, not drawn in the figure), named 26.8\%.
 
 Both models thus named more heart cells than either version of the database, but how firm that lead is depended on the version. Against the z-score version the lead was detectable for both models, about 28 points for Jev and 21 for d3-ultra (Fig.~\ref{fig:cell}b). Against the size-normalised version Jev was still about 21 points ahead, yet the heart cells come from only six donors, and the interval of that lead reached down to zero, so it is not firmly established. A decision model is therefore worth trying where curated markers are thin, not where a good database exists, and its gain should be judged against the best way of applying the database, not only the default one.
 
@@ -115,22 +115,22 @@ A decision model needs no training, and hence works on a run of any size. We wro
 The decision models accepted far fewer matches than mokapot: mokapot kept 27,047, Jev 18,906 (30\% fewer) and d3-ultra 12,157 (55\% fewer), both below the 21,939 kept by the search engine's own score (Fig.~\ref{fig:massspec}a,b). The numbers the models were shown were not the limit, because a classifier trained on the run with only those numbers showed no detectable difference from mokapot. The models also did not help in the two settings where they might have. On small runs, where mokapot cannot be trained, they did not accept reliably more matches than the engine's score (Fig.~\ref{fig:massspec}c), and given to mokapot as one more input, their probabilities did not detectably change its count. For proteomics, a re-scorer trained on the run remains the tool of choice.
 
 \begin{table*}[t]\centering\small
-\caption{\textbf{The four tests at a glance.} One headline number per test for the two decision models and the comparator.}
+\caption{\textbf{The four tests at a glance.} One headline number per test for the two decision models and the comparator. Bold marks the highest value in each row and does not by itself mean a detectable difference.}
 \label{tab:summary}
 \setlength{\tabcolsep}{5pt}
 \begin{tabular}{@{}>{\raggedright}p{2.2cm}>{\raggedright}p{2.4cm}>{\raggedright}p{2.8cm}rrr>{\raggedright\arraybackslash}p{3.6cm}@{}}
 \toprule
 Test & Measure & Compared with & Jev & d3-ultra & Comparator & Take-home\\
 \midrule
-Study screening & work saved at 95\% recall & ASReview, an active-learning screener & 0.74 & 0.74 & 0.70 & no detectable difference at the ideal stopping point, without training\\
+Study screening & work saved at 95\% recall & ASReview, an active-learning screener & \textbf{0.74} & \textbf{0.74} & 0.70 & no detectable difference at the ideal stopping point, without training\\
 \addlinespace
-Drug-trial claims & F$_1$ & best published model on the benchmark & 0.796 & 0.792 & 0.793 & close to the best published model, not ahead\\
+Drug-trial claims & F$_1$ & best published model on the benchmark & \textbf{0.796} & 0.792 & 0.793 & close to the best published model, not ahead\\
 \addlinespace
-Cell types, pancreas & cells named correctly & CellMarker 2.0, a curated database & 75.6\% & 79.4\% & 81.8\% & behind where the database is good\\
+Cell types, pancreas & cells named correctly & CellMarker 2.0, a curated database & 75.6\% & 79.4\% & \textbf{81.8\%} & behind where the database is good\\
 \addlinespace
-Cell types, heart & cells named correctly & CellMarker 2.0, z-score version & 48.1\% & 41.0\% & 19.8\% & ahead of the usual use of the database where it is weak\\
+Cell types, heart & cells named correctly & CellMarker 2.0, z-score version & \textbf{48.1\%} & 41.0\% & 19.8\% & ahead of the usual use of the database where it is weak\\
 \addlinespace
-Mass spectrometry & matches accepted at 1\% error & mokapot, trained on the run & 18,906 & 12,157 & 27,047 & behind a trained re-scorer\\
+Mass spectrometry & matches accepted at 1\% error & mokapot, trained on the run & 18,906 & 12,157 & \textbf{27,047} & behind a trained re-scorer\\
 \bottomrule
 \end{tabular}
 \end{table*}
@@ -158,7 +158,7 @@ This work was supported by the Claude AI for Science program (Anthropic). S.J.E.
 The authors declare no competing interests.
 
 \section*{Data and code availability}
-Raw files larger than 50\,MB (mass-spectrometry spectra, single-cell expression files) are listed with size and checksum for download rather than shipped. Data, code and paper source: \url{https://github.com/oeztuerkmehmetali-del/decision-model-benchmark}.
+The mass-spectrometry spectra are attached to the repository as a release. Single-cell expression files larger than 50\,MB are listed with size and checksum for download rather than shipped. Data, code and paper source: \url{https://github.com/oeztuerkmehmetali-del/decision-model-benchmark}.
 
 \begin{thebibliography}{99}\small
 \bibitem{borah2017} Borah R, Brown AW, Capers PL, Kaiser KA. Analysis of the time and workers needed to conduct systematic reviews of medical interventions using data from the PROSPERO registry. \emph{BMJ Open} 7:e012545 (2017). doi:10.1136/bmjopen-2016-012545

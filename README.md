@@ -45,8 +45,9 @@ stored results and writes every quoted value to `figs/numbers.json`.
 ## Limits
 
 - Fresh model answers need paid API keys; with the cached answers no call is made.
-- Raw files over 50 MB (mass-spectrometry spectra; single-cell `.h5ad` files) are not included. They are listed with
-  size and sha256 in `data/<case>/input/EXTERNAL.tsv`; `input/fetch.sh` checks them after download.
+- The mass-spectrometry spectra are attached to the `data-v1` release; `data/4_massspec/input/fetch.sh` downloads and checks them.
+- Single-cell `.h5ad` files over 50 MB are not included. They are listed with size and sha256 in
+  `data/3_cell/input/EXTERNAL.tsv`; `input/fetch.sh` checks them after download.
 - Case-specific gaps are listed in each case README.
 
 ## Third-party data

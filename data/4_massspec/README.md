@@ -36,7 +36,7 @@ mokapot 0.10.0 (conda env `x2pilot`), command from the logs: `mokapot input/sage
 ## 4. Steps (run from `paper/data/4_massspec/` unless stated)
 | # | step | command | level |
 |---|---|---|---|
-| 1 | spectra -> mzML | `sh input/fetch.sh` (PRIDE download, see `input/EXTERNAL.tsv`; 1.46 GB + 266 MB) | needs HPC/external tool |
+| 1 | spectra -> mzML | `sh input/fetch.sh` (downloads both files from the `data-v1` release and checks sha256; 1.46 GB + 266 MB) | needs network |
 | 2 | Sage 0.14.6 search | settings `input/tierB_sage.json`; command line NOT recorded; stored output `input/sage_out/`, `input/sage_nopep.pin` | needs HPC/external tool (gap) |
 | 3 | fragment evidence | `python3 code/tierB_evidence.py --sage-dir input/sage_out --mzml input/b1931.ms2.mzML --out input/evidence.tsv` (stored: `input/evidence.tsv`; `input/sage_ev.pin` = Sage pin + evidence columns, no script) | needs external file |
 | 4 | mokapot baselines | commands in section 3 (stored: `baseline/`) | needs external tool (mokapot 0.10.0) |
