@@ -1,7 +1,7 @@
 """Fig 1, Introduction: the benchmark map, four tasks on one text-to-numbers axis. No inputs (values restate the source studies; sizes asserted in fig2-fig5).
 Out: figs/fig1_gradient.{pdf,png}. Run from merge_jev/paper/: python3 scripts/fig1_gradient.py"""
 from matplotlib.patches import FancyBboxPatch
-from style import save, plt, JEV, POSTHOC, REF, BASE, WIDTH
+from style import save, plt, JEV, POSTHOC, REF, WIDTH
 
 # rows of each card; values restate the source studies (sizes asserted in the per-case scripts)
 ROWS = ["model reads", "compared with", "measure"]
@@ -26,11 +26,11 @@ def box(x, y, w, h, title, body, col):
 b.text(.0, 1.0, "a", fontsize=9, weight="bold", va="top")
 b.text(.03, 1.0, "The same question, two kinds of model: is this study eligible?", fontsize=7.2, weight="bold", va="top")
 ROWS_A = [
-    (.53, "Chatbot: free text in, free text out", BASE,
+    (.53, "Chatbot: free text in, free text out", REF,
      "title and abstract\n+ \"Is this study eligible?\"",
      "\"Probably yes: it is a\nrandomised trial of ...\"",
      "words: nothing\nto rank or cut at"),
-    (.04, "Decision model: closed question in, probability per answer out", REF,  # not orange: panel b uses orange for a result group
+    (.04, "Decision model: closed question in, probability per answer out", JEV,
      "title and abstract\n+ answers: eligible / not",
      "eligible        0.91\nnot eligible  0.09",
      "rank, set a cut-off\n(confidence to be checked)"),
