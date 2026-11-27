@@ -1,6 +1,6 @@
 # Pretrained Decision Models in Bioinformatics: Comparable to Active-Learning Screening, Baseline-Dependent in Cell-Type Annotation, Behind a Trained Mass-Spectrometry Re-scorer
 
-Mehmet Ali Öztürk and Simon J. Elsässer. Paper: [`paper.pdf`](paper.pdf). This repository holds the paper, its data and its code.
+Mehmet Ali Öztürk ([ORCID 0000-0002-0840-1402](https://orcid.org/0000-0002-0840-1402)) and Simon J. Elsässer. Paper: [`paper.pdf`](paper.pdf). This repository holds the paper, its data and its code.
 
 ## The question
 
@@ -38,7 +38,7 @@ upper bound; the paper also reports a cut-off set beforehand.
 
 ![Figure 2. Study screening.](figs/fig2_screening.png)
 
-### 2. Drug-trial claims: close to the best published model
+### 2. Drug-trial claims: no detectable difference from the best published model
 
 On 1,731 expert-labelled pairs of claims from randomised drug trials, both decision models scored at the top of the
 range of the eleven published language models (F1 0.58 to 0.79), with no detectable difference from the strongest
