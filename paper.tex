@@ -104,6 +104,7 @@ A decision model has read the same literature. For each candidate gene we asked 
 In pancreas, the database remained the better choice. Because both lists were used the same way, only the lists differ, and the database named 81.8\% of cells correctly against 75.6\% for Jev (Fig.~\ref{fig:cell}a,b): about six more cells in every hundred received the right name from the curated lists.
 
 Heart shows what the model can add where curated markers are thin. Used exactly as in pancreas, the database lists named almost no heart cells correctly (0.4\%). They need a correction there, and with each gene's expression standardised across the cells before scoring (the z-score version) they named 19.8\% (black bar in Fig.~\ref{fig:cell}a). The model lists needed no correction: used as in pancreas, Jev's named 48.1\% of heart cells and d3-ultra's 41.0\%, detectable leads of about 28 and 21 points (Fig.~\ref{fig:cell}a,b). Another correction, dividing each type's score by the length of its marker list (the size-normalised version), brought the database to 26.8\%; Jev stayed about 21 points ahead of it, but with only six donors that lead is not firmly established. A decision model is therefore worth trying where curated markers are thin, not where a good database exists.
+\enlargethispage{\baselineskip}% final layout: lets the 3.4 heading start at the foot of the column instead of leaving a gap
 
 \subsection{Mass spectrometry: behind a re-scorer trained on the run}
 
@@ -166,7 +167,7 @@ The mass-spectrometry spectra are attached to the repository as a release. Singl
 \bibitem{tabula} Tabula Sapiens Consortium. The Tabula Sapiens: a multiple-organ, single-cell transcriptomic atlas of humans. \emph{Science} 376:eabl4896 (2022). doi:10.1126/science.abl4896
 \bibitem{elias} Elias JE, Gygi SP. Target-decoy search strategy for increased confidence in large-scale protein identifications by mass spectrometry. \emph{Nat Methods} 4:207--214 (2007). doi:10.1038/nmeth1019
 \bibitem{asreview} van de Schoot R, et al. An open source machine learning framework for efficient and transparent systematic reviews. \emph{Nat Mach Intell} 3:125--133 (2021). doi:10.1038/s42256-020-00287-7
-\bibitem{lan2026} Lan M, Menke J, Liu S, Lu Z, Kilicoglu H. Detecting contradictory evidence on drug-disease associations at scale. \emph{medRxiv} (preprint, not peer reviewed), 12 Nov 2026. doi:10.64898/2026.11.11.26367856
+\bibitem{lan2026} Lan M, Menke J, Liu S, Lu Z, Kilicoglu H. Detecting contradictory evidence on drug-disease associations at scale. \emph{medRxiv}, 12 Nov 2026. doi:10.64898/2026.11.11.26367856
 \bibitem{cellmarker} Hu C, et al. CellMarker 2.0: an updated database of manually curated cell markers in human/mouse and web tools based on scRNA-seq data. \emph{Nucleic Acids Res} 51:D870--D876 (2023). doi:10.1093/nar/gkac947
 \bibitem{abdelaal} Abdelaal T, et al. A comparison of automatic cell identification methods for single-cell RNA sequencing data. \emph{Genome Biol} 20:194 (2019). doi:10.1186/s13059-019-1795-z
 \bibitem{kall} K\"all L, Canterbury JD, Weston J, Noble WS, MacCoss MJ. Semi-supervised learning for peptide identification from shotgun proteomics datasets. \emph{Nat Methods} 4:923--925 (2007). doi:10.1038/nmeth1113
@@ -178,9 +179,9 @@ The mass-spectrometry spectra are attached to the repository as a release. Singl
 \bibitem{tabllm} Hegselmann S, et al. TabLLM: few-shot classification of tabular data with large language models. In \emph{Proc.\ AISTATS}, PMLR 206:5549--5581 (2023). arXiv:2210.10723
 \bibitem{madrid2026} Madrid-Garc\'{\i}a A, Merino-Barbancho B. Jev in Medicine: a benchmark evaluation. \emph{arXiv} 2609.34024 (2026). doi:10.48550/arXiv.2609.34024
 \bibitem{medjev} Lee SA, Sha J, Jeong M, Pan Y, Chiang JN. MedJev: evaluating zero-shot System-One decision making in medicine. \emph{arXiv} 2610.36006 (2026). doi:10.48550/arXiv.2610.36006
-\bibitem{chen2026} Chen AF, Yang A, Guth DR, Berl FM, Guth SC, Yuan W. Evaluation of System One models on biomedical texts. \emph{medRxiv} (preprint, not peer reviewed), 17 Nov 2026. doi:10.64898/2026.11.15.26368126
-\bibitem{jo2026} Jo T, Lee D, Lee L. Label-free, low-cost AI ranking for systematic review screening. \emph{medRxiv} (preprint, not peer reviewed), 19 Oct 2026. doi:10.64898/2026.10.09.26365173
-\bibitem{deobhakta2026} Deobhakta A, Chang JS, Chen RWS, Jaipalli S, Pinhas A, Tai TYT, Rosen R. Do calibrated-probability claims hold up in clinical diagnosis? A pre-registered evaluation of a decision model against frontier language models. \emph{medRxiv} (preprint, not peer reviewed), 11 Oct 2026. doi:10.64898/2026.10.09.26365153
+\bibitem{chen2026} Chen AF, Yang A, Guth DR, Berl FM, Guth SC, Yuan W. Evaluation of System One models on biomedical texts. \emph{medRxiv}, 17 Nov 2026. doi:10.64898/2026.11.15.26368126
+\bibitem{jo2026} Jo T, Lee D, Lee L. Label-free, low-cost AI ranking for systematic review screening. \emph{medRxiv}, 19 Oct 2026. doi:10.64898/2026.10.09.26365173
+\bibitem{deobhakta2026} Deobhakta A, Chang JS, Chen RWS, Jaipalli S, Pinhas A, Tai TYT, Rosen R. Do calibrated-probability claims hold up in clinical diagnosis? A pre-registered evaluation of a decision model against frontier language models. \emph{medRxiv}, 11 Oct 2026. doi:10.64898/2026.10.09.26365153
 \bibitem{eegjev} Hou D, Yamada KD. EEGJev: a System One decision model and benchmark for multi-task EEG question answering. \emph{arXiv} 2611.32100 (2026). doi:10.48550/arXiv.2611.32100
 \bibitem{molrejev} Lu K, Li J, Bian Y. MolReJev: decision models are in-context molecular predictors. \emph{arXiv} 2611.28965 (2026). doi:10.48550/arXiv.2611.28965
 \bibitem{s1pert} Sheng X, et al. S1Pert: scalable target-specific gene response prediction with System-One intelligence. \emph{arXiv} 2611.17705 (2026). doi:10.48550/arXiv.2611.17705
@@ -197,7 +198,7 @@ The mass-spectrometry spectra are attached to the repository as a release. Singl
 \bibitem{chick} Chick JM, et al. A mass-tolerant database search identifies a large proportion of unassigned spectra in shotgun proteomics as modified peptides. \emph{Nat Biotechnol} 33:743--749 (2015). doi:10.1038/nbt.3267
 \bibitem{sage} Lazear MR. Sage: an open-source tool for fast proteomics searching and quantification at scale. \emph{J Proteome Res} 22:3652--3659 (2023). doi:10.1021/acs.jproteome.3c00486
 \bibitem{hollmann} Hollmann N, et al. Accurate predictions on small data with a tabular foundation model. \emph{Nature} 637:319--326 (2025). doi:10.1038/s41586-024-08328-6
-\bibitem{omar2026} Omar M, Ramaswamy A, Sakhuja A, et al. Decision-only medical AI: early evidence and pairing with language models. \emph{medRxiv} (preprint, not peer reviewed), 24 Oct 2026. doi:10.64898/2026.10.21.26366149
+\bibitem{omar2026} Omar M, Ramaswamy A, Sakhuja A, et al. Decision-only medical AI: early evidence and pairing with language models. \emph{medRxiv}, 24 Oct 2026. doi:10.64898/2026.10.21.26366149
 \bibitem{sctype} Ianevski A, Giri AK, Aittokallio T. Fully-automated and ultra-fast cell-type identification using specific marker combinations from single-cell transcriptomic data. \emph{Nat Commun} 13:1246 (2022). doi:10.1038/s41467-022-28803-w
 \bibitem{prosit} Gessulat S, et al. Prosit: proteome-wide prediction of peptide tandem mass spectra by deep learning. \emph{Nat Methods} 16:509--518 (2019). doi:10.1038/s41592-019-0426-7
 \bibitem{ms2rescore} Declercq A, et al. MS2Rescore: data-driven rescoring dramatically boosts immunopeptide identification rates. \emph{Mol Cell Proteomics} 21:100266 (2022). doi:10.1016/j.mcpro.2022.100266
