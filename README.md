@@ -88,7 +88,8 @@ python3 scripts/fig1_gradient.py && python3 scripts/fig2_screening.py && python3
 mkdir -p build && pdflatex -interaction=nonstopmode -output-directory=build paper.tex && pdflatex -interaction=nonstopmode -output-directory=build paper.tex && cp build/paper.pdf .
 ```
 
-Needs numpy, pandas, matplotlib and a TeX Live install. Each figure script asserts its headline numbers against the
+Needs numpy, pandas, matplotlib and a TeX Live install (tested from a fresh clone with Python 3.13.7, numpy 2.5.3,
+pandas 2.3.3, matplotlib 3.10.9: identical figures and numbers). Each figure script asserts its headline numbers against the
 stored results and writes every quoted value to `figs/numbers.json`.
 
 ## Limits
