@@ -1,6 +1,6 @@
 # Pretrained Decision Models in Bioinformatics: Comparable to Active-Learning Screening, Baseline-Dependent in Cell-Type Annotation, Behind a Trained Mass-Spectrometry Re-scorer
 
-Mehmet Ali Öztürk and Simon Elsässer. Data, code and LaTeX source for the paper (`paper.pdf`).
+Mehmet Ali Öztürk and Simon J. Elsässer. Data, code and LaTeX source for the paper (`paper.pdf`).
 
 ## What this project is
 
