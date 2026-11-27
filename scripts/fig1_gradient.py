@@ -1,18 +1,18 @@
 """Fig 1, Introduction: the benchmark map, four tasks on one text-to-numbers axis. No inputs (values restate the source studies; sizes asserted in fig2-fig5).
 Out: figs/fig1_gradient.{pdf,png}. Run from merge_jev/paper/: python3 scripts/fig1_gradient.py"""
 from matplotlib.patches import FancyBboxPatch
-from style import save, plt, JEV, POSTHOC, REF, WIDTH
+from style import save, plt, JEV, REF, WIDTH
 
 # rows of each card; values restate the source studies (sizes asserted in the per-case scripts)
 ROWS = ["model reads", "compared with", "measure"]
 CASES = [
-    ("Study screening", "Fig. 2", JEV, "no detectable\ndifference",
+    ("Study screening", "Fig. 2", "no detectable\ndifference",
      ["title, abstract,\nreview criteria", "ASReview\n(active learning)", "work saved at\n95% recall"]),
-    ("Drug-trial claims", "Fig. 3", JEV, "no detectable\ndifference",
+    ("Drug-trial claims", "Fig. 3", "no detectable\ndifference",
      ["two claims from\ntrial abstracts", "published models\non the benchmark", "detection F$_1$"]),
-    ("Cell types", "Fig. 4", POSTHOC, "depends on\nthe baseline",
+    ("Cell types", "Fig. 4", "depends on\nthe baseline",
      ["marker gene\nnames", "CellMarker\n(curated database)", "cells named\ncorrectly"]),
-    ("Mass spectrometry", "Fig. 5", REF, "fewer matches\naccepted",
+    ("Mass spectrometry", "Fig. 5", "fewer matches\naccepted",
      ["engine numbers\nwritten as text", "mokapot\n(trained on the run)", "matches accepted\nat 1% error"]),
 ]
 f, (b, a) = plt.subplots(2, 1, figsize=(WIDTH, 5.0), gridspec_kw=dict(height_ratios=[2.3, 2.7], hspace=.08))
@@ -50,15 +50,15 @@ a.text(.995, .975, "input is numbers from one experiment", ha="right", va="botto
 y0, dy = .70, .155
 for j, r in enumerate(ROWS):
     a.text(.0, y0 - j * dy, r, ha="left", va="center", fontsize=6.6, color="#444444", weight="bold")
-for i, (t, fig, col, verdict, vals) in enumerate(CASES):
+for i, (t, fig, verdict, vals) in enumerate(CASES):  # no colour here: orange means decision model in every figure
     xc = .265 + i * .21
     a.add_patch(FancyBboxPatch((xc - .1, .02), .2, .905, boxstyle="round,pad=0,rounding_size=.012",
-                               fc="none", ec=col, lw=.9, transform=a.transAxes))
+                               fc="none", ec=REF, lw=.9, transform=a.transAxes))
     a.text(xc, .875, f"{t}", ha="center", va="center", fontsize=6.5, weight="bold")
     a.text(xc, .815, fig, ha="center", va="center", fontsize=6.3, color="#555555")
     for j, v in enumerate(vals):
         a.text(xc, y0 - j * dy, v, ha="center", va="center", fontsize=6.4)
-    a.text(xc, .14, verdict, ha="center", va="center", fontsize=6.6, color=col, weight="bold")
+    a.text(xc, .14, verdict, ha="center", va="center", fontsize=6.6, weight="bold")
 a.text(.0, .14, "result", ha="left", va="center", fontsize=6.6, color="#444444", weight="bold")
 a.plot([.168, .995], [.255, .255], color="#cccccc", lw=.5)
 save(f, "fig1_gradient")
