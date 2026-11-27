@@ -75,6 +75,10 @@ Contradictions between trial claims pose a second text problem. Before trial res
 
 Without a tool to run, the baseline is a benchmark. DrugCon-Bench, released on 12 November 2026, holds 1,731 pairs of claims from randomised-trial abstracts, each labelled by expert annotators as contradictory or not (542 contradictory)~\cite{lan2026,lancode}. Its authors asked eleven general language models the question directly, and the best reached an F$_1$ of 0.793; F$_1$ balances finding contradictory pairs against raising false alarms, and 1 is perfect.
 
+A decision model returns the probability that two claims contradict, and we called a pair contradictory when the model rated contradiction the more likely answer. Both decision models scored close to the best published model: Jev reached an F$_1$ of 0.796, d3-ultra 0.792 and the best published model 0.793 (Fig.~\ref{fig:drug}). Each was detectably better than at least the six weakest of the eleven published models and showed no detectable difference from the strongest ones. The probabilities carried information beyond the yes-or-no verdict, ranking contradictory pairs well above the others (area under the ROC curve 0.94 for Jev and 0.93 for d3-ultra, where 1 is a perfect ranking). For evidence synthesis, a decision model can therefore flag contradicting claim pairs with no detectable difference from the best general language models, leaving the expert to confirm the flagged pairs.
+
+\subsection{Cell types: a gain only where the database is weak}
+
 \begin{figure*}[b]\centering
 \includegraphics[width=\textwidth]{figs/fig4_cell.pdf}
 \caption{\textbf{Cell types: Jev gains over CellMarker only where the database baseline is weak.} Held-out Tabula Sapiens cells.
@@ -82,10 +86,6 @@ Without a tool to run, the baseline is a benchmark. DrugCon-Bench, released on 1
 \textbf{b}, Difference from the CellMarker baseline in accuracy (points, 95\% interval) and macro accuracy (open diamonds), first build. Heart intervals resample the six donors; pancreas intervals treat cells as independent and are too narrow.}
 \label{fig:cell}
 \end{figure*}
-
-A decision model returns the probability that two claims contradict, and we called a pair contradictory when the model rated contradiction the more likely answer. Both decision models scored close to the best published model: Jev reached an F$_1$ of 0.796, d3-ultra 0.792 and the best published model 0.793 (Fig.~\ref{fig:drug}). Each was detectably better than at least the six weakest of the eleven published models and showed no detectable difference from the strongest ones. The probabilities carried information beyond the yes-or-no verdict, ranking contradictory pairs well above the others (area under the ROC curve 0.94 for Jev and 0.93 for d3-ultra, where 1 is a perfect ranking). For evidence synthesis, a decision model can therefore flag contradicting claim pairs with no detectable difference from the best general language models, leaving the expert to confirm the flagged pairs.
-
-\subsection{Cell types: a gain only where the database is weak}
 
 \begin{figure*}[t]\centering
 \includegraphics[width=\textwidth]{figs/fig5_massspec.pdf}
